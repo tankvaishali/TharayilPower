@@ -230,15 +230,15 @@ function Testimonial() {
                     alt=""
                   />
                   <div className="play-icon-overlay d-flex justify-content-center align-items-center">
-                    {/* <Link
-                      to={videoSourceMP4}
+                    <Link
+                      to={"https://www.youtube.com/watch?v=ciOQC_CtcOU&t=3s"}
                       target="_blank"
                       rel="noopener noreferrer"
                       className="play-icon-wrapper d-flex justify-content-center align-items-center"
                     
                     >
                       <CiPlay1 className="play_icon text-white fs-3" />
-                    </Link> */}
+                    </Link>
                   </div>
                 </div>
                 {/* <video autoPlay loop muted className="h-100 w-100 object-fit-cover">
