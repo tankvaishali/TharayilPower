@@ -1,0 +1,198 @@
+import React from 'react'
+import { IoCheckmarkDoneCircle } from 'react-icons/io5';
+import { MdOutlineArrowOutward } from 'react-icons/md';
+import { Link } from 'react-router-dom';
+
+function Position() {
+ 
+  return (
+    <>
+      <div className="work_bg pt-3 pt-lg-5 overflow-hidden">
+        <div className="container py-3 ">
+          <div className="text-center">
+            <div
+              className="font_stroke"
+              data-aos="fade-up"
+              data-aos-duration="1500"
+               data-aos-once="true"
+            >
+              Positions
+            </div>
+            <div
+              className="ftittle "
+              data-aos="fade-down"
+              data-aos-duration="1500"
+               data-aos-once="true"
+            >
+              Join Open Positions  
+            </div>
+            <div className="pera py-2 w-75 mx-auto">
+            Explore the opportunities to join our growing team of solar energy professionals. Whether you’re an engineer, project manager, or sales expert, we’re looking for talent that’s passionate about making a difference.
+            </div>
+          </div>
+          <div className="pt-3 ">
+            {/* <div className="text-center fw-bold  pb-1 fs-4" data-aos="fade-up" data-aos-duration="1800"  data-aos-once="true">
+              Solar Energy - Projects
+            </div> */}
+            <div
+              className="fw-bold pb-1 py-2 "
+              style={{
+                color: "var(--green--)",
+                borderBottom: "2px solid var(--green--)",
+              }}
+              data-aos="fade-up" data-aos-duration="1800"  data-aos-once="true"
+            >
+              Position Overview  
+            </div>
+            <div className="pera pt-2">
+              
+              <div className="py-1 d-flex align-content-start align-items-start " data-aos="fade-up" data-aos-duration="1800"  data-aos-once="true" data-aos-delay="400" >
+                <div
+                  className="fs-5"
+                  style={{
+                    color: "var(--green--)",
+                  }}
+                >
+                  <IoCheckmarkDoneCircle />
+                </div>
+                <div className="ps-2 pt-1">
+                For each open position, we provide a comprehensive overview that outlines key responsibilities, project goals, and expectations to ensure you find the right fit within Tharayil Power.
+                </div>
+              </div>
+              {/* <div className="py-1 d-flex align-content-start align-items-start ">
+                <div
+                  className="fs-5"
+                  style={{
+                    color: "var(--green--)",
+                  }}
+                >
+                  <IoCheckmarkDoneCircle />
+                </div>
+                <div className="ps-2 pt-1">
+                  Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                  Laudantium repellat tempore, non tempora earum sit.non tempora
+                  earum sit.
+                </div>
+              </div>
+              <div className="py-1 d-flex align-content-start align-items-start ">
+                <div
+                  className="fs-5"
+                  style={{
+                    color: "var(--green--)",
+                  }}
+                >
+                  <IoCheckmarkDoneCircle />
+                </div>
+                <div className="ps-2 pt-1">
+                  Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                  Laudantium repellat tempore, non tempora earum sit. Laudantium
+                  repellat tempore, non tempora earum sit
+                </div>
+              </div>
+              <div className="py-1 d-flex align-content-start align-items-start ">
+                <div
+                  className="fs-5"
+                  style={{
+                    color: "var(--green--)",
+                  }}
+                >
+                  <IoCheckmarkDoneCircle />
+                </div>
+                <div className="ps-2 pt-1">
+                  Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                  Laudantium repellat tempore, non tempora earum sit.
+                </div>
+              </div> */}
+            </div>
+          </div>
+          <div className="py-4">
+            <div
+              className="fw-bold pb-1 py-3"
+              style={{
+                color: "var(--green--)",
+                borderBottom: "2px solid var(--green--)",
+              }}
+              data-aos="fade-up" data-aos-duration="1800"  data-aos-once="true"
+            >
+Qualifications 
+            </div>
+            <div className="pera pt-2">
+              <div className="py-1 d-flex align-content-start align-items-start "  data-aos="fade-up" data-aos-duration="1800"  data-aos-once="true" data-aos-delay="400">
+                <div
+                  className="fs-5"
+                  style={{
+                    color: "var(--green--)",
+                  }}
+                >
+                  <IoCheckmarkDoneCircle />
+                </div>
+                <div className="ps-2 pt-1">
+                Our positions require individuals who are dedicated, technically skilled, and passionate about renewable energy.
+                </div>
+              </div>
+              <div className="py-1 d-flex align-content-start align-items-start "  data-aos="fade-up" data-aos-duration="1800"  data-aos-once="true" data-aos-delay="400">
+                <div
+                  className="fs-5"
+                  style={{
+                    color: "var(--green--)",
+                  }}
+                >
+                  <IoCheckmarkDoneCircle />
+                </div>
+                <div className="ps-2 pt-1">
+                A background in solar technology, engineering, or environmental sciences is preferred, but we also welcome applicants from diverse fields with the right skill set.
+                </div>
+              </div>
+    
+            </div>
+         
+          </div>
+          <div className="py-2">
+            <div
+              className="fw-bold pb-1 py-3"
+              style={{
+                color: "var(--green--)",
+                borderBottom: "2px solid var(--green--)",
+              }}
+              data-aos="fade-up" data-aos-duration="1800"  data-aos-once="true"
+            >
+             Required Skills  
+            </div>
+            <div className="pera pt-2">
+              <div className="py-1 d-flex align-content-start align-items-start "  data-aos="fade-up" data-aos-duration="1800"  data-aos-once="true" data-aos-delay="400">
+                <div
+                  className="fs-5"
+                  style={{
+                    color: "var(--green--)",
+                  }}
+                >
+                  <IoCheckmarkDoneCircle />
+                </div>
+                <div className="ps-2 pt-1">
+                Depending on the position, our roles require a variety of skills, including technical expertise in solar solutions, project management capabilities, and a commitment to teamwork. Each role has specific skill requirements that we’ll outline in detail in our open listings.
+                </div>
+              </div>
+      
+            </div>
+                   
+            <div className="pera py-4 text-secondary text-center">Ready to power up your career with Tharayil Power? Apply today and join us in building a sustainable future!</div>
+            {/* <div className='my-2 my-lg-4 text-center'  data-aos="zoom-in" data-aos-duration="1800"  data-aos-once="true" data-aos-delay="400">
+                        <Link to={"/contactus"} className="text-decoration-none">
+                          <button className="button-48 mt-3" role="button">
+                            <span className="btn_text  fw-bold">
+                              Apply Now{" "}
+                              <span className="ps-1 fw-bold">
+                                <MdOutlineArrowOutward />
+                              </span>
+                            </span>
+                          </button>
+                        </Link>
+                      </div> */}
+          </div>
+        </div>
+      </div>
+    </>
+  );
+}
+
+export default Position

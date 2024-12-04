@@ -1,0 +1,124 @@
+
+.ex_bg{
+  /* background-image: url("../Images/product_bg.jpg");
+  background-size: cover;
+  background-position: 100% 100%;
+  background-repeat: no-repeat; */
+  background-color:#3f74382a ;
+}
+/* expertist start */
+.client{
+  top: 0;
+  left: 15%;
+  z-index: 1;
+}
+@media only screen and (max-width: 761px) {
+.client{
+  left: 0%;
+  margin-top: -30px;
+}
+}
+/* expertist end */
+
+/* profits start */
+ .img_profatible ,.profit_cont{
+   background-image: url("https://solify.ca/wp-content/uploads/2024/06/benefits-of-solar-panles-1024x576.jpg");
+  background-size: cover;
+  background-position: 100% 100%;
+  background-repeat: no-repeat;
+
+
+ }
+ .profit_cont{
+  width: 40%;
+    background-image: url("../Images/product_bg.jpg");
+    font-size: 30px;
+
+ }
+ @media only screen and (max-width: 761px) {
+ .profit_cont{
+  width: 50%;
+    font-size: 20px;
+
+ }
+}
+/* profits end */
+
+/* our team start */
+.team_bg{
+  background-color:#3f74382a ;
+}
+.linkinsta .instaface {
+    background: var(--darkgreen--);
+    color: white;
+    font-size: 40px;
+    padding: 10px;
+    transition: all .8s;
+      border-radius: 10px 0px 10px 0px;
+}
+
+.linkinsta:hover .instaface {
+    background: var(--green--);
+    color: white;
+    font-size: 40px;
+    padding: 10px;
+    border-radius: 50%;
+}
+/* our team end */
+
+/* mission vission start */
+.mission_vission{
+    background-image: url("https://www.slashgear.com/img/gallery/what-can-a-400-watt-solar-panel-power/l-intro-1710092944.jpg");
+  background-size: cover;
+  background-position: 100% 100%;
+  background-repeat: no-repeat;
+  box-shadow: inset 0px 0px 1500px 1000px rgba(0, 0, 0, 0.404);
+}
+.bg_mission{
+  background-color: var(--green--);
+}
+.bg_vission{
+  background-color: var(--darkgreen--);
+}
+/* mission vission end */
+/* what make us diff start */
+.whyusicon{
+color: var(--green--);
+background-color: var(--darkgreen--);
+width: 60px;
+height: 60px;
+}
+.feature-box {
+  min-height: 280px; /* Adjust to fit your content */
+}
+/* what make us diff END */
+/* about contactus start */
+
+.mainvideo {
+  width: 100%;
+  height: 450px;
+  box-shadow: inset 0px 0px 1200px 1200px rgba(0, 0, 0, 0.76);
+}
+
+.video-background video {
+  position: relative;
+  width: 100%;
+  height: 450px;
+  overflow: hidden;
+  object-fit: cover;
+}
+
+.video-background {
+  position: absolute;
+  width: 100%;
+  height: 450px;
+  z-index: -1;
+}
+
+@media screen and (max-width: 405px) {
+  .video-overlay-content {
+    padding: 10px !important;
+  }
+}
+
+/* about contactus end */

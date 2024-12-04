@@ -1,0 +1,128 @@
+.hover-element {
+  pointer-events: none; /* Ensures it doesn't block clicks */
+}
+
+.hover-border-6:hover .hover-element {
+  pointer-events: none; /* Same for hover state */
+}
+
+.contact-service-area {
+  margin: 80px 0px 80px 0px;
+}
+
+.contact-service-box {
+  width: 100%;
+  height: 200px;
+  background-color: #1b4e142a;
+  transition: all 1s ease-in-out;
+  position: relative;
+}
+
+.contact-service-icon {
+  background-color: #063400;
+  outline: 1.4px solid var(--green--);
+  transition: all 0.3s ease-in-out;
+  width: 60px;
+  height: 60px;
+  margin-top: -50px;
+  transform: rotateY(0deg);
+  transition: all 0.5s ease-in-out;
+}
+
+.hover-border-6::before,
+.hover-border-6::after {
+  position: absolute;
+  width: 2%;
+  height: 2px;
+  background-color: var(--green--);
+  z-index: -1;
+  content: "";
+}
+
+.hover-border-6::before {
+  top: 0;
+  right: 50%;
+  transition: width 0.3s 0.4s ease-out;
+}
+
+.hover-border-6::after {
+  top: 0;
+  left: 50%;
+  transition: width 0.3s 0.4s ease-out;
+}
+
+.hover-border-6:hover::before,
+.hover-border-6:hover::after {
+  width: 50%;
+  transition: width 0.3s ease-in;
+}
+
+.hover-border-6 span.hover-element::before,
+.hover-border-6 span.hover-element::after {
+  position: absolute;
+  width: 0%;
+  height: 0%;
+  background: transparent;
+  opacity: 0;
+  z-index: 2;
+  content: "";
+  transition: width 0.3s ease-in, height 0.3s 0.3s linear, opacity 0s 0.5s;
+}
+
+.hover-border-6 span.hover-element::before {
+  top: 0;
+  left: 0;
+  border-left: 3px solid var(--green--) !important;
+  border-bottom: 3px solid var(--green--) !important;
+}
+
+.hover-border-6 span.hover-element::after {
+  top: 0;
+  right: 0;
+  border-right: 3px solid var(--green--) !important;
+  border-bottom: 3px solid var(--green--) !important;
+}
+
+.hover-border-6:hover span.hover-element::before,
+.hover-border-6:hover span.hover-element::after {
+  width: 50%;
+  height: 100%;
+  opacity: 1;
+  transition: height 0.3s 0.3s ease-in, width 0.3s 0.6s linear, opacity 0s 0.3s;
+}
+
+.contact-service-box:hover .contact-service-icon {
+  transform: rotateY(200deg);
+  outline-offset: -6px;
+}
+/* form start */
+.contact_bg {
+  background-image: url("https://nutricorebioscience.com/public/frontend/images/footer-form-img.jpg");
+  background-position: 100%;
+  background-repeat: no-repeat;
+  background-size: 70% 46pc;
+  position: relative;
+  z-index: 1 !important;
+ 
+}
+.contact_input input,
+textarea {
+  backdrop-filter: blur(10px);
+  background-color:rgb(242 255 248 / 89%);
+  font-size: 16px;
+ font-weight:600;
+ color: black !important;
+}
+
+@media only screen and (max-width: 991px) {
+  .contact_bg {
+  background-image:none !important;
+
+  }
+}
+@media only screen and (max-width: 1199px) {
+  .contact_bg {
+  background-image: url("https://nutricorebioscience.com/public/frontend/images/footer-form-img.jpg");
+    background-size: 70% 49pc;
+  }
+}
