@@ -35,7 +35,7 @@ function Whychooseus() {
   return (
     <>
       <div>
-        <div className="container py-3 py-lg-5 my-5 overflow-hidden">
+        <div className="container pb-3 pb-lg-5 my-5 overflow-hidden">
           <div className="row p-0 m-0 pt-4">
             <div className="col-12 col-lg-6">
               <div>

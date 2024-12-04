@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 function Homeabout() {
   return (
     <>
-      <div className="my-5 py-5 overflow-hidden">
+      <div className="mt-5 pt-5 overflow-hidden">
         <div className="container py-3 overflow-hidden">
           <div className="row g-5">
             <div
@@ -20,7 +20,9 @@ function Homeabout() {
                     <div className="gridc1 allimg">
                       <div className="desc1"></div>
                       <img
-                        src="https://www.investopedia.com/thmb/HNgIWqoqYesoBAo6zqWc9LiiWlg=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/GettyImages-1278948452-e1fdce3baef44af28f449ab36d6717f3.jpg"
+                      src={require("../../Assets/Images/aboutus (1).jpg")}
+
+                        // src="https://www.investopedia.com/thmb/HNgIWqoqYesoBAo6zqWc9LiiWlg=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/GettyImages-1278948452-e1fdce3baef44af28f449ab36d6717f3.jpg"
                         alt=""
                         className="img-fluid"
                       />
@@ -36,8 +38,9 @@ function Homeabout() {
                   <div className="col-12 allimg">
                     <div className="desc1"></div>
                     <img
-                      src="https://d2tez01fe91909.cloudfront.net/wp-content/uploads/2023/01/AdobeStock_166916488-scaled-e1683923540796.jpeg.webp"
-                      className="img-fluid w-100 "
+                      // src="https://d2tez01fe91909.cloudfront.net/wp-content/uploads/2023/01/AdobeStock_166916488-scaled-e1683923540796.jpeg.webp"
+                      src={require("../../Assets/Images/aboutus (2).jpg")}
+                      className="img-fluid w-100 h-100" 
                       alt=""
                     />
                   </div>

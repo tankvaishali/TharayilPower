@@ -97,7 +97,8 @@ function Testimonial() {
               <div className="h-100 allimg">
                 <div className="desc1"></div>
                 <img
-                  src="https://media.istockphoto.com/id/1473638950/photo/technicians-carrying-photovoltaic-solar-module-while-installing-solar-panel-system-on-roof-of.jpg?s=612x612&w=0&k=20&c=BHP3woa9yO0Em-dbAOkDSAy1x78D2wpXaKV9pOH18CU="
+                  // src="https://media.istockphoto.com/id/1473638950/photo/technicians-carrying-photovoltaic-solar-module-while-installing-solar-panel-system-on-roof-of.jpg?s=612x612&w=0&k=20&c=BHP3woa9yO0Em-dbAOkDSAy1x78D2wpXaKV9pOH18CU="
+                 src={require("../../Assets/Images/testimonial1.jpg")}
                   alt=""
                   className="img-fluid w-100 h-100  object-fit-cover"
                 />
@@ -225,7 +226,7 @@ function Testimonial() {
               <div className="h-100 w-100 ">
                 <div className="video_image position-relative "   >
                   <img
-                    src={require("../../Assets/Images/Chennai LIC 15kW_3.JPG")}
+                    src={require("../../Assets/Images/testimonial.jpg")}
                     className="img-fluid object-fit-cover h-100 w-100"
                     alt=""
                   />

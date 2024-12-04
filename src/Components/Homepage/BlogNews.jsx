@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 function BlogNews() {
   return (
     <>
-      <div className="work_bg py-0 py-lg-1 pb-lg-5 overflow-hidden">
+      <div className="work_bg py-0 py-lg-1 pb-lg-5 overflow-hidden" id="blog_news">
         <div className="container py-1 py-lg-3">
           <div className="row p-0 m-0 g-5">
             <div className="col-12 col-lg-6">

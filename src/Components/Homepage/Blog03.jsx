@@ -323,14 +323,7 @@ function Blog03() {
                 <div className="col-12 my-2">
 
       <div className='text-center pt-2'>
-      <div
-                  className="font_stroke"
-                  data-aos="fade-up"
-                  data-aos-duration="1500"
-                  data-aos-once="true"
-                >
-                  Conclusion
-                </div>
+ 
                 <div
                   className="ftittle "
                   data-aos="fade-down"
@@ -359,14 +352,15 @@ Ready to explore how you can benefit from Kerala’s government-supported solar 
 
             </div>
             <div className="my-2 my-lg-4 mx-auto text-center" data-aos="zoom-in" data-aos-duration="1800" data-aos-once="true">
-              <Link to={"/"} className="text-decoration-none">
+            <a href="/#blog_news" className='text-decoration-none'>
+
                 <button className="button-48 mt-3" role="button">
                   <span className="btn_text fw-bold">
                   Back To Home
                    
                   </span>
                 </button>
-              </Link>
+              </a>
             </div>
           </div>
         </div>

@@ -83,7 +83,7 @@ function ProductPage() {
               data-aos-duration="1500"
               data-aos-once="true"
             >
-              Show Our Completed Projects
+               Our  Projects Case-Study
             </div>
           </div>
         </div>

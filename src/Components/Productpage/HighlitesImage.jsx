@@ -6,15 +6,15 @@ function HighlitesImage() {
 
   const images = [
     {
-      src: "https://cdn.shopify.com/s/files/1/0567/3873/files/renewable-1989416_640_large.jpg?v=1596464911",
+      src: require("../../Assets/Images/highlights.jpg"),
       alt: "a forest after an apocalypse",
     },
     {
-      src: "https://regenpower.com/wp-content/uploads/2021/05/commercial-solar.jpg",
+      src: require("../../Assets/Images/highlits1.jpg"),
       alt: "a waterfall and many rocks",
     },
     {
-      src: "https://edienetlive.s3.eu-west-2.amazonaws.com/wp-content/uploads/sites/2/SolarPanelWorkers.gif",
+      src: require("../../Assets/Images/highliths2.jpg"),
       alt: "a house on a mountain",
     },
     {

@@ -9,19 +9,19 @@ function Projecthighlit() {
     {
       img: require("../../Assets/Images/Chennai LIC 15kW_3.JPG"),
       name: "   Reduced annual energy costs by 35%.",
-      tittle: "Residential Solar System in Ernakulam  ",
+      tittle: "Lorem, ipsum dolor. ",
     },
     {
-      img: require("../../Assets/Images/Chennai LIC 15kW_2.JPG"),
+      img: require("../../Assets/Images/projects.jpg"),
 
       name: "   Improved operational efficiency and minimized energy waste.",
-      tittle: "Commercial Rooftop Installation for Small Businesses  ",
+      tittle: "Lorem, ipsum dolor. ",
     },
     {
-      img: require("../../Assets/Images/Chennai LIC 15kW_1.JPG"),
+      img: require("../../Assets/Images/project.jpg"),
 
       name: "   Empowered sustainable energy adoption at scale.",
-      tittle: "Institutional Solar Project in Kerala  ",
+      tittle: "Lorem, ipsum dolor. ",
     },
   ];
   const settings = {
@@ -69,6 +69,7 @@ function Projecthighlit() {
               >
                 Projects
               </div>
+              
               <div
                 className="ftittle text-white"
                 data-aos="fade-down"

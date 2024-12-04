@@ -340,14 +340,15 @@ function Blog01() {
 
             </div>
             <div className="my-2 my-lg-4 mx-auto text-center" data-aos="zoom-in" data-aos-duration="1800" data-aos-once="true">
-              <Link to={"/"} className="text-decoration-none">
+            <a href="/#blog_news" className='text-decoration-none'>
+
                 <button className="button-48 mt-3" role="button">
                   <span className="btn_text fw-bold">
                   Back To Home
                    
                   </span>
                 </button>
-              </Link>
+              </a>
             </div>
           </div>
         </div>
