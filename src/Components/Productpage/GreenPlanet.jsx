@@ -133,9 +133,11 @@ function GreenPlanet() {
               >
                 <div className="desc2"></div>
                 <img
-                  src="https://www.slashgear.com/img/gallery/what-can-a-400-watt-solar-panel-power/l-intro-1710092944.jpg"
+                            src={require("../../Assets/Images/greenplanet.jpg")}
+
+                  // src="https://www.slashgear.com/img/gallery/what-can-a-400-watt-solar-panel-power/l-intro-1710092944.jpg"
                   alt=""
-                  className="img-fluid w-100 h-100 object-fit-fill image_energy_round"
+                  className="img-fluid w-100 h-100 object-fit-cover image_energy_round"
                   style={{objectPosition:"bottom center"}}
                 />
               </div>

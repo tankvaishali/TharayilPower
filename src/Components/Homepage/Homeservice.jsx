@@ -6,7 +6,7 @@ function Homeservice() {
 
     let servicedata = [
       {
-        img: "https://www.energy.gov/sites/default/files/2022-08/shutterstock_585345260.jpg",
+        img: require("../../Assets/Images/blog.jpg"),
         no: "01 Service",
         name: "Residential Solar Solutions",
         pera: " Power your home with solar energy. Save on electricity bills with our custom solar panel installations and battery storage systems.",
@@ -14,7 +14,7 @@ function Homeservice() {
         // to: "/residentialsolar",
       },
       {
-        img: "https://cdn.shopify.com/s/files/1/0567/3873/files/renewable-1989416_640_large.jpg?v=1596464911",
+        img: require("../../Assets/Images/commercial.jpg"),
         no: "02 Service",
         name: "Commercial Solar Solutions",
         pera: " Tailor-made solar systems to help businesses reduce operational costs and improve energy efficiency.",
@@ -22,16 +22,16 @@ function Homeservice() {
         // to: "/commercialsolar",
       },
       {
-        img: "https://img.freepik.com/free-photo/man-worker-firld-by-solar-panels_1303-15573.jpg?ga=GA1.1.1772879955.1732685969&semt=ais_hybrid",
-        no: "03 Service",
+        img: require("../../Assets/Images/IMG-20231018-WA0037.jpg"),
+          no: "03 Service",
         name: "Government And Institutional Solutions",
         pera: "We provide solar solutions for government buildings, educational institutions, and non-profits, helping them achieve sustainability goals.",
-        aos: "fade-left",
+        aos: "fade-down",
         // to: "/Governmentalsolar",
       },
       {
-        img: "https://img.freepik.com/premium-photo/solar-panel-with-turbine-sunlight-blue-sky-background-concept-clean-power-energy_34152-1074.jpg?ga=GA1.1.1772879955.1732685969&semt=ais_hybrid",
-        no: "04 Service",
+        img: require("../../Assets/Images/residential.jpg"),
+         no: "04 Service",
         name: "Design Consultancy",
         pera: "Our experts conduct feasibility studies and create engineering drawings to ensure your solar project is optimized for performance.",
         aos: "fade-left",
@@ -46,16 +46,16 @@ function Homeservice() {
                       servicedata.map((x, i) => {
                           return (
                             <>
-                              <div className="col-12 col-md-6 col-lg-6" key={i}>
+                              <div className="col-12 col-md-6 col-lg-6" key={i} data-aos={x.aos}
+                                    data-aos-duration="1800"
+                                    data-aos-once="true">
                                 {/* <Link
                                  
                                   className="text-decoration-none"
                                 > */}
                                   <div
                                     className="h-100 shadow rounded-4 d-flex flex-column justify-content-between card_service"
-                                    data-aos={x.aos}
-                                    data-aos-duration="1800"
-                                    data-aos-once="true"
+                                    
                                
                                   >
                                     <div className="p-4">

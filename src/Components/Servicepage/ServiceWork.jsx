@@ -39,7 +39,8 @@ function ServiceWork() {
               >
                 <div className="desc1"></div>
                 <img
-                  src="https://waareeimages.s3.ap-south-1.amazonaws.com/Why_Solar_Energy_is_profitable_79114ac6f9.png"
+                src={require("../../Assets/Images/IMG-20240902-WA0006.jpg")}
+                  // src="https://waareeimages.s3.ap-south-1.amazonaws.com/Why_Solar_Energy_is_profitable_79114ac6f9.png"
                   alt="Service Image 2"
                   className="img-fluid w-100 h-100 object-fit-cover rounded-3"
                   style={{ objectPosition: "bottom center" }}

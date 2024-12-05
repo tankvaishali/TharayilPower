@@ -16,9 +16,20 @@ import Whatmakeus from "./Whatmakeus";
 function AboutusPage() {
   return (
     <>
-      <div className="bg_main">
+ 
+      <div className="landingimage d-flex justify-content-center align-items-center align-content-center">
+      <div className="container">
+        <h1   className="text-white text-center lh-base text_size fw-bold text-capitalize"
+              data-aos="fade-up"
+              data-aos-duration="1800"
+              data-aos-once="true"
+              style={{ letterSpacing: "1px" }}>
+        Empowering Kerala with Best Solar Solutions - Transforming Homes, Businesses, and Communities with Reliable, Cost-Saving Energy.
+        </h1>
+      </div>
+      </div>
         <div className="container">
-          <div
+          {/* <div
             className="d-flex justify-content-center align-items-center align-content-center flex-column jr_tittle "
             style={{ height: "75vh" }}
           >
@@ -46,9 +57,10 @@ function AboutusPage() {
               </Link>{" "}
               <MdKeyboardDoubleArrowRight /> <span>About</span>
             </div>
-          </div>
+          </div> */}
+       
         </div>
-      </div>
+      
       <Aboutus />
       <Expertist />
       <Whatmakeus/>

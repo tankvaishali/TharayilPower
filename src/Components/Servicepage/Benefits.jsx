@@ -4,9 +4,9 @@ import videoSourceMP4 from "../../Assets/Images/solar.mp4";
 
 function Benefits() {
   const progressBars = [
-    { label: "Trusted Professionals", percentage: 85 },
+    { label: "Trusted Professionals", percentage: 15 },
     { label: "Innovative Solutions", percentage: 75 },
-    { label: "Security Advices", percentage: 85 },
+    { label: "Security Advices", percentage: 400 },
   ];
 
   const progressRefs = useRef([]);
@@ -76,7 +76,7 @@ function Benefits() {
                     <div className="h-100 allimg">
                       <div className="desc1"></div>
                       <img
-                        src="https://cdn.shopify.com/s/files/1/0518/2557/4043/files/solarroofinstal_1024x1024.jpg?v=1675848096"
+                      src={require("../../Assets/Images/IMG-20240705-WA0025.jpg")}                       // src="https://cdn.shopify.com/s/files/1/0518/2557/4043/files/solarroofinstal_1024x1024.jpg?v=1675848096"
                         alt=""
                         className="img-fluid h-100 w-100"
                         style={{ objectFit: "cover" }}
@@ -159,7 +159,7 @@ function Benefits() {
                     <div key={index} className="mb-4">
                       <div className="d-flex justify-content-between">
                         <div>{bar.label}</div>
-                        <div>{bar.percentage}%</div>
+                        <div>{bar.percentage}+</div>
                       </div>
                       <div
                         className="progress rounded-0"

@@ -30,11 +30,12 @@
 
 /* faq start */
 .img_faq{
-  background-image: url("https://media.istockphoto.com/id/174673282/photo/house-with-solar-panels.jpg?s=612x612&w=0&k=20&c=837x6eMrC2AJ2LK-SyYIGi4X9bNnFitgBYnChHdCgdM=");
+  background-image: url("../Images/IMG-20240917-WA0008.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   height: 480px;
+
 }
 
 .accordion-button:not(.collapsed){

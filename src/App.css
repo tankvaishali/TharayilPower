@@ -528,11 +528,10 @@ input::placeholder{
 
 
 /* landingpage start */
-.bg_main{
+/* .bg_main{
   width: 100%;
   height: 70vh;
   background-image: linear-gradient(67deg, var(--darkgreen--),var(--darkgreen--),rgb(172, 170, 170),rgb(172, 170, 170),var(--darkgreen--),var(--darkgreen--));
-  /* background-image: linear-gradient(67deg,#122410,#3f74388a,rgb(211, 211, 211),#3f743891,#162c13) !important; */
   margin-top: -100px;
 }
 
@@ -550,5 +549,27 @@ font-size: 40px ;
   .text_size{
 font-size: 22px ;
 }
+} */
+ .landingimage ,.landingimage_product ,.landingimage_service ,.landingimage_career ,.landingimage_profile{
+  background-image: url("../src/Assets/Images/IMG-20230616-WA0034.jpg");
+  background-size: cover;
+  background-position: 100% 100%;
+  background-repeat: no-repeat;
+  height: 100vh;
+  width: 100%;
+  margin-top: -100px;
+  box-shadow: inset 0px 0px 1500px 1000px rgba(0, 0, 0, 0.553);
+}
+.landingimage_product{
+  background-image: url("../src/Assets/Images/projectimage.jpg");
+}
+.landingimage_service{
+  background-image: url("../src/Assets/Images/serviceimage.jpg");
+}
+.landingimage_career{
+  background-image: url("../src/Assets/Images/profitable.jpg");
+}
+.landingimage_profile{
+  background-image: url("../src/Assets/Images/profileimg\ \(2\).jpg");
 }
 /* landingpage end */

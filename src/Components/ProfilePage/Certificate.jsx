@@ -1,19 +1,21 @@
 import React from "react";
 const images = [
+
   {
-    img:require("../../Assets/Images/profile/certificates (1).jpg")
+    img:require("../../Assets/Images/profile/fcertificate2.JPEG")
+  },
+ 
+  {
+    img:require("../../Assets/Images/profile/certificatef.JPEG")
   },
   {
-    img:require("../../Assets/Images/profile/certificates (4).jpg")
+    img:require("../../Assets/Images/profile/certificate03.JPEG")
   },
   {
-    img:require("../../Assets/Images/profile/certificates (3).jpg")
+    img:require("../../Assets/Images/profile/IMG_20240926_105237539.jpg")
   },
   {
-    img:require("../../Assets/Images/profile/certificates (2).jpg")
-  },
-  {
-    img:require("../../Assets/Images/profile/Awards (3).jpg")
+    img:require("../../Assets/Images/profile/IMG_20240926_105229508.jpg")
   },
   {
     img:require("../../Assets/Images/profile/Awards (2).jpg")
@@ -70,7 +72,7 @@ function Certificate() {
                data-aos-once="true" 
               >
                 <div className="certimain">
-                  <img src={src.img} className="certi-image" alt="" />
+                  <img src={src.img} className="certi-image img-fluid object-fit-fill" alt="" />
                 </div>
               </div>
             ))}

@@ -14,15 +14,18 @@ function HighlitesImage() {
       alt: "a waterfall and many rocks",
     },
     {
-      src: require("../../Assets/Images/highliths2.jpg"),
-      alt: "a house on a mountain",
-    },
-    {
-      src: "https://energy-nest.com/wp-content/uploads/energynest-systemintegration-erneuerbarer-energien.jpg",
+      src: require("../../Assets/Images/IMG-20231018-WA0037.jpg"),
+
       alt: "some pink flowers",
     },
     {
-      src: "https://www.unicef.org/innovation/sites/unicef.org.innovation/files/styles/hero_tablet/public/UNI414903.JPG.webp?itok=xB7Exy1q",
+      src: require("../../Assets/Images/highlits2.jpg"),
+      alt: "a house on a mountain",
+    },
+    {
+      src: require("../../Assets/Images/IMG-20240123-WA0036.jpg"),
+      
+      // src: "https://www.unicef.org/innovation/sites/unicef.org.innovation/files/styles/hero_tablet/public/UNI414903.JPG.webp?itok=xB7Exy1q",
       alt: "big rocks with some trees",
     },
   ];

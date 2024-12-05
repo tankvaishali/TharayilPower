@@ -351,7 +351,7 @@ function Blog02() {
                 <button className="button-48 mt-3" role="button">
                   <span className="btn_text fw-bold">
 
-                Back To Top
+                Back To Home
                    
                   </span>
                 </button>

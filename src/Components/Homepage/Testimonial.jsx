@@ -7,11 +7,11 @@ import { Link } from "react-router-dom";
 
 function Testimonial() {
   const progressBars = [
-    { label: "total no. of projects completed", percentage: 95 },
-    { label: "Megawatts Created", percentage: 75 },
-    { label: "Carbon print reduced", percentage: 85 },
-    { label: "CO2 emissions reduced", percentage: 90 }, // Remove JSX from here
-    { label: "Security Advices", percentage: 80 },
+    { label: "Total No of projects Completed", percentages: "1200+" ,percentage: 100 },
+    { label: "Total Megawatts Created", percentages: " 5 MW",percentage: 40 },
+    { label: "Carbon Print reduced", percentages: "7,590 metric tons of CO₂ per year ", percentage: 50 },
+    { label: "Co2 Emission Reduced", percentages: "7,590 metric tons of CO₂ per year" , percentage: 60 }, // Remove JSX from here
+    { label: "Security Advices", percentages: "400+" ,percentage: 90 },
   ];
 
   const progressRefs = useRef([]);
@@ -55,7 +55,7 @@ function Testimonial() {
     slidesToScroll: 1,
     autoplay: true,
     autoplaySpeed: 4000,
-    pauseOnHover: true,
+    pauseOnHover: false,
     arrows: false,
     dots: true,
   };
@@ -130,7 +130,7 @@ function Testimonial() {
                             bar.label
                           )}
                         </div>
-                        <div>{bar.percentage}%</div>
+                        <div>{bar.percentages}</div>
                       </div>
                       <div
                         className="progress rounded-0"
