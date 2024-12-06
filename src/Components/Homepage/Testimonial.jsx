@@ -10,7 +10,7 @@ function Testimonial() {
     { label: "Total No of projects Completed", percentages: "1200+" ,percentage: 100 },
     { label: "Total Megawatts Created", percentages: " 5 MW",percentage: 40 },
     { label: "Carbon Print reduced", percentages: "7,590 metric tons of CO₂ per year ", percentage: 50 },
-    { label: "Co2 Emission Reduced", percentages: "7,590 metric tons of CO₂ per year" , percentage: 60 }, // Remove JSX from here
+    { label: "Co2 Emission Reduced", percentages: "7,590 metric tons of CO₂ per year" , percentage: 50 }, // Remove JSX from here
     { label: "Security Advices", percentages: "400+" ,percentage: 90 },
   ];
 
@@ -62,22 +62,24 @@ function Testimonial() {
 
   let ProductItemlist = [
     {
-      img: "https://img.freepik.com/free-photo/confident-black-haired-young-man-pointing-himself_1262-14882.jpg?ga=GA1.1.1772879955.1732685969&semt=ais_hybrid",
-      name: "Mayur Tank",
-      tittle: "Atlanta",
+      img: require("../../Assets/Images/profile/Gallery (3).jpg"),
+      name: "Alappuzha",
+      tittle: "Kerala",
       description:
         " I’m so happy we did. Unbelievable service, great product, and they took care of everything. It’s amazing",
     },
     {
-      img: "https://img.freepik.com/free-photo/happy-business-man-standing-smiling-isolated-gray-space-beautiful-male-half-length-portrait-young-satisfy-man_155003-26695.jpg?ga=GA1.1.1772879955.1732685969&semt=ais_hybrid",
-      name: "Rob Fontain",
+      img: require("../../Assets/Images/profile/Gallery (5).jpg"),
+
+      name: "Mannanchery",
       tittle: "Delhi",
       description:
         "I'm so pleased with Tharayil Power. I was a Community Solar customer for years and I've recently put panels on my roof. ",
     },
     {
-      img: "https://img.freepik.com/free-photo/satisfied-bearded-male-customer-show-thumbs-up-approval_176420-19984.jpg?ga=GA1.1.1772879955.1732685969&semt=ais_hybrid",
-      name: "peter messner",
+      img: require("../../Assets/Images/profile/Gallery (8).jpg"),
+
+      name: "Komalapuram",
       tittle: "Kerala",
       description: " their experience and professionalism stands out. ",
     },

@@ -21,7 +21,8 @@ function Faq() {
                   data-aos-duration="1800"
                   data-aos-once="true"
                 >
-                  Perfomance, quality and realiability
+                 Affordable Solar
+      Installation
                 </div>
               </div>
             </div>

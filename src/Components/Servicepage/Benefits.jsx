@@ -5,7 +5,7 @@ import videoSourceMP4 from "../../Assets/Images/solar.mp4";
 function Benefits() {
   const progressBars = [
     { label: "Trusted Professionals", percentage: 15 },
-    { label: "Innovative Solutions", percentage: 75 },
+    { label: "support sysyems", percentage: 100 },
     { label: "Security Advices", percentage: 400 },
   ];
 

@@ -51,7 +51,7 @@ function MissionVission() {
       </div>
       <div className='pt-2 fs-5 fw-bold text-dark'>Satisfaction Rate</div>
       <div className="pt-1 pera">
-        Our clients’ satisfaction reflects our dedication to excellence and reliability.
+        Our clients satisfaction reflects our dedication to excellence and reliability.
       </div>
     </div>
   </div>

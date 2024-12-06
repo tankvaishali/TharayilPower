@@ -5,11 +5,14 @@ function ScrollToTop() {
   const location = useLocation();
 
   useEffect(() => {
-    // If there's a hash in the URL, navigate to that section
+    // Scroll to the top of the page on every navigation
+    window.scrollTo({ top: 0, left: 0, behavior: 'smooth' });
+
+    // Optional: Handle hash navigation
     if (location.hash) {
-      const element = document.getElementById(location.hash.substring(1)); // Remove the '#' character
+      const element = document.getElementById(location.hash.substring(1)); // Remove '#' to get the element ID
       if (element) {
-        element.scrollIntoView({ behavior: 'auto', block: 'start' });
+        element.scrollIntoView({ behavior: 'smooth', block: 'start' });
       }
     }
   }, [location]);

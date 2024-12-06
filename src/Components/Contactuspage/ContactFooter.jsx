@@ -18,17 +18,37 @@ function ContactFooter() {
   const [currentIndex, setCurrentIndex] = useState(0);
   let ProductItemlist = [
     {
-      img: "https://www.irena.org/-/media/Images/IRENA/Agency/Press-Release/2020/Sep/Renewable_energy_jobs_2020.jpg",
+      img: require("../../Assets/Images/IMG-20230616-WA0034.jpg"),
       name: "solar panel",
       tittle: "solar panel technology",
     },
     {
-      img: "https://www.nationalgrid.com/sites/default/files/styles/content_embedded_image/public/images/EnergyExplained_DifferentTypesRenewableEnergy_640x360.jpg",
+      img: require("../../Assets/Images/IMG-20231018-WA0037.jpg"),
+
       name: "solar panel",
       tittle: "solar panel technology",
     },
     {
-      img: "https://d2tez01fe91909.cloudfront.net/wp-content/uploads/2023/01/AdobeStock_166916488-scaled-e1683923540796.jpeg.webp",
+      img: require("../../Assets/Images/IMG-20240123-WA0036.jpg"),
+
+      name: "solar panel",
+      tittle: "solar panel technology",
+    },
+    {
+      img: require("../../Assets/Images/IMG-20240705-WA0025.jpg"),
+
+      name: "solar panel",
+      tittle: "solar panel technology",
+    },
+    {
+      img: require("../../Assets/Images/IMG-20240902-WA0006.jpg"),
+
+      name: "solar panel",
+      tittle: "solar panel technology",
+    },
+    {
+      img: require("../../Assets/Images/IMG-20240917-WA0008.jpg"),
+
       name: "solar panel",
       tittle: "solar panel technology",
     },

@@ -14,38 +14,17 @@ function ContactusPage() {
   return (
     <>
       <Header />
-      <div className="bg_main">
-        <div className="container">
-          <div
-            className="d-flex justify-content-center align-items-center flex-column jr_tittle"
-            style={{ height: "65vh" }}
-          >
-            <h2
-              className="text-white text-center lh-base text_size fw-bold text-capitalize"
+ 
+      <div className="landingimage_profile d-flex justify-content-center align-items-center align-content-center">
+      <div className="container">
+        <h1   className="text-white text-center lh-base text_size fw-bold text-capitalize"
               data-aos="fade-up"
               data-aos-duration="1800"
               data-aos-once="true"
-              style={{ letterSpacing: "1px" }}
-            >
-             Reach Out Now – We're Here to Power Your Solar Journey!
-            </h2>
-            <div
-              className="text-white mt-2 fs-6 fw-semibold"
-              data-aos="fade-up"
-              data-aos-delay="800"
-              data-aos-duration="1800"
-              data-aos-once="true"
-            >
-              <Link
-                to={"/"}
-                className="text-decoration-none text-white bgtittle"
-              >
-                Home
-              </Link>{" "}
-              <MdKeyboardDoubleArrowRight /> <span>Contact</span>
-            </div>
-          </div>
-        </div>
+              style={{ letterSpacing: "1px" }}>
+              Reach Out Now – We're Here to Power Your Solar Journey!
+        </h1>
+      </div>
       </div>
       <Contact />
       <div className="map mb-5">

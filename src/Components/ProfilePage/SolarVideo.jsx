@@ -53,7 +53,7 @@ function SolarVideo() {
                   src={
                   require("../../Assets/Images/profile/videoimage (1).jpg")
                   }
-                  className="w-100 h-100"
+                  className="w-100 h-100 object-fit-cover"
                   alt=""
                 />
                 <div className="vbody">
@@ -73,7 +73,7 @@ function SolarVideo() {
                   src={
                     require("../../Assets/Images/profile/videoimage (7).jpg")
                     }
-                  className="w-100 h-100"
+                  className="w-100 h-100 img-fluid object-fit-cover"
                   alt=""
                 />
                 <div className="vbody">
@@ -122,7 +122,7 @@ function SolarVideo() {
                   src={
                     require("../../Assets/Images/profile/videoimage.jpg")
                     }
-                  className="w-100 h-100"
+                  className="w-100 h-100 img-fluid object-fit-cover"
                   alt=""
                 />
                 <div className="vbody">
@@ -153,7 +153,7 @@ function SolarVideo() {
                    src={
                     require("../../Assets/Images/profile/videoimage (4).jpg")
                     }
-                  className="w-100 h-100"
+                  className="w-100 h-100 img-fluid object-fit-cover"
                   alt=""
                 />
                 <div className="vbody">
@@ -173,7 +173,7 @@ function SolarVideo() {
                  src={
                   require("../../Assets/Images/profile/videoimage (5).jpg")
                   }
-                  className="w-100 h-100"
+                  className="w-100 h-100 img-fluid object-fit-cover"
                   alt=""
                 />
                 <div className="vbody">
@@ -206,7 +206,7 @@ function SolarVideo() {
                   src={
                     require("../../Assets/Images/profile/IMG-20240614-WA0022.jpg")
                     }
-                  className="w-100 h-100"
+                  className="w-100 h-100 img-fluid object-fit-cover "
                   alt=""
                 />
                 <div className="vbody">
