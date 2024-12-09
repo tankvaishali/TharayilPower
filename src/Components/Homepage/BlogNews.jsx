@@ -41,22 +41,25 @@ function BlogNews() {
     },
   ];
 
+
+
+  // Fetch data from the API
   const [data, setData] = useState([]);
 
   // Fetch data from the API
   const fetchData = async () => {
-    try {
-      const response = await axios.get("http://localhost:5000/api/data");
-      setData(response.data);
-      console.log(data);
-      
-    } catch (error) {
-      console.error("Error fetching data:", error);
-    }
+      try {
+          const response = await axios.get("http://localhost:5000/api/data");
+          setData(response.data);
+      } catch (error) {
+          console.error("Error fetching data:", error);
+      }
   };
-  useEffect (() => {
-    fetchData();
+
+  useEffect(() => {
+      fetchData();
   }, []);
+
 
   return (
     <div
@@ -110,7 +113,7 @@ function BlogNews() {
                 data-aos-duration="1800"
                 data-aos-once="true"
               >
-                <Link to={`/${blog.id}`} className="text-decoration-none">
+                <Link to={`https://www.aninews.in/news/national/general-news/rajnath-singh-launches-portal-pencil-to-eliminate-child-labour201709262255370004/`} className="text-decoration-none" target="_blank">
                   <div className="blog_height">
                     <img
                       src={blog.image}
