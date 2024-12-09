@@ -200,6 +200,7 @@ function BlogNews() {
   // Fetch data from the API
   const fetchData = async () => {
       try {
+          // const response = await axios.get("https://tharayildb.vercel.app/api/data");
           const response = await axios.get("http://localhost:5000/api/data");
           setData(response.data);
       } catch (error) {
