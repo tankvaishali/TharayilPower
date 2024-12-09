@@ -453,7 +453,8 @@
     font-size: 25px !important;
   }
   .carousel {
-    height: 65vh !important;
+    height: 70vh !important;
+    object-fit: cover !important;
   }
 }
 

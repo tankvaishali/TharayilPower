@@ -135,7 +135,7 @@ function Form() {
           <div className="row p-0 m-0 ">
             <div className="col-12 col-lg-7 p-0 m-0">
               <div
-                className="h-100 p-5 product_high rounded-5"
+                className="h-100 p-3 p-lg-5 product_high rounded-5"
                 // style={{ backgroundColor: "var(--darkgreen--)" }}
               >
                 <div className="py-3 text-center">

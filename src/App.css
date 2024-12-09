@@ -572,4 +572,15 @@ font-size: 22px ;
 .landingimage_profile{
   background-image: url("../src/Assets/Images/profileimg\ \(2\).jpg");
 }
+.textsizehead{
+  padding-top: 10px;
+}
+@media only screen and (max-width: 576px) {
+ .landingimage_product ,.landingimage_service ,.landingimage_career ,.landingimage_profile{
+    height: 60vh;
+}
+.textsizehead{
+  padding-top: 65px !important;
+}
+}
 /* landingpage end */

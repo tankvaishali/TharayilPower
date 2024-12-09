@@ -42,7 +42,7 @@ function HomeSlider() {
             <h1
               className={`carousel-content container ${
                 index === currentSlide && !initialLoad ? "show" : ""
-              } text-white p-5 display-5 lh-base fw-bold text-uppercase`}
+              } text-white p-4  p-md-5 display-5 lh-base fw-bold text-uppercase`}
             >
               {index === 0 && (
                 <>

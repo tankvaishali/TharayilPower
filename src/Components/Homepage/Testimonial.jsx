@@ -132,7 +132,7 @@ function Testimonial() {
                             bar.label
                           )}
                         </div>
-                        <div>{bar.percentages}</div>
+                        <div className="text-end">{bar.percentages}</div>
                       </div>
                       <div
                         className="progress rounded-0"

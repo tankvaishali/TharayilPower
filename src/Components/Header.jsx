@@ -15,7 +15,7 @@ function Header() {
   return (
     <>
       <nav
-        className={`container navbar navbar-expand-lg position-sticky bg_color shadow  top-0 mt-3 rounded-pill `}
+        className={`container navbar navbar-expand-lg position-sticky bg_color shadow  top-0 mt-2 mt-lg-3 rounded-pill `}
         style={{ zIndex: 1000 }}
       >
         <div className="container ">

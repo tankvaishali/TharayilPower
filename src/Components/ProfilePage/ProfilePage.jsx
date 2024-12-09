@@ -14,7 +14,7 @@ function ProfilePage() {
     <>
           <div className="landingimage_profile d-flex justify-content-center align-items-center align-content-center">
       <div className="container">
-        <h1   className="text-white text-center lh-base text_size fw-bold text-capitalize"
+        <h1   className="textsizehead text-white text-center lh-base text_size fw-bold text-capitalize"
               data-aos="fade-up"
               data-aos-duration="1800"
               data-aos-once="true"
