@@ -201,7 +201,9 @@ function BlogNews() {
   const fetchData = async () => {
       try {
           // const response = await axios.get("https://tharayildb.vercel.app/api/data");
-          const response = await axios.get("http://localhost:5000/api/data");
+          const response = await axios.get("https://admindb-indol.vercel.app/");
+    
+          
           setData(response.data);
       } catch (error) {
           console.error("Error fetching data:", error);
@@ -252,6 +254,8 @@ function BlogNews() {
 
           {/* Loop to render blog posts */}
        {data.map((blog, index) => {
+        console.log(blog);
+        
   // Parse the date string and format it as "DD MMM"
   const blogDate = new Date(blog.date);
   const formattedDate = `${blogDate.getDate()} ${blogDate.toLocaleString('default', { month: 'short' })}`;
