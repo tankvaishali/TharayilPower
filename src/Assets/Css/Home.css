@@ -424,39 +424,20 @@
 
 .carousel-content {
   position: absolute;
-  letter-spacing: 2px;
+  /* letter-spacing: 2px; */
   border-left: 10px solid white;
   top: 30%;
   /* width: 50%; */
   /* margin: 0 auto;
      */
-  left: 30%;
+  left: 15%;
   z-index: 2;
   opacity: 0;
   transform: translateY(050%);
   transition: transform 1s ease-in-out, opacity 1s ease-in-out;
   transition-delay: 2s;
 }
-@media only screen and (max-width: 800px) {
-  .carousel-content {
-    top: 30% !important;
-    left: 10%;
-  }
-}
-@media only screen and (max-width: 650px) {
-  .carousel-content {
-    top: 30% !important;
-    left: 10%;
-    z-index: 2;
-    opacity: 0;
-    transform: translateY(-50%);
-    font-size: 25px !important;
-  }
-  .carousel {
-    height: 70vh !important;
-    object-fit: cover !important;
-  }
-}
+
 
 .carousel-content.show {
   opacity: 1;
@@ -482,7 +463,35 @@
   height: 10px;
   background-color: white;
 }
-
+.sliderwidth{
+  width: 80% !important;
+}
+@media only screen and (max-width: 800px) {
+  .carousel-content {
+    top: 30% !important;
+    left: 10%;
+  }
+  .sliderwidth{
+    width: 80% !important;
+  }
+}
+@media only screen and (max-width: 650px) {
+  .carousel-content {
+    top: 30% !important;
+    left: 10%;
+    z-index: 2;
+    opacity: 0;
+    transform: translateY(-50%);
+    font-size: 25px !important;
+  }
+  .carousel {
+    height: 70vh !important;
+    object-fit: cover !important;
+  }
+  .sliderwidth{
+    width: 90% !important;
+  }
+}
 .slide1 .column {
   background-image: url("https://english.news.cn/20240103/46e63f8f2b1a4739bc31cb2419991447/601ade44cb6445a3a38332e9020efc61.jpg");
   box-shadow: inset 0px 0px 1500px 1000px rgba(0, 0, 0, 0.589);

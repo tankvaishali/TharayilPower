@@ -42,13 +42,13 @@ function HomeSlider() {
             <h1
               className={`carousel-content container ${
                 index === currentSlide && !initialLoad ? "show" : ""
-              } text-white p-4  p-md-5 display-5 lh-base fw-bold text-uppercase`}
+              } text-white p-lg-5 p-4   sliderwidth fw-medium  p-md-5 display-5 lh-base  text-uppercase`}
             >
               {index === 0 && (
                 <>
-                "Powering a  
-                  <div>Greener Tomorrow ,</div>
-                  <div>Today</div>
+                Power your world with smarter energy – Explore Tharayil Power today!
+
+               
                   {/* <div
                     className="mt-2"
                     
@@ -68,9 +68,7 @@ function HomeSlider() {
               )}
               {index === 1 && (
                 <>
-                  INDIA'S TOP
-                  <div>PV MANUFACTURER</div>
-                  <div>LOREM IPSUM DOLOR</div>
+                Switch to sustainable energy – Discover Tharayil Power now!
                   {/* <div
                     className="mt-2"
                     
@@ -90,9 +88,10 @@ function HomeSlider() {
               )}
               {index === 2 && (
                 <>
-                  INDIA'S TOP
-                  <div>MANUFACTURER</div>
-                  <div>LOREM IPSUM DOLOR</div>
+                 Take charge of your energy needs – Start with Tharayil Power!
+
+
+
                   {/* <div
                     className="mt-2"
                     
