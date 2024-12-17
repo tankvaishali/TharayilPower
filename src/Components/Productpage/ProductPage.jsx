@@ -63,9 +63,11 @@ function ProductPage() {
  };
   return (
     <>
-      <section
+<div     style={{ marginTop: "250px" }}>
+<section
         id="departments"
-        className="tabs section my-lg-5 py-5 my-sm-2 py-lg-2 product_high overflow-hidden"
+        className="tabs section my-lg-5 py-5 my-sm-2 py-lg-5 product_high overflow-hidden"
+    
       >
         <div className="container">
           <div className="py-3 pb-5 text-center">
@@ -75,7 +77,7 @@ function ProductPage() {
               data-aos-duration="1500"
               data-aos-once="true"
             >
-              Projects
+           Products
             </div>
             <div
               className="ftittle text-white"
@@ -83,16 +85,16 @@ function ProductPage() {
               data-aos-duration="1500"
               data-aos-once="true"
             >
-               Our  Projects Case-Study
+               Our  Popular poducts 
             </div>
           </div>
         </div>
 
         <div className="container pb-3 pb-lg-5" data-aos="fade-up" data-aos-delay="100" data-aos-once="true">
-          <div className="row">
+          <div className="row ">
             <div className="col-lg-3">
               <ul
-                className=" nav nav-tabs flex-column justify-content-between bg_tab pb-2"
+                className=" nav nav-tabs flex-column justify-content-between bg_tab pb-2 h-100"
                 data-aos="fade-right" data-aos-duration="1800" data-aos-once="true"
               >
                 <div className="fw-bold p-3 fs-4 text-white" style={{backgroundColor:"var(--green--)"}}>
@@ -168,6 +170,7 @@ function ProductPage() {
           </div>
         </div>
       </section>
+</div>
     </>
   );
 }

@@ -31,8 +31,8 @@ function Projecthighlit() {
     slidesToShow: 3,
     slidesToScroll: 1,
     autoplay: true,
-    autoplaySpeed: 4000, // Adjust the speed as needed
-    pauseOnHover: true,
+    autoplaySpeed: 3000, // Adjust the speed as needed
+    pauseOnHover: false,
     responsive: [
       {
         breakpoint: 1024, // Adjust this breakpoint as needed
@@ -109,8 +109,8 @@ function Projecthighlit() {
                               />
                             </div> */}
                             <div className="p-3 px-2">
-                              <div className="fw-bold fs-4">{x.tittle}</div>
-                              <div className="pera fs-6 pt-2" >{x.name}</div>
+                              {/* <div className="fw-bold fs-4">{x.tittle}</div> */}
+                              <div className="pera fs-6 pt-2 fw-bold p-3" >{x.name}</div>
                             </div>
                           </div>
                         </div>

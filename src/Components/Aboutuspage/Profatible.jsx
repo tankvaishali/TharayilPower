@@ -82,7 +82,7 @@ function Profatible() {
                       <div className=" fs-1 text-success">
                         {" "}
                         <CountUp
-                          end={1200}
+                          end={250}
                           enableScrollSpy={true}
                           separator=""
                         />{" "}

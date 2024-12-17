@@ -95,12 +95,12 @@ height: 60px;
 /* about contactus start */
 
 .aboutcontactbg{
-  background-image: url("https://img.freepik.com/free-photo/business-person-planning-alternative-energies_23-2149205475.jpg?t=st=1734412034~exp=1734415634~hmac=41e051fdc9262a322dc7a8c0bd0fd92caabcb486338c27ca66576113dc7ba00c&w=900");
+  background-image: url("https://img.freepik.com/free-photo/mother-with-her-little-son-by-solar-panels_1303-15545.jpg?t=st=1734432419~exp=1734436019~hmac=e1212539d00c5ea867aa2d5d09feab3f376e5661e725d00bd1b54f8959c72a80&w=1380");
   background-position: bottom center;
   background-size: cover;
 background-repeat: no-repeat;
 background-attachment: fixed;
-box-shadow: inset 0px 0px 1500px 1000px rgba(0, 0, 0, 0.733);
+box-shadow: inset 0px 0px 1500px 1000px rgba(0, 4, 10, 0.74);
 width: 100% !important;
 height: 100% !important;
 

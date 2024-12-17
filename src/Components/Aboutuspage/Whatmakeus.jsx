@@ -52,7 +52,7 @@ function Whatmakeus() {
     swipe: false,
     autoplay: true,
     autoplaySpeed: 4000, // Adjust the speed as needed
-    pauseOnHover: true,
+    pauseOnHover: false,
     responsive: [
       {
         breakpoint: 1024, // Adjust this breakpoint as needed

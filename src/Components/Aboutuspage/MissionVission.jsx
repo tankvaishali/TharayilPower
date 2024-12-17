@@ -35,7 +35,7 @@ function MissionVission() {
   <div className="m-0 shadow bg_mission p-4 text-white" data-aos="zoom-in" data-aos-once="true" data-aos-duration="1800" style={{ flex: '1' }}>
     <div>
       <div className="fs-1 fw-bold">
-        <CountUp end={25} enableScrollSpy={true} separator="" /> +
+        0<CountUp start={0} end={6} enableScrollSpy={true} separator="" /> +
       </div>
       <div className='pt-2 fs-5 fw-bold'>Years of Experience</div>
       <div className="pt-1 pera">

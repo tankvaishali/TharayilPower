@@ -11,7 +11,7 @@ function Homeservice() {
         name: "Residential Solar Solutions",
         pera: " Power your home with solar energy. Save on electricity bills with our custom solar panel installations and battery storage systems.",
         aos: "fade-right",
-        // to: "/residentialsolar",
+        to: "/residentialsolar",
       },
       {
         img: require("../../Assets/Images/commercial.jpg"),
@@ -19,7 +19,7 @@ function Homeservice() {
         name: "Commercial Solar Solutions",
         pera: " Tailor-made solar systems to help businesses reduce operational costs and improve energy efficiency.",
         aos: "fade-up",
-        // to: "/commercialsolar",
+        to: "/commercialsolar",
       },
       {
         img: require("../../Assets/Images/IMG-20231018-WA0037.jpg"),
@@ -27,7 +27,7 @@ function Homeservice() {
         name: "Government And Institutional Solutions",
         pera: "We provide solar solutions for government buildings, educational institutions, and non-profits, helping them achieve sustainability goals.",
         aos: "fade-down",
-        // to: "/Governmentalsolar",
+        to: "/Governmentalsolar",
       },
       {
         img: require("../../Assets/Images/residential.jpg"),
@@ -35,7 +35,7 @@ function Homeservice() {
         name: "Design Consultancy",
         pera: "Our experts conduct feasibility studies and create engineering drawings to ensure your solar project is optimized for performance.",
         aos: "fade-left",
-        // to: "/Governmentalsolar",
+        to: "/Governmentalsolar",
       },
     ];
   return (
@@ -49,10 +49,10 @@ function Homeservice() {
                               <div className="col-12 col-md-6 col-lg-6" key={i} data-aos={x.aos}
                                     data-aos-duration="1800"
                                     data-aos-once="true">
-                                {/* <Link
-                                 
+                                <Link
+                                 to={x.to}
                                   className="text-decoration-none"
-                                > */}
+                                >
                                   <div
                                     className="h-100 shadow rounded-4 d-flex flex-column justify-content-between card_service"
                                     
@@ -103,7 +103,7 @@ function Homeservice() {
                                       </div>
                                     </div>
                                   </div>
-                                {/* </Link> */}
+                                </Link>
                               </div>
                             </>
                           );

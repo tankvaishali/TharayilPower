@@ -104,8 +104,8 @@ function Footer() {
                 />
               </div>
               <div className="pera lightgray py-2 pt-3">
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ut,
-                delectus! amet consectetur adipisicing elit. Ut, delectus
+              Tharayil Power helps you save on energy costs with sustainable solar solutions, reliable backup systems, and tailored power solutions for homes and businesses.
+
               </div>
               <div className="d-flex fs-4 my-3">
                 <Link

@@ -24,43 +24,13 @@ function AboutusPage() {
               data-aos-duration="1800"
               data-aos-once="true"
               style={{ letterSpacing: "1px" }}>
-        Empowering Kerala with Best Solar Solutions - Transforming Homes, Businesses, and Communities with Reliable, Cost-Saving Energy.
+       Empowering Kerala with Best Solar Solutions - Transforming Homes, Businesses, and Communities with Reliable, Cost-Saving Energy.
+
+
         </h1>
       </div>
       </div>
-        <div className="container">
-          {/* <div
-            className="d-flex justify-content-center align-items-center align-content-center flex-column jr_tittle "
-            style={{ height: "75vh" }}
-          >
-            <h4
-              className="text-white text-center lh-base text_size fw-bold text-capitalize"
-              data-aos="fade-up"
-              data-aos-duration="1800"
-              data-aos-once="true"
-              style={{ letterSpacing: "1px" }}
-            >
-   Empowering Kerala with Best Solar Solutions - Transforming Homes, Businesses, and Communities with Reliable, Cost-Saving Energy.
-            </h4>
-            <div
-              className="text-white mt-2 fs-6 fw-semibold"
-              data-aos="fade-up"
-              data-aos-delay="800"
-              data-aos-duration="1800"
-              data-aos-once="true"
-            >
-              <Link
-                to={"/"}
-                className="text-decoration-none text-white bgtittle"
-              >
-                Home
-              </Link>{" "}
-              <MdKeyboardDoubleArrowRight /> <span>About</span>
-            </div>
-          </div> */}
-       
-        </div>
-      
+  
       <Aboutus />
       <Expertist />
       <Whatmakeus/>

@@ -71,24 +71,31 @@ function ServiceWork() {
                     </div>
                   </div>
 
-                  <div className="text-secondary border-4 border-start border-success ps-3 pera " 
+                  <div className="text-secondary  pera " 
                    data-aos="fade-up"
                    data-aos-duration="1500"
                    data-aos-once="true"
                   >
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Commodi voluptas, quisquam obcaecati aliquam velit quos
-                    aliquid dignissimos aut sed? Itaque. Lorem ipsum dolor sit
-                    amet consectetur adipisicing elit.
+                   We work for you, providing solar power that works for you
+
+                  </div>
+                  <div className="text-secondary  my-3 border-4 border-start border-success ps-3 pera " 
+                   data-aos="fade-up"
+                   data-aos-duration="1500"
+                   data-aos-once="true"
+                  >
+                  We provide solar power solutions tailored to your needs, offering cost savings, energy independence, sustainability, and reliable performance, ensuring long-term benefits for homes and businesses.
+
+
                   </div>
                   <ul className="py-2 small_sizef" 
                    data-aos="fade-up"
                    data-aos-duration="1500"
                    data-aos-once="true"                  >
-                    <li className="pera py-1"> Adipisicing eli sed eiusmod</li>
-                    <li className="pera py-1"> Tempor incididunt</li>
-                    <li className="pera py-1"> Tempor incididunt</li>
-                    <li className="pera py-1"> Tempor incididunt</li>
+                    <li className="pera py-1 text-capitalize fw-medium"> cost savings</li>
+                    <li className="pera py-1 text-capitalize fw-medium"> energy independence</li>
+                    <li className="pera py-1 text-capitalize fw-medium"> sustainability</li>
+                    <li className="pera py-1 text-capitalize fw-medium">  reliable performance</li>
                   </ul>
                   <div
                     className="mt-2"

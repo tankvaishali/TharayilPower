@@ -70,7 +70,7 @@ function Benefits() {
                         />
                       </div>
                       <div className="fs-3 text-center fw-bold text-white pt-3">
-                        <CountUp end={25} enableScrollSpy={true}/>+ Years Experience in solar energy
+                        0<CountUp end={6} enableScrollSpy={true}/>+ Years Experience in solar energy
                       </div>
                     </div>
                   </div>
@@ -112,7 +112,7 @@ function Benefits() {
                                   />
                                   <div className="play-icon-overlay d-flex justify-content-center align-items-center">
                                     <Link
-                                      to={"https://www.youtube.com/watch?v=ciOQC_CtcOU&t=3s"}
+                                      to={"https://www.youtube.com/watch?v=mOHHK8cQdAE&t=12s"}
                                       target="_blank"
                                       rel="noopener noreferrer"
                                       className="play-icon-wrapper d-flex justify-content-center align-items-center"
@@ -153,14 +153,11 @@ function Benefits() {
                 </div>
                 <div className="pt-0">
                   <div className="pb-2 pera">
-                    Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                    Totam, architecto cupiditate doloremque reiciendis dolorum
-                    vitae exercitationem minima dolorem maiores officiis.
+                  Join the movement towards a sustainable future with Tharayil Power and be part of the next renewable energy revolution. 
                   </div>
                   <div className="pb-2 pt-1 pera">
-                    Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                    Totam, architecto cupiditate doloremque reiciendis dolorum
-                    vitae exercitationem minima dolorem maiores officiis.
+                  By adopting solar energy, you're not just investing in lower electricity costs; you're taking an active role in transforming the energy landscape.
+
                   </div>
                 </div>
                 <div className="pt-1">

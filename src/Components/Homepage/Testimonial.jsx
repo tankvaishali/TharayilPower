@@ -87,7 +87,7 @@ function Testimonial() {
 
   return (
     <>
-      <div className="py-3 py-lg-5 mb-0 mb-lg-5 overflow-hidden"  style={{ marginTop: "200px" }}>
+      <div className="py-3 py-lg-5 mb-0 my-lg-5 overflow-hidden"  >
         <div className="container mt-5">
           <div className="row">
             <div

@@ -58,7 +58,7 @@ function Faq() {
                         aria-expanded="false"
                         aria-controls="flush-collapseOne"
                       >
-                   <span className='fs-4 pe-3'><GiSolarPower /></span>    How much can i save on my electricity bills with a solar installation?
+                   <span className='fs-4 pe-3'><GiSolarPower /></span>    How much can I save on my electricity bills with a solar installation?
                       </button>
                     </h2>
                     <div
