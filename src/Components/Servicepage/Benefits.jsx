@@ -1,6 +1,8 @@
 import React, { useEffect, useRef } from "react";
 import CountUp from "react-countup";
-import videoSourceMP4 from "../../Assets/Images/solar.mp4";
+// import videoSourceMP4 from "../../Assets/Images/solar.mp4";/
+import { Link } from "react-router-dom";
+import { CiPlay1 } from "react-icons/ci";
 
 function Benefits() {
   const progressBars = [
@@ -102,17 +104,24 @@ function Benefits() {
                         style={{ objectFit: "cover" }}
                       />
                     </div> */}
-                    <div className="h-100 w-100 allimg">
-                      <div className="desc1"></div>
-                      <video
-                        autoPlay
-                        loop
-                        muted
-                        className="h-100 w-100 object-fit-cover"
-                      >
-                        <source src={videoSourceMP4} type="video/mp4" />
-                      </video>
-                    </div>
+                    <div className="h-100 position-relative "  style={{boxShadow:"inset 0px 0px 1500px 1000pz black"}} >
+                                  <img
+                                    src={require("../../Assets/Images/profitable.jpg")}
+                                    className="img-fluid object-fit-cover h-100 w-100"
+                                    alt=""
+                                  />
+                                  <div className="play-icon-overlay d-flex justify-content-center align-items-center">
+                                    <Link
+                                      to={"https://www.youtube.com/watch?v=ciOQC_CtcOU&t=3s"}
+                                      target="_blank"
+                                      rel="noopener noreferrer"
+                                      className="play-icon-wrapper d-flex justify-content-center align-items-center"
+                                    
+                                    >
+                                      <CiPlay1 className="play_icon text-white fs-3" />
+                                    </Link>
+                                  </div>
+                                </div>
                   </div>
                 </div>
               </div>
