@@ -1,28 +1,68 @@
 import React from 'react'
-import { FaCheckCircle } from 'react-icons/fa'
 import HOC from '../HOC';
-import { Link } from 'react-router-dom';
 
 const images = [
-    "https://demo.rstheme.com/wordpress/solaren/wp-content/uploads/2024/06/portfolio_06.jpg",
-    "https://demo.rstheme.com/wordpress/solaren/wp-content/uploads/2024/06/portfolio_03.jpg",
-    "https://demo.rstheme.com/wordpress/solaren/wp-content/uploads/2024/06/portfolio_07.jpg"
+  require("../../Assets/Images/government solar (1).jpg"),
+  require("../../Assets/Images/government solar (3).jpg"),
+  require("../../Assets/Images/government solar (4).jpg"),
 ];
 
 function Covernmentandlinstitutional() {
-    return (
-      <>
-        <div className="my-5">
-          <div className="container pb-5">
-            <div className="text-center ">
+  return (
+    <>
+      <div className="my-5">
+        <div className="container pb-5">
+          <div className="text-center ">
+            <div
+              className="font_stroke"
+              data-aos="fade-up"
+              data-aos-duration="1500"
+
+              data-aos-once="true"
+            >
+              solar Solution
+            </div>
+            <div
+              className="ftittle "
+              data-aos="fade-down"
+              data-aos-duration="1500"
+              data-aos-once="true"
+            >
+              Government and Institutional Solutions
+
+
+            </div>
+          </div>
+
+          {/* {/ Solar Panel Installation /} */}
+          <div>
+            <div className="row justify-content-center mt-4">
+              {images.map((image, index) => (
+                <div className="col-12 col-md-6 col-lg-4" key={index}>
+                  <div className="solarinfoimg mb-4">
+                    <div className="descr"></div>
+                    <img
+                      src={image}
+                      className="w-100 h-100 object-fit-cover"
+                      alt=""
+                    />
+                  </div>
+                </div>
+              ))}
+            </div>
+
+          </div>
+
+          {/* {/ Battery storage solutions /} */}
+          <div>
+            <div className="pt-3 pt-lg-5">
               <div
                 className="font_stroke"
                 data-aos="fade-up"
                 data-aos-duration="1500"
-               
-                  data-aos-once="true"
+                data-aos-once="true"
               >
-                solar Solution
+                buildings and institutions
               </div>
               <div
                 className="ftittle "
@@ -30,86 +70,44 @@ function Covernmentandlinstitutional() {
                 data-aos-duration="1500"
                 data-aos-once="true"
               >
-               Government and Institutional Solutions
-
-                
+                Solar solutions for government buildings and institutions
               </div>
             </div>
 
-            {/* {/ Solar Panel Installation /} */}
-            <div>
-              <div className="row justify-content-center mt-4">
-                {images.map((image, index) => (
-                  <div className="col-12 col-md-6 col-lg-4" key={index}>
-                    <div className="solarinfoimg mb-4">
-                      <div className="descr"></div>
-                      <img
-                        src={image}
-                        className="w-100 h-100 object-fit-cover"
-                        alt=""
-                      />
-                    </div>
-                  </div>
-                ))}
-              </div>
-      
-            </div>
-
-            {/* {/ Battery storage solutions /} */}
-            <div>
-              <div className="pt-3 pt-lg-5">
-                <div
-                  className="font_stroke"
-                  data-aos="fade-up"
-                  data-aos-duration="1500"
-                  data-aos-once="true"
-                >
-                 buildings and institutions
-                </div>
-                <div
-                  className="ftittle "
-                  data-aos="fade-down"
-                  data-aos-duration="1500"
-                  data-aos-once="true"
-                >
-                 Solar solutions for government buildings and institutions
-                </div>
-              </div>
-
-              <div className="row d-flex align-items-center my-2">
-                <div className="col-12 col-lg-7 ">
-                  <div className="pera" style={{ textAlign: "justify" }}>
+            <div className="row d-flex align-items-center my-2">
+              <div className="col-12 col-lg-7 ">
+                <div className="pera" style={{ textAlign: "justify" }}>
                   At Tharayil Power, we understand the growing importance of sustainability in public and institutional spaces. We specialize in providing solar energy solutions for government buildings, educational institutions, and non-profit organizations that align with their sustainability goals.
 
-                  </div>
-                  <div className="py-3 pera" style={{ textAlign: "justify" }}>
+                </div>
+                <div className="py-3 pera" style={{ textAlign: "justify" }}>
                   Our solar systems help reduce energy consumption, lower operational costs, and minimize the environmental footprint of government and institutional facilities. We provide comprehensive solar installations for campuses, administrative buildings, schools, and other institutional spaces. These solutions not only provide energy cost savings but also serve as practical, green energy models for communities and students to learn from and adopt in their own lives.
 
-                  </div>
-                  <div className="py-3 pera" style={{ textAlign: "justify" }}>
+                </div>
+                <div className="py-3 pera" style={{ textAlign: "justify" }}>
                   By implementing solar power solutions, government bodies and institutions can reduce their carbon footprint, and achieve greater energy self-sufficiency, all while making a significant contribution to national and global sustainability targets.
 
-                  </div>
-                
                 </div>
-                <div className="col-12 col-lg-5 ">
-                  <div className="solarinfoimg">
-                    <div className="descr"></div>
-                    <img
-                      src={
-                        "https://img.freepik.com/free-photo/medium-shot-engineers-chatting-about-wind-power-plant_23-2149352230.jpg?ga=GA1.1.949763891.1720709653&semt=ais_hybrid"
-                      }
-                      className="w-100 h-100 object-fit-cover"
-                      alt=""
-                    />
-                  </div>
+
+              </div>
+              <div className="col-12 col-lg-5 ">
+                <div className="solarinfoimg">
+                  <div className="descr"></div>
+                  <img
+                    src={
+                      require("../../Assets/Images/government solar (2).jpg")
+                    }
+                    className="w-100 h-100 object-fit-cover"
+                    alt=""
+                  />
                 </div>
               </div>
             </div>
+          </div>
 
-            {/* {/  Energy efficiency audits /} */}
-       
-            {/* <div className="my-2 my-lg-4 mx-auto text-center" data-aos="zoom-in" data-aos-duration="1800" data-aos-once="true">
+          {/* {/  Energy efficiency audits /} */}
+
+          {/* <div className="my-2 my-lg-4 mx-auto text-center" data-aos="zoom-in" data-aos-duration="1800" data-aos-once="true">
               <Link to={"/service"} className="text-decoration-none">
                 <button className="button-48 mt-3" role="button">
                   <span className="btn_text fw-bold">
@@ -119,10 +117,10 @@ function Covernmentandlinstitutional() {
                 </button>
               </Link>
             </div> */}
-          </div>
         </div>
-      </>
-    );
+      </div>
+    </>
+  );
 }
 
 export default HOC(Covernmentandlinstitutional);
