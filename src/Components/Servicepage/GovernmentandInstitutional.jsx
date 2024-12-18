@@ -2,7 +2,7 @@ import React from 'react'
 import HOC from '../HOC';
 
 const images = [
-  require("../../Assets/Images/government solar (1).jpg"),
+  require("../../Assets/Images/IMG-20231018-WA0037.jpg"),
   require("../../Assets/Images/government solar (3).jpg"),
   require("../../Assets/Images/government solar (4).jpg"),
 ];
