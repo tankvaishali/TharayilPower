@@ -64,7 +64,7 @@ function Designconsultancy() {
                   data-aos-duration="1500"
                   data-aos-once="true"
                 >
-                  Optimized Solar Projects
+                  Expert design
                 </div>
                 <div
                   className="ftittle "
@@ -72,7 +72,7 @@ function Designconsultancy() {
                   data-aos-duration="1500"
                   data-aos-once="true"
                 >
-                 Expert design consultancy for optimized solar projects
+               Expert design consultancy for optimized solar projects 
                 </div>
               </div>
 
@@ -81,9 +81,11 @@ function Designconsultancy() {
                   <div className="pera" style={{ textAlign: "justify" }}>
                   At Tharayil Power, we provide design consultancy services that ensure your solar project is both efficient and effective. Our team of engineers and energy specialists conducts feasibility studies, detailed analysis, and tailored recommendations to guide the optimal design of your solar energy system.
 
+
                   </div>
                   <div className="py-3 pera" style={{ textAlign: "justify" }}>
                   Through our engineering expertise, we create precise engineering drawings and system blueprints that ensure each solar installation achieves maximum energy efficiency, performance, and longevity. Whether you're installing solar panels for your home, business, or government building, our consultants ensure that every component of the project is designed for optimal energy output.
+
 
                   </div>
                   <div className="pera">
@@ -92,15 +94,14 @@ function Designconsultancy() {
                         className="fs-6"
                         style={{ color: "#4aab3d" }}
                       />{" "}
-                Our design consultancy services extend to evaluating structural conditions, shade analysis, site preparation, and energy usage forecasting to determine the best positioning of panels and battery systems for your project.
+         Our design consultancy services extend to evaluating structural conditions, shade analysis, site preparation, and energy usage forecasting to determine the best positioning of panels and battery systems for your project. 
                     </div>
                     <div className="py-3">
                       <FaCheckCircle
                         className="fs-6"
                         style={{ color: "#4aab3d" }}
                       />{" "}
-                  From initial planning to final installation, we are committed to ensuring that your project is delivered smoothly and maximizes the return on investment.
-
+               From initial planning to final installation, we are committed to ensuring that your project is delivered smoothly and maximizes the return on investment.
 
                     </div>
                  

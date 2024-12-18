@@ -78,7 +78,7 @@ function ResidentialSolar() {
               <div className="row d-flex align-items-center">
                 <div className="col-12 col-lg-7 mb-4 ">
                   <div className="pera" style={{ textAlign: "justify" }}>
-                  Power your home with solar energy – At Tharayil Power, we offer custom residential solar panel installations designed to meet the unique energy needs of homeowners. Solar energy helps you save on electricity bills and allows you to take control of your energy consumption.We understand that every home is different, which is why we provide tailored solar solutions that are care
+                   At Tharayil Power, we offer custom residential solar panel installations designed to meet the unique energy needs of homeowners. Solar energy helps you save on electricity bills and allows you to take control of your energy consumption.We understand that every home is different, which is why we provide tailored solar solutions that are care
 
 
                   </div>

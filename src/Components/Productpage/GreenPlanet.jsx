@@ -98,7 +98,7 @@ function GreenPlanet() {
                     </div>
                     <div>
                       <Link
-                        to={"telto:+(91)1234567890"}
+                        to={"telto:+(91)8129151266"}
                         className="mt-3 mt-lg-0 text-decoration-none d-flex align-content-center align-items-center ps-0 ps-lg-3"
                       >
                         <div>
@@ -115,7 +115,8 @@ function GreenPlanet() {
                             Call For Help
                           </div>
                           <div className="fw-bold fs-4 text-success">
-                            +(91) 9074353623
+                            +(91)  8129151266
+
                           </div>
                         </div>
                       </Link>

@@ -153,13 +153,14 @@ function Footer() {
                   <FaMapLocationDot />
                 </div>
                 <div className="lightgray ps-3 pera">
-                  <Link
-                    to={"https://www.google.com/maps?q=21.19087440,72.74226350"}
-                    className="text-decoration-none lightgray link_hover py-1"
-                    target="_blank"
-                  >
-                    Tharayil House, Kalath Ward, Avalukkunnu.P.O, Alappuzha
-                  </Link>
+                      <Link
+                                     to={"https://www.google.com/maps/place/Tharayil+Power+%26+Energy+Solutions+(P)+Ltd/@9.5126451,76.3380907,17z/data=!3m1!4b1!4m6!3m5!1s0x3b088571b9c23145:0x6e2e6b8c22fe8ba4!8m2!3d9.5126451!4d76.3380907!16s%2Fg%2F11f6xzf99_?entry=ttu&g_ep=EgoyMDI0MTIxMS4wIKXMDSoASAFQAw%3D%3D"}
+                                     className="text-decoration-none lightgray link_hover py-1"
+                                     target="_blank"
+                           
+                                   >
+                                     Tharayil House, Kalath Ward, Avalukkunnu.P.O, Alappuzha
+                                   </Link>
                 </div>
               </div>
 
