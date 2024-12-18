@@ -517,6 +517,7 @@ right: 10px;
 bottom: 15%;
 z-index: 9999999;
 transition: all 0.3s ease-in-out;
+cursor: pointer;
 }
 @media screen and (max-width: 450px) {
   .whatsappicon {
