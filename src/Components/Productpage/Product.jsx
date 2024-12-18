@@ -6,10 +6,8 @@ import "../../Assets/Css/Productcss.css";
 import WorkProcess from './WorkProcess';
 import GreenPlanet from './GreenPlanet';
 import ClientLogo from '../ClientLogo';
-import { Link } from 'react-router-dom';
-import { MdKeyboardDoubleArrowRight } from 'react-icons/md';
-import Calculator from '../Calculator';
 import CalculatorMail from '../CalculatorMail';
+import CaseStudy from './CaseStudy';
 
 function Product() {
   return (
@@ -26,7 +24,7 @@ function Product() {
       </div>
       </div>
       <WorkProcess />
-      
+      <CaseStudy/>
       {/* <ProductPage /> */}
       <GreenPlanet />
       {/* <Calculator/> */}
