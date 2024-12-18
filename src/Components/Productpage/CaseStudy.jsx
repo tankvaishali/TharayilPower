@@ -12,7 +12,7 @@ function CaseStudy() {
             image: "https://ae-solar.com/_next/image?url=%2Fimages%2FheroSectionBackground.webp&w=3840&q=100",
             description: "Qui laudantium consequatur laborum sit qui ad sapiente dila parde sonata raqer a videna mareta paulona marka",
             details: "Et nobis maiores eius. Voluptatibus ut enim blanditiis atque harum sint...",
-            casestudyname: 'Case Study 1',
+            casestudyname: 'Residential Case Study ',
             Client: 'Mr. Ravi M., Homeowner',
             locate: "Ernakulam, Kerala",
             casestudytitle: 'Residential Solar System in Ernakulam',
@@ -35,7 +35,7 @@ function CaseStudy() {
                 "Qui laudantium consequatur laborum sit qui ad sapiente dila parde sonata raqer a videna mareta paulona marka",
             details:
                 "Ea ipsum voluptatem consequatur quis est. Illum error ullam omnis quia et reiciendis sunt sunt est. Non aliquid repellendus itaque accusamus eius et velit ipsa voluptates. Optio nesciunt eaque beatae accusamus lerode pakto madirna desera vafle de nideran pal",
-            casestudyname: 'Case Study 2',
+            casestudyname: 'Commercial Case Study ',
             Client: 'Megha Textiles',
             locate: "Kochi, Kerala",
             casestudytitle: 'Commercial Rooftop Installation for Small Businesses',
@@ -57,7 +57,7 @@ function CaseStudy() {
                 "Eos voluptatibus quo. Odio similique illum id quidem non enim fuga. Qui natus non sunt dicta dolor et. In asperiores velit quaerat perferendis aut",
             details:
                 "Iure officiis odit rerum. Harum sequi eum illum corrupti culpa veritatis quisquam. Neque necessitatibus illo rerum eum ut. Commodi ipsam minima molestiae sed laboriosam a iste odio. Earum odit nesciunt fugiat sit ullam. Soluta et harum voluptatem optio quae",
-            casestudyname: 'Case Study 3',
+            casestudyname: 'Institutional Case Study ',
             Client: 'Green Valley School',
             locate: "Ernakulam, Kerala",
             casestudytitle: 'Institutional Solar Project in Kerala',
@@ -74,7 +74,7 @@ function CaseStudy() {
 
     return (
         <>
-            <div className='bg-opacity-10' style={{ background: "url(https://files.oaiusercontent.com/file-D2ofEk7mLETGwLkhwBhPBR?se=2024-12-18T10%3A11%3A03Z&sp=r&sv=2024-08-04&sr=b&rscc=max-age%3D604800%2C%20immutable%2C%20private&rscd=attachment%3B%20filename%3D32f65a99-2973-4425-ae43-5aaa01d92246.webp&sig=z/72K/8MQ7rEzb9eEm%2B2HAqK7o2x2WEvJEnU4nJEBzE%3D", backgroundSize: 'contain', backgroundPosition: 'center center' }}>
+            <div className=' casestudyimg' >
                 <section
                     id="departments"
                     className="tabs section overflow-hidden">
@@ -87,7 +87,7 @@ function CaseStudy() {
                                     <div className="row justify-content-center">
                                         {departments.map((department) => (
                                             <>
-                                                <div className="mx-2 mt-2 col-sm-3 px-sm-0 px-5" key={department.id}>
+                                                <div className="mx-2 mt-2 col-sm-3 px-sm-0 px-5" key={department.id} >
                                                     <a
                                                         className={`nav-link bg_tab text-center text-uppercase ${activeTab === department.id ? "active show" : ""
                                                             }`}
@@ -105,40 +105,6 @@ function CaseStudy() {
                                 .filter((department) => department.id === activeTab)
                                 .map((department) => (
 
-                                    // <div className="tab-pane active show" id={department.id} key={department.id}>
-
-                                    //     <div className="">
-                                    //         <div className="">
-                                    //             <h3>{department.casestudyname}</h3>
-                                    //             <h4>{department.casestudytitle}</h4>
-                                    //         </div>
-                                    //         <h5>Client</h5>
-                                    //         <p>{department.Client}</p>
-                                    //         <h5>Location</h5>
-                                    //         <p>{department.locate}</p>
-                                    //         <h5>Challenge</h5>
-                                    //         <p>{department.challenge}</p>
-                                    //         <h5>Solution</h5>
-                                    //         <p>{department.solution}</p>
-                                    //         <h5>Results</h5>
-                                    //         <ul>
-                                    //             {department.results.map((result, index) => (
-                                    //                 <li key={index}>{result}</li>
-                                    //             ))}
-                                    //         </ul>
-                                    //         <h5>Key Takeaway</h5>
-                                    //         <p>{department.takeaway}</p>
-
-                                    //     </div>
-                                    //     <div className="">
-                                    //         <img
-                                    //             src={department.image}
-                                    //             alt={department.title}
-                                    //             className="img-fluid h-100 object-fit-contain w-100"
-                                    //         />
-                                    //     </div>
-
-                                    // </div>
                                     <div className="tab-pane active show p-4" id={department.id} key={department.id}>
                                         <div className="py-3 ">
                                             <div className="font_stroke" data-aos="fade-up" data-aos-duration="1500" data-aos-once="true">
@@ -148,27 +114,27 @@ function CaseStudy() {
                                                 {department.casestudytitle}
                                             </div>
                                         </div>
-                                        <div className='row px-5 py-4 my-3'>
-                                            <div className="mb-3 col-sm-3 border-4 border-start border-success ps-4">
+                                        <div className='row p-3 my-3'>
+                                            <div className="mb-3 col-sm-3 border-4 border-start border-success" data-aos="zoom-in" data-aos-duration="1500" data-aos-once="true">
                                                 <h5 className="fw-bold text-dark mb-1"><BsPerson /> Client:</h5>
                                                 <p className="text-muted">{department.Client}</p>
                                             </div>
 
-                                            <div className="mb-3 col-sm-4 border-4 border-start border-success ps-4">
+                                            <div className="mb-3 col-sm-4 border-4 border-start border-success ps-4" data-aos="zoom-in" data-aos-duration="1500" data-aos-once="true">
                                                 <h5 className="fw-bold text-dark mb-1"><CiLocationOn /> Location:</h5>
                                                 <p className="text-muted">{department.locate}</p>
                                             </div>
                                         </div>
 
-                                        <div className="mb-3 border-4 border-start border-end text-center border-success shadow_green p-4 my-4" data-aos='fade-right' data-aos-duration="1800" data-aos-once="true">                                            <h5 className="fw-bold text-dark mb-1">Challenge:</h5>
+                                        <div className="mb-3 border-4 border-start border-end text-center border-success shadow_green p-4 my-4 bg-light" data-aos='fade-right' data-aos-duration="1800" data-aos-once="true">                                            <h5 className="fw-bold text-dark mb-1">Challenge:</h5>
                                             <p className="text-muted">{department.challenge}</p>
                                         </div>
 
-                                        <div className="mb-3 border-4 border-start border-end text-center border-success shadow_green p-4 my-4" data-aos='fade-left' data-aos-duration="1800" data-aos-once="true">                                            <h5 className="fw-bold text-dark mb-1">Solution:</h5>
+                                        <div className="mb-3 border-4 border-start border-end text-center border-success shadow_green p-4 my-4 bg-light" data-aos='fade-left' data-aos-duration="1800" data-aos-once="true">                                            <h5 className="fw-bold text-dark mb-1">Solution:</h5>
                                             <p className="text-muted">{department.solution}</p>
                                         </div>
 
-                                        <div className="mb-3 border-4 border-start border-end text-center border-success shadow_green p-4 my-4" data-aos='fade-right' data-aos-duration="1800" data-aos-once="true">                                            <h5 className="fw-bold text-dark mb-1">Results:</h5>
+                                        <div className="mb-3 border-4 border-start border-end text-center border-success shadow_green p-4 my-4 bg-light" data-aos='fade-right' data-aos-duration="1800" data-aos-once="true">                                            <h5 className="fw-bold text-dark mb-1">Results:</h5>
                                             <ul className="list-unstyled text-muted">
                                                 {department.results.map((result, index) => (
                                                     <li key={index} style={{ marginBottom: "5px" }}>
@@ -178,7 +144,7 @@ function CaseStudy() {
                                             </ul>
                                         </div>
 
-                                        <div className="mb-3  border-4 border-start border-end text-center border-success shadow_green p-4 my-4" data-aos='fade-left' data-aos-duration="1800" data-aos-once="true">                                            <h5 className="fw-bold text-dark mb-1">Key Takeaway:</h5>
+                                        <div className="mb-3  border-4 border-start border-end text-center border-success shadow_green p-4 my-4 bg-light" data-aos='fade-left' data-aos-duration="1800" data-aos-once="true">                                            <h5 className="fw-bold text-dark mb-1">Key Takeaway:</h5>
                                             <p className="text-muted">{department.takeaway}</p>
                                         </div>
                                     </div>
