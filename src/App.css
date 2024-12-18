@@ -579,7 +579,7 @@ font-size: 22px ;
   padding-top: 10px;
 }
 @media only screen and (max-width: 576px) {
- .landingimage_product ,.landingimage_service ,.landingimage_career ,.landingimage_profile{
+ .landingimage_product ,.landingimage_service ,.landingimage_career ,.landingimage_profile ,.landingimage_contact{
     height: 60vh;
 }
 .textsizehead{

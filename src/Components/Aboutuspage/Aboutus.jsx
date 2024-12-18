@@ -100,7 +100,7 @@ function Aboutus() {
                             <div className="text-secondary  fw-medium">
                               Call For Help
                             </div>
-                            <div className="fw-bold fs-4 text-success">+(91) 81291 51266</div>
+                            <div className="fw-bold fs-4 text-success">+(91)81291 51266</div>
                           </div>
                         </Link>
                       </div>
