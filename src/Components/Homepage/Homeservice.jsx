@@ -27,7 +27,7 @@ function Homeservice() {
         name: "Government And Institutional Solutions",
         pera: "We provide solar solutions for government buildings, educational institutions, and non-profits, helping them achieve sustainability goals.",
         aos: "fade-down",
-        to: "/Governmentalsolar",
+        to: "/governmentalsolar",
       },
       {
         img: require("../../Assets/Images/residential.jpg"),
@@ -35,7 +35,7 @@ function Homeservice() {
         name: "Design Consultancy",
         pera: "Our experts conduct feasibility studies and create engineering drawings to ensure your solar project is optimized for performance.",
         aos: "fade-left",
-        to: "/Governmentalsolar",
+        to: "/designconsultancy",
       },
     ];
   return (

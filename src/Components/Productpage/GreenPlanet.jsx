@@ -96,30 +96,25 @@ function GreenPlanet() {
                         </button>
                       </Link>
                     </div>
-                    <div>
-                      <Link
-                        to={"telto:+(91)1234567890"}
-                        className="mt-3 mt-lg-0 text-decoration-none d-flex align-content-center align-items-center ps-0 ps-lg-3"
-                      >
-                        <div>
-                          <Player
-                            autoplay
-                            loop
-                            src="https://lottie.host/8d511f5d-1d72-4d09-9496-ad537f6a3e34/Urcfl9rkq8.json"
-                            style={{ width: "80px", height: "80px" }}
-                            className=" d-flex align-content-center align-items-center "
-                          ></Player>
-                        </div>
-                        <div>
-                          <div className="text-secondary  fw-medium">
-                            Call For Help
-                          </div>
-                          <div className="fw-bold fs-4 text-success">
-                            +(91) 9074353623
-                          </div>
-                        </div>
-                      </Link>
-                    </div>
+                   <div >
+                                      <Link to={"tel:8129151266"} className="mt-3 mt-lg-0 text-decoration-none d-flex align-content-center align-items-center">
+                                        <div>
+                                          <Player
+                                            autoplay
+                                            loop
+                                            src="https://lottie.host/8d511f5d-1d72-4d09-9496-ad537f6a3e34/Urcfl9rkq8.json"
+                                            style={{ width: "80px", height: "80px" }}
+                                            className=" d-flex align-content-center align-items-center px-2"
+                                          ></Player>
+                                        </div>
+                                        <div>
+                                          <div className="text-secondary  fw-medium">
+                                            Call For Help
+                                          </div>
+                                          <div className="fw-bold fs-4 text-success">+(91)81291 51266</div>
+                                        </div>
+                                      </Link>
+                                    </div>
                   </div>
                 </div>
               </div>

@@ -86,18 +86,19 @@ function SolarVideo() {
             </div>
             <div class="div3">
               <div className="div3box py-5 px-5 px-md-3 px-lg-3">
+              <div className="grid-item">
+                  <h4 className="fw-bold">
+                    0<CountUp end={6} enableScrollSpy={true} />+
+                  </h4>
+                  <div className="pera">Years in Business</div>
+                </div>
                 <div className="grid-item">
                   <h4 className="fw-bold">
                     <CountUp end={10} enableScrollSpy={true} />+
                   </h4>
                   <div className="pera">State in india</div>
                 </div>
-                <div className="grid-item">
-                  <h4 className="fw-bold">
-                    <CountUp end={25} enableScrollSpy={true} />+
-                  </h4>
-                  <div className="pera">Years in Business</div>
-                </div>
+             
                 <div className="grid-item">
                   <h4 className="fw-bold">
                     <CountUp end={200} enableScrollSpy={true} />+

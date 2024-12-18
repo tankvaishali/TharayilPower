@@ -26,7 +26,8 @@ function Product() {
       </div>
       </div>
       <WorkProcess />
-      <ProductPage />
+      
+      {/* <ProductPage /> */}
       <GreenPlanet />
       {/* <Calculator/> */}
       <CalculatorMail/>

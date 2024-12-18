@@ -17,6 +17,7 @@ import Blog01 from './Components/Homepage/Blog01';
 import Blog02 from './Components/Homepage/Blog02';
 import Blog03 from './Components/Homepage/Blog03';
 import Blog04 from './Components/Homepage/Blog04';
+import Designconsultancy from './Components/Servicepage/Designconsultancy';
 
 
 function App() {
@@ -33,7 +34,8 @@ function App() {
           <Route path='/service' element={<ServicePage />} />
           <Route path='/residentialsolar' element={<ResidentialSolar />} />
           <Route path='/commercialsolar' element={<CommercialSolar />} />
-          <Route path='/Governmentalsolar' element={<GovernmentandInstitutional />} />
+          <Route path='/governmentalsolar' element={<GovernmentandInstitutional />} />
+          <Route path='/designconsultancy' element={<Designconsultancy />} />
           <Route path='/career' element={<CareerPage />} />
           <Route path='/profile' element={<ProfilePage />} />
           <Route path='/contactus' element={<ContactusPage />} />
