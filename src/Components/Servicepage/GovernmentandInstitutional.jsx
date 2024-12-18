@@ -39,7 +39,7 @@ function Covernmentandlinstitutional() {
             <div className="row justify-content-center mt-4">
               {images.map((image, index) => (
                 <div className="col-12 col-md-6 col-lg-4" key={index}>
-                  <div className="solarinfoimg mb-4">
+                  <div className="solarinfoimg mb-4 h-100">
                     <div className="descr"></div>
                     <img
                       src={image}
