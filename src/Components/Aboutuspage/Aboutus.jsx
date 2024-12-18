@@ -86,7 +86,7 @@ function Aboutus() {
                         </Link>
                       </div>
                       <div >
-                        <Link to={"tel:+(91)8129151266"} className="mt-3 mt-lg-0 text-decoration-none d-flex align-content-center align-items-center">
+                        <Link to={"tel:8129151266"} className="mt-3 mt-lg-0 text-decoration-none d-flex align-content-center align-items-center">
                           <div>
                             <Player
                               autoplay
