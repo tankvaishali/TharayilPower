@@ -5,20 +5,40 @@ import { Link } from 'react-router-dom';
 function OurTeam() {
 const Team = [
   {
-    img: "https://t4.ftcdn.net/jpg/03/64/21/11/360_F_364211147_1qgLVxv1Tcq0Ohz3FawUfrtONzz8nq3e.jpg",
-    name: "Mr.Satish",
+    img:require("../../Assets/Images/STAFF PHOTOS/Abhijith Sankar M.jpg") ,
+    name: "Abijith Sankar M",
     position: "GENERAL MANAGER",
+    aos: "zoom-in-right",
+    objectposition:"top center"
+  },
+  {
+    img:require("../../Assets/Images/STAFF PHOTOS/Anandu Prabhan.jpeg") ,
+    name: "Anandu Prabhan",
+    position: "PRODUCTION HEAD/COORDINATOR",
+    aos: "zoom-in-left",
+    objectposition:"top center"
+  },
+  {
+    img:require("../../Assets/Images/STAFF PHOTOS/Sreelekshmi S.jpg") ,
+    name: "Shreelexshmi S",
+    position: "QC HEAD (RM/FINISHED GOODS)",
     aos: "zoom-in-right",
   },
   {
-    img: "https://d2az3zd39o5d63.cloudfront.net/linkedin-profile-picture-squinch.jpg",
-    name: "Mrs. Vishali",
-    position: "PRODUCTION HEAD/COORDINATOR",
-    aos: "zoom-in-left",
+    img:require("../../Assets/Images/STAFF PHOTOS/Sharika Sankar.jpg") ,
+    name: "Sharika Sankar",
+    position: "QC HEAD (RM/FINISHED GOODS)",
+    aos: "zoom-in-right",
   },
   {
-    img: "https://www.shutterstock.com/image-photo/head-shot-portrait-close-smiling-600nw-1714666150.jpg",
-    name: "Mr.Dipak",
+    img:require("../../Assets/Images/STAFF PHOTOS/Remya Rajan.jpg") ,
+    name: "Vishnu",
+    position: "QC HEAD (RM/FINISHED GOODS)",
+    aos: "zoom-in-right",
+  },
+  {
+    img:require("../../Assets/Images/STAFF PHOTOS/Vidya Mol S.jpg") ,
+    name: "Jishnu P",
     position: "QC HEAD (RM/FINISHED GOODS)",
     aos: "zoom-in-right",
   },
@@ -65,7 +85,8 @@ const Team = [
                         src={item.img}
                         height={150}
                         width={150}
-                        className="rounded-circle object-fit-cover my-4 zoom-animation shadow"
+                        className="rounded-circle object-fit-cover my-4 zoom-animation shadow object-fit-contain "
+                        style={{objectPosition:" top center"}}
                         alt={item.name}
                       />
                     </div>

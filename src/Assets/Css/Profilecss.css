@@ -1,10 +1,31 @@
 /* profile message start */
+.ceoprofileimage{
+    margin-top: -80px;
+    object-position:left center !important;
+}
+.parulimage{
+    object-position: right center;
+   
+
+}
+
 .profile_bg{
     background-color: #3f74382a;
     border-radius: 50% 50% 49% 51% / 73% 74% 26% 27% ;
 }
 .image_rad{
     border-radius: 50% 50% 49% 51% / 73% 74% 26% 27% ;
+
+}
+@media (max-width: 661px) {
+    .ceoprofileimage {
+        margin-top: -60px;
+    
+    }
+    .parulimage{
+        margin-top: -30px !important;
+
+    }
 
 }
 /* profile message end */

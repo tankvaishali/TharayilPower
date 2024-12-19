@@ -5,9 +5,21 @@ import { Link } from "react-router-dom";
 function CeoMessage() {
   return (
     <>
-      <div className="container pt-3 pt-lg-5 overflow-hidden">
-        <div className="row p-0 m-0 g-4">
-          <div className="col-12 col-lg-6 order-1 order-lg-0" data-aos="fade-right" data-aos-duration="1800"  data-aos-once="true" data-aos-delay="400">
+      <div className="container overflow-hidden">
+        <div className="row pt-3 pt-lg-0 m-0 g-4 align-items-center">
+        <div className="col-12 col-lg-6  p-3 p-lg-5 pt-0" data-aos="zoom-in" data-aos-duration="1800"  data-aos-once="true" data-aos-delay="400">
+        <div className="h-100">
+              <div className="profile_bg h-100">
+                <img
+                  src={require("../../Assets/Images/STAFF PHOTOS/parul image.png")}
+                  alt=""
+                  className="img-fluid w-100 h-100 object-fit-contain image_rad ceoprofileimage p-4"
+                 
+                />
+              </div>
+            </div>
+          </div>
+          <div className="col-12 col-lg-6 " data-aos="fade-right" data-aos-duration="1800"  data-aos-once="true" data-aos-delay="400">
             <div className="h-100">
               <div
                 className="font_stroke"
@@ -51,33 +63,11 @@ function CeoMessage() {
               </div>
             </div>
           </div>
-          <div className="col-12 col-lg-6 order-0 order-lg-1 p-5 pt-0" data-aos="zoom-in" data-aos-duration="1800"  data-aos-once="true" data-aos-delay="400">
-            <div className="h-100">
-              <div className="profile_bg h-100">
-                <img
-                  src={require("../../Assets/Images/linkedin-profile-picture-squinch-removebg-preview.png")}
-                  alt=""
-                  className="img-fluid w-100 h-100 object-fit-contain image_rad"
-                  style={{ marginTop: "-50px" }}
-                />
-              </div>
-            </div>
-          </div>
+
         </div>
-        <div className="row p-0 m-0 g-4  mt-3">
-          <div className="col-12 col-lg-6 p-5 pt-0 pb-0 pb-lg-5" data-aos="fade-right" data-aos-duration="1800"  data-aos-once="true" data-aos-delay="400">
-            <div className="h-100">
-              <div className="profile_bg h-100">
-                <img
-                  src={require("../../Assets/Images/linkedin-profile-picture-squinch-removebg-preview.png")}
-                  alt=""
-                  className="img-fluid w-100 h-100 object-fit-contain image_rad"
-                  style={{ marginTop: "-50px" }}
-                />
-              </div>
-            </div>
-          </div>
-          <div className="col-12 col-lg-6 pt-0 pt-lg-3" data-aos="fade-left" data-aos-duration="1800"  data-aos-once="true" data-aos-delay="400">
+        <div className="row p-0 m-0 g-4  mt-3 align-items-center">
+       
+          <div className="col-12 col-lg-6 pt-0 pt-lg-3 order-1 order-lg-0" data-aos="fade-left" data-aos-duration="1800"  data-aos-once="true" data-aos-delay="400">
             <div className="h-100">
               <div
                 className="font_stroke"
@@ -111,6 +101,18 @@ function CeoMessage() {
                 >
                   <FaLinkedinIn />
                 </Link>
+              </div>
+            </div>
+          </div>
+          <div className="col-12 col-lg-6 p-5 pt-0 pb-0 pb-lg-5 order-0 order-lg-1" data-aos="fade-right" data-aos-duration="1800"  data-aos-once="true" data-aos-delay="400">
+            <div className="h-100">
+              <div className="profile_bg h-100">
+                <img
+                  src={require("../../Assets/Images/STAFF PHOTOS/CEO-removebg-preview.png")}
+                  alt=""
+                  className="img-fluid w-100 h-100 object-fit-contain image_rad ceoprofileimage p-4"
+                 
+                />
               </div>
             </div>
           </div>
