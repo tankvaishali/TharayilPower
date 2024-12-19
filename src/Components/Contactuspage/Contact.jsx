@@ -148,33 +148,7 @@ function Contact() {
                             </Link>
                         </div>
                     ))} */}
-            <div class="col-lg-4 col-sm-12">
-              <Link
-                to={"mailto:info@tharayilpower.com"}
-                className="text-decoration-none text-dark"
-                target="_blank"
-              >
-                <div
-                  class="contact-service-box text-center my-4 my-lg-5 hover-border-6"
-                  data-aos="zoom-in"
-                  data-aos-duration="1500"
-                  data-aos-delay="200"
-                  data-aos-once="true"
-                >
-                  <div class="contact-service-icon mb-4 text-white fs-3 d-inline-block lh-lg align-items-center justify-content-center align-content-center ">
-                    <FaMailBulk />
-                  </div>
-                  <div class="contact-inform-title pb-5">
-                    <h4 class="jr_tittle fs-4 fw-semibold text-capitalize">
-                      E-mail
-                    </h4>
-                    <div class="pera">info@tharayilpower.com</div>
-                  </div>
-                  <span class="hover-element"></span>
-                </div>
-              </Link>
-            </div>
-            <div class="col-lg-4 col-sm-12">
+                <div class="col-lg-4 col-sm-12">
               <Link
                 to={"https://www.google.com/maps?q=21.19087440,72.74226350"}
                 className="text-decoration-none text-dark"
@@ -247,6 +221,33 @@ function Contact() {
                 </div>
                 <span class="hover-element"></span>
               </div>
+            </div>
+      
+            <div class="col-lg-4 col-sm-12">
+              <Link
+                to={"mailto:info@tharayilpower.com"}
+                className="text-decoration-none text-dark"
+                target="_blank"
+              >
+                <div
+                  class="contact-service-box text-center my-4 my-lg-5 hover-border-6"
+                  data-aos="zoom-in"
+                  data-aos-duration="1500"
+                  data-aos-delay="200"
+                  data-aos-once="true"
+                >
+                  <div class="contact-service-icon mb-4 text-white fs-3 d-inline-block lh-lg align-items-center justify-content-center align-content-center ">
+                    <FaMailBulk />
+                  </div>
+                  <div class="contact-inform-title pb-5">
+                    <h4 class="jr_tittle fs-4 fw-semibold text-capitalize">
+                      E-mail
+                    </h4>
+                    <div class="pera">info@tharayilpower.com</div>
+                  </div>
+                  <span class="hover-element"></span>
+                </div>
+              </Link>
             </div>
           </div>
         </div>

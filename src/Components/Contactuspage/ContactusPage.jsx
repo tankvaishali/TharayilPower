@@ -51,7 +51,7 @@ function ContactusPage() {
       </div>
       <Contact />
       <div className="map mb-5">
-        <div className="">
+        <div className="container">
           <div
             class="w-100 overflow-hidden"
             data-aos="zoom-in"
