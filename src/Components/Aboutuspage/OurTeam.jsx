@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom';
 function OurTeam() {
 const Team = [
   {
-    img:require("../../Assets/Images/STAFF PHOTOS/Abhijith Sankar M.jpg") ,
+    img:require("../../Assets/Images/STAFF PHOTOS/Vishnu .jpg") ,
     name: "Abijith Sankar M",
     position: "GENERAL MANAGER",
     aos: "zoom-in-right",
@@ -83,11 +83,11 @@ const Team = [
                     <div className="col-lg-6 text-center ">
                       <img
                         src={item.img}
-                        height={150}
-                        width={150}
-                        className="rounded-circle object-fit-cover my-4 zoom-animation shadow object-fit-contain "
+                        height={160}
+                        width={160}
+                        className="rounded-3 object-fit-cover my-4 zoom-animation shadow img-fluid "
                         style={{objectPosition:" top center"}}
-                        alt={item.name}
+                      
                       />
                     </div>
                     <div className="col-lg-6">
