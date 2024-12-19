@@ -30,18 +30,18 @@ const Team = [
     position: "QC HEAD (RM/FINISHED GOODS)",
     aos: "zoom-in-right",
   },
-  {
-    img:require("../../Assets/Images/STAFF PHOTOS/Remya Rajan.jpg") ,
-    name: "Vishnu",
-    position: "QC HEAD (RM/FINISHED GOODS)",
-    aos: "zoom-in-right",
-  },
-  {
-    img:require("../../Assets/Images/STAFF PHOTOS/Vidya Mol S.jpg") ,
-    name: "Jishnu P",
-    position: "QC HEAD (RM/FINISHED GOODS)",
-    aos: "zoom-in-right",
-  },
+  // {
+  //   img:require("../../Assets/Images/STAFF PHOTOS/Remya Rajan.jpg") ,
+  //   name: "Vishnu",
+  //   position: "QC HEAD (RM/FINISHED GOODS)",
+  //   aos: "zoom-in-right",
+  // },
+  // {
+  //   img:require("../../Assets/Images/STAFF PHOTOS/Vidya Mol S.jpg") ,
+  //   name: "Jishnu P",
+  //   position: "QC HEAD (RM/FINISHED GOODS)",
+  //   aos: "zoom-in-right",
+  // },
 ];
   return (
     <>
