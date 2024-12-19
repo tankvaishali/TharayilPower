@@ -20,7 +20,7 @@ const Team = [
   },
   {
     img:require("../../Assets/Images/STAFF PHOTOS/Sreelekshmi S.jpg") ,
-    name: "Shreelexshmi S",
+    name: "Sreelekshmi S",
     position: "QC HEAD (RM/FINISHED GOODS)",
     aos: "zoom-in-right",
   },
