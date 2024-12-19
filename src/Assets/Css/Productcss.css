@@ -12,10 +12,12 @@
 
 .tabs {
   overflow: hidden;
+
 }
 
 .bg_tab {
   background-color: rgb(178, 204, 178);
+  cursor: pointer;
 }
 
 .tabs .nav-tabs {
