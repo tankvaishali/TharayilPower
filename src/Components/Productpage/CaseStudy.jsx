@@ -1,5 +1,7 @@
+import { CircleChevronRight } from 'lucide-react';
 import React, { useState } from 'react';
-import { BsPerson, BsPersonFill } from 'react-icons/bs';
+import { Card, Col, Container, Row, Tab, Tabs } from 'react-bootstrap';
+import { BsCheckCircle, BsFillCheckCircleFill, BsPerson, BsPersonFill } from 'react-icons/bs';
 import { CiLocationOn } from 'react-icons/ci';
 
 function CaseStudy() {
@@ -12,8 +14,8 @@ function CaseStudy() {
             image: "https://ae-solar.com/_next/image?url=%2Fimages%2FheroSectionBackground.webp&w=3840&q=100",
             description: "Qui laudantium consequatur laborum sit qui ad sapiente dila parde sonata raqer a videna mareta paulona marka",
             details: "Et nobis maiores eius. Voluptatibus ut enim blanditiis atque harum sint...",
-            casestudyname: 'Residential Case Study ',
-            Client: 'Mr. Ravi M., Homeowner',
+            casestudyname: 'Residential',
+            Client: 'Mr.Ravi M., owner',
             locate: "Ernakulam, Kerala",
             casestudytitle: 'Residential Solar System in Ernakulam',
             challenge: " Mr. Ravi's home in Ernakulam had consistently high electricity bills due to the heavy use of air conditioning and multiple high-power appliances. With rising electricity costs, he needed a solution to reduce his energy consumption and control expenses.",
@@ -35,7 +37,7 @@ function CaseStudy() {
                 "Qui laudantium consequatur laborum sit qui ad sapiente dila parde sonata raqer a videna mareta paulona marka",
             details:
                 "Ea ipsum voluptatem consequatur quis est. Illum error ullam omnis quia et reiciendis sunt sunt est. Non aliquid repellendus itaque accusamus eius et velit ipsa voluptates. Optio nesciunt eaque beatae accusamus lerode pakto madirna desera vafle de nideran pal",
-            casestudyname: 'Commercial Case Study ',
+            casestudyname: 'Commercial',
             Client: 'Megha Textiles',
             locate: "Kochi, Kerala",
             casestudytitle: 'Commercial Rooftop Installation for Small Businesses',
@@ -57,7 +59,7 @@ function CaseStudy() {
                 "Eos voluptatibus quo. Odio similique illum id quidem non enim fuga. Qui natus non sunt dicta dolor et. In asperiores velit quaerat perferendis aut",
             details:
                 "Iure officiis odit rerum. Harum sequi eum illum corrupti culpa veritatis quisquam. Neque necessitatibus illo rerum eum ut. Commodi ipsam minima molestiae sed laboriosam a iste odio. Earum odit nesciunt fugiat sit ullam. Soluta et harum voluptatem optio quae",
-            casestudyname: 'Institutional Case Study ',
+            casestudyname: 'Institutional',
             Client: 'Green Valley School',
             locate: "Ernakulam, Kerala",
             casestudytitle: 'Institutional Solar Project in Kerala',
@@ -74,7 +76,80 @@ function CaseStudy() {
 
     return (
         <>
-            <div className=' casestudyimg' >
+
+            <Container className="my-5">
+                <div className="text-center mb-4">
+                    <div className="font_stroke">
+                        CaseStudy Reports
+                    </div>
+                    <div className="ftittle">
+                        Insights and Success Stories in Solar Solutions
+                    </div>
+                </div>
+                <Tabs defaultActiveKey="tabs-tab-1" id="case-study-tabs" className="mb-3 justify-content-center tab1 tab2 border-bottom-0">
+                    {departments.map((dept) => (
+                        <Tab eventKey={dept.id} title={`${dept.casestudyname} Case Study`} key={dept.id}>
+                            <Row>
+                                <Col lg={6} className="p-3">
+                                    <div className="py-3 ">
+                                        <div className="font_stroke">
+                                            {dept.Client}
+                                        </div>
+                                        <div className="ftittle">
+                                            {dept.casestudytitle}
+                                        </div>
+                                    </div>
+                                    <p><strong>Client:</strong> {dept.Client}</p>
+                                    <p><strong>Location:</strong> {dept.locate}</p>
+                                    <Tabs
+                                        defaultActiveKey="challenge"
+                                        id="section-tabs"
+                                        className="mb-3  border-bottom-0 tab1"
+                                    >
+                                        <Tab eventKey="challenge" title="Challenge">
+                                            <Card className="shadow">
+                                                <Card.Body>{dept.challenge}</Card.Body>
+                                            </Card>
+                                        </Tab>
+                                        <Tab eventKey="solution" title="Solution">
+                                            <Card className="shadow">
+                                                <Card.Body>{dept.solution}</Card.Body>
+                                            </Card>
+                                        </Tab>
+                                        <Tab eventKey="results" title="Results">
+                                            <Card className="shadow">
+                                                <Card.Body>
+                                                    <ul className="list-unstyled">
+                                                        {dept.results.map((result, index) => (
+                                                            <li key={index} className="mb-2">
+                                                                <CircleChevronRight className='me-2' strokeWidth={1.75} />
+                                                                {result}
+                                                            </li>
+                                                        ))}
+                                                    </ul>
+                                                </Card.Body>
+                                            </Card>
+                                        </Tab>
+                                        <Tab eventKey="takeaway" title="Takeaway">
+                                            <Card className="shadow">
+                                                <Card.Body>{dept.takeaway}</Card.Body>
+                                            </Card>
+                                        </Tab>
+                                    </Tabs>
+                                </Col>
+                                <Col lg={6} className="p-3">
+                                    <img
+                                        src={dept.image}
+                                        alt={dept.title}
+                                        className="img-fluid h-100"
+                                    />
+                                </Col>
+                            </Row>
+                        </Tab>
+                    ))}
+                </Tabs>
+            </Container>
+            {/* <div className=' casestudyimg' >
                 <section
                     id="departments"
                     className="tabs section overflow-hidden">
@@ -153,7 +228,7 @@ function CaseStudy() {
                         </div>
                     </div>
                 </section>
-            </div>
+            </div> */}
         </>
     );
 }

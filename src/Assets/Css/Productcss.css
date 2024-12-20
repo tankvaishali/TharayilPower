@@ -7,6 +7,40 @@
   /* background-attachment: fixed; */
 }
 
+.card {
+  background: #46863e57;
+  border-radius: 0;
+  min-height: 220px;
+}
+
+.nav-tabs .nav-link {
+  color: black;
+  border: 2px solid var(--green--);
+  border-radius: 0;
+
+}
+
+.nav-tabs .nav-link.nav-link:hover {
+  color: white;
+  background: #000;
+  border: 2px solid var(--green--);
+}
+
+.nav-tabs .nav-link.active {
+  color: white;
+  background: #000;
+  border: 2px solid var(--green--);
+}
+
+.nav {
+  justify-content: space-evenly;
+}
+
+.tab1 .nav-item {
+  margin: 10px 10px;
+}
+
+
 .shadow_green {
   box-shadow: 0px 0px 10px 4px rgb(147, 206, 147);
 }
