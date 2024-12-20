@@ -143,7 +143,7 @@ function Header() {
               >
               
               </Player> */}
-            <span className="me-2 fs-3"> <MdWifiCalling3 /></span> <Link to={"tel:8129151266"} className="text-decoration-none text-white">+(91) 81291 51266</Link>
+           <Link to={"tel:8129151266"} className="text-decoration-none text-white"> <span className="me-2 fs-3"> <MdWifiCalling3 /></span> +(91) 81291 51266</Link>
             </div>
           </div>
         </div>
