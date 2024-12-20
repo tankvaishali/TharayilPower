@@ -26,8 +26,11 @@
         margin-top: -30px !important;
 
     }
-
 }
+.imageoutline {
+    outline: 2px solid var(--green--); /* Set the outline width and color */
+    outline-offset: -20px;    /* Offset the outline */
+  }
 /* profile message end */
 /* certificate start */
 .certimain{

@@ -48,7 +48,7 @@ function CeoMessage() {
               <div className=" text-success fw-bold py-2">
                 — Muniya Thulsidas, MD, Tharayil Power
               </div>
-              <div style={{ width: 50 }} >
+              {/* <div style={{ width: 50 }} >
                 {" "}
                 <Link
                   to={
@@ -60,7 +60,7 @@ function CeoMessage() {
                 >
                   <FaLinkedinIn />
                 </Link>
-              </div>
+              </div> */}
             </div>
           </div>
 
@@ -89,7 +89,7 @@ function CeoMessage() {
               <div className=" text-success fw-bold py-2">
                 — Thulsidas N, CEO, Tharayil Power
               </div>
-              <div style={{ width: 50 }} >
+              {/* <div style={{ width: 50 }} >
                 {" "}
                 <Link
                   to={
@@ -101,7 +101,7 @@ function CeoMessage() {
                 >
                   <FaLinkedinIn />
                 </Link>
-              </div>
+              </div> */}
             </div>
           </div>
           <div className="col-12 col-lg-6 p-5 pt-0 pb-0 pb-lg-5 order-0 order-lg-1" data-aos="fade-right" data-aos-duration="1800"  data-aos-once="true" data-aos-delay="400">
@@ -116,6 +116,65 @@ function CeoMessage() {
               </div>
             </div>
           </div>
+        </div>
+        <div className="row pt-3 pt-lg-0 m-0 g-4 align-items-center">
+          <div className="text-center">              <div
+                className="font_stroke"
+                data-aos="fade-up"
+                data-aos-duration="1500"
+                data-aos-once="true"
+              >
+                 manager 
+              </div>
+              <div
+                className="ftittle"
+                data-aos="fade-down"
+                data-aos-duration="1500"
+                data-aos-once="true"
+              >
+                              jeneral manager saying
+
+              </div></div>
+        <div className="col-12 col-lg-6  p-3 p-lg-5 pt-0" data-aos="zoom-in" data-aos-duration="1800"  data-aos-once="true" data-aos-delay="400">
+        <div className="h-100">
+              <div className=" h-100">
+                <img
+                  src={require("../../Assets/Images/linkedin-profile-picture-squinch-removebg-preview.png")}
+                  alt=""
+                  className="img-fluid w-100 h-100 object-fit-cover bg-secondary-subtle imageoutline  p-4"
+                 
+                />
+              </div>
+            </div>
+          </div>
+          <div className="col-12 col-lg-6 " data-aos="fade-right" data-aos-duration="1800"  data-aos-once="true" data-aos-delay="400">
+            <div className="h-100">
+ 
+              <div className="pt-4 pera">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex, mollitia exercitationem. Mollitia expedita, eaque reiciendis, iste voluptas odit quibusdam temporibus amet quidem dolor labore architecto! Ad neque minima quis repellat quod architecto vitae labore facilis iure, laborum doloribus quidem quia? Tenetur quam aut natus veniam voluptatem, doloremque placeat laudantium quas? Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repudiandae dolore, quam accusantium quis culpa odio porro corrupti natus, fugiat expedita, illum minima velit! Inventore iure quae minima. Ducimus, magnam! Mollitia officiis repellendus voluptate. Vel perferendis ea laborum, porro possimus aspernatur reprehenderit voluptates? Quod expedita deleniti repellendus eos amet nisi porro.{" "}
+              </div>
+              <div className="pt-4 pera">
+         ipsum dolor sit amet consectetur, adipisicing elit. Repudiandae dolore, quam accusantium quis culpa odio porro corrupti natus, fugiat expedita, illum minima velit! Inventore iure quae minima. Ducimus, magnam! Mollitia officiis repellendus voluptate. Vel perferendis ea laborum, porro possimus aspernatur reprehenderit voluptates? Quod expedita deleniti repellendus eos amet nisi porro.{" "}
+              </div>
+              <div className=" text-success fw-bold py-2">
+                — Name
+              </div>
+                {/* <div style={{ width: 50 }} >
+                  {" "}
+                  <Link
+                    to={
+                      "https://in.linkedin.com/company/tharayil-power-energy-solutions-p-ltd"
+                    }
+                    target="_blank"
+                    className="footericon text-center p-2 justify-content-center mx-1 d-flex text-decoration-none text-white linkicon"
+                    style={{backgroundColor:"#0077b5"}}
+                  >
+                    <FaLinkedinIn />
+                  </Link>
+                </div> */}
+            </div>
+          </div>
+
         </div>
       </div>
     </>

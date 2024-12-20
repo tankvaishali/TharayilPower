@@ -7,7 +7,7 @@ import { CiPlay1 } from "react-icons/ci";
 function Benefits() {
   const progressBars = [
     { label: "Trusted Professionals", percentage: 15 },
-    { label: "support sysyems", percentage: 100 },
+    { label: "Support Partners", percentage: 100 },
     { label: "Security Advices", percentage: 400 },
   ];
 

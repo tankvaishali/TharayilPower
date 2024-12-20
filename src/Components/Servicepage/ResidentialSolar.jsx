@@ -1,6 +1,7 @@
 import React from 'react'
 import { FaCheckCircle } from 'react-icons/fa'
 import HOC from '../HOC';
+import { Link } from 'react-router-dom';
 
 const images = [
   require("../../Assets/Images/residential solar (2.jpg"),
@@ -118,9 +119,9 @@ function ResidentialSolar() {
             </div>
           </div>
 
-          {/* {/  Energy efficiency audits /} */}
+       
 
-          {/* <div className="my-2 my-lg-4 mx-auto text-center" data-aos="zoom-in" data-aos-duration="1800" data-aos-once="true">
+          <div className="my-2 my-lg-4 mx-auto text-center" data-aos="zoom-in" data-aos-duration="1800" data-aos-once="true">
               <Link to={"/service"} className="text-decoration-none">
                 <button className="button-48 mt-3" role="button">
                   <span className="btn_text fw-bold">
@@ -129,7 +130,7 @@ function ResidentialSolar() {
                   </span>
                 </button>
               </Link>
-            </div> */}
+            </div>
         </div>
       </div>
     </>

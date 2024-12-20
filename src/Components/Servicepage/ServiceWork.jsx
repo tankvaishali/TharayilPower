@@ -67,7 +67,7 @@ function ServiceWork() {
                       data-aos-duration="1500"
                       data-aos-once="true"
                     >
-                      Wind Power that Works for You
+                      Solar Power that Works for You
                     </div>
                   </div>
 
@@ -103,7 +103,7 @@ function ServiceWork() {
                     data-aos-duration="1800"
                     data-aos-once="true"
                   >
-                    <Link to={"/contactus"} className="text-decoration-none">
+                    <Link to={"/career"} className="text-decoration-none">
                       <button className="button-48 mt-3" role="button">
                         <span className="btn_text fw-bold">
                           Know More{" "}

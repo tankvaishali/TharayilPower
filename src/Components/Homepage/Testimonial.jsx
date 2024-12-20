@@ -9,8 +9,8 @@ function Testimonial() {
   const progressBars = [
     { label: "Total No of projects Completed", percentages: "1200+" ,percentage: 100 },
     { label: "Total Megawatts Created", percentages: " 5 MW",percentage: 40 },
-    { label: "Carbon Print reduced", percentages: "7,590 metric tons of CO₂ per year ", percentage: 50 },
-    { label: "Co2 Emission Reduced", percentages: "7,590 metric tons of CO₂ per year" , percentage: 50 }, // Remove JSX from here
+    { label: "Carbon Print Reduced", percentages: "7,590 Metric Tons of CO₂ per year ", percentage: 50 },
+    { label: "Co2 Emission Reduced", percentages: "7,590 Metric Tons of CO₂ per year" , percentage: 50 }, // Remove JSX from here
     { label: "Security Advices", percentages: "400+" ,percentage: 90 },
   ];
 

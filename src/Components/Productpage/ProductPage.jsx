@@ -63,7 +63,7 @@ function ProductPage() {
  };
   return (
     <>
-<div     style={{ marginTop: "250px" }}>
+<div     style={{ marginTop: "130px" }}>
 <section
         id="departments"
         className="tabs section my-lg-5 py-5 my-sm-2 py-lg-5 product_high overflow-hidden"

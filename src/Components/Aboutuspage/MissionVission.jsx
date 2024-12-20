@@ -59,7 +59,7 @@ function MissionVission() {
   <div className="m-0 shadow bg_vission p-4 text-white" data-aos="zoom-in" data-aos-duration="1800" data-aos-once="true" style={{ flex: '1' }}>
     <div>
       <div className="fs-1 fw-bold">
-        <CountUp end={100} enableScrollSpy={true} separator="" /> %
+        0<CountUp end={5} enableScrollSpy={true} separator="" /> MW
       </div>
       <div className='pt-2 fs-5 fw-bold'>Mega Watt Produced</div>
       <div className="pt-1 pera">

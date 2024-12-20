@@ -131,7 +131,7 @@ function CalculatorMail() {
   return (
     <>
 
-      <div className="py-5 overflow-hidden">
+      <div className="py-5 mt-5 overflow-hidden">
         <div className="container mx-auto shadow bg-success text-white fw-bold p-0 m-0 text-center p-1">
           <h3>Solar Rooftop Estimate</h3>
         </div>
