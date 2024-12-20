@@ -69,7 +69,7 @@ function Benefits() {
                           className="img-fluid"
                         />
                       </div>
-                      <div className="fs-3 text-center fw-bold text-white pt-3">
+                      <div className="fs-3 text-center fw-bold text-white pt-3 text-capitalize">
                         0<CountUp end={6} enableScrollSpy={true} />+ Years Experience in solar energy
                       </div>
                     </div>

@@ -20,7 +20,7 @@ function Serviceredirect() {
     },
     {
       icon: "https://t3.ftcdn.net/jpg/08/94/60/56/360_F_894605696_8woeaUfuqt2AivMPBhnDkwuPvhLxMnbO.jpg",
-      name: " Government and Institutional Solutions  ",
+      name: " Government And Institutional Solutions  ",
       pera: "    We provide solar solutions for government buildings, educational institutions, and non-profits, helping them achieve sustainability goals.",
       classnameadd: "",
       aos: "fade-down",

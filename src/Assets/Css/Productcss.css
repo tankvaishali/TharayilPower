@@ -12,21 +12,24 @@
   border-radius: 0;
   min-height: 220px;
 }
-
-.nav-tabs .nav-link {
+.imageoffsetline{
+  outline: 3px solid white; /* Set the outline width and color */
+  outline-offset: -20px;    /* Offset the outline */
+}
+.tab2 .nav-tabs .nav-link {
   color: black;
   border: 2px solid var(--green--);
   border-radius: 0;
 
 }
 
-.nav-tabs .nav-link.nav-link:hover {
+.tab2 .nav-tabs .nav-link.nav-link:hover {
   color: white;
   background: #000;
   border: 2px solid var(--green--);
 }
 
-.nav-tabs .nav-link.active {
+.tab2 .nav-tabs .nav-link.active {
   color: white;
   background: #000;
   border: 2px solid var(--green--);

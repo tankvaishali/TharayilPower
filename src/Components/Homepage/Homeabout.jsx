@@ -139,7 +139,7 @@ function Homeabout() {
                           <MdCheckBox />
                         </div>
                         <div className="ps-2 fw-medium">
-                          Affordable,high-quality solutions
+                          Affordable, high-quality solutions
 
                         </div>
                       </div>

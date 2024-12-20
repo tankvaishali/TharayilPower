@@ -90,14 +90,14 @@ function SolarVideo() {
                   <h4 className="fw-bold">
                     0<CountUp end={6} enableScrollSpy={true} />+
                   </h4>
-                  <div className="pera">Years in Business</div>
+                  <div className="pera">Years In Business</div>
                 </div>
-                {/* <div className="grid-item">
-                  <h4 className="fw-bold">
+                <div className="grid-item d-none d-lg-block">
+                  {/* <h4 className="fw-bold">
                     <CountUp end={10} enableScrollSpy={true} />+
                   </h4>
-                  <div className="pera">State in india</div>
-                </div> */}
+                  <div className="pera">State in india</div> */}
+                </div>
 
                 <div className="grid-item">
                   <h4 className="fw-bold">
@@ -135,7 +135,7 @@ function SolarVideo() {
               </Link>
             </div>
             <div class="div5 text-center py-5">
-              <h2 className="">Step into the spotlight</h2>
+              <h2 className="text-capitalize">Step into the spotlight</h2>
               <Link to={"/service"} className="text-decoration-none">
                 <button className="button-48 mt-4">
                   <span className="btn_text fw-bold">

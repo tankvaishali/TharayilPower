@@ -28,11 +28,11 @@ function Form() {
         errorMessage = "Email is not valid";
       }
     }
-    if (name === "subject") {
+    if (name === "location") {
       if (!value || value.length <= 0) {
-        errorMessage = "subject is required";
+        errorMessage = "location is required";
       } else if (!/^[a-zA-Z\s]+$/.test(value)) {
-        errorMessage = "subject must contain only alphabet characters";
+        errorMessage = "location must contain only alphabet characters";
       }
     }
 
@@ -74,7 +74,7 @@ function Form() {
     const fieldsToValidate = [
       "name",
       "email",
-      "subject",
+      "location",
       "mobileNumber",
       "description",
     ];
@@ -211,18 +211,18 @@ function Form() {
                     <div className="col-12 col-lg-6  ">
                       <input
                         type="text"
-                        name="subject"
-                        placeholder="Subject"
+                        name="location"
+                        placeholder="Location"
                         className="p-2 rounded-pill w-100 ps-3"
                         onChange={getdata}
-                        value={obj?.subject || ""}
+                        value={obj?.location || ""}
 
                       />
                       <span
                         className="text-danger d-block"
                         style={{ fontSize: "14px" }}
                       >
-                        {errormsg.subject}
+                        {errormsg.location}
                       </span>
                     </div>
                     <div className="col-12 ">
@@ -325,8 +325,8 @@ export default Form;
 //                     <div className="col-12 col-lg-6">
 //                       <input
 //                         type="text"
-//                         name="subject"
-//                         placeholder="Subject"
+//                         name="location"
+//                         placeholder="Location"
 //                         className="p-2 rounded-pill w-100 ps-3"
 //                         required
 //                       />

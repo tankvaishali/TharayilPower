@@ -98,14 +98,7 @@ function Projecthighlit() {
                         />
                         <div class="overlay_sec">
                           <div class="text text-center h-100 px-2 d-flex flex-column justify-content-center">
-                            {/* <div className=" icon_color ">
-                              <TbCircleArrowUpRight
-                                className="text-white  rounded-circle"
-                                style={{
-                                  backgroundColor: "var(--darkgreen--)",
-                                }}
-                              />
-                            </div> */}
+                          
                             <div className="p-3 px-2">
                               {/* <div className="fw-bold fs-4">{x.tittle}</div> */}
                               <div className="pera fs-6 pt-2 fw-bold p-3" >{x.name}</div>

@@ -142,8 +142,8 @@ function CalculatorMail() {
                 data-aos-duration="1500"
                 data-aos-once="true">
                 <div className="h-100">
-                  <div className="fw-bold fs-5 text-center">
-                    Please enter the following details
+                  <div className="fw-bold fs-5 text-center text-capitalize">
+                    Please Enter the following details
                   </div>
 
                   <div className="py-1">
@@ -267,7 +267,7 @@ function CalculatorMail() {
                 data-aos-once="true">
                 <div className="h-100 p-4 pt-0">
                   <div className="py-2 pt-3">
-                    <div className="fw-bold fs-5 text-center">
+                    <div className="fw-bold fs-5 text-center text-capitalize">
                       Enter Details for More Accurate Information (Optional)
                     </div>
                   </div>

@@ -164,7 +164,7 @@ function Faq() {
                         aria-expanded="false"
                         aria-controls="flush-collapseFive"
                       >
-                        <span className='fs-4 pe-3'><GiSolarPower /></span>    Can i add battery storage to my solar system, and what are the benefits?
+                        <span className='fs-4 pe-3'><GiSolarPower /></span>    Can I add battery storage to my solar system, and what are the benefits?
                       </button>
                     </h2>
                     <div

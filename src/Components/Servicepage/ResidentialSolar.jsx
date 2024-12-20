@@ -78,12 +78,12 @@ function ResidentialSolar() {
             <div className="row d-flex align-items-center">
               <div className="col-12 col-lg-7 mb-4 ">
                 <div className="pera" style={{ textAlign: "justify" }}>
-                  At Tharayil Power, we offer custom residential solar panel installations designed to meet the unique energy needs of homeowners. Solar energy helps you save on electricity bills and allows you to take control of your energy consumption.We understand that every home is different, which is why we provide tailored solar solutions that are care
+                  At Tharayil Power, we offer custom residential solar panel installations designed to meet the unique energy needs of homeowners. Solar energy helps you save on electricity bills and allows you to take control of your energy consumption.We understand that every home is different, which is why we provide tailored solar solutions that are carefully planned to maximize energy generation.
 
 
                 </div>
                 <div className="py-3 pera" style={{ textAlign: "justify" }}>
-                  fully planned to maximize energy generation. Whether you need a small-scale solar setup or a larger system to power your entire home, our team of experts will guide you through the process. We also offer battery storage systems to ensure that you have access to energy throughout the day and night, even during power outages or cloudy days.
+                   Whether you need a small-scale solar setup or a larger system to power your entire home, our team of experts will guide you through the process. We also offer battery storage systems to ensure that you have access to energy throughout the day and night, even during power outages or cloudy days.
                 </div>
                 <div className="pera">
                   <div>
@@ -125,7 +125,7 @@ function ResidentialSolar() {
             <Link to={"/service"} className="text-decoration-none">
               <button className="button-48 mt-3">
                 <span className="btn_text fw-bold">
-                  Back To Home
+                  Back 
 
                 </span>
               </button>

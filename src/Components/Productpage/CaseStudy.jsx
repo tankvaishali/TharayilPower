@@ -8,7 +8,7 @@ function CaseStudy() {
         {
             id: "tabs-tab-1",
             title: "Solar water heater",
-            image: "https://ae-solar.com/_next/image?url=%2Fimages%2FheroSectionBackground.webp&w=3840&q=100",
+            image: require("../../Assets/Images/highlits2.jpg"),
             description: "Qui laudantium consequatur laborum sit qui ad sapiente dila parde sonata raqer a videna mareta paulona marka",
             details: "Et nobis maiores eius. Voluptatibus ut enim blanditiis atque harum sint...",
             casestudyname: 'Residential',
@@ -27,8 +27,7 @@ function CaseStudy() {
         {
             id: "tabs-tab-2",
             title: "BLDC fan",
-            image:
-                "https://5.imimg.com/data5/SELLER/Default/2024/8/441837977/SH/GW/SG/189567047/panasonic-mono-perc-1-500x500.png",
+            image: require("../../Assets/Images/contactimage.jpg"),
 
             description:
                 "Qui laudantium consequatur laborum sit qui ad sapiente dila parde sonata raqer a videna mareta paulona marka",
@@ -50,8 +49,7 @@ function CaseStudy() {
         {
             id: "tabs-tab-3",
             title: "Solar Street Lights",
-            image:
-                "https://media.licdn.com/dms/image/D4D12AQHHHGCd7Vdl6w/article-cover_image-shrink_720_1280/0/1676445878528?e=2147483647&v=beta&t=Sq5oG4tjU-FFOu597p7NqT0qNoLaLhZTbxUNSU0NHYQ",
+            image: require("../../Assets/Images/residential.jpg"),
             description:
                 "Eos voluptatibus quo. Odio similique illum id quidem non enim fuga. Qui natus non sunt dicta dolor et. In asperiores velit quaerat perferendis aut",
             details:
@@ -74,7 +72,7 @@ function CaseStudy() {
     return (
         <>
 
-            <Container className="my-5">
+            <Container className="my-5 tab2">
                 <div className="text-center mb-4">
                     <div className="font_stroke">
                         CaseStudy Reports
@@ -82,8 +80,8 @@ function CaseStudy() {
                     <div className="ftittle">
                         Insights and Success Stories in Solar Solutions
                     </div>
-                </div>
-                <Tabs defaultActiveKey="tabs-tab-1" id="case-study-tabs" className="mb-3 justify-content-center tab1 tab2 border-bottom-0">
+                </div> 
+                <Tabs defaultActiveKey="tabs-tab-1" id="case-study-tabs" className="mb-3 justify-content-center tab1 fw-medium border-bottom-0">
                     {departments.map((dept) => (
                         <Tab eventKey={dept.id} title={`${dept.casestudyname} Case Study`} key={dept.id}>
                             <Row>
@@ -101,20 +99,20 @@ function CaseStudy() {
                                     <Tabs
                                         defaultActiveKey="challenge"
                                         id="section-tabs"
-                                        className="mb-3  border-bottom-0 tab1"
+                                        className="mb-3  fw-medium border-bottom-0 tab1"
                                     >
                                         <Tab eventKey="challenge" title="Challenge">
-                                            <Card className="shadow">
-                                                <Card.Body>{dept.challenge}</Card.Body>
+                                            <Card className="shadow pera">
+                                                <Card.Body><CircleChevronRight className='me-2 ' strokeWidth={1.75} /> {dept.challenge}</Card.Body>
                                             </Card>
                                         </Tab>
                                         <Tab eventKey="solution" title="Solution">
-                                            <Card className="shadow">
-                                                <Card.Body>{dept.solution}</Card.Body>
+                                            <Card className="shadow pera">
+                                                <Card.Body><CircleChevronRight className='me-2' strokeWidth={1.75} /> {dept.solution}</Card.Body>
                                             </Card>
                                         </Tab>
                                         <Tab eventKey="results" title="Results">
-                                            <Card className="shadow">
+                                            <Card className="shadow pera">
                                                 <Card.Body>
                                                     <ul className="list-unstyled">
                                                         {dept.results.map((result, index) => (
@@ -128,8 +126,8 @@ function CaseStudy() {
                                             </Card>
                                         </Tab>
                                         <Tab eventKey="takeaway" title="Takeaway">
-                                            <Card className="shadow">
-                                                <Card.Body>{dept.takeaway}</Card.Body>
+                                            <Card className="shadow pera">
+                                                <Card.Body><CircleChevronRight className='me-2' strokeWidth={1.75} /> {dept.takeaway}</Card.Body>
                                             </Card>
                                         </Tab>
                                     </Tabs>
@@ -138,7 +136,7 @@ function CaseStudy() {
                                     <img
                                         src={dept.image}
                                         alt={dept.title}
-                                        className="img-fluid h-100"
+                                        className="img-fluid h-100 object-fit-cover shadow-lg imageoffsetline"
                                     />
                                 </Col>
                             </Row>

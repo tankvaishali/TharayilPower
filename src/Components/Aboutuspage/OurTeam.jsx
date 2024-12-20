@@ -1,49 +1,49 @@
-import React from 'react';
-import { FaFacebook, FaInstagram } from 'react-icons/fa';
+import React from 'react'
+import { FaFacebook, FaFacebookF, FaInstagram, FaLinkedinIn, FaTwitter } from 'react-icons/fa';
 import { MdOutlineArrowOutward } from 'react-icons/md';
 import { Link } from 'react-router-dom';
 
 function OurTeam() {
-  const Team = [
-    {
-      img: require("../../Assets/Images/STAFF PHOTOS/Vishnu .jpg"),
-      name: "ABHIJITH SANKAR M",
-      position: "	Sales Executive",
-      aos: "zoom-in-right",
-      objectposition: "top center"
-    },
-    {
-      img: require("../../Assets/Images/STAFF PHOTOS/Anandu Prabhan.jpeg"),
-      name: "ANANDU PRABHAN",
-      position: "Digital Marketing Associate",
-      aos: "zoom-in-left",
-      objectposition: "top center"
-    },
-    {
-      img: require("../../Assets/Images/STAFF PHOTOS/Sreelekshmi S.jpg"),
-      name: "SREELEKLSHMI S",
-      position: "Service Manager",
-      aos: "zoom-in-right",
-    },
-    {
-      img: require("../../Assets/Images/STAFF PHOTOS/Sharika Sankar.jpg"),
-      name: "SHARIKA SANKAR",
-      position: "	Customer Care Executive",
-      aos: "zoom-in-right",
-    },
-    // {
-    //   img:require("../../Assets/Images/STAFF PHOTOS/Remya Rajan.jpg") ,
-    //   name: "Vishnu",
-    //   position: "QC HEAD (RM/FINISHED GOODS)",
-    //   aos: "zoom-in-right",
-    // },
-    // {
-    //   img:require("../../Assets/Images/STAFF PHOTOS/Vidya Mol S.jpg") ,
-    //   name: "Jishnu P",
-    //   position: "QC HEAD (RM/FINISHED GOODS)",
-    //   aos: "zoom-in-right",
-    // },
-  ];
+const Team = [
+  {
+    img:require("../../Assets/Images/STAFF PHOTOS/Vishnu .jpg") ,
+    name: "ABHIJITH SANKAR M",
+    position: "	Sales Executive",
+    aos: "zoom-in-right",
+    objectposition:"top center"
+  },
+  {
+    img:require("../../Assets/Images/STAFF PHOTOS/Anandu Prabhan.jpeg") ,
+    name: "ANANDU PRABHAN",
+    position: "Digital Marketing Associate",
+    aos: "zoom-in-left",
+    objectposition:"top center"
+  },
+  {
+    img:require("../../Assets/Images/STAFF PHOTOS/Sreelekshmi S.jpg") ,
+    name: "SREELEKLSHMI S",
+    position: "Service Manager",
+    aos: "zoom-in-right",
+  },
+  {
+    img:require("../../Assets/Images/STAFF PHOTOS/Sharika Sankar.jpg") ,
+    name: "SHARIKA SANKAR",
+    position: "	Customer Care Executive",
+    aos: "zoom-in-right",
+  },
+  // {
+  //   img:require("../../Assets/Images/STAFF PHOTOS/Remya Rajan.jpg") ,
+  //   name: "Vishnu",
+  //   position: "QC HEAD (RM/FINISHED GOODS)",
+  //   aos: "zoom-in-right",
+  // },
+  // {
+  //   img:require("../../Assets/Images/STAFF PHOTOS/Vidya Mol S.jpg") ,
+  //   name: "Jishnu P",
+  //   position: "QC HEAD (RM/FINISHED GOODS)",
+  //   aos: "zoom-in-right",
+  // },
+];
   return (
     <>
       <div className="team_bg py-3 py-lg-5">
@@ -63,12 +63,12 @@ function OurTeam() {
               data-aos-duration="1500"
               data-aos-once="true"
             >
-              Our Creative Team
+                            Our Experience Team
             </div>
-            <div className='pera py-2 w-75 mx-auto'
-              data-aos="fade-up"
-              data-aos-duration="1500"
-              data-aos-once="true"
+            <div className='pera py-2 w-75 mx-auto' 
+             data-aos="fade-up"
+             data-aos-duration="1500"
+             data-aos-once="true"
             >At Tharayil Power, our team of experts brings technical skill, local expertise, and a shared passion for renewable energy. With a client-centered approach, we work closely with you to ensure your solar investment meets your energy goals while supporting Kerala’s vision for a greener future.</div>
           </div>
           <div className="row justify-content-center">
@@ -85,11 +85,10 @@ function OurTeam() {
                       <img
                         src={item.img}
                         height={160}
-                        alt=''
                         width={160}
                         className="rounded-3 object-fit-cover my-4 zoom-animation shadow img-fluid "
-                        style={{ objectPosition: " top center" }}
-
+                        style={{objectPosition:" top center"}}
+                      
                       />
                     </div>
                     <div className="col-lg-7">
@@ -116,21 +115,21 @@ function OurTeam() {
               );
             })}
 
-            <div className="my-2 w-100 mx-auto text-center">
-              <Link
-                to={"/profile"}
-                className="text-decoration-none mx-auto w-auto"
-              >
-                <button className="button-48 mt-3">
-                  <span className="btn_text fw-bold">
-                    Explore Company
-                    <span className="ps-1 fs-5 fw-bold">
-                      <MdOutlineArrowOutward />
-                    </span>
-                  </span>
-                </button>
-              </Link>
-            </div>
+<div className="my-2 w-100 mx-auto text-center">
+                     <Link
+                       to={"/profile"}
+                       className="text-decoration-none mx-auto w-auto"
+                     >
+                       <button className="button-48 mt-3" role="button">
+                         <span className="btn_text fw-bold">
+                         Explore Company
+                           <span className="ps-1 fs-5 fw-bold">
+                             <MdOutlineArrowOutward />
+                           </span>
+                         </span>
+                       </button>
+                     </Link>
+                   </div>
           </div>
         </div>
       </div>

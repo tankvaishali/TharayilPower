@@ -37,7 +37,7 @@ function MissionVission() {
                     <div className="fs-1 fw-bold">
                       0<CountUp start={0} end={6} enableScrollSpy={true} separator="" /> +
                     </div>
-                    <div className='pt-2 fs-5 fw-bold'>Years of Experience</div>
+                    <div className='pt-2 fs-5 fw-bold'>Years Of Experience</div>
                     <div className="pt-1 pera">
                       Over a decade of experience in renewable energy solutions.
                     </div>

@@ -48,7 +48,7 @@ function Testimonial() {
   }, []);
 
   const settings = {
-    dots: false,
+    dots: true,
     infinite: true,
     speed: 500,
     slidesToShow: 1,
@@ -80,7 +80,7 @@ function Testimonial() {
 
       name: "Komalapuram",
       tittle: "Kerala",
-      description: " their experience and professionalism stands out. ",
+      description: " Their experience and professionalism stands out. ",
     },
   ];
 
