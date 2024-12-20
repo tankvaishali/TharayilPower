@@ -8,32 +8,30 @@ import OurTeam from "./OurTeam";
 import MissionVission from "./MissionVission";
 import AboutConbtact from "./AboutConbtact";
 import ClientLogo from "../ClientLogo";
-import { MdKeyboardDoubleArrowRight } from "react-icons/md";
-import { Link } from "react-router-dom";
 import Whatmakeus from "./Whatmakeus";
 
 
 function AboutusPage() {
   return (
     <>
- 
+
       <div className="landingimage d-flex justify-content-center align-items-center align-content-center">
-      <div className="container">
-        <h1   className="textsizehead text-white text-center lh-base text_size fw-bold text-capitalize"
-              data-aos="fade-up"
-              data-aos-duration="1800"
-              data-aos-once="true"
-              style={{ letterSpacing: "1px" }}>
-       Empowering Kerala with Best Solar Solutions - Transforming Homes, Businesses, and Communities with Reliable, Cost-Saving Energy.
+        <div className="container">
+          <h1 className="textsizehead text-white text-center lh-base text_size fw-bold text-capitalize"
+            data-aos="fade-up"
+            data-aos-duration="1800"
+            data-aos-once="true"
+            style={{ letterSpacing: "1px" }}>
+            Empowering Kerala with Best Solar Solutions - Transforming Homes, Businesses, and Communities with Reliable, Cost-Saving Energy.
 
 
-        </h1>
+          </h1>
+        </div>
       </div>
-      </div>
-  
+
       <Aboutus />
       <Expertist />
-      <Whatmakeus/>
+      <Whatmakeus />
       <MissionVission />
       <Profatible />
       <AboutConbtact />

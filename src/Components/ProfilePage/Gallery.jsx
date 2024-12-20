@@ -84,24 +84,24 @@ function Gallery() {
         <>
             <div className="container text-center my-5">
                 <section className="portfolio">
-                <div className="mb-5">
-                  <div
-                    className="dark_stroke font_stroke text-center"
-                    data-aos="fade-up"
-                    data-aos-duration="1500"
-                    data-aos-once="true"
-                  >
-                    Gallery
-                  </div>
-                  <div
-                    className="ftittle text-dark text-center"
-                    data-aos="fade-down"
-                    data-aos-duration="1500"
-                    data-aos-once="true"
-                  >
-                 Art in Solar Light  
-                  </div>
-                </div>
+                    <div className="mb-5">
+                        <div
+                            className="dark_stroke font_stroke text-center"
+                            data-aos="fade-up"
+                            data-aos-duration="1500"
+                            data-aos-once="true"
+                        >
+                            Gallery
+                        </div>
+                        <div
+                            className="ftittle text-dark text-center"
+                            data-aos="fade-down"
+                            data-aos-duration="1500"
+                            data-aos-once="true"
+                        >
+                            Art in Solar Light
+                        </div>
+                    </div>
                     <div className="row">
                         <Box sx={{ flexGrow: 1 }}>
                             <ImageList
@@ -128,7 +128,7 @@ function Gallery() {
                                         <div
                                             className="image-container galleryimage overflow-hidden"
                                             onClick={() => handleClickOpen(index)}
-                                            style={{cursor:"zoom-in"}}
+                                            style={{ cursor: "zoom-in" }}
                                         >
                                             <img
                                                 src={item.img}
@@ -158,8 +158,8 @@ function Gallery() {
             >
                 <ClickAwayListener onClickAway={handleClose}>
                     <div style={{ position: 'relative', height: '100%' }}>
-                    <div onClick={handleClose} className="position-fixed top-0 end-0  text-white fs-3 fw-bold  bg-success  rounded-circle d-flex justify-content-center align-content-center align-items-center m-3 pb-1" style={{width:"40px",height:"40px",cursor:"pointer"}}>x</div>
-                    {/* <div onClick={handleClose} className="close-modal close-modal p-3 fw-bold bg-success rounded-circle  d-flex align-content-center align-items-center justify-content-center " style={{width:"40px",height:"40px"}}>
+                        <div onClick={handleClose} className="position-fixed top-0 end-0  text-white fs-3 fw-bold  bg-success  rounded-circle d-flex justify-content-center align-content-center align-items-center m-3 pb-1" style={{ width: "40px", height: "40px", cursor: "pointer" }}>x</div>
+                        {/* <div onClick={handleClose} className="close-modal close-modal p-3 fw-bold bg-success rounded-circle  d-flex align-content-center align-items-center justify-content-center " style={{width:"40px",height:"40px"}}>
               X
             </div> */}
                         <DialogContent
@@ -188,9 +188,9 @@ function Gallery() {
                                     top: "50%",
                                     transform: 'translateY(-50%)',
                                     zIndex: 1000,
-                                 
+
                                     borderRadius: '50%',
-                                   
+
                                 }}
                             >
                                 <IoChevronBack size={20} />
@@ -207,9 +207,9 @@ function Gallery() {
                                     top: "50%",
                                     transform: 'translateY(-50%)',
                                     zIndex: 1000,
-                                    
+
                                     borderRadius: '50%',
-                                   
+
                                 }}
                             >
                                 <IoChevronForward size={20} />

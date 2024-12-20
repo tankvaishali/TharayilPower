@@ -1,23 +1,17 @@
-import { Player } from '@lottiefiles/react-lottie-player';
-import React from 'react'
-import { BsGraphUpArrow } from 'react-icons/bs';
-import { FaBalanceScale, FaChartLine, FaCheckCircle, FaDollarSign, FaHandsHelping, FaShieldAlt, FaSun, FaTag, FaWrench } from 'react-icons/fa';
-import { GiHillConquest } from 'react-icons/gi';
-import { GoArrowUpRight } from 'react-icons/go';
-import { LuCable } from 'react-icons/lu';
+import React from 'react';
+import { FaCheckCircle, FaHandsHelping, FaShieldAlt, FaTag, FaWrench } from 'react-icons/fa';
 import { MdOutlineArrowOutward } from 'react-icons/md';
-import { TbWorldShare } from 'react-icons/tb';
 import { Link } from 'react-router-dom';
 
 function Whychooseus() {
   let chooseus = [
     {
-      icon: <FaShieldAlt   />,
+      icon: <FaShieldAlt />,
       name: "Long-lasting, high-quality systems",
       pera: " Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsam, iusto.",
     },
     {
-      icon: <  FaHandsHelping  />,
+      icon: <  FaHandsHelping />,
       name: "Tailored solar designs for every need",
       pera: " Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsam, iusto.",
     },
@@ -27,7 +21,7 @@ function Whychooseus() {
       pera: " Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsam, iusto.",
     },
     {
-      icon: <FaTag     />,
+      icon: <FaTag />,
       name: "Competitive pricing",
       pera: " Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsam, iusto.",
     },
@@ -64,7 +58,7 @@ function Whychooseus() {
                 data-aos-duration="1800"
                 data-aos-once="true"
               >
-               Tharayil Power stands out for its commitment to high-quality, reliable, and cost-effective solar solutions. Join our growing community of customers benefiting from trusted renewable energy services designed to maximize savings and environmental impact.
+                Tharayil Power stands out for its commitment to high-quality, reliable, and cost-effective solar solutions. Join our growing community of customers benefiting from trusted renewable energy services designed to maximize savings and environmental impact.
               </div>
             </div>
 
@@ -78,18 +72,18 @@ function Whychooseus() {
                 <div>
                   <div className="fw-bold text-success"> What Sets Us Apart:</div>
                   <div className="pera ">
-                 
-With over a decade of expertise, Tharayil Power blends advanced technology with customized solar solutions to suit every client’s unique energy needs. Our mission is to ensure that each project delivers the best possible outcome in terms of performance, savings, and environmental impact.
+
+                    With over a decade of expertise, Tharayil Power blends advanced technology with customized solar solutions to suit every client’s unique energy needs. Our mission is to ensure that each project delivers the best possible outcome in terms of performance, savings, and environmental impact.
 
                   </div>
-             
+
                   <div className="pt-2">
                     <div className="d-flex align-content-center align-items-center  py-1">
                       <div className=" text-success fs-5">
                         <FaCheckCircle />
                       </div>
                       <div className="ps-2 fw-medium ">
-                      Rigorous quality assurance
+                        Rigorous quality assurance
                       </div>
                     </div>
                     <div className="d-flex align-content-center align-items-center  py-1">
@@ -97,7 +91,7 @@ With over a decade of expertise, Tharayil Power blends advanced technology with 
                         <FaCheckCircle />
                       </div>
                       <div className="ps-2 fw-medium ">
-                      Professional installation and setup
+                        Professional installation and setup
                       </div>
                     </div>
                     <div className="d-flex align-content-center align-items-center  py-1">
@@ -105,7 +99,7 @@ With over a decade of expertise, Tharayil Power blends advanced technology with 
                         <FaCheckCircle />
                       </div>
                       <div className="ps-2 fw-medium ">
-                      Sustainable, eco-friendly solutions
+                        Sustainable, eco-friendly solutions
                       </div>
                     </div>
                     <div className="d-flex align-content-center align-items-center align-items-lg-stretch  py-1">
@@ -113,13 +107,13 @@ With over a decade of expertise, Tharayil Power blends advanced technology with 
                         <FaCheckCircle />
                       </div>
                       <div className="ps-2 fw-medium ">
-                      Custom solar systems for maximum efficiency
+                        Custom solar systems for maximum efficiency
                       </div>
                     </div>
                   </div>
                   <div className="pt-2">
                     <Link to={"/service"} className="text-decoration-none">
-                      <button className="button-48 mt-3" role="button">
+                      <button className="button-48 mt-3">
                         <span className="btn_text fw-bold">
                           Learn More{" "}
                           <span className="ps-1 fs-5 fw-bold">
@@ -162,7 +156,7 @@ With over a decade of expertise, Tharayil Power blends advanced technology with 
                             {x.icon}
                           </div>
                           <div>
-                            <div className="ps-3 fw-semibold " style={{fontSize:17}}>{x.name}</div>
+                            <div className="ps-3 fw-semibold " style={{ fontSize: 17 }}>{x.name}</div>
                             {/* <div className="ps-3 fw-medium text-secondary pera">
                               {x.pera}
                             </div> */}

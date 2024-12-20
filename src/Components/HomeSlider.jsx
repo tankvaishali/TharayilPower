@@ -44,7 +44,7 @@ function HomeSlider() {
                 {index === currentSlide && (
                   <div className="mt-2">
                     <Link to={"/product"} className="text-decoration-none">
-                      <button className="button-48 mt-3 p-1 p-lg-2" role="button">
+                      <button className="button-48 mt-3 p-1 p-lg-2">
                         <span className="btn_text fw-bold">
                           Explore Now
                           <span className="ps-1 fs-5 fw-bold">
@@ -63,7 +63,7 @@ function HomeSlider() {
                 {index === currentSlide && (
                   <div className="mt-2">
                     <Link to={"/service"} className="text-decoration-none">
-                      <button className="button-48 mt-3 p-1 p-lg-2 " role="button">
+                      <button className="button-48 mt-3 p-1 p-lg-2 ">
                         <span className="btn_text fw-bold">
                           Explore Now
                           <span className="ps-1 fs-5 fw-bold">
@@ -82,7 +82,7 @@ function HomeSlider() {
                 {index === currentSlide && (
                   <div className="mt-2">
                     <Link to={"/contactus"} className="text-decoration-none">
-                      <button className="button-48 mt-3 p-1 p-lg-2 " role="button">
+                      <button className="button-48 mt-3 p-1 p-lg-2 ">
                         <span className="btn_text fw-bold">
                           Explore Now
                           <span className="ps-1 fs-5 fw-bold">

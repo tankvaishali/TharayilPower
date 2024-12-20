@@ -20,7 +20,7 @@ function ProductPage() {
       id: "tabs-tab-2",
       title: "BLDC fan",
       image:
-                "https://5.imimg.com/data5/SELLER/Default/2024/8/441837977/SH/GW/SG/189567047/panasonic-mono-perc-1-500x500.png",
+        "https://5.imimg.com/data5/SELLER/Default/2024/8/441837977/SH/GW/SG/189567047/panasonic-mono-perc-1-500x500.png",
 
       description:
         "Qui laudantium consequatur laborum sit qui ad sapiente dila parde sonata raqer a videna mareta paulona marka",
@@ -57,120 +57,119 @@ function ProductPage() {
         "Ea ipsum voluptatem consequatur quis est. Illum error ullam omnis quia et reiciendis sunt sunt est. Non aliquid repellendus itaque accusamus eius et velit ipsa voluptates. Optio nesciunt eaque beatae accusamus lerode pakto madirna desera vafle de nideran pal",
     },
   ];
- const generateWhatsAppURL = (productName) => {
-   const message = `Hello, I'm interested in the product: ${productName}`;
-   return `https://wa.me/8129151266/?text=${encodeURIComponent(message)}`;
- };
+  const generateWhatsAppURL = (productName) => {
+    const message = `Hello, I'm interested in the product: ${productName}`;
+    return `https://wa.me/8129151266/?text=${encodeURIComponent(message)}`;
+  };
   return (
     <>
-<div     style={{ marginTop: "130px" }}>
-<section
-        id="departments"
-        className="tabs section my-lg-5 py-5 my-sm-2 py-lg-5 product_high overflow-hidden"
-    
-      >
-        <div className="container">
-          <div className="py-3 pb-5 text-center">
-            <div
-              className="font_stroke"
-              data-aos="fade-up"
-              data-aos-duration="1500"
-              data-aos-once="true"
-            >
-           Products
-            </div>
-            <div
-              className="ftittle text-white"
-              data-aos="fade-down"
-              data-aos-duration="1500"
-              data-aos-once="true"
-            >
-               Our  Popular poducts 
+      <div style={{ marginTop: "130px" }}>
+        <section
+          id="departments"
+          className="tabs section my-lg-5 py-5 my-sm-2 py-lg-5 product_high overflow-hidden"
+
+        >
+          <div className="container">
+            <div className="py-3 pb-5 text-center">
+              <div
+                className="font_stroke"
+                data-aos="fade-up"
+                data-aos-duration="1500"
+                data-aos-once="true"
+              >
+                Products
+              </div>
+              <div
+                className="ftittle text-white"
+                data-aos="fade-down"
+                data-aos-duration="1500"
+                data-aos-once="true"
+              >
+                Our  Popular poducts
+              </div>
             </div>
           </div>
-        </div>
 
-        <div className="container pb-3 pb-lg-5" data-aos="fade-up" data-aos-delay="100" data-aos-once="true">
-          <div className="row ">
-            <div className="col-lg-3">
-              <ul
-                className=" nav nav-tabs flex-column justify-content-between bg_tab pb-2 h-100"
-                data-aos="fade-right" data-aos-duration="1800" data-aos-once="true"
-              >
-                <div className="fw-bold p-3 fs-4 text-white" style={{backgroundColor:"var(--green--)"}}>
-                  {" "}
-                  Our projects
-                </div>
-                {departments.map((department) => (
-                  <>
-                    <li className="nav-item mx-2 mt-2" key={department.id}>
-                      <a
-                        className={`nav-link ${
-                          activeTab === department.id ? "active show" : ""
-                        }`}
-                        onClick={() => setActiveTab(department.id)}
-                      >
-                        {department.title}
-                      </a>
-                    </li>
-                  </>
-                ))}
-              </ul>
-            </div>
-            <div className="col-lg-9 mt-4 mt-lg-0 shadow_green p-5 bg-white" data-aos="fade-left" data-aos-duration="1800" data-aos-once="true">
-              {departments
-                .filter((department) => department.id === activeTab)
-                .map((department) => (
-                  <div
-                    className="tab-pane active show "
-                    id={department.id}
-                    key={department.id}
-                    
-                  >
-                    <div className="row">
-                      <div className="col-lg-8 details order-2 order-lg-1">
-                        <h3 className="fw-bold">{department.title}</h3>
-                        <p className="fst-italic">{department.description}</p>
-                        <p>{department.details}</p>
-                        <div className="mt-2" data-aos="zoom-in" data-aos-duration="1800" data-aos-once="true">
-                          <Link to={"/"} className="text-decoration-none">
-                            <button
-                              className="button-48 mt-3"
-                              role="button"
-                              onClick={() =>
-                                window.open(
-                                  generateWhatsAppURL(department.title),
-                                  "_blank"
-                                )
-                              }
-                            >
-                              <span className="btn_text fw-bold">
-                                Get Quotes{" "}
-                                <span className="ps-1 fs-5 fw-bold">
-                                  <MdOutlineArrowOutward />
-                                </span>
-                              </span>
-                            </button>
-                          </Link>
+          <div className="container pb-3 pb-lg-5" data-aos="fade-up" data-aos-delay="100" data-aos-once="true">
+            <div className="row ">
+              <div className="col-lg-3">
+                <ul
+                  className=" nav nav-tabs flex-column justify-content-between bg_tab pb-2 h-100"
+                  data-aos="fade-right" data-aos-duration="1800" data-aos-once="true"
+                >
+                  <div className="fw-bold p-3 fs-4 text-white" style={{ backgroundColor: "var(--green--)" }}>
+                    {" "}
+                    Our projects
+                  </div>
+                  {departments.map((department) => (
+                    <>
+                      <li className="nav-item mx-2 mt-2" key={department.id}>
+                        <div
+
+                          className={`nav-link ${activeTab === department.id ? "active show" : ""
+                            }`}
+                          onClick={() => setActiveTab(department.id)}
+                        >
+                          {department.title}
                         </div>
-                      </div>
-                      <div className="col-lg-4 text-center order-1 order-lg-2">
-                        <div className="h-100">
-                          <img
-                            src={department.image}
-                            alt={department.title}
-                            className="img-fluid h-100 object-fit-contain w-100"
-                          />
+                      </li>
+                    </>
+                  ))}
+                </ul>
+              </div>
+              <div className="col-lg-9 mt-4 mt-lg-0 shadow_green p-5 bg-white" data-aos="fade-left" data-aos-duration="1800" data-aos-once="true">
+                {departments
+                  .filter((department) => department.id === activeTab)
+                  .map((department) => (
+                    <div
+                      className="tab-pane active show "
+                      id={department.id}
+                      key={department.id}
+
+                    >
+                      <div className="row">
+                        <div className="col-lg-8 details order-2 order-lg-1">
+                          <h3 className="fw-bold">{department.title}</h3>
+                          <p className="fst-italic">{department.description}</p>
+                          <p>{department.details}</p>
+                          <div className="mt-2" data-aos="zoom-in" data-aos-duration="1800" data-aos-once="true">
+                            <Link to={"/"} className="text-decoration-none">
+                              <button
+                                className="button-48 mt-3"
+                                onClick={() =>
+                                  window.open(
+                                    generateWhatsAppURL(department.title),
+                                    "_blank"
+                                  )
+                                }
+                              >
+                                <span className="btn_text fw-bold">
+                                  Get Quotes{" "}
+                                  <span className="ps-1 fs-5 fw-bold">
+                                    <MdOutlineArrowOutward />
+                                  </span>
+                                </span>
+                              </button>
+                            </Link>
+                          </div>
+                        </div>
+                        <div className="col-lg-4 text-center order-1 order-lg-2">
+                          <div className="h-100">
+                            <img
+                              src={department.image}
+                              alt={department.title}
+                              className="img-fluid h-100 object-fit-contain w-100"
+                            />
+                          </div>
                         </div>
                       </div>
                     </div>
-                  </div>
-                ))}
+                  ))}
+              </div>
             </div>
           </div>
-        </div>
-      </section>
-</div>
+        </section>
+      </div>
     </>
   );
 }

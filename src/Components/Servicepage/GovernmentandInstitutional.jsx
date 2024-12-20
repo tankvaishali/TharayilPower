@@ -109,15 +109,15 @@ function Covernmentandlinstitutional() {
           {/* {/  Energy efficiency audits /} */}
 
           <div className="my-2 my-lg-4 mx-auto text-center" data-aos="zoom-in" data-aos-duration="1800" data-aos-once="true">
-              <Link to={"/service"} className="text-decoration-none">
-                <button className="button-48 mt-3" role="button">
-                  <span className="btn_text fw-bold">
+            <Link to={"/service"} className="text-decoration-none">
+              <button className="button-48 mt-3">
+                <span className="btn_text fw-bold">
                   Back To Home
-                   
-                  </span>
-                </button>
-              </Link>
-            </div>
+
+                </span>
+              </button>
+            </Link>
+          </div>
         </div>
       </div>
     </>

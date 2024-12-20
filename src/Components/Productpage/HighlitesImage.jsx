@@ -24,7 +24,7 @@ function HighlitesImage() {
     },
     {
       src: require("../../Assets/Images/IMG-20240123-WA0036.jpg"),
-      
+
       // src: "https://www.unicef.org/innovation/sites/unicef.org.innovation/files/styles/hero_tablet/public/UNI414903.JPG.webp?itok=xB7Exy1q",
       alt: "big rocks with some trees",
     },
@@ -64,7 +64,7 @@ function HighlitesImage() {
                   alt={image.alt}
                   onDoubleClick={() => openModal(index)}
                 />
-              
+
               ))}
             </div>
           </div>
@@ -81,9 +81,9 @@ function HighlitesImage() {
               &times;
             </span>
           </div> */}
-          <button onClick={closeModal} className="close-modal p-3 fw-bold bg-success rounded-circle  d-flex align-content-center align-items-center justify-content-center m-3" style={{width:"40px",height:"40px"}}>
-              X
-            </button> 
+          <button onClick={closeModal} className="close-modal p-3 fw-bold bg-success rounded-circle  d-flex align-content-center align-items-center justify-content-center m-3" style={{ width: "40px", height: "40px" }}>
+            X
+          </button>
           <span className="prev" onClick={prevImage}>
             &#10094;
           </span>

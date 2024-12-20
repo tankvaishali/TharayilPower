@@ -46,10 +46,10 @@ function Profatible() {
                   Proven Renewable Energy Solution
                 </div>
                 <div className="py-3 pb-2 text-secondary pera"
-                 data-aos="fade-up"
-                 data-aos-duration="1500"
-                 data-aos-delay="200"
-                 data-aos-once="true"
+                  data-aos="fade-up"
+                  data-aos-duration="1500"
+                  data-aos-delay="200"
+                  data-aos-once="true"
                 >
                   Tharayil Power’s solar systems offer a high return on
                   investment, combining energy savings with increased property
@@ -59,25 +59,25 @@ function Profatible() {
                   and energy independence.
                 </div>
                 <div className=" my-2">
-                        <Link to={"/product"} className="text-decoration-none "  data-aos="zoom-in"
-                  data-aos-duration="1500"
-                  data-aos-once="true">
-                          <button className="button-48 mt-3" role="button">
-                            <span className="btn_text fw-bold fs-6">
-                            Check Out Project {" "}
-                            <span className="ps-1 fs-5 fw-bold">
-                                <MdOutlineArrowOutward />
-                              </span>
-                            </span>
-                          </button>
-                        </Link>
-                      </div>
+                  <Link to={"/product"} className="text-decoration-none " data-aos="zoom-in"
+                    data-aos-duration="1500"
+                    data-aos-once="true">
+                    <button className="button-48 mt-3">
+                      <span className="btn_text fw-bold fs-6">
+                        Check Out Project {" "}
+                        <span className="ps-1 fs-5 fw-bold">
+                          <MdOutlineArrowOutward />
+                        </span>
+                      </span>
+                    </button>
+                  </Link>
+                </div>
                 <div className="row p-0 m-0">
                   <div className="col-12 col-md-6 p-0 m-0 pt-2">
                     <div className="h-100 fw-bold "
-                     data-aos="zoom-in"
-                     data-aos-duration="1500"
-                     data-aos-once="true"
+                      data-aos="zoom-in"
+                      data-aos-duration="1500"
+                      data-aos-once="true"
                     >
                       <div className=" fs-1 text-success">
                         {" "}
@@ -96,9 +96,9 @@ function Profatible() {
                     </div>
                   </div>
                   <div className="col-12 col-md-6 p-0 m-0 pt-2">
-                    <div className="h-100 fw-bold"  data-aos="zoom-in"
-                  data-aos-duration="1500"
-                  data-aos-once="true">
+                    <div className="h-100 fw-bold" data-aos="zoom-in"
+                      data-aos-duration="1500"
+                      data-aos-once="true">
                       <div className=" fs-1 text-success">
                         {" "}
                         <CountUp
@@ -116,7 +116,7 @@ function Profatible() {
                     </div>
                   </div>
                 </div>
-             
+
               </div>
             </div>
           </div>

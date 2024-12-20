@@ -1,12 +1,6 @@
 import React, { useState } from "react";
 import { BiSolidPhoneCall } from "react-icons/bi";
-import {
-  FaFacebookF,
-  FaInstagram,
-  FaLinkedinIn,
-  FaMailBulk,
-
-} from "react-icons/fa";
+import { FaFacebookF, FaInstagram, FaLinkedinIn, FaMailBulk, } from "react-icons/fa";
 import { FaMapLocationDot } from "react-icons/fa6";
 import { ImYoutube } from "react-icons/im";
 
@@ -87,7 +81,7 @@ function ContactFooter() {
     <>
       <div className="footer_bg" style={{ paddingTop: "300px" }}>
         <div className="container  ">
-        <div className="row p-0 m-0 g-3 g-lg-5 overflow-hidden">
+          <div className="row p-0 m-0 g-3 g-lg-5 overflow-hidden">
             <div
               className="col-12 col-md-6 col-lg-4 pt-4 order-0"
               data-aos="zoom-in"
@@ -103,7 +97,7 @@ function ContactFooter() {
                 />
               </div>
               <div className="pera lightgray py-2 pt-3">
-              Tharayil Power helps you save on energy costs with sustainable solar solutions, reliable backup systems, and tailored power solutions for homes and businesses.
+                Tharayil Power helps you save on energy costs with sustainable solar solutions, reliable backup systems, and tailored power solutions for homes and businesses.
 
               </div>
               <div className="d-flex fs-4 my-3">
@@ -118,8 +112,8 @@ function ContactFooter() {
                 <Link
                   to={"https://www.instagram.com/tharayilpower/"}
                   className="footericon text-center p-2  mx-1 d-flex text-decoration-none text-white instaicon"
-               target="_blank"
-               >
+                  target="_blank"
+                >
                   <FaInstagram />
                 </Link>
                 <Link
@@ -156,7 +150,7 @@ function ContactFooter() {
                     to={"https://www.google.com/maps/place/Tharayil+Power+%26+Energy+Solutions+(P)+Ltd/@9.5126451,76.3380907,17z/data=!3m1!4b1!4m6!3m5!1s0x3b088571b9c23145:0x6e2e6b8c22fe8ba4!8m2!3d9.5126451!4d76.3380907!16s%2Fg%2F11f6xzf99_?entry=ttu&g_ep=EgoyMDI0MTIxMS4wIKXMDSoASAFQAw%3D%3D"}
                     className="text-decoration-none lightgray link_hover py-1"
                     target="_blank"
-          
+
                   >
                     Tharayil House, Kalath Ward, Avalukkunnu.P.O, Alappuzha
                   </Link>

@@ -6,7 +6,7 @@ function Form() {
   const [obj, setobj] = useState({});
   const [resetobj, setresetobj] = useState({});
   const [errormsg, seterrormsg] = useState({});
-  
+
   const validateField = (name, value) => {
     let errorMessage = "";
 
@@ -18,16 +18,16 @@ function Form() {
       }
     }
 
-    
-        if (name === "email") {
-          if (!value || value.length <= 0) {
-            errorMessage = "Email is required";
-          } else if (
-            !(value.includes("@gmail.com") || value.includes("@yahoo.com"))
-          ) {
-            errorMessage = "Email is not valid";
-          }
-        }
+
+    if (name === "email") {
+      if (!value || value.length <= 0) {
+        errorMessage = "Email is required";
+      } else if (
+        !(value.includes("@gmail.com") || value.includes("@yahoo.com"))
+      ) {
+        errorMessage = "Email is not valid";
+      }
+    }
     if (name === "subject") {
       if (!value || value.length <= 0) {
         errorMessage = "subject is required";
@@ -48,7 +48,7 @@ function Form() {
       }
     }
 
- 
+
 
     return errorMessage;
   };
@@ -93,7 +93,7 @@ function Form() {
       const dataToSend = obj;
 
       console.log(dataToSend);
-  
+
       emailjs
         .send(
           "service_3z4hyxb",
@@ -136,7 +136,7 @@ function Form() {
             <div className="col-12 col-lg-7 p-0 m-0">
               <div
                 className="h-100 p-3 p-lg-5 product_high rounded-5"
-                // style={{ backgroundColor: "var(--darkgreen--)" }}
+              // style={{ backgroundColor: "var(--darkgreen--)" }}
               >
                 <div className="py-3 text-center">
                   <div
@@ -163,16 +163,16 @@ function Form() {
                         name="name"
                         placeholder="Full Name"
                         className="p-2 rounded-pill w-100 ps-3"
-                      onChange={getdata}
-                      value={obj?.name || ""}
+                        onChange={getdata}
+                        value={obj?.name || ""}
 
                       />
-                             <span
-                      className="text-danger d-block"
-                      style={{ fontSize: "14px" }}
-                    >
-                      {errormsg.name}
-                    </span>
+                      <span
+                        className="text-danger d-block"
+                        style={{ fontSize: "14px" }}
+                      >
+                        {errormsg.name}
+                      </span>
                     </div>
                     <div className="col-12 col-lg-6  ">
                       <input
@@ -182,14 +182,14 @@ function Form() {
                         className="p-2 rounded-pill w-100 ps-3"
                         onChange={getdata}
                         value={obj?.email || ""}
-                    
-                    />
-                          <span
-                      className="text-danger d-block"
-                      style={{ fontSize: "14px" }}
-                    >
-                      {errormsg.email}
-                    </span>
+
+                      />
+                      <span
+                        className="text-danger d-block"
+                        style={{ fontSize: "14px" }}
+                      >
+                        {errormsg.email}
+                      </span>
                     </div>
                     <div className="col-12 col-lg-6  ">
                       <input
@@ -199,14 +199,14 @@ function Form() {
                         className="p-2 rounded-pill w-100 ps-3"
                         onChange={getdata}
                         value={obj?.mobileNumber || ""}
-                     
-                     />
-                           <span
-                      className="text-danger d-block"
-                      style={{ fontSize: "14px" }}
-                    >
-                      {errormsg.mobileNumber}
-                    </span>
+
+                      />
+                      <span
+                        className="text-danger d-block"
+                        style={{ fontSize: "14px" }}
+                      >
+                        {errormsg.mobileNumber}
+                      </span>
                     </div>
                     <div className="col-12 col-lg-6  ">
                       <input
@@ -217,13 +217,13 @@ function Form() {
                         onChange={getdata}
                         value={obj?.subject || ""}
 
-                    />
-                          <span
-                      className="text-danger d-block"
-                      style={{ fontSize: "14px" }}
-                    >
-                      {errormsg.subject}
-                    </span>
+                      />
+                      <span
+                        className="text-danger d-block"
+                        style={{ fontSize: "14px" }}
+                      >
+                        {errormsg.subject}
+                      </span>
                     </div>
                     <div className="col-12 ">
                       <textarea
@@ -234,17 +234,17 @@ function Form() {
                         onChange={getdata}
                         value={obj?.description || ""}
 
-                     />
+                      />
                     </div>
                   </div>
                 </form>
                 <div className="pt-2 text-center">
-                
-                  
-                  <button  type="button" onClick={savedata} className="button-48 mt-3" role="button">
-                      <span className="btn_text fw-bold">Submit</span>
-                    </button>
-                 
+
+
+                  <button type="button" onClick={savedata} className="button-48 mt-3">
+                    <span className="btn_text fw-bold">Submit</span>
+                  </button>
+
                 </div>
               </div>
             </div>

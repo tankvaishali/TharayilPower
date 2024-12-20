@@ -20,7 +20,7 @@ function Homeabout() {
                     <div className="gridc1 allimg">
                       <div className="desc1"></div>
                       <img
-                      src={require("../../Assets/Images/aboutus (1).jpg")}
+                        src={require("../../Assets/Images/aboutus (1).jpg")}
 
                         // src="https://www.investopedia.com/thmb/HNgIWqoqYesoBAo6zqWc9LiiWlg=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/GettyImages-1278948452-e1fdce3baef44af28f449ab36d6717f3.jpg"
                         alt=""
@@ -40,7 +40,7 @@ function Homeabout() {
                     <img
                       // src="https://d2tez01fe91909.cloudfront.net/wp-content/uploads/2023/01/AdobeStock_166916488-scaled-e1683923540796.jpeg.webp"
                       src={require("../../Assets/Images/aboutus (2).jpg")}
-                      className="img-fluid w-100 h-100" 
+                      className="img-fluid w-100 h-100"
                       alt=""
                     />
                   </div>
@@ -64,21 +64,21 @@ function Homeabout() {
                     data-aos-duration="1500"
                     data-aos-once="true"
                   >
-                   Let’s Build Kerala Solar Strong Together
+                    Let’s Build Kerala Solar Strong Together
                   </div>
                 </div>
                 <div className="pera py-3 text-secondary">
-                Located in Kerala, Tharayil Power is committed to making renewable energy solutions accessible for homes, businesses, and institutions. With our expertise in solar and energy-saving technologies, we aim to deliver sustainable solutions that drive savings and environmental impact for our clients.
+                  Located in Kerala, Tharayil Power is committed to making renewable energy solutions accessible for homes, businesses, and institutions. With our expertise in solar and energy-saving technologies, we aim to deliver sustainable solutions that drive savings and environmental impact for our clients.
                 </div>
                 <div className="pera  pb-4 text-secondary">
-<div className="text-dark fw-bold fs-6 py-1">
-Our USPs at a Glance:
-</div>
-<div className="pb-1"><span className="fw-bold">- Trusted Quality</span> : Premium products and installations.</div>
-<div><span className="fw-bold ">- Reliable Support: </span> : Dedicated after-sales service.</div>
+                  <div className="text-dark fw-bold fs-6 py-1">
+                    Our USPs at a Glance:
+                  </div>
+                  <div className="pb-1"><span className="fw-bold">- Trusted Quality</span> : Premium products and installations.</div>
+                  <div><span className="fw-bold ">- Reliable Support: </span> : Dedicated after-sales service.</div>
 
 
-  
+
                 </div>
 
                 <div className="row p-0 m-0">
@@ -100,7 +100,7 @@ Our USPs at a Glance:
                           <MdCheckBox />
                         </div>
                         <div className="ps-2 fw-medium">
-                        Custom-tailored installations
+                          Custom-tailored installations
 
                         </div>
                       </div>
@@ -130,7 +130,7 @@ Our USPs at a Glance:
                           <MdCheckBox />
                         </div>
                         <div className="ps-2 fw-medium">
-                        Eco-friendly solutions
+                          Eco-friendly solutions
 
                         </div>
                       </div>
@@ -139,7 +139,7 @@ Our USPs at a Glance:
                           <MdCheckBox />
                         </div>
                         <div className="ps-2 fw-medium">
-                        Affordable,high-quality solutions
+                          Affordable,high-quality solutions
 
                         </div>
                       </div>
@@ -153,7 +153,7 @@ Our USPs at a Glance:
                   data-aos-once="true"
                 >
                   <Link to={"/aboutus"} className="text-decoration-none">
-                    <button className="button-48 mt-3" role="button">
+                    <button className="button-48 mt-3">
                       <span className="btn_text fw-bold">about us</span>
                     </button>
                   </Link>

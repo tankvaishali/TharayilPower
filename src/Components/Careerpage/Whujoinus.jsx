@@ -10,38 +10,38 @@ import { Link } from "react-router-dom";
 function Whujoinus() {
   let join = [
     {
-      aos:"flip-up",
-      icon:<FaGraduationCap/>,
+      aos: "flip-up",
+      icon: <FaGraduationCap />,
       tittle: "Career Development Opportunities",
       pera: "We invest in our people, offering training, mentorship, and opportunities to grow within the company. You’ll have access to cutting-edge industry knowledge and the chance to build a long-term career in renewable energy.",
     },
     {
-      aos:"fade-left",
-      icon:<FaLightbulb />,
+      aos: "fade-left",
+      icon: <FaLightbulb />,
       tittle: "Leading Solar Innovation",
       pera: "As one of Kerala’s top solar energy providers, Tharayil Power leverages advanced technologies to deliver top-notch solar solutions. Join us, and work alongside industry experts on projects that push the boundaries of sustainable technology.",
     },
-      
-    {
-      aos:"fade-right",
 
-      icon:<FiGlobe  />,
+    {
+      aos: "fade-right",
+
+      icon: <FiGlobe />,
       tittle: "Inclusive & Collaborative Environment",
       pera: "We believe that great ideas come from collaboration. Our inclusive culture values diverse perspectives and promotes open communication, fostering a workplace where everyone can contribute and thrive.",
     },
- 
+
 
     {
-      aos:"flip-up",
+      aos: "flip-up",
 
-      icon:<GiLaurelCrown  />,
+      icon: <GiLaurelCrown />,
       tittle: "Rewards & Recognition",
       pera: "We appreciate hard work and dedication. Tharayil Power offers competitive salaries, performance-based rewards, and regular recognition programs to celebrate our team’s achievements.",
     },
     {
-      aos:"fade-left",
+      aos: "fade-left",
 
-      icon:<FaHandsHelping    />,
+      icon: <FaHandsHelping />,
       tittle: "Impactful Work",
       pera: "At Tharayil Power, every project contributes to a cleaner, more sustainable Kerala. Be a part of a team whose work reduces carbon footprints, lowers energy costs, and builds a better future.",
     },
@@ -75,9 +75,9 @@ function Whujoinus() {
               >
                 Why People Join Us?
               </div>
-              <div className="text-secondary border-4 border-start border-success ps-3 pera mt-2"  data-aos="fade-up"
-                  data-aos-duration="1500"
-                  data-aos-once="true">
+              <div className="text-secondary border-4 border-start border-success ps-3 pera mt-2" data-aos="fade-up"
+                data-aos-duration="1500"
+                data-aos-once="true">
                 At Tharayil Power, we’re not just creating solar solutions; we’re
                 building a community of forward-thinkers, innovators, and
                 environmental advocates dedicated to transforming Kerala’s
@@ -97,12 +97,12 @@ function Whujoinus() {
                   <div className="h-100 ag-courses-item_link overflow-hidden position-relative d-block p-4">
                     <div className="ag-courses-item_bg"></div>
                     <div className="text-white position-relative z-2">
-          
+
                       <div
                         className="fs-5 fw-bold  pb-1 d-flex align-items-center "
-                        // style={{ width: "fit-content" }}
+                      // style={{ width: "fit-content" }}
                       >
-                   <div className="fs-2 joinicon">{x.icon}</div>    <div className="ps-2 pt-1"> {x.tittle}</div>
+                        <div className="fs-2 joinicon">{x.icon}</div>    <div className="ps-2 pt-1"> {x.tittle}</div>
                       </div>
                       <div className="pera py-2 pt-3 pera_color fw-medium">
                         {x.pera}
@@ -115,17 +115,17 @@ function Whujoinus() {
           ))}
         </div>
         <div className="text-center my-2">
-                        <Link to={"/aboutus"} className="text-decoration-none">
-                          <button className="button-48 mt-3" role="button">
-                            <span className="btn_text fw-bold">
-                              Read More{" "}
-                              <span className="ps-1  fw-bold">
-                                <MdOutlineArrowOutward />
-                              </span>
-                            </span>
-                          </button>
-                        </Link>
-                      </div>
+          <Link to={"/aboutus"} className="text-decoration-none">
+            <button className="button-48 mt-3">
+              <span className="btn_text fw-bold">
+                Read More{" "}
+                <span className="ps-1  fw-bold">
+                  <MdOutlineArrowOutward />
+                </span>
+              </span>
+            </button>
+          </Link>
+        </div>
       </div>
     </div>
   );

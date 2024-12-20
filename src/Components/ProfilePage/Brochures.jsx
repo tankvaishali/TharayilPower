@@ -20,7 +20,7 @@ function Brochures() {
                   data-aos-duration="1500"
                   data-aos-once="true"
                 >
-                   Brochures  
+                  Brochures
                 </div>
                 <div
                   className="ftittle text-white "
@@ -28,19 +28,19 @@ function Brochures() {
                   data-aos-duration="1500"
                   data-aos-once="true"
                 >
-             Select Your Solar Engineering Solution  
+                  Select Your Solar Engineering Solution
                 </div>
                 <div
                   className="pera pt-4 p-0 py-lg-3 p-lg-2"
                   style={{ color: "var(--lightgray--)" }}
                 >
-              Download our brochures to learn more about our specialized solar solutions, designed to meet diverse energy needs. From residential systems to large-scale commercial installations, our solutions are engineered for performance, cost-effectiveness, and sustainability.
+                  Download our brochures to learn more about our specialized solar solutions, designed to meet diverse energy needs. From residential systems to large-scale commercial installations, our solutions are engineered for performance, cost-effectiveness, and sustainability.
                 </div>
                 <div
                   className="pera pt-4 p-0 p-lg-2 ps-0 "
                   style={{ color: "var(--lightgray--)" }}
                 >
-Our brochures offer a detailed look into Tharayil Power’s solar services, providing valuable insights into our approach, technology, and commitment to green energy.
+                  Our brochures offer a detailed look into Tharayil Power’s solar services, providing valuable insights into our approach, technology, and commitment to green energy.
 
 
                 </div>
@@ -73,7 +73,7 @@ Our brochures offer a detailed look into Tharayil Power’s solar services, prov
                     target="_blank"
                   >
                     <div className="text-center">
-                      <button className="button-48 mt-4" role="button">
+                      <button className="button-48 mt-4">
                         <span className="btn_text fw-bold">Download Now</span>
                       </button>
                     </div>

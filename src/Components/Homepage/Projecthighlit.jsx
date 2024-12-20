@@ -1,9 +1,6 @@
 import React from "react";
 import Slider from "react-slick";
 import "../../Assets/Css/Home.css";
-import { Link } from "react-router-dom";
-import { TbCircleArrowUpRight, TbCircleArrowUpRightFilled } from "react-icons/tb";
-import { MdOutlineArrowOutward } from "react-icons/md";
 
 function Projecthighlit() {
   let ProductItemlist = [
@@ -70,17 +67,17 @@ function Projecthighlit() {
               >
                 Projects
               </div>
-              
+
               <div
                 className="ftittle text-white"
                 data-aos="fade-down"
                 data-aos-duration="1500"
                 data-aos-once="true"
               >
-             Explore how Tharayil Power has helped clients achieve their energy goals.
+                Explore how Tharayil Power has helped clients achieve their energy goals.
               </div>
 
-        
+
             </div>
             <div className="col-12  col-lg-3 pera text-white"></div>
 
@@ -122,14 +119,14 @@ function Projecthighlit() {
                 })}
               </Slider>
             </div>
-      
+
           </div>
 
         </div>
 
-          </div>
-     
-    
+      </div>
+
+
     </>
   );
 }

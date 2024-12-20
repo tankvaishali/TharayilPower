@@ -24,7 +24,7 @@ function ServiceWork() {
                 <div className="desc1"></div>
                 <img
                   src="https://futuresolarandelectric.com/wp-content/uploads/elementor/thumbs/Solar-Incentives-qs0nbofnd44g8f23d61d4t5z8ce63pfb1ux0udkpvc.jpg"
-                  alt="Service Image 1"
+                  alt="Solar incentives information"
                   className="img-fluid w-100 h-100 object-fit-cover rounded-3"
                   style={{ objectPosition: "bottom center" }}
                 />
@@ -39,9 +39,8 @@ function ServiceWork() {
               >
                 <div className="desc1"></div>
                 <img
-                src={require("../../Assets/Images/IMG-20240902-WA0006.jpg")}
-                  // src="https://waareeimages.s3.ap-south-1.amazonaws.com/Why_Solar_Energy_is_profitable_79114ac6f9.png"
-                  alt="Service Image 2"
+                  src={require("../../Assets/Images/IMG-20240902-WA0006.jpg")}
+                  alt="Solar incentives information"
                   className="img-fluid w-100 h-100 object-fit-cover rounded-3"
                   style={{ objectPosition: "bottom center" }}
                 />
@@ -71,27 +70,27 @@ function ServiceWork() {
                     </div>
                   </div>
 
-                  <div className="text-secondary  pera " 
-                   data-aos="fade-up"
-                   data-aos-duration="1500"
-                   data-aos-once="true"
+                  <div className="text-secondary  pera "
+                    data-aos="fade-up"
+                    data-aos-duration="1500"
+                    data-aos-once="true"
                   >
-                   We work for you, providing solar power that works for you
+                    We work for you, providing solar power that works for you
 
                   </div>
-                  <div className="text-secondary  my-3 border-4 border-start border-success ps-3 pera " 
-                   data-aos="fade-up"
-                   data-aos-duration="1500"
-                   data-aos-once="true"
+                  <div className="text-secondary  my-3 border-4 border-start border-success ps-3 pera "
+                    data-aos="fade-up"
+                    data-aos-duration="1500"
+                    data-aos-once="true"
                   >
-                  We provide solar power solutions tailored to your needs, offering cost savings, energy independence, sustainability, and reliable performance, ensuring long-term benefits for homes and businesses.
+                    We provide solar power solutions tailored to your needs, offering cost savings, energy independence, sustainability, and reliable performance, ensuring long-term benefits for homes and businesses.
 
 
                   </div>
-                  <ul className="py-2 small_sizef" 
-                   data-aos="fade-up"
-                   data-aos-duration="1500"
-                   data-aos-once="true"                  >
+                  <ul className="py-2 small_sizef"
+                    data-aos="fade-up"
+                    data-aos-duration="1500"
+                    data-aos-once="true"                  >
                     <li className="pera py-1 text-capitalize fw-medium"> cost savings</li>
                     <li className="pera py-1 text-capitalize fw-medium"> energy independence</li>
                     <li className="pera py-1 text-capitalize fw-medium"> sustainability</li>
@@ -104,7 +103,7 @@ function ServiceWork() {
                     data-aos-once="true"
                   >
                     <Link to={"/career"} className="text-decoration-none">
-                      <button className="button-48 mt-3" role="button">
+                      <button className="button-48 mt-3">
                         <span className="btn_text fw-bold">
                           Know More{" "}
                           <span className="ps-1 fs-5 fw-bold">

@@ -1,11 +1,8 @@
 import { CircleChevronRight } from 'lucide-react';
-import React, { useState } from 'react';
+import React from 'react';
 import { Card, Col, Container, Row, Tab, Tabs } from 'react-bootstrap';
-import { BsCheckCircle, BsFillCheckCircleFill, BsPerson, BsPersonFill } from 'react-icons/bs';
-import { CiLocationOn } from 'react-icons/ci';
 
 function CaseStudy() {
-    const [activeTab, setActiveTab] = useState("tabs-tab-1");
 
     const departments = [
         {

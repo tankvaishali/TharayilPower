@@ -26,15 +26,15 @@ function AboutConbtact() {
                 Contact Us for Any Assistance
               </h1>
               <p className="py-3 pera kjh">
-              Our team is here to answer your questions and guide you through the process of switching to solar.
+                Our team is here to answer your questions and guide you through the process of switching to solar.
               </p>
 
               <div>
                 <Link to={"/contactus"} className="text-decoration-none">
-                  <button className="button-48 mt-3" role="button">
+                  <button className="button-48 mt-3" >
                     <span className="btn_text fw-bold">
-              Contact Us
-                     
+                      Contact Us
+
                     </span>
                   </button>
                 </Link>

@@ -1,25 +1,23 @@
 import React from "react";
-import { FaLinkedinIn } from "react-icons/fa";
-import { Link } from "react-router-dom";
 
 function CeoMessage() {
   return (
     <>
       <div className="container overflow-hidden">
         <div className="row pt-3 pt-lg-0 m-0 g-4 align-items-center">
-        <div className="col-12 col-lg-6  p-3 p-lg-5 pt-0" data-aos="zoom-in" data-aos-duration="1800"  data-aos-once="true" data-aos-delay="400">
-        <div className="h-100">
+          <div className="col-12 col-lg-6  p-3 p-lg-5 pt-0" data-aos="zoom-in" data-aos-duration="1800" data-aos-once="true" data-aos-delay="400">
+            <div className="h-100">
               <div className="profile_bg h-100">
                 <img
                   src={require("../../Assets/Images/STAFF PHOTOS/parul image.png")}
                   alt=""
                   className="img-fluid w-100 h-100 object-fit-contain image_rad ceoprofileimage p-4"
-                 
+
                 />
               </div>
             </div>
           </div>
-          <div className="col-12 col-lg-6 " data-aos="fade-right" data-aos-duration="1800"  data-aos-once="true" data-aos-delay="400">
+          <div className="col-12 col-lg-6 " data-aos="fade-right" data-aos-duration="1800" data-aos-once="true" data-aos-delay="400">
             <div className="h-100">
               <div
                 className="font_stroke"
@@ -66,15 +64,15 @@ function CeoMessage() {
 
         </div>
         <div className="row p-0 m-0 g-4  mt-3 align-items-center">
-       
-          <div className="col-12 col-lg-6 pt-0 pt-lg-3 order-1 order-lg-0" data-aos="fade-left" data-aos-duration="1800"  data-aos-once="true" data-aos-delay="400">
+
+          <div className="col-12 col-lg-6 pt-0 pt-lg-3 order-1 order-lg-0" data-aos="fade-left" data-aos-duration="1800" data-aos-once="true" data-aos-delay="400">
             <div className="h-100">
               <div
                 className="font_stroke"
                 data-aos="fade-up"
                 data-aos-duration="1500"
               >
-                CEO Message  
+                CEO Message
               </div>
               <div
                 className="ftittle"
@@ -84,7 +82,7 @@ function CeoMessage() {
                 - Thulsidas N
               </div>
               <div className="pt-4 pera">
-              "Our goal at Tharayil Power is to make solar power simple, accessible, and valuable for every client we serve. From residential installations to large-scale commercial projects, we leverage cutting-edge technology and an expert team to deliver solutions that enhance efficiency, reduce costs, and support Kerala’s environmental goals."  {" "}
+                "Our goal at Tharayil Power is to make solar power simple, accessible, and valuable for every client we serve. From residential installations to large-scale commercial projects, we leverage cutting-edge technology and an expert team to deliver solutions that enhance efficiency, reduce costs, and support Kerala’s environmental goals."  {" "}
               </div>
               <div className=" text-success fw-bold py-2">
                 — Thulsidas N, CEO, Tharayil Power
@@ -104,14 +102,14 @@ function CeoMessage() {
               </div> */}
             </div>
           </div>
-          <div className="col-12 col-lg-6 p-5 pt-0 pb-0 pb-lg-5 order-0 order-lg-1" data-aos="fade-right" data-aos-duration="1800"  data-aos-once="true" data-aos-delay="400">
+          <div className="col-12 col-lg-6 p-5 pt-0 pb-0 pb-lg-5 order-0 order-lg-1" data-aos="fade-right" data-aos-duration="1800" data-aos-once="true" data-aos-delay="400">
             <div className="h-100">
               <div className="profile_bg h-100">
                 <img
                   src={require("../../Assets/Images/STAFF PHOTOS/CEO-removebg-preview.png")}
                   alt=""
                   className="img-fluid w-100 h-100 object-fit-contain image_rad ceoprofileimage p-4"
-                 
+
                 />
               </div>
             </div>
@@ -119,47 +117,47 @@ function CeoMessage() {
         </div>
         <div className="row pt-3 pt-lg-0 m-0 g-4 align-items-center">
           <div className="text-center">              <div
-                className="font_stroke"
-                data-aos="fade-up"
-                data-aos-duration="1500"
-                data-aos-once="true"
-              >
-                 manager 
-              </div>
-              <div
-                className="ftittle"
-                data-aos="fade-down"
-                data-aos-duration="1500"
-                data-aos-once="true"
-              >
-                              jeneral manager saying
+            className="font_stroke"
+            data-aos="fade-up"
+            data-aos-duration="1500"
+            data-aos-once="true"
+          >
+            manager
+          </div>
+            <div
+              className="ftittle"
+              data-aos="fade-down"
+              data-aos-duration="1500"
+              data-aos-once="true"
+            >
+              jeneral manager saying
 
-              </div></div>
-        <div className="col-12 col-lg-6  p-3 p-lg-5 pt-0" data-aos="zoom-in" data-aos-duration="1800"  data-aos-once="true" data-aos-delay="400">
-        <div className="h-100">
+            </div></div>
+          <div className="col-12 col-lg-6  p-3 p-lg-5 pt-0" data-aos="zoom-in" data-aos-duration="1800" data-aos-once="true" data-aos-delay="400">
+            <div className="h-100">
               <div className=" h-100">
                 <img
                   src={require("../../Assets/Images/linkedin-profile-picture-squinch-removebg-preview.png")}
                   alt=""
                   className="img-fluid w-100 h-100 object-fit-cover bg-secondary-subtle imageoutline  p-4"
-                 
+
                 />
               </div>
             </div>
           </div>
-          <div className="col-12 col-lg-6 " data-aos="fade-right" data-aos-duration="1800"  data-aos-once="true" data-aos-delay="400">
+          <div className="col-12 col-lg-6 " data-aos="fade-right" data-aos-duration="1800" data-aos-once="true" data-aos-delay="400">
             <div className="h-100">
- 
+
               <div className="pt-4 pera">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex, mollitia exercitationem. Mollitia expedita, eaque reiciendis, iste voluptas odit quibusdam temporibus amet quidem dolor labore architecto! Ad neque minima quis repellat quod architecto vitae labore facilis iure, laborum doloribus quidem quia? Tenetur quam aut natus veniam voluptatem, doloremque placeat laudantium quas? Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repudiandae dolore, quam accusantium quis culpa odio porro corrupti natus, fugiat expedita, illum minima velit! Inventore iure quae minima. Ducimus, magnam! Mollitia officiis repellendus voluptate. Vel perferendis ea laborum, porro possimus aspernatur reprehenderit voluptates? Quod expedita deleniti repellendus eos amet nisi porro.{" "}
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex, mollitia exercitationem. Mollitia expedita, eaque reiciendis, iste voluptas odit quibusdam temporibus amet quidem dolor labore architecto! Ad neque minima quis repellat quod architecto vitae labore facilis iure, laborum doloribus quidem quia? Tenetur quam aut natus veniam voluptatem, doloremque placeat laudantium quas? Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repudiandae dolore, quam accusantium quis culpa odio porro corrupti natus, fugiat expedita, illum minima velit! Inventore iure quae minima. Ducimus, magnam! Mollitia officiis repellendus voluptate. Vel perferendis ea laborum, porro possimus aspernatur reprehenderit voluptates? Quod expedita deleniti repellendus eos amet nisi porro.{" "}
               </div>
               <div className="pt-4 pera">
-         ipsum dolor sit amet consectetur, adipisicing elit. Repudiandae dolore, quam accusantium quis culpa odio porro corrupti natus, fugiat expedita, illum minima velit! Inventore iure quae minima. Ducimus, magnam! Mollitia officiis repellendus voluptate. Vel perferendis ea laborum, porro possimus aspernatur reprehenderit voluptates? Quod expedita deleniti repellendus eos amet nisi porro.{" "}
+                ipsum dolor sit amet consectetur, adipisicing elit. Repudiandae dolore, quam accusantium quis culpa odio porro corrupti natus, fugiat expedita, illum minima velit! Inventore iure quae minima. Ducimus, magnam! Mollitia officiis repellendus voluptate. Vel perferendis ea laborum, porro possimus aspernatur reprehenderit voluptates? Quod expedita deleniti repellendus eos amet nisi porro.{" "}
               </div>
               <div className=" text-success fw-bold py-2">
                 — Name
               </div>
-                {/* <div style={{ width: 50 }} >
+              {/* <div style={{ width: 50 }} >
                   {" "}
                   <Link
                     to={

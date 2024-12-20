@@ -2,15 +2,10 @@ import React from "react";
 import { Link, NavLink } from "react-router-dom";
 import { FaHome, FaSolarPanel } from "react-icons/fa";
 import { IoPersonCircle } from "react-icons/io5";
-import { FaLuggageCart } from "react-icons/fa";
-import { GrGallery, GrServices } from "react-icons/gr";
-import { FaRegNewspaper } from "react-icons/fa";
+import { GrServices } from "react-icons/gr";
 import { MdWifiCalling3 } from "react-icons/md";
-import { IoMdArrowDropdown } from "react-icons/io";
 import { CgProfile } from "react-icons/cg";
-import { Player } from "@lottiefiles/react-lottie-player";
 import { BsGraphUpArrow } from "react-icons/bs";
-import { FcCallTransfer } from "react-icons/fc";
 
 function Header() {
   return (
@@ -24,7 +19,7 @@ function Header() {
             {" "}
             <Link
               to={"/"}
-              className="nav-link  fw-bold ps-2 " style={{marginTop:"-7px"}}
+              className="nav-link  fw-bold ps-2 " style={{ marginTop: "-7px" }}
             >
               <img
                 src={require("../Assets/Images/logo.png")}
@@ -143,7 +138,7 @@ function Header() {
               >
               
               </Player> */}
-           <Link to={"tel:8129151266"} className="text-decoration-none text-white"> <span className="me-2 fs-3"> <MdWifiCalling3 /></span> +(91) 81291 51266</Link>
+              <Link to={"tel:8129151266"} className="text-decoration-none text-white"> <span className="me-2 fs-3"> <MdWifiCalling3 /></span> +(91) 81291 51266</Link>
             </div>
           </div>
         </div>
@@ -167,7 +162,7 @@ function Header() {
               className="img-fluid object-fit-contain"
               style={{ width: "180px" }}
             />
-        
+
           </Link>
           <button
             type="button"
@@ -180,7 +175,7 @@ function Header() {
           <NavLink
             to={"/"}
             className="nav-link  fw-medium p-3 py-2 m-1 fs-5"
-            aria-cu2rent="page"
+            aria-current="page"
             activeClassName="active"
           >
             <span className="fs-2 pe-2">
@@ -254,7 +249,7 @@ function Header() {
             
             <span className="me-2 fs-3"> <MdWifiCalling3 /></span> <Link to={"tel:8129151266"} className="text-decoration-none text-success text-lg-white">+(91) 81291 51266</Link>
             </div> */}
-             {/* <Player
+          {/* <Player
                 autoplay
                 loop
                 src="https://lottie.host/5a21c1f1-0cd5-486f-b4c2-c94269291c89/bIlcVBDrbv.json"
@@ -264,7 +259,7 @@ function Header() {
               
               </Player> */}
         </div>
-   
+
       </div>
     </>
   );

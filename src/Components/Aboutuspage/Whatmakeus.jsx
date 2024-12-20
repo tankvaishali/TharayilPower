@@ -6,7 +6,6 @@ import {
   FaLeaf,
   FaShieldAlt,
 } from "react-icons/fa";
-import { TbCircleArrowUpRight } from "react-icons/tb";
 import Slider from "react-slick";
 
 function Whatmakeus() {

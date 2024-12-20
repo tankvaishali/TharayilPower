@@ -26,7 +26,7 @@ function SolarVideo() {
                   data-aos-duration="1500"
                   data-aos-once="true"
                 >
-                 Our success
+                  Our success
                 </div>
               </div>
             </div>
@@ -37,7 +37,7 @@ function SolarVideo() {
                 data-aos-duration="1800"
                 data-aos-once="true"
               >
-              Explore our journey and client success stories through videos showcasing Tharayil Power’s impact across Kerala. Each video highlights our commitment to quality and the satisfaction of our customers.
+                Explore our journey and client success stories through videos showcasing Tharayil Power’s impact across Kerala. Each video highlights our commitment to quality and the satisfaction of our customers.
 
 
               </div>
@@ -51,7 +51,7 @@ function SolarVideo() {
               >
                 <img
                   src={
-                  require("../../Assets/Images/profile/videoimage (1).jpg")
+                    require("../../Assets/Images/profile/videoimage (1).jpg")
                   }
                   className="w-100 h-100 object-fit-cover"
                   alt=""
@@ -72,7 +72,7 @@ function SolarVideo() {
                 <img
                   src={
                     require("../../Assets/Images/profile/videoimage (7).jpg")
-                    }
+                  }
                   className="w-100 h-100 img-fluid object-fit-cover"
                   alt=""
                 />
@@ -86,7 +86,7 @@ function SolarVideo() {
             </div>
             <div class="div3">
               <div className="div3box py-5 px-5 px-md-3 px-lg-3">
-              <div className="grid-item">
+                <div className="grid-item">
                   <h4 className="fw-bold">
                     0<CountUp end={6} enableScrollSpy={true} />+
                   </h4>
@@ -98,17 +98,17 @@ function SolarVideo() {
                   </h4>
                   <div className="pera">State in india</div>
                 </div> */}
-             
+
                 <div className="grid-item">
                   <h4 className="fw-bold">
-                    <CountUp end={1200} enableScrollSpy={true} separator=''/>+
+                    <CountUp end={1200} enableScrollSpy={true} separator='' />+
                   </h4>
                   <div className="pera">Happy Clients</div>
                 </div>
 
                 <div className="grid-item">
                   <h4 className="fw-bold">
-                    <CountUp end={1200} enableScrollSpy={true} separator=''/>+
+                    <CountUp end={1200} enableScrollSpy={true} separator='' />+
                   </h4>
                   <div className="pera">Successfull projects</div>
                 </div>
@@ -122,7 +122,7 @@ function SolarVideo() {
                 <img
                   src={
                     require("../../Assets/Images/profile/videoimage.jpg")
-                    }
+                  }
                   className="w-100 h-100 img-fluid object-fit-cover"
                   alt=""
                 />
@@ -137,7 +137,7 @@ function SolarVideo() {
             <div class="div5 text-center py-5">
               <h2 className="">Step into the spotlight</h2>
               <Link to={"/service"} className="text-decoration-none">
-                <button className="button-48 mt-4" role="button">
+                <button className="button-48 mt-4">
                   <span className="btn_text fw-bold">
                     DISCOVER NOW{" "}
                     <FaArrowRightLong style={{ color: "#4aab3d" }} />
@@ -151,9 +151,9 @@ function SolarVideo() {
                 target="_blank"
               >
                 <img
-                   src={
+                  src={
                     require("../../Assets/Images/profile/videoimage (4).jpg")
-                    }
+                  }
                   className="w-100 h-100 img-fluid object-fit-cover"
                   alt=""
                 />
@@ -171,8 +171,8 @@ function SolarVideo() {
                 target="_blank"
               >
                 <img
-                 src={
-                  require("../../Assets/Images/profile/videoimage (5).jpg")
+                  src={
+                    require("../../Assets/Images/profile/videoimage (5).jpg")
                   }
                   className="w-100 h-100 img-fluid object-fit-cover"
                   alt=""
@@ -206,7 +206,7 @@ function SolarVideo() {
                 <img
                   src={
                     require("../../Assets/Images/profile/IMG-20240614-WA0022.jpg")
-                    }
+                  }
                   className="w-100 h-100 img-fluid object-fit-cover "
                   alt=""
                 />

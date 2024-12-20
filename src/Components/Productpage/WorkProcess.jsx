@@ -42,7 +42,7 @@ function WorkProcess() {
                       className="h-100 text-center shadow pt-4 px-2 d-flex flex-column justify-content-between"
                       style={{ backgroundColor: "#3f74382a" }}
                       data-aos="zoom-in" data-aos-duration="1800" data-aos-once="true"
-                      
+
                     >
                       <div
                         className="fw-bold fs-5"
@@ -72,12 +72,12 @@ function WorkProcess() {
                     <div
                       className="h-100 text-center shadow  pt-4 px-2  d-flex flex-column justify-content-between"
                       style={{ backgroundColor: "#3f74382a" }}
-                       data-aos="zoom-in" data-aos-duration="1800" data-aos-once="true"
+                      data-aos="zoom-in" data-aos-duration="1800" data-aos-once="true"
                     >
                       <div
                         className="fw-bold fs-5"
                         style={{ color: "var(--green--)" }}
-                     
+
 
                       >
                         production
@@ -102,7 +102,7 @@ function WorkProcess() {
                         className="fw-bold fs-5"
                         style={{ color: "var(--green--)" }}
                       >
-                     Quality Assurance
+                        Quality Assurance
                       </div>
                       <div className="text-secondary pt-2 pera px-2">
                         Lorem ipsum dolor sit, amet consectetur adipisicing
@@ -117,8 +117,8 @@ function WorkProcess() {
               </div>
               <div className="col-12 col-lg-6 order-lg-1 order-0">
                 <div className="h-100">
-                      
-                      <div className=" work fw-bolder text-center text-lg-end" data-aos="fade-left" data-aos-duration="1800" data-aos-once="true">
+
+                  <div className=" work fw-bolder text-center text-lg-end" data-aos="fade-left" data-aos-duration="1800" data-aos-once="true">
                     Process
                   </div>
                 </div>

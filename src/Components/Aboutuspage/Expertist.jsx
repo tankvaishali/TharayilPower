@@ -11,7 +11,7 @@ function Expertist() {
     {
       name: "Expert engineering and precision installation",
     },
-   
+
     {
       name: "Scalable solutions for long-term growth",
     },
@@ -41,8 +41,8 @@ function Expertist() {
                   data-aos-duration="1500"
                   data-aos-once="true"
                 >
-              
-                  Expertise & Experience  
+
+                  Expertise & Experience
 
 
                 </div>
@@ -52,16 +52,16 @@ function Expertist() {
                   data-aos-duration="1500"
                   data-aos-once="true"
                 >
-               Bringing Expertise to Every Project
+                  Bringing Expertise to Every Project
                 </div>
 
-                <div className="mt-4 text-secondary fw-medium pera" 
-                 data-aos="fade-up"
-                 data-aos-duration="1500"
-                 data-aos-once="true"
-                 data-aos-delay="200"
+                <div className="mt-4 text-secondary fw-medium pera"
+                  data-aos="fade-up"
+                  data-aos-duration="1500"
+                  data-aos-once="true"
+                  data-aos-delay="200"
                 >
-                With decades of experience in solar energy, our team at Tharayil Power specializes in designing and implementing effective solar solutions tailored to individual needs. Our portfolio spans residential, commercial, and institutional projects across Kerala. 
+                  With decades of experience in solar energy, our team at Tharayil Power specializes in designing and implementing effective solar solutions tailored to individual needs. Our portfolio spans residential, commercial, and institutional projects across Kerala.
                 </div>
                 <div className="row p-0 m-0 g-4">
                   {experts.map((x, i) => {
@@ -88,21 +88,21 @@ function Expertist() {
                   })}
                 </div>
                 <div className="text-center mt-2"
-                
-                data-aos="zoom-in"
-                            data-aos-duration="1800"
-                            
-                         
-                        data-aos-once="true">
-                        <Link to={"/service"} className="text-decoration-none ">
-                          <button className="button-48 mt-3" role="button">
-                            <span className="btn_text fw-bold fs-6">
-                            Explore Solutions {" "}
-                  
-                            </span>
-                          </button>
-                        </Link>
-                      </div>
+
+                  data-aos="zoom-in"
+                  data-aos-duration="1800"
+
+
+                  data-aos-once="true">
+                  <Link to={"/service"} className="text-decoration-none ">
+                    <button className="button-48 mt-3">
+                      <span className="btn_text fw-bold fs-6">
+                        Explore Solutions {" "}
+
+                      </span>
+                    </button>
+                  </Link>
+                </div>
               </div>
             </div>
             <div className="col-12 col-lg-5 pt-5">
@@ -113,7 +113,7 @@ function Expertist() {
                 data-aos-once="true"
               >
                 <img
-                src={require("../../Assets/Images/highlits4.jpg")}
+                  src={require("../../Assets/Images/highlits4.jpg")}
                   // src="https://english.news.cn/20240103/46e63f8f2b1a4739bc31cb2419991447/601ade44cb6445a3a38332e9020efc61.jpg"
                   alt=""
                   className="img-fluid w-100 h-100 object-fit-cover rounded-circle rounded-bottom-0"
@@ -137,7 +137,7 @@ function Expertist() {
                       data-aos-once="true"
                     >
                       <div className="fw-bold ">
-                        <CountUp end={1200} separator=""  enableScrollSpy={true} />+
+                        <CountUp end={1200} separator="" enableScrollSpy={true} />+
                       </div>
                       <div className="fw-medium "> Expertise</div>
                     </div>

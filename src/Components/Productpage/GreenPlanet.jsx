@@ -86,7 +86,7 @@ function GreenPlanet() {
                   >
                     <div>
                       <Link to={"/Contactus"} className="text-decoration-none">
-                        <button className="button-48 mt-3" role="button">
+                        <button className="button-48 mt-3">
                           <span className="btn_text fw-bold">
                             More Detail
                             <span className="ps-1 fs-5 fw-bold">
@@ -96,25 +96,25 @@ function GreenPlanet() {
                         </button>
                       </Link>
                     </div>
-                   <div >
-                                      <Link to={"tel:8129151266"} className="mt-3 mt-lg-0 text-decoration-none d-flex align-content-center align-items-center">
-                                        <div>
-                                          <Player
-                                            autoplay
-                                            loop
-                                            src="https://lottie.host/8d511f5d-1d72-4d09-9496-ad537f6a3e34/Urcfl9rkq8.json"
-                                            style={{ width: "80px", height: "80px" }}
-                                            className=" d-flex align-content-center align-items-center px-2"
-                                          ></Player>
-                                        </div>
-                                        <div>
-                                          <div className="text-secondary  fw-medium">
-                                            Call For Help
-                                          </div>
-                                          <div className="fw-bold fs-4 text-success">+(91)81291 51266</div>
-                                        </div>
-                                      </Link>
-                                    </div>
+                    <div >
+                      <Link to={"tel:8129151266"} className="mt-3 mt-lg-0 text-decoration-none d-flex align-content-center align-items-center">
+                        <div>
+                          <Player
+                            autoplay
+                            loop
+                            src="https://lottie.host/8d511f5d-1d72-4d09-9496-ad537f6a3e34/Urcfl9rkq8.json"
+                            style={{ width: "80px", height: "80px" }}
+                            className=" d-flex align-content-center align-items-center px-2"
+                          ></Player>
+                        </div>
+                        <div>
+                          <div className="text-secondary  fw-medium">
+                            Call For Help
+                          </div>
+                          <div className="fw-bold fs-4 text-success">+(91)81291 51266</div>
+                        </div>
+                      </Link>
+                    </div>
                   </div>
                 </div>
               </div>
@@ -128,12 +128,12 @@ function GreenPlanet() {
               >
                 <div className="desc2"></div>
                 <img
-                            src={require("../../Assets/Images/greenplanet.jpg")}
+                  src={require("../../Assets/Images/greenplanet.jpg")}
 
                   // src="https://www.slashgear.com/img/gallery/what-can-a-400-watt-solar-panel-power/l-intro-1710092944.jpg"
                   alt=""
                   className="img-fluid w-100 h-100 object-fit-cover image_energy_round"
-                  style={{objectPosition:"bottom center"}}
+                  style={{ objectPosition: "bottom center" }}
                 />
               </div>
             </div>

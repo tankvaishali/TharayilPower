@@ -7,11 +7,11 @@ import { Link } from "react-router-dom";
 
 function Testimonial() {
   const progressBars = [
-    { label: "Total No of projects Completed", percentages: "1200+" ,percentage: 100 },
-    { label: "Total Megawatts Created", percentages: " 5 MW",percentage: 40 },
+    { label: "Total No of projects Completed", percentages: "1200+", percentage: 100 },
+    { label: "Total Megawatts Created", percentages: " 5 MW", percentage: 40 },
     { label: "Carbon Print Reduced", percentages: "7,590 Metric Tons of CO₂ per year ", percentage: 50 },
-    { label: "Co2 Emission Reduced", percentages: "7,590 Metric Tons of CO₂ per year" , percentage: 50 }, // Remove JSX from here
-    { label: "Security Advices", percentages: "400+" ,percentage: 90 },
+    { label: "Co2 Emission Reduced", percentages: "7,590 Metric Tons of CO₂ per year", percentage: 50 }, // Remove JSX from here
+    { label: "Security Advices", percentages: "400+", percentage: 90 },
   ];
 
   const progressRefs = useRef([]);
@@ -38,13 +38,13 @@ function Testimonial() {
       }
     });
 
-    return () => {
-      progressRefs.current.forEach((ref) => {
-        if (ref) {
-          observer.unobserve(ref);
-        }
-      });
-    };
+    // return () => {
+    // progressRefs.current.forEach((ref) => {
+    // if (ref) {
+    // observer.unobserve(ref);
+    // }
+    // });
+    // };
   }, []);
 
   const settings = {
@@ -57,7 +57,6 @@ function Testimonial() {
     autoplaySpeed: 4000,
     pauseOnHover: false,
     arrows: false,
-    dots: true,
   };
 
   let ProductItemlist = [
@@ -100,7 +99,7 @@ function Testimonial() {
                 <div className="desc1"></div>
                 <img
                   // src="https://media.istockphoto.com/id/1473638950/photo/technicians-carrying-photovoltaic-solar-module-while-installing-solar-panel-system-on-roof-of.jpg?s=612x612&w=0&k=20&c=BHP3woa9yO0Em-dbAOkDSAy1x78D2wpXaKV9pOH18CU="
-                 src={require("../../Assets/Images/testimonial1.jpg")}
+                  src={require("../../Assets/Images/testimonial1.jpg")}
                   alt=""
                   className="img-fluid w-100 h-100  object-fit-cover"
                 />
@@ -238,7 +237,7 @@ function Testimonial() {
                       target="_blank"
                       rel="noopener noreferrer"
                       className="play-icon-wrapper d-flex justify-content-center align-items-center"
-                    
+
                     >
                       <CiPlay1 className="play_icon text-white fs-3" />
                     </Link>

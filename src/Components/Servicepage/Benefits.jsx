@@ -35,13 +35,13 @@ function Benefits() {
       }
     });
 
-    return () => {
-      progressRefs.current.forEach((ref) => {
-        if (ref) {
-          observer.unobserve(ref);
-        }
-      });
-    };
+    // return () => {
+    //   progressRefs.current.forEach((ref) => {
+    //     if (ref) {
+    //       observer.unobserve(ref);
+    //     }
+    //   });
+    // };
   }, []);
 
   return (
@@ -70,7 +70,7 @@ function Benefits() {
                         />
                       </div>
                       <div className="fs-3 text-center fw-bold text-white pt-3">
-                        0<CountUp end={6} enableScrollSpy={true}/>+ Years Experience in solar energy
+                        0<CountUp end={6} enableScrollSpy={true} />+ Years Experience in solar energy
                       </div>
                     </div>
                   </div>
@@ -78,7 +78,7 @@ function Benefits() {
                     <div className="h-100 allimg">
                       <div className="desc1"></div>
                       <img
-                      src={require("../../Assets/Images/IMG-20240705-WA0025.jpg")}                       // src="https://cdn.shopify.com/s/files/1/0518/2557/4043/files/solarroofinstal_1024x1024.jpg?v=1675848096"
+                        src={require("../../Assets/Images/IMG-20240705-WA0025.jpg")}                       // src="https://cdn.shopify.com/s/files/1/0518/2557/4043/files/solarroofinstal_1024x1024.jpg?v=1675848096"
                         alt=""
                         className="img-fluid h-100 w-100"
                         style={{ objectFit: "cover" }}
@@ -104,24 +104,24 @@ function Benefits() {
                         style={{ objectFit: "cover" }}
                       />
                     </div> */}
-                    <div className="h-100 position-relative "  style={{boxShadow:"inset 0px 0px 1500px 1000pz black"}} >
-                                  <img
-                                    src={require("../../Assets/Images/profitable.jpg")}
-                                    className="img-fluid object-fit-cover h-100 w-100"
-                                    alt=""
-                                  />
-                                  <div className="play-icon-overlay d-flex justify-content-center align-items-center">
-                                    <Link
-                                      to={"https://www.youtube.com/watch?v=mOHHK8cQdAE&t=12s"}
-                                      target="_blank"
-                                      rel="noopener noreferrer"
-                                      className="play-icon-wrapper d-flex justify-content-center align-items-center"
-                                    
-                                    >
-                                      <CiPlay1 className="play_icon text-white fs-3" />
-                                    </Link>
-                                  </div>
-                                </div>
+                    <div className="h-100 position-relative " style={{ boxShadow: "inset 0px 0px 1500px 1000pz black" }} >
+                      <img
+                        src={require("../../Assets/Images/profitable.jpg")}
+                        className="img-fluid object-fit-cover h-100 w-100"
+                        alt=""
+                      />
+                      <div className="play-icon-overlay d-flex justify-content-center align-items-center">
+                        <Link
+                          to={"https://www.youtube.com/watch?v=mOHHK8cQdAE&t=12s"}
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          className="play-icon-wrapper d-flex justify-content-center align-items-center"
+
+                        >
+                          <CiPlay1 className="play_icon text-white fs-3" />
+                        </Link>
+                      </div>
+                    </div>
                   </div>
                 </div>
               </div>
@@ -153,10 +153,10 @@ function Benefits() {
                 </div>
                 <div className="pt-0">
                   <div className="pb-2 pera">
-                  Join the movement towards a sustainable future with Tharayil Power and be part of the next renewable energy revolution. 
+                    Join the movement towards a sustainable future with Tharayil Power and be part of the next renewable energy revolution.
                   </div>
                   <div className="pb-2 pt-1 pera">
-                  By adopting solar energy, you're not just investing in lower electricity costs; you're taking an active role in transforming the energy landscape.
+                    By adopting solar energy, you're not just investing in lower electricity costs; you're taking an active role in transforming the energy landscape.
 
                   </div>
                 </div>

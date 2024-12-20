@@ -93,7 +93,7 @@ function CalculatorMail() {
       const dataToSend = obj;
 
       console.log(dataToSend);
-  
+
       emailjs
         .send(
           "service_3z4hyxb",
@@ -138,9 +138,9 @@ function CalculatorMail() {
         <div className="container shadow">
           <form className="p-0 m-0" noValidate>
             <div className="row p-0 m-0 g-5">
-              <div className="col-12 col-lg-6 p-4"  data-aos="fade-right"
-                  data-aos-duration="1500"
-                  data-aos-once="true">
+              <div className="col-12 col-lg-6 p-4" data-aos="fade-right"
+                data-aos-duration="1500"
+                data-aos-once="true">
                 <div className="h-100">
                   <div className="fw-bold fs-5 text-center">
                     Please enter the following details
@@ -262,9 +262,9 @@ function CalculatorMail() {
               </div>
 
               {/* Second column for optional fields */}
-              <div className="col-12 col-lg-6 shadow bg-light pera"  data-aos="fade-left"
-                  data-aos-duration="1500"
-                  data-aos-once="true">
+              <div className="col-12 col-lg-6 shadow bg-light pera" data-aos="fade-left"
+                data-aos-duration="1500"
+                data-aos-once="true">
                 <div className="h-100 p-4 pt-0">
                   <div className="py-2 pt-3">
                     <div className="fw-bold fs-5 text-center">
@@ -367,7 +367,7 @@ function CalculatorMail() {
                   type="button"
                   onClick={savedata}
                   className="button-48 mt-3"
-                  role="button"
+
                 >
                   <span className="btn_text fw-bold">Estimate</span>
                 </button>
