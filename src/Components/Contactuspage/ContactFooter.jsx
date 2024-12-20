@@ -152,7 +152,7 @@ function ContactFooter() {
                     target="_blank"
 
                   >
-                    Tharayil House, Kalath Ward, Avalukkunnu.P.O, Alappuzha
+                    Tharayil House, Kalath Ward, Avalukkunnu.P.O, Alappuzha.
                   </Link>
                 </div>
               </div>

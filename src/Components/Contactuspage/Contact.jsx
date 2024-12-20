@@ -44,12 +44,12 @@ function Contact() {
                   <div class="contact-service-icon mb-4 text-white fs-3 d-inline-block lh-lg align-items-center justify-content-center align-content-center ">
                     <FaMapLocationDot />
                   </div>
-                  <div class="contact-inform-title pb-5">
-                    <h4 class="jr_tittle fs-4 fw-semibold text-capitalize">
+                  <div class="contact-inform-title ">
+                    <h4 class="jr_tittle fs-4 fw-semibold text-capitalize ">
                       Address
                     </h4>
-                    <div class="pera">
-                      Tharayil House, Kalath Ward, Avalukkunnu.P.O, Alappuzha
+                    <div class="pera pt-2 px-5">
+                      Tharayil House, Kalath Ward, Avalukkunnu.P.O, Alappuzha.
                     </div>
                   </div>
                   <span class="hover-element"></span>
@@ -120,10 +120,10 @@ function Contact() {
                     <FaMailBulk />
                   </div>
                   <div class="contact-inform-title pb-5">
-                    <h4 class="jr_tittle fs-4 fw-semibold text-capitalize">
+                    <h4 class="jr_tittle fs-4 fw-semibold text-capitalize pt-1">
                       E-mail
                     </h4>
-                    <div class="pera">info@tharayilpower.com</div>
+                    <div class="pera pt-2">info@tharayilpower.com</div>
                   </div>
                   <span class="hover-element"></span>
                 </div>

@@ -142,7 +142,7 @@ function BlogNews() {
                         <div className="text-white fw-bold ms-auto datecss p-3 border border-5 border-white">
                           {formattedDate} {/* Updated to display formatted date */}
                         </div>
-                        <div className="py-2 fw-bold fs-5 text-dark">
+                        <div className="py-2 fw-bold fs-5 text-dark text-capitalize">
                           {blog.title}
                         </div>
                         <div className="pera py-2 text-secondary">
