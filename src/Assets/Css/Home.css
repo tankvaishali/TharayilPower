@@ -426,18 +426,17 @@
   position: absolute;
   /* letter-spacing: 2px; */
   border-left: 10px solid white;
-  top: 40%;
+  top: 25%;
   /* width: 50%; */
   /* margin: 0 auto;
      */
   left: 15%;
   z-index: 2;
   opacity: 0;
-  transform: translateY(050%);
+  transform: translateY(50%);
   transition: transform 1s ease-in-out, opacity 1s ease-in-out;
   transition-delay: 2s;
 }
-
 
 .carousel-content.show {
   opacity: 1;
@@ -463,7 +462,7 @@
   height: 10px;
   background-color: white;
 }
-.sliderwidth{
+.sliderwidth {
   width: 75% !important;
 }
 @media only screen and (max-width: 800px) {
@@ -471,7 +470,7 @@
     top: 30% !important;
     left: 10%;
   }
-  .sliderwidth{
+  .sliderwidth {
     width: 80% !important;
   }
 }
@@ -488,7 +487,7 @@
     height: 70vh !important;
     object-fit: cover !important;
   }
-  .sliderwidth{
+  .sliderwidth {
     width: 90% !important;
   }
 }
@@ -509,20 +508,20 @@
   box-shadow: inset 0px 0px 1500px 1000px rgba(0, 0, 0, 0.589);
   object-fit: cover;
 }
-.whatsappicon{
-width: 60px;
-height: 60px;
-position: fixed;
-right: 10px;
-bottom: 15%;
-z-index: 9999999;
-transition: all 0.3s ease-in-out;
-cursor: pointer;
+.whatsappicon {
+  width: 60px;
+  height: 60px;
+  position: fixed;
+  right: 10px;
+  bottom: 15%;
+  z-index: 9999999;
+  transition: all 0.3s ease-in-out;
+  cursor: pointer;
 }
 @media screen and (max-width: 450px) {
   .whatsappicon {
     width: 50px;
-    height:50px;
+    height: 50px;
   }
 }
 /* homeslider end */
