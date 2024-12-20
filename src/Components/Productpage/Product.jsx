@@ -26,9 +26,9 @@ function Product() {
       <WorkProcess />
       <CaseStudy/>
       {/* <ProductPage /> */}
+      <CalculatorMail/>
       <GreenPlanet />
       {/* <Calculator/> */}
-      <CalculatorMail/>
       <ClientLogo />
       <div className="highlite_image">
         <HighlitesImage />

@@ -3,6 +3,7 @@ import Slider from "react-slick";
 import "../../Assets/Css/Home.css";
 import { Link } from "react-router-dom";
 import { TbCircleArrowUpRight, TbCircleArrowUpRightFilled } from "react-icons/tb";
+import { MdOutlineArrowOutward } from "react-icons/md";
 
 function Projecthighlit() {
   let ProductItemlist = [
@@ -121,9 +122,13 @@ function Projecthighlit() {
                 })}
               </Slider>
             </div>
+      
           </div>
+
         </div>
+
           </div>
+     
     
     </>
   );

@@ -1,9 +1,10 @@
 .casestudyimg {
-  background-image: url("https://img.freepik.com/free-vector/paper-style-white-monochrome-background_23-2149001605.jpg?t=st=1734523906~exp=1734527506~hmac=aef12d11ac3069f61d565eadef391563955d61b03b16edfd83cee0b385aaae9c&w=1380");
+  background-image: url("../Images//casestudyfinalimaghe.avif");
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
-  box-shadow: inset 0px 0px 1500px 1000px rgba(0, 0, 0, 0.027);
+  box-shadow: inset 0px 0px 1500px 1000px rgba(0, 0, 0, 0.062);
+  /* background-attachment: fixed; */
 }
 
 .card {
@@ -46,7 +47,6 @@
 
 .tabs {
   overflow: hidden;
-
 }
 
 .bg_tab {

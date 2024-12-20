@@ -1,33 +1,34 @@
 import React from 'react'
 import { FaFacebook, FaFacebookF, FaInstagram, FaLinkedinIn, FaTwitter } from 'react-icons/fa';
+import { MdOutlineArrowOutward } from 'react-icons/md';
 import { Link } from 'react-router-dom';
 
 function OurTeam() {
 const Team = [
   {
     img:require("../../Assets/Images/STAFF PHOTOS/Vishnu .jpg") ,
-    name: "Abijith Sankar M",
-    position: "GENERAL MANAGER",
+    name: "ABHIJITH SANKAR M",
+    position: "	Sales Executive",
     aos: "zoom-in-right",
     objectposition:"top center"
   },
   {
     img:require("../../Assets/Images/STAFF PHOTOS/Anandu Prabhan.jpeg") ,
-    name: "Anandu Prabhan",
-    position: "PRODUCTION HEAD/COORDINATOR",
+    name: "ANANDU PRABHAN",
+    position: "Digital Marketing Associate",
     aos: "zoom-in-left",
     objectposition:"top center"
   },
   {
     img:require("../../Assets/Images/STAFF PHOTOS/Sreelekshmi S.jpg") ,
-    name: "Sreelekshmi S",
-    position: "QC HEAD (RM/FINISHED GOODS)",
+    name: "SREELEKLSHMI S",
+    position: "Service Manager",
     aos: "zoom-in-right",
   },
   {
     img:require("../../Assets/Images/STAFF PHOTOS/Sharika Sankar.jpg") ,
-    name: "Sharika Sankar",
-    position: "QC HEAD (RM/FINISHED GOODS)",
+    name: "SHARIKA SANKAR",
+    position: "	Customer Care Executive",
     aos: "zoom-in-right",
   },
   // {
@@ -80,7 +81,7 @@ const Team = [
                   data-aos-once="true"
                 >
                   <div className="row align-items-center ">
-                    <div className="col-lg-6 text-center ">
+                    <div className="col-lg-5 text-center ">
                       <img
                         src={item.img}
                         height={160}
@@ -90,9 +91,9 @@ const Team = [
                       
                       />
                     </div>
-                    <div className="col-lg-6">
+                    <div className="col-lg-7">
                       <h4 className="fw-bold text-success">{item.name}</h4>
-                      <p className='pera text-secondary'>{item.position}</p>
+                      <p className=' text-secondary'>{item.position}</p>
                       <div>
                         <Link
                           to={"/"}
@@ -113,6 +114,22 @@ const Team = [
                 </div>
               );
             })}
+
+<div className="my-2 w-100 mx-auto text-center">
+                     <Link
+                       to={"/profile"}
+                       className="text-decoration-none mx-auto w-auto"
+                     >
+                       <button className="button-48 mt-3" role="button">
+                         <span className="btn_text fw-bold">
+                         Explore Company
+                           <span className="ps-1 fs-5 fw-bold">
+                             <MdOutlineArrowOutward />
+                           </span>
+                         </span>
+                       </button>
+                     </Link>
+                   </div>
           </div>
         </div>
       </div>

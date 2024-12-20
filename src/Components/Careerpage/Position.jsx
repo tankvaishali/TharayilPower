@@ -212,8 +212,8 @@ Qualifications
             </div>
                    
             <div className="pera py-4 text-secondary text-center">Ready to power up your career with Tharayil Power? Apply today and join us in building a sustainable future!</div>
-            {/* <div className='my-2 my-lg-4 text-center'  data-aos="zoom-in" data-aos-duration="1800"  data-aos-once="true" data-aos-delay="400">
-                        <Link to={"/contactus"} className="text-decoration-none">
+            <div className=' text-center'  data-aos="zoom-in" data-aos-duration="1800"  data-aos-once="true" data-aos-delay="400">
+                        <Link to={"mailto:info@tharayilpower.com"} className="text-decoration-none">
                           <button className="button-48 mt-3" role="button">
                             <span className="btn_text  fw-bold">
                               Apply Now{" "}
@@ -223,7 +223,7 @@ Qualifications
                             </span>
                           </button>
                         </Link>
-                      </div> */}
+                      </div>
           </div>
         </div>
       </div>

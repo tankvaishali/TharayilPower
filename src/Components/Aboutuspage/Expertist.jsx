@@ -137,9 +137,9 @@ function Expertist() {
                       data-aos-once="true"
                     >
                       <div className="fw-bold ">
-                        <CountUp end={500} enableScrollSpy={true} />+
+                        <CountUp end={1200} separator=""  enableScrollSpy={true} />+
                       </div>
-                      <div className="fw-medium "> Expertist</div>
+                      <div className="fw-medium "> Expertise</div>
                     </div>
                   </div>
                 </div>

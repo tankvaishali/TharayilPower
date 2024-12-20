@@ -10,6 +10,7 @@ import { IoMdArrowDropdown } from "react-icons/io";
 import { CgProfile } from "react-icons/cg";
 import { Player } from "@lottiefiles/react-lottie-player";
 import { BsGraphUpArrow } from "react-icons/bs";
+import { FcCallTransfer } from "react-icons/fc";
 
 function Header() {
   return (
@@ -132,19 +133,17 @@ function Header() {
                 </div>
               </li>
             </ul>
-            <div className="fs-1  text-white fw-bolder h-100 d-flex align-content-center align-items-center px-2">
-              <Player
+            <div className="fs-5  text-white fw-bolder h-100 d-flex align-content-center align-items-center px-2">
+              {/* <Player
                 autoplay
                 loop
                 src="https://lottie.host/5a21c1f1-0cd5-486f-b4c2-c94269291c89/bIlcVBDrbv.json"
                 style={{ width: "100px", height: "55px" }}
                 className=" d-flex align-content-center align-items-center px-2 bg-white rounded-pill shadow"
               >
-                {/* <Controls
-                  visible={true}
-                  buttons={["play", "repeat", "frame", "debug"]}
-                /> */}
-              </Player>
+              
+              </Player> */}
+            <span className="me-2 fs-3"> <MdWifiCalling3 /></span> <Link to={"tel:8129151266"} className="text-decoration-none text-white">+(91) 81291 51266</Link>
             </div>
           </div>
         </div>
@@ -162,23 +161,13 @@ function Header() {
             to={"/"}
             classNameName="nav-link headmenu maincolor fw-medium pe-2"
           >
-            {/* <img
-              src={require("../Assets/Images/solarbenifits.jpg")}
+            <img
+              src={require("../Assets/Images/logo.png")}
               alt=""
-              className="img-fluid object-fit-cover"
-              style={{ width: "130px", height: "65px" }}
-            /> */}
-            <Player
-              autoplay
-              loop
-              src="https://lottie.host/5a21c1f1-0cd5-486f-b4c2-c94269291c89/bIlcVBDrbv.json"
-              style={{ height: "100px", width: "100px" }}
-            >
-              {/* <Controls
-                  visible={true}
-                  buttons={["play", "repeat", "frame", "debug"]}
-                /> */}
-            </Player>
+              className="img-fluid object-fit-contain"
+              style={{ width: "180px" }}
+            />
+        
           </Link>
           <button
             type="button"
@@ -261,7 +250,21 @@ function Header() {
             </span>{" "}
             Contact Us
           </NavLink>
+          {/* <div className="fs-5  text-success text-lg-white fw-bolder mt-auto px-2">
+            
+            <span className="me-2 fs-3"> <MdWifiCalling3 /></span> <Link to={"tel:8129151266"} className="text-decoration-none text-success text-lg-white">+(91) 81291 51266</Link>
+            </div> */}
+             {/* <Player
+                autoplay
+                loop
+                src="https://lottie.host/5a21c1f1-0cd5-486f-b4c2-c94269291c89/bIlcVBDrbv.json"
+                style={{ width: "100px", height: "55px" }}
+                className=" d-flex align-content-center align-items-center px-2 bg-white rounded-pill shadow"
+              >
+              
+              </Player> */}
         </div>
+   
       </div>
     </>
   );
