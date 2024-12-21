@@ -26,11 +26,12 @@ function WorkProcess() {
                         className="fw-bold fs-5"
                         style={{ color: "var(--green--)" }}
                       >
-                        Briefing & Research
+                        Consultation & Assessment  
                       </div>
                       <div className="text-secondary pt-2 pera px-2">
-                        Lorem ipsum dolor sit, amet consectetur adipisicing
-                        elit. Praesentium, aliquid.
+                      We begin by understanding your energy needs through detailed consultation and site assessment. 
+                      {/* This helps us recommend the most suitable and efficient solutions tailored to your goals, ensuring maximum performance and cost savings.   */}
+
                       </div>
                       <div className="fw-bold ms-auto opacity_font fs-1 text-end">
                         01
@@ -48,11 +49,13 @@ function WorkProcess() {
                         className="fw-bold fs-5"
                         style={{ color: "var(--green--)" }}
                       >
-                        Brainstroming
+                         Custom Design & Proposal  
+
                       </div>
                       <div className="text-secondary pt-2 pera px-2">
-                        Lorem ipsum dolor sit, amet consectetur adipisicing
-                        elit. Praesentium, aliquid.
+                      Our experts create a customized solution, considering energy requirements and site specifics. 
+                      {/* A clear proposal outlines product options, system configurations, and cost estimates, giving you confidence in your investment.   */}
+
                       </div>
                       <div className="fw-bold ms-auto opacity_font fs-1 w-100 text-end">
                         02
@@ -80,11 +83,12 @@ function WorkProcess() {
 
 
                       >
-                        production
+                        Professional Installation  
                       </div>
                       <div className="text-secondary pt-2 pera px-2">
-                        Lorem ipsum dolor sit, amet consectetur adipisicing
-                        elit. Praesentium, aliquid.
+                      With a skilled team and high-quality equipment, safety standards, we ensure seamless installation of your energy system. 
+                      {/* We adhere to strict timelines and safety standards, providing you with a hassle-free, reliable setup.   */}
+
                       </div>
                       <div className="fw-bold ms-auto opacity_font fs-1 text-end mt-auto">
                         03
@@ -102,11 +106,12 @@ function WorkProcess() {
                         className="fw-bold fs-5"
                         style={{ color: "var(--green--)" }}
                       >
-                        Quality Assurance
+                       Maintenance & Support 
                       </div>
                       <div className="text-secondary pt-2 pera px-2">
-                        Lorem ipsum dolor sit, amet consectetur adipisicing
-                        elit. Praesentium, aliquid.
+                      Post-installation, we provide regular maintenance and responsive customer support to keep your systems performing optimally. 
+                      {/* Our commitment to long-term partnerships ensures your investment remains efficient and worry-free.  */}
+
                       </div>
                       <div className="fw-bold ms-auto opacity_font fs-1 w-100 text-end mt-auto">
                         04

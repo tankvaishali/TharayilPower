@@ -90,10 +90,10 @@ function ContactFooter() {
             >
               <div>
                 <img
-                  src={require("../../Assets/Images/solarbenifits.jpg")}
-                  alt=""
-                  className="img-fluid"
-                  width={"100px"}
+                  src={require('../../Assets/Images/logo.png')}
+                 alt=""
+                       className="img-fluid w-75"
+               
                 />
               </div>
               <div className="pera lightgray py-2 pt-3">

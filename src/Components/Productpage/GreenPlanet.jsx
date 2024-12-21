@@ -7,21 +7,21 @@ function GreenPlanet() {
   let energy = [
     {
       img: require("../../Assets/Images/green-energy4.png"),
-      name: "Comprehensive Knowledge",
+      name: "Comprehensive Knowledge ",
       lorem:
-        "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Harum dolore veritatis deserunt.",
+        "Expert guidance on renewable energy solutions tailored to maximize efficiency and sustainability.  ",
     },
     {
       img: require("../../Assets/Images/technology_3.png"),
-      name: "Community Engagement",
+      name: "Community Engagement  ",
       lorem:
-        "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Harum dolore veritatis deserunt.",
+        "Promoting clean energy awareness through educational initiatives and partnerships for a greener tomorrow. ",
     },
     {
       img: require("../../Assets/Images/ecosystem_1.png"),
-      name: "Exceptional Support",
+      name: "Exceptional Customer Support  ",
       lorem:
-        "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Harum dolore veritatis deserunt.",
+        "Reliable assistance and maintenance services ensuring long-term performance and customer satisfaction. ",
     },
   ];
 
@@ -51,10 +51,9 @@ function GreenPlanet() {
                   </div>
                 </div>
                 <div className="text-secondary border-4 border-start border-success ps-3 pera">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Commodi voluptas, quisquam obcaecati aliquam velit quos
-                  aliquid dignissimos aut sed? Itaque. Lorem ipsum dolor sit
-                  amet consectetur adipisicing elit.
+                Experience our expertise in solar energy solutions, delivering reliable, eco-friendly systems with seamless installation and dedicated customer support, lighting the way to a sustainable and greener future.
+
+
                 </div>
                 <div className="row g-4 mt-1">
                   {energy.map((x, i) => {
