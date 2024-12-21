@@ -6,6 +6,7 @@ import { GrServices } from "react-icons/gr";
 import { MdWifiCalling3 } from "react-icons/md";
 import { CgProfile } from "react-icons/cg";
 import { BsGraphUpArrow } from "react-icons/bs";
+import { GiSolarPower } from "react-icons/gi";
 
 function Header() {
   return (
@@ -82,6 +83,18 @@ function Header() {
               <li className="nav-item m-1">
                 <div class="sec h-100 mx-2 text-center">
                   <NavLink
+                    to={"/fullproducts"}
+                    className="nav-link headmenu maincolor fw-medium p-2 py-3 text-center"
+                    aria-current="page"
+                    activeClassName="active"
+                  >
+                    Products
+                  </NavLink>
+                </div>
+              </li>
+              <li className="nav-item m-1">
+                <div class="sec h-100 mx-2 text-center">
+                  <NavLink
                     to={"/service"}
                     className="nav-link headmenu maincolor fw-medium  p-2 py-3 text-center"
                     aria-current="page"
@@ -128,7 +141,7 @@ function Header() {
                 </div>
               </li>
             </ul>
-            <div className="fs-5  text-white fw-bolder h-100 d-flex align-content-center align-items-center px-2">
+            <div className="  text-white fw-bolder h-100 d-flex align-content-center align-items-center px-2">
               {/* <Player
                 autoplay
                 loop
@@ -138,7 +151,7 @@ function Header() {
               >
               
               </Player> */}
-              <Link to={"tel:8129151266"} className="text-decoration-none text-white"> <span className="me-2 fs-3"> <MdWifiCalling3 /></span> +(91) 81291 51266</Link>
+              <Link to={"tel:8129151266"} className="text-decoration-none text-white"> <span className="me-2 fs-5"> <MdWifiCalling3 /></span> +(91) 81291 51266</Link>
             </div>
           </div>
         </div>
@@ -204,6 +217,16 @@ function Header() {
               <FaSolarPanel />
             </span>{" "}
             Projects
+          </NavLink>
+          <NavLink
+            to={"/fullproducts"}
+            className="nav-link  fw-medium p-3 py-2 m-1 fs-5"
+            activeClassName="active"
+          >
+            <span className="fs-2 pe-2">
+              <GiSolarPower />
+            </span>{" "}
+            Products
           </NavLink>
           <NavLink
             to={"/service"}

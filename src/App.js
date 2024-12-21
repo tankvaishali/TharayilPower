@@ -18,6 +18,7 @@ import Blog02 from './Components/Homepage/Blog02';
 import Blog03 from './Components/Homepage/Blog03';
 import Blog04 from './Components/Homepage/Blog04';
 import Designconsultancy from './Components/Servicepage/Designconsultancy';
+import FullproductPage from './Components/Fullproducts/FullproductPage';
 
 
 function App() {
@@ -31,6 +32,7 @@ function App() {
           <Route path='/' element={<HomePagemain />} />
           <Route path='/aboutus' element={<AboutusPage />} />
           <Route path='/product' element={<Product />} />
+          <Route path='/fullproducts' element={<FullproductPage />} />
           <Route path='/service' element={<ServicePage />} />
           <Route path='/residentialsolar' element={<ResidentialSolar />} />
           <Route path='/commercialsolar' element={<CommercialSolar />} />

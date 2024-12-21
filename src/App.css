@@ -586,6 +586,7 @@ font-size: 22px ;
 } */
 .landingimage,
 .landingimage_product,
+.landingimage_fullproducts,
 .landingimage_service,
 .landingimage_career,
 .landingimage_profile,
@@ -618,6 +619,9 @@ font-size: 22px ;
 
 .landingimage_contact {
   background-image: url("https://img.freepik.com/free-photo/business-person-planning-alternative-energies_23-2149205475.jpg?t=st=1734412034~exp=1734415634~hmac=41e051fdc9262a322dc7a8c0bd0fd92caabcb486338c27ca66576113dc7ba00c&w=900");
+}
+.landingimage_fullproducts{
+  background-image: url("../src/Assets/Images/highlits2.jpg");
 }
 
 .textsizehead {

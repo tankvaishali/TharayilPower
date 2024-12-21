@@ -123,7 +123,7 @@ function ProductPage() {
                 data-aos-duration="1500"
                 data-aos-once="true"
               >
-                Products
+              Popular  Products
               </div>
               <div
                 className="ftittle text-white"
@@ -131,7 +131,7 @@ function ProductPage() {
                 data-aos-duration="1500"
                 data-aos-once="true"
               >
-                Our  Popular poducts
+              Our Featured Products
               </div>
             </div>
           </div>
