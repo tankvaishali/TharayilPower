@@ -59,7 +59,7 @@ function Profatible() {
                   and energy independence.
                 </div>
                 <div className=" my-2">
-                  <Link to={"/product"} className="text-decoration-none " data-aos="zoom-in"
+                  <Link to={"/project"} className="text-decoration-none " data-aos="zoom-in"
                     data-aos-duration="1500"
                     data-aos-once="true">
                     <button className="button-48 mt-3">

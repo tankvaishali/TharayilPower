@@ -28,7 +28,7 @@ function HomePagemain() {
       <Projecthighlit />
       <div className=" w-100 mx-auto text-center" style={{ marginTop: "170px" }}>
         <Link
-          to={"/product"}
+          to={"/project"}
           className="text-decoration-none mx-auto w-auto"
         >
           <button className="button-48 mt-3">

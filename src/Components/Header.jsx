@@ -71,7 +71,7 @@ function Header() {
               <li className="nav-item m-1">
                 <div class="sec h-100 mx-2 text-center">
                   <NavLink
-                    to={"/product"}
+                    to={"/project"}
                     className="nav-link headmenu maincolor fw-medium p-2 py-3 text-center"
                     aria-current="page"
                     activeClassName="active"
@@ -83,7 +83,7 @@ function Header() {
               <li className="nav-item m-1">
                 <div class="sec h-100 mx-2 text-center">
                   <NavLink
-                    to={"/fullproducts"}
+                    to={"/product"}
                     className="nav-link headmenu maincolor fw-medium p-2 py-3 text-center"
                     aria-current="page"
                     activeClassName="active"
@@ -202,7 +202,7 @@ function Header() {
           </NavLink>
 
           <NavLink
-            to={"/product"}
+            to={"/project"}
             className="nav-link  fw-medium p-3 py-2 m-1 fs-5"
             activeClassName="active"
           >
@@ -212,7 +212,7 @@ function Header() {
             Projects
           </NavLink>
           <NavLink
-            to={"/fullproducts"}
+            to={"/product"}
             className="nav-link  fw-medium p-3 py-2 m-1 fs-5"
             activeClassName="active"
           >

@@ -62,7 +62,7 @@ function HomeSlider() {
                 Switch to sustainable energy – Discover Tharayil Power now!
                 {index === currentSlide && (
                   <div className="mt-2">
-                    <Link to={"/fullproducts"} className="text-decoration-none">
+                    <Link to={"/product"} className="text-decoration-none">
                       <button className="button-48 mt-3 p-1 p-lg-2 ">
                         <span className="btn_text fw-bold">
                          Discover Tharayil Power

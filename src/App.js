@@ -31,8 +31,8 @@ function App() {
         <Routes>
           <Route path='/' element={<HomePagemain />} />
           <Route path='/aboutus' element={<AboutusPage />} />
-          <Route path='/product' element={<Product />} />
-          <Route path='/fullproducts' element={<FullproductPage />} />
+          <Route path='/project' element={<Product />} />
+          <Route path='/product' element={<FullproductPage />} />
           <Route path='/service' element={<ServicePage />} />
           <Route path='/residentialsolar' element={<ResidentialSolar />} />
           <Route path='/commercialsolar' element={<CommercialSolar />} />

@@ -237,7 +237,7 @@ function ContactFooter() {
               </div>
               <div className="py-1">
                 <Link
-                  to={"/product"}
+                  to={"/project"}
                   className="text-decoration-none lightgray pera link_hover py-1"
                 >
                   Projects

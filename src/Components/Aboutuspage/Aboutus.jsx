@@ -74,7 +74,7 @@ function Aboutus() {
 
                     <div className="mt-3 d-block d-lg-flex align-content-center align-items-center justify-content-between" data-aos="zoom-in" data-aos-duration="1800" data-aos-once="true">
                       <div>
-                        <Link to={"/product"} className="text-decoration-none">
+                        <Link to={"/project"} className="text-decoration-none">
                           <button className="button-48 mt-3">
                             <span className="btn_text fw-bold">
                               Read More{" "}
