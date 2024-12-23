@@ -136,22 +136,15 @@ function Header() {
                     aria-current="page"
                     activeClassName="active"
                   >
-                    Contact Us
+                    Contact
                   </NavLink>
                 </div>
               </li>
             </ul>
             <div className="  text-white fw-bolder h-100 d-flex align-content-center align-items-center px-2">
-              {/* <Player
-                autoplay
-                loop
-                src="https://lottie.host/5a21c1f1-0cd5-486f-b4c2-c94269291c89/bIlcVBDrbv.json"
-                style={{ width: "100px", height: "55px" }}
-                className=" d-flex align-content-center align-items-center px-2 bg-white rounded-pill shadow"
-              >
-              
-              </Player> */}
-              <Link to={"tel:8129151266"} className="text-decoration-none text-white"> <span className="me-2 fs-5"> <MdWifiCalling3 /></span> +(91) 81291 51266</Link>
+         
+              {/* <Link to={"tel:8129151266"} className="text-decoration-none text-white"> <span className="me-2 fs-5"> <MdWifiCalling3 /></span> +(91) 81291 51266</Link> */}
+              <Link to={"tel:8129151266"} className="text-decoration-none text-white fs-4 bg-success p-2 rounded-circle d-flex align-content-center align-itmes-center justify-content-center">  <MdWifiCalling3 /></Link>
             </div>
           </div>
         </div>

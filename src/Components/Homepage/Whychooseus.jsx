@@ -53,7 +53,7 @@ function Whychooseus() {
             </div>
             <div className="col-12 col-lg-6">
               <div
-                className="h-100 text-start text-lg-end pera pt-2 pt-lg-5"
+                className="h-100 text-start  pera pt-2 pt-lg-5"
                 data-aos="fade-left"
                 data-aos-duration="1800"
                 data-aos-once="true"
