@@ -122,11 +122,11 @@ function BlogNews() {
                   data-aos-duration="1800"
                   data-aos-once="true"
                 >
-                  {/* <Link
-                    to={`https://www.aninews.in/news/national/general-news/rajnath-singh-launches-portal-pencil-to-eliminate-child-labour201709262255370004/`}
+                  <Link
+                    to={blog.blogUrl}
                     className="text-decoration-none"
                     target="_blank"
-                  > */}
+                  >
                     <div className="blog_height">
                       <img
                         src={blog.imageUrl}
@@ -150,7 +150,7 @@ function BlogNews() {
                         </div>
                       </div>
                     </div>
-                  {/* </Link> */}
+                  </Link>
                 </div>
               </div>
             );
