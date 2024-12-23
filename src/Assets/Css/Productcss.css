@@ -122,7 +122,12 @@
   .tab2 .nav-tabs .nav-link.active {
     width: 100% !important;
   }
-  .tabs .nav-link{
+
+  .tab2 .nav-tabs .nav-link {
+    width: 100% !important;
+  }
+
+  .tabs .nav-link {
     width: 100% !important;
   }
 
