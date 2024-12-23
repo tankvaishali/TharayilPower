@@ -84,7 +84,7 @@ function GreenPlanet() {
                     data-aos-once="true"
                   >
                     <div>
-                      <Link to={"/Contactus"} className="text-decoration-none">
+                      <Link to={"/service"} className="text-decoration-none">
                         <button className="button-48 mt-3">
                           <span className="btn_text fw-bold">
                             More Detail

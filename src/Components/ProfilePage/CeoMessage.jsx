@@ -130,7 +130,7 @@ function CeoMessage() {
               data-aos-duration="1500"
               data-aos-once="true"
             >
-              jeneral manager saying
+              General manager saying
 
             </div></div>
           <div className="col-12 col-lg-6  p-3 p-lg-5 pt-0" data-aos="zoom-in" data-aos-duration="1800" data-aos-once="true" data-aos-delay="400">

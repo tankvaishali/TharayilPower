@@ -12,7 +12,7 @@ function CaseStudy() {
             description: "Qui laudantium consequatur laborum sit qui ad sapiente dila parde sonata raqer a videna mareta paulona marka",
             details: "Et nobis maiores eius. Voluptatibus ut enim blanditiis atque harum sint...",
             casestudyname: 'Residential',
-            Client: 'Mr.Ravi M., owner',
+            Client: 'Mr.Ravi M., Owner',
             locate: "Ernakulam, Kerala",
             casestudytitle: 'Residential Solar System in Ernakulam',
             challenge: " Mr. Ravi's home in Ernakulam had consistently high electricity bills due to the heavy use of air conditioning and multiple high-power appliances. With rising electricity costs, he needed a solution to reduce his energy consumption and control expenses.",

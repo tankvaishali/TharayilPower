@@ -175,7 +175,7 @@ function ProductPage() {
                     >
                       <div className="row">
                         <div className="col-lg-8 details order-2 order-lg-1">
-                          <h3 className="fw-bold">{department.title}</h3>
+                          <h3 className="fw-bold pt-3 pt-lg-0">{department.title}</h3>
                           <p className="pera">{department.description}</p>
                           <div>
                             <div className="fw-bold text-success fs-5 pb-1">Key Features:</div>

@@ -629,12 +629,13 @@ font-size: 22px ;
 }
 
 @media only screen and (max-width: 576px) {
-
+  .landingimage,
   .landingimage_product,
   .landingimage_service,
   .landingimage_career,
   .landingimage_profile,
-  .landingimage_contact {
+  .landingimage_contact,
+  .landingimage_fullproducts {
     height: 60vh;
   }
 

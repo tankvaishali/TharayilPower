@@ -139,8 +139,8 @@ function BlogNews() {
                         className="w-75 mx-auto bg-white p-4 z-1 shadow position-relative"
                         style={{ marginTop: "-55px" }}
                       >
-                        <div className="text-white fw-bold ms-auto datecss p-3 border border-5 border-white">
-                          {formattedDate} {/* Updated to display formatted date */}
+                        <div className="text-white fw-bold ms-auto datecss bg-success p-3 border border-5 border-white">
+                          {formattedDate} 
                         </div>
                         <div className="py-2 fw-bold fs-5 text-dark text-capitalize">
                           {blog.title}
