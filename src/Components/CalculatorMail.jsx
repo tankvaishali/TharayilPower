@@ -96,7 +96,7 @@ function CalculatorMail() {
 
       emailjs
       .send(
-        "service_62y05ol", // Replace with your EmailJS service ID
+        "service_ozet3zj", // Replace with your EmailJS service ID
         "template_pqkso02", // Replace with your EmailJS template ID
         {
           ...dataToSend,

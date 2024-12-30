@@ -3,30 +3,38 @@ import emailjs from "@emailjs/browser";
 import Swal from "sweetalert2";
 
 function Form() {
-  const [formData, setFormData] = useState({});
+  const [formData, setFormData] = useState({
+    fullname: "",
+    emailid: "",
+    location: "",
+    mobileNumber: "",
+    description: "",
+  });
   const [errors, setErrors] = useState({});
 
   const validateField = (name, value) => {
     let errorMessage = "";
 
-    if (name === "name") {
-      if (!value || value.length <= 0) {
+    if (name === "fullname") {
+      if (!value) {
         errorMessage = "Name is required";
       } else if (!/^[a-zA-Z\s]+$/.test(value)) {
         errorMessage = "Name must contain only alphabet characters";
       }
     }
 
-    if (name === "email") {
-      if (!value || value.length <= 0) {
+    if (name === "emailid") {
+      if (!value) {
         errorMessage = "Email is required";
       } else if (!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(value)) {
         errorMessage = "Email is not valid";
+      } else if (!/@(gmail\.com|yahoo\.com)$/.test(value)) {
+        errorMessage = "Email domain must be Gmail or Yahoo";
       }
     }
 
     if (name === "location") {
-      if (!value || value.length <= 0) {
+      if (!value) {
         errorMessage = "Location is required";
       } else if (!/^[a-zA-Z\s]+$/.test(value)) {
         errorMessage = "Location must contain only alphabet characters";
@@ -41,28 +49,29 @@ function Form() {
       }
     }
 
+    if (name === "description" && !value) {
+      errorMessage = "Description is required";
+    }
+
     return errorMessage;
   };
 
   const handleChange = (e) => {
     const { name, value } = e.target;
-    const newErrors = { ...errors, [name]: validateField(name, value) };
-    setErrors(newErrors);
     setFormData({ ...formData, [name]: value });
+    setErrors({ ...errors, [name]: validateField(name, value) });
   };
 
   const handleSubmit = (e) => {
     e.preventDefault();
 
-    // Validate all fields on submit
-    const fieldsToValidate = ["name", "email", "location", "mobileNumber", "description"];
     const newErrors = {};
     let isValid = true;
 
-    fieldsToValidate.forEach((field) => {
-      const errorMessage = validateField(field, formData[field]);
-      newErrors[field] = errorMessage;
-      if (errorMessage) isValid = false;
+    Object.keys(formData).forEach((field) => {
+      const error = validateField(field, formData[field]);
+      newErrors[field] = error;
+      if (error) isValid = false;
     });
 
     setErrors(newErrors);
@@ -70,7 +79,7 @@ function Form() {
     if (isValid) {
       emailjs
         .send(
-          "service_62y05ol", // Replace with your EmailJS service ID
+          "service_ozet3zj", // Replace with your EmailJS service ID
           "template_cw4dm9r", // Replace with your EmailJS template ID
           {
             ...formData,
@@ -79,7 +88,7 @@ function Form() {
           "Fh9UiMpa17Wn1Mmir" // Replace with your EmailJS public key
         )
         .then(
-          (response) => {
+          () => {
             Swal.fire({
               position: "center",
               icon: "success",
@@ -87,7 +96,13 @@ function Form() {
               showConfirmButton: false,
               timer: 1800,
             });
-            setFormData({}); // Clear the form
+            setFormData({
+              fullname: "",
+              emailid: "",
+              location: "",
+              mobileNumber: "",
+              description: "",
+            }); // Clear the form
           },
           (error) => {
             console.error("FAILED...", error);
@@ -117,27 +132,35 @@ function Form() {
                   <div className="col-12 col-lg-6">
                     <input
                       type="text"
-                      name="name"
+                      name="fullname"
                       placeholder="Full Name"
                       className="p-2 rounded-pill w-100 ps-3"
+                      autoComplete="off"
                       onChange={handleChange}
-                      value={formData.name || ""}
+                      value={formData.fullname}
                     />
-                    <span className="text-danger d-block" style={{ fontSize: "14px" }}>
-                      {errors.name}
+                    <span
+                      className="text-danger d-block"
+                      style={{ fontSize: "14px" }}
+                    >
+                      {errors.fullname}
                     </span>
                   </div>
                   <div className="col-12 col-lg-6">
                     <input
                       type="text"
-                      name="email"
+                      name="emailid"
                       placeholder="Email Address"
                       className="p-2 rounded-pill w-100 ps-3"
+                      autoComplete="off"
                       onChange={handleChange}
-                      value={formData.email || ""}
+                      value={formData.emailid}
                     />
-                    <span className="text-danger d-block" style={{ fontSize: "14px" }}>
-                      {errors.email}
+                    <span
+                      className="text-danger d-block"
+                      style={{ fontSize: "14px" }}
+                    >
+                      {errors.emailid}
                     </span>
                   </div>
                   <div className="col-12 col-lg-6">
@@ -146,10 +169,14 @@ function Form() {
                       name="mobileNumber"
                       placeholder="Phone Number"
                       className="p-2 rounded-pill w-100 ps-3"
+                      autoComplete="off"
                       onChange={handleChange}
-                      value={formData.mobileNumber || ""}
+                      value={formData.mobileNumber}
                     />
-                    <span className="text-danger d-block" style={{ fontSize: "14px" }}>
+                    <span
+                      className="text-danger d-block"
+                      style={{ fontSize: "14px" }}
+                    >
                       {errors.mobileNumber}
                     </span>
                   </div>
@@ -159,10 +186,14 @@ function Form() {
                       name="location"
                       placeholder="Location"
                       className="p-2 rounded-pill w-100 ps-3"
+                      autoComplete="off"
                       onChange={handleChange}
-                      value={formData.location || ""}
+                      value={formData.location}
                     />
-                    <span className="text-danger d-block" style={{ fontSize: "14px" }}>
+                    <span
+                      className="text-danger d-block"
+                      style={{ fontSize: "14px" }}
+                    >
                       {errors.location}
                     </span>
                   </div>
@@ -172,9 +203,16 @@ function Form() {
                       rows={8}
                       placeholder="Describe your requirement details"
                       className="pt-3 w-100 ps-3 rounded-4"
+                      autoComplete="off"
                       onChange={handleChange}
-                      value={formData.description || ""}
+                      value={formData.description}
                     />
+                    <span
+                      className="text-danger d-block"
+                      style={{ fontSize: "14px" }}
+                    >
+                      {errors.description}
+                    </span>
                   </div>
                 </div>
                 <div className="pt-2 text-center">
