@@ -426,7 +426,7 @@
   position: absolute;
   /* letter-spacing: 2px; */
   border-left: 10px solid white;
-  top: 35%;
+  top: 30%;
   /* width: 50%; */
   /* margin: 0 auto;
      */
@@ -463,7 +463,7 @@
   background-color: white;
 }
 .sliderwidth {
-  width: 75% !important;
+  width: 80% !important;
 }
 @media only screen and (max-width: 800px) {
   .carousel-content {

@@ -115,7 +115,7 @@ function CeoMessage() {
             </div>
           </div>
         </div>
-        <div className="row pt-3 pt-lg-0 m-0 g-4 align-items-center">
+        <div className="row pt-3 pt-lg-0 m-0 g-2 align-items-center">
           <div className="text-center">              <div
             className="font_stroke"
             data-aos="fade-up"
@@ -149,13 +149,44 @@ function CeoMessage() {
             <div className="h-100 ">
 
               <div className="pt-4 pera">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex, mollitia exercitationem. Mollitia expedita, eaque reiciendis, iste voluptas odit quibusdam temporibus amet quidem dolor labore architecto! Ad neque minima quis repellat quod architecto vitae labore facilis iure, laborum doloribus quidem quia? Tenetur quam aut natus veniam voluptatem, doloremque placeat laudantium quas? Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repudiandae dolore, quam accusantium quis culpa odio porro corrupti natus, fugiat expedita, illum minima velit! Inventore iure quae minima. Ducimus, magnam! Mollitia officiis repellendus voluptate. Vel perferendis ea laborum, porro possimus aspernatur reprehenderit voluptates? Quod expedita deleniti repellendus eos amet nisi porro.{" "}
+              At just 31 years old, Naufia Haju
+ has already established herself as
+ a passionate and hardworking
+ leader in the renewable energy
+ sector. With a career rooted in
+ innovation and sustainability, she
+ has been instrumental in shaping
+ the growth of Tharayil Power &
+ Energy Solutions (P) Ltd, a
+ leading business-to-customer
+ solar company.
               </div>
               <div className="pt-4 pera">
-                ipsum dolor sit amet consectetur, adipisicing elit. Repudiandae dolore, quam accusantium quis culpa odio porro corrupti natus, fugiat expedita, illum minima velit! Inventore iure quae minima. Ducimus, magnam! Mollitia officiis repellendus voluptate. Vel perferendis ea laborum, porro possimus aspernatur reprehenderit voluptates? Quod expedita deleniti repellendus eos amet nisi porro.{" "}
+              Naufia began her journey with Tharayil Power Since inception, as a
+ Project Manager. Her dedication, engineering expertise, and
+ commitment to renewable energy quickly set her apart, earning her
+ recognition within the organization. Over five transformative years, she
+ spearheaded numerous successful projects that reflected her vision of a
+ cleaner, greener future.  Her unwavering determination and leadership skills led to a well
+deserved promotion on August 7, 2024, when she took on the role of
+ General Manager at Inventonex, a subsidiary of Tharayil Power &
+ Energy Solutions. Inventonex focuses on business-to-business solar
+ solutions, and Naufia’s appointment marks a new chapter in the
+ company’s journey towards delivering cutting-edge renewable energy
+ solutions to its partners.
               </div>
-              <div className=" text-success fw-bold py-2 fs-4">
+              <div className="pt-4 pera">
+              A true "Passionate Engineer," Naufia embodies resilience, innovation,
+ and excellence in the renewable energy landscape. As she continues to
+ lead with vision and vigor, her journey inspires professionals and
+ businesses to harness the power of solar energy for a sustainable
+ tomorrow.
+              </div>
+              <div className=" text-success fw-bold py-2 pt-3 fs-4">
                 — Naufia Haju
+              </div>
+              <div className="  fw-bold fs-4">
+              A Trailblazer in Renewable Energy
               </div>
               {/* <div style={{ width: 50 }} >
                   {" "}
