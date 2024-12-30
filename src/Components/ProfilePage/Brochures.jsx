@@ -61,10 +61,10 @@ function Brochures() {
                   <div className="test-shine" style={{ height: "250px" }}>
                     <img
                       src={
-                        "https://img.pikbest.com/origin/09/17/01/88ppIkbEsTzC9.jpg!f305cw"
+                        require("../../Assets/Images/brouchuresimage.png")
                       }
                       alt=""
-                      className="img-fluid w-100 h-100 object-fit-cover"
+                      className="img-fluid w-100 h-100 object-fit-fill"
                     />
                   </div>
 

@@ -11,7 +11,7 @@ function ContactusPage() {
 
   // Handle scroll event to show/hide WhatsApp icon
   const handleScroll = () => {
-    if (window.scrollY > 400) {
+    if (window.scrollY > 200) {
       setShowWhatsapp(true);
     } else {
       setShowWhatsapp(false);
@@ -49,6 +49,14 @@ function ContactusPage() {
           </h1>
         </div>
       </div>
+      {showWhatsapp && (
+        <div
+          className="whatsappicon text-white bg-success fs-2 fw-bold rounded-circle d-flex justify-content-center align-items-center p-2 animated-image"
+          onClick={handleWhatsappClick}
+        >
+          <SiWhatsapp />
+        </div>
+      )}
       <Contact />
       <div className="map mb-5">
         <div className="container">
@@ -74,14 +82,7 @@ function ContactusPage() {
         <Form />
       </div>
       {/* <ClientLogo/> */}
-      {showWhatsapp && (
-        <div
-          className="whatsappicon text-white bg-success fs-2 fw-bold rounded-circle d-flex justify-content-center align-items-center p-2 animated-image"
-          onClick={handleWhatsappClick}
-        >
-          <SiWhatsapp />
-        </div>
-      )}
+  
       <ContactFooter />
     </>
   );

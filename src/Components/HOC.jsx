@@ -9,7 +9,7 @@ function HOC(Components) {
 
     // Handle scroll event to show/hide WhatsApp icon
     const handleScroll = () => {
-      if (window.scrollY > 400) {
+      if (window.scrollY > 200) {
         setShowWhatsapp(true);
       } else {
         setShowWhatsapp(false);
@@ -35,8 +35,6 @@ function HOC(Components) {
     return (
       <>
         <Header />
-
-        <Components />
         {showWhatsapp && (
           <div
             className="whatsappicon text-white bg-success fs-2 fw-bold rounded-circle d-flex justify-content-center align-items-center p-2 animated-image"
@@ -45,6 +43,8 @@ function HOC(Components) {
             <SiWhatsapp />
           </div>
         )}
+        <Components />
+ 
         <Footer />
       </>
     )

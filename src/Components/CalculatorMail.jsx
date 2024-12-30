@@ -95,12 +95,15 @@ function CalculatorMail() {
       console.log(dataToSend);
 
       emailjs
-        .send(
-          "service_3z4hyxb",
-          "template_wag2wj6",
-          dataToSend,
-          "G8D90eQGHHZQCx7q3"
-        )
+      .send(
+        "service_62y05ol", // Replace with your EmailJS service ID
+        "template_pqkso02", // Replace with your EmailJS template ID
+        {
+          ...dataToSend,
+          to_email: "digital.tharayilpower@gmail.com", // Ensure the email is sent to the desired recipient
+        },
+        "Fh9UiMpa17Wn1Mmir" // Replace with your EmailJS public key
+      )
         .then(
           (response) => {
             console.log("SUCCESS!", response.status, response.text);

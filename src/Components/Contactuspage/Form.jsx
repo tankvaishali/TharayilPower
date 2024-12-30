@@ -3,9 +3,8 @@ import emailjs from "@emailjs/browser";
 import Swal from "sweetalert2";
 
 function Form() {
-  const [obj, setobj] = useState({});
-  const [resetobj, setresetobj] = useState({});
-  const [errormsg, seterrormsg] = useState({});
+  const [formData, setFormData] = useState({});
+  const [errors, setErrors] = useState({});
 
   const validateField = (name, value) => {
     let errorMessage = "";
@@ -18,347 +17,178 @@ function Form() {
       }
     }
 
-
     if (name === "email") {
       if (!value || value.length <= 0) {
         errorMessage = "Email is required";
-      } else if (
-        !(value.includes("@gmail.com") || value.includes("@yahoo.com"))
-      ) {
+      } else if (!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(value)) {
         errorMessage = "Email is not valid";
       }
     }
+
     if (name === "location") {
       if (!value || value.length <= 0) {
-        errorMessage = "location is required";
+        errorMessage = "Location is required";
       } else if (!/^[a-zA-Z\s]+$/.test(value)) {
-        errorMessage = "location must contain only alphabet characters";
+        errorMessage = "Location must contain only alphabet characters";
       }
     }
 
     if (name === "mobileNumber") {
       if (!value) {
         errorMessage = "Phone number is required";
-      } else if (!/^\d+$/.test(value)) {
-        errorMessage = "Phone number must contain only digits";
-      } else if (value.length < 10) {
+      } else if (!/^\d{10}$/.test(value)) {
         errorMessage = "Phone number must be exactly 10 digits";
-      } else if (value.length > 10) {
-        errorMessage = "Phone number must contain only 10 digits";
       }
     }
 
-
-
     return errorMessage;
   };
-  const getdata = (e) => {
+
+  const handleChange = (e) => {
     const { name, value } = e.target;
-
-    let newErrormsg = { ...errormsg };
-    const errorMessage = validateField(name, value);
-
-    newErrormsg[name] = errorMessage;
-    seterrormsg(newErrormsg);
-
-    obj[name] = value;
-    resetobj[name] = "";
-    setobj({ ...obj });
-    setresetobj({ ...resetobj });
+    const newErrors = { ...errors, [name]: validateField(name, value) };
+    setErrors(newErrors);
+    setFormData({ ...formData, [name]: value });
   };
-  const savedata = () => {
-    let valid = true;
-    let newErrormsg = { ...errormsg };
 
-    // Validate all fields on form submission
-    const fieldsToValidate = [
-      "name",
-      "email",
-      "location",
-      "mobileNumber",
-      "description",
-    ];
+  const handleSubmit = (e) => {
+    e.preventDefault();
+
+    // Validate all fields on submit
+    const fieldsToValidate = ["name", "email", "location", "mobileNumber", "description"];
+    const newErrors = {};
+    let isValid = true;
 
     fieldsToValidate.forEach((field) => {
-      const errorMessage = validateField(field, obj[field]);
-      newErrormsg[field] = errorMessage;
-      if (errorMessage) {
-        valid = false;
-      }
+      const errorMessage = validateField(field, formData[field]);
+      newErrors[field] = errorMessage;
+      if (errorMessage) isValid = false;
     });
 
-    seterrormsg(newErrormsg);
+    setErrors(newErrors);
 
-    if (valid) {
-      const dataToSend = obj;
-
-      console.log(dataToSend);
-
+    if (isValid) {
       emailjs
         .send(
-          "service_3z4hyxb",
-          "template_w56vh1r",
-          dataToSend,
-          "G8D90eQGHHZQCx7q3"
+          "service_62y05ol", // Replace with your EmailJS service ID
+          "template_cw4dm9r", // Replace with your EmailJS template ID
+          {
+            ...formData,
+            to_email: "digital.tharayilpower@gmail.com", // Ensure the email is sent to the desired recipient
+          },
+          "Fh9UiMpa17Wn1Mmir" // Replace with your EmailJS public key
         )
         .then(
           (response) => {
-            console.log("SUCCESS!", response.status, response.text);
             Swal.fire({
               position: "center",
               icon: "success",
-              title: "Your form has been submitted",
+              title: "Your form has been submitted successfully!",
               showConfirmButton: false,
-              timer: 1800
+              timer: 1800,
             });
-            // alert("Your design request has been sent successfully!");
+            setFormData({}); // Clear the form
           },
-          (err) => {
-            console.error("FAILED...", err);
-            alert(
-              "There was an error sending your request. Please try again later."
-            );
+          (error) => {
+            console.error("FAILED...", error);
+            Swal.fire({
+              position: "center",
+              icon: "error",
+              title: "Failed to submit the form. Please try again.",
+              showConfirmButton: true,
+            });
           }
         );
-      console.log("Data submitted:", obj);
-      setobj({ ...resetobj }); // Clear the form on successful submission
-    } else {
-      console.log("Form contains errors.");
     }
   };
 
   return (
-    <>
-      <div className="container">
-        {/* <div className=""> */}
-        <div className="contact_bg py-5">
-          <div className="row p-0 m-0 ">
-            <div className="col-12 col-lg-7 p-0 m-0">
-              <div
-                className="h-100 p-3 p-lg-5 product_high rounded-5"
-              // style={{ backgroundColor: "var(--darkgreen--)" }}
-              >
-                <div className="py-3 text-center">
-                  <div
-                    className="dark_stroke"
-                    data-aos="fade-up"
-                    data-aos-duration="1500"
-                  >
-                    Contact Us
+    <div className="container">
+      <div className="contact_bg py-5">
+        <div className="row p-0 m-0">
+          <div className="col-12 col-lg-7 p-0 m-0">
+            <div className="h-100 p-3 p-lg-5 product_high rounded-5">
+              <div className="py-3 text-center">
+                <div className="dark_stroke">Contact Us</div>
+                <div className="ftittle text-white">Get In Touch With Us</div>
+              </div>
+              <form onSubmit={handleSubmit}>
+                <div className="row p-0 m-0 contact_input g-4">
+                  <div className="col-12 col-lg-6">
+                    <input
+                      type="text"
+                      name="name"
+                      placeholder="Full Name"
+                      className="p-2 rounded-pill w-100 ps-3"
+                      onChange={handleChange}
+                      value={formData.name || ""}
+                    />
+                    <span className="text-danger d-block" style={{ fontSize: "14px" }}>
+                      {errors.name}
+                    </span>
                   </div>
-                  <div
-                    className="ftittle text-white"
-                    data-aos="fade-down"
-                    data-aos-duration="1500"
-                  >
-                    Get In Touch With Us
+                  <div className="col-12 col-lg-6">
+                    <input
+                      type="text"
+                      name="email"
+                      placeholder="Email Address"
+                      className="p-2 rounded-pill w-100 ps-3"
+                      onChange={handleChange}
+                      value={formData.email || ""}
+                    />
+                    <span className="text-danger d-block" style={{ fontSize: "14px" }}>
+                      {errors.email}
+                    </span>
+                  </div>
+                  <div className="col-12 col-lg-6">
+                    <input
+                      type="text"
+                      name="mobileNumber"
+                      placeholder="Phone Number"
+                      className="p-2 rounded-pill w-100 ps-3"
+                      onChange={handleChange}
+                      value={formData.mobileNumber || ""}
+                    />
+                    <span className="text-danger d-block" style={{ fontSize: "14px" }}>
+                      {errors.mobileNumber}
+                    </span>
+                  </div>
+                  <div className="col-12 col-lg-6">
+                    <input
+                      type="text"
+                      name="location"
+                      placeholder="Location"
+                      className="p-2 rounded-pill w-100 ps-3"
+                      onChange={handleChange}
+                      value={formData.location || ""}
+                    />
+                    <span className="text-danger d-block" style={{ fontSize: "14px" }}>
+                      {errors.location}
+                    </span>
+                  </div>
+                  <div className="col-12">
+                    <textarea
+                      name="description"
+                      rows={8}
+                      placeholder="Describe your requirement details"
+                      className="pt-3 w-100 ps-3 rounded-4"
+                      onChange={handleChange}
+                      value={formData.description || ""}
+                    />
                   </div>
                 </div>
-
-                <form action="">
-                  <div className="row p-0 m-0 contact_input g-4">
-                    <div className="col-12 col-lg-6  ">
-                      <input
-                        type="text"
-                        name="name"
-                        placeholder="Full Name"
-                        className="p-2 rounded-pill w-100 ps-3"
-                        onChange={getdata}
-                        value={obj?.name || ""}
-
-                      />
-                      <span
-                        className="text-danger d-block"
-                        style={{ fontSize: "14px" }}
-                      >
-                        {errormsg.name}
-                      </span>
-                    </div>
-                    <div className="col-12 col-lg-6  ">
-                      <input
-                        type="text"
-                        name="email"
-                        placeholder="Email Address"
-                        className="p-2 rounded-pill w-100 ps-3"
-                        onChange={getdata}
-                        value={obj?.email || ""}
-
-                      />
-                      <span
-                        className="text-danger d-block"
-                        style={{ fontSize: "14px" }}
-                      >
-                        {errormsg.email}
-                      </span>
-                    </div>
-                    <div className="col-12 col-lg-6  ">
-                      <input
-                        type="number"
-                        name="mobileNumber"
-                        placeholder="Phone Number"
-                        className="p-2 rounded-pill w-100 ps-3"
-                        onChange={getdata}
-                        value={obj?.mobileNumber || ""}
-
-                      />
-                      <span
-                        className="text-danger d-block"
-                        style={{ fontSize: "14px" }}
-                      >
-                        {errormsg.mobileNumber}
-                      </span>
-                    </div>
-                    <div className="col-12 col-lg-6  ">
-                      <input
-                        type="text"
-                        name="location"
-                        placeholder="Location"
-                        className="p-2 rounded-pill w-100 ps-3"
-                        onChange={getdata}
-                        value={obj?.location || ""}
-
-                      />
-                      <span
-                        className="text-danger d-block"
-                        style={{ fontSize: "14px" }}
-                      >
-                        {errormsg.location}
-                      </span>
-                    </div>
-                    <div className="col-12 ">
-                      <textarea
-                        name="description"
-                        rows={8}
-                        placeholder="Describe your requirement details"
-                        className="pt-3  w-100 ps-3 rounded-4"
-                        onChange={getdata}
-                        value={obj?.description || ""}
-
-                      />
-                    </div>
-                  </div>
-                </form>
                 <div className="pt-2 text-center">
-
-
-                  <button type="button" onClick={savedata} className="button-48 mt-3">
+                  <button type="submit" className="button-48 mt-3">
                     <span className="btn_text fw-bold">Submit</span>
                   </button>
-
                 </div>
-              </div>
+              </form>
             </div>
           </div>
-          {/* </div> */}
         </div>
       </div>
-    </>
+    </div>
   );
 }
 
 export default Form;
-
-
-// import React from "react";
-
-// function Form() {
-//   return (
-//     <>
-//       <div className="container">
-//         <div className="contact_bg py-5">
-//           <div className="row p-0 m-0 ">
-//             <div className="col-12 col-lg-7 p-0 m-0">
-//               <div
-//                 className="h-100 p-1 p-md-3 p-lg-5 product_high rounded-5"
-//               >
-//                 <div className="py-3 text-center">
-//                   <div
-//                     className="dark_stroke"
-//                     data-aos="fade-up"
-//                     data-aos-duration="1500"
-//                     data-aos-once="true"
-//                   >
-//                     Contact Us
-//                   </div>
-//                   <div
-//                     className="ftittle text-white"
-//                     data-aos="fade-down"
-//                     data-aos-duration="1500"
-//                     data-aos-once="true"
-//                   >
-//                     Book Your Free Consultation Today!
-//                   </div>
-//                 </div>
-
-//                 <form
-//                   action="https://formsubmit.co/vaishalitank28603@gmail.com"
-//                   method="POST"
-//                 >
-//                   <div className="row p-0 m-0 contact_input g-4">
-//                     <div className="col-12 col-lg-6">
-//                       <input
-//                         type="text"
-//                         name="name"
-//                         placeholder="Full Name"
-//                         className="p-2 rounded-pill w-100 ps-3"
-//                         required
-//                       />
-//                     </div>
-//                     <div className="col-12 col-lg-6">
-//                       <input
-//                         type="email"
-//                         name="email"
-//                         placeholder="Email Address"
-//                         className="p-2 rounded-pill w-100 ps-3"
-//                         required
-//                       />
-//                     </div>
-//                     <div className="col-12 col-lg-6">
-//                       <input
-//                         type="text"
-//                         name="PhoneNumber"
-//                         placeholder="Phone Number"
-//                         className="p-2 rounded-pill w-100 ps-3"
-//                         required
-//                       />
-//                     </div>
-//                     <div className="col-12 col-lg-6">
-//                       <input
-//                         type="text"
-//                         name="location"
-//                         placeholder="Location"
-//                         className="p-2 rounded-pill w-100 ps-3"
-//                         required
-//                       />
-//                     </div>
-//                     <div className="col-12">
-//                       <textarea
-//                         name="textarea"
-//                         rows={8}
-//                         placeholder="Describe your requirement details"
-//                         className="pt-3 w-100 ps-3 rounded-4"
-//                         required
-//                       />
-//                     </div>
-//                   </div>
-//                   <div className="pt-2 text-center">
-//                     <button
-//                       className="button-48 mt-3"
-//                       type="submit"
-//                       role="button"
-//                       formTarget="_blank"
-//                     >
-//                       <span className="btn_text fw-bold">Submit</span>
-//                     </button>
-//                   </div>
-//                 </form>
-//               </div>
-//             </div>
-//           </div>
-//         </div>
-//       </div>
-//     </>
-//   );
-// }
-
-// export default Form;

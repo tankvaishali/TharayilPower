@@ -86,7 +86,7 @@ const Team = [
                         src={item.img}
                         height={160}
                         width={160}
-                        className="rounded-3 object-fit-cover my-4 zoom-animation shadow img-fluid "
+                        className="rounded-3 object-fit-cover m-4 zoom-animation shadow img-fluid "
                         style={{objectPosition:" top center"}}
                       
                       />
@@ -94,7 +94,7 @@ const Team = [
                     <div className="col-lg-7">
                       <h4 className="fw-bold text-success">{item.name}</h4>
                       <p className=' text-secondary'>{item.position}</p>
-                      <div>
+                      {/* <div>
                         <Link
                           to={"/"}
                           className="text-decoration-none linkinsta"
@@ -108,7 +108,7 @@ const Team = [
                           {" "}
                           <FaInstagram className="m-2 instaface" />
                         </Link>
-                      </div>
+                      </div> */}
                     </div>
                   </div>
                 </div>
