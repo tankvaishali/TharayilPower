@@ -30,11 +30,19 @@
 
  }
  .profit_cont{
-  width: 40%;
+  width: 42%;
     background-image: url("../Images/product_bg.jpg");
     font-size: 30px;
 
  }
+ @media screen and (min-width: 991px) and (max-width: 1199px) { 
+  .profit_cont{
+    width: 50%;
+      background-image: url("../Images/product_bg.jpg");
+      font-size: 23px !important;
+  
+   }
+}
  @media only screen and (max-width: 761px) {
  .profit_cont{
   width: 50%;
