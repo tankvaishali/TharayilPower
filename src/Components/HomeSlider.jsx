@@ -24,7 +24,7 @@ function HomeSlider() {
   }, [initialLoad]);
 
   return (
-    <div className="carousel" style={{ marginTop: "-100px" }}>
+    <div className="carousel" >
       {Array.from({ length: totalSlides }, (_, index) => (
         <div
           key={index}

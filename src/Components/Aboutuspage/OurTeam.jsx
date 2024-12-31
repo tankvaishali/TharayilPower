@@ -91,7 +91,7 @@ const Team = [
                       
                       />
                     </div>
-                    <div className="col-lg-7">
+                    <div className="col-lg-7 mediaset  text-md-center  text-lg-start">
                       <h4 className="fw-bold text-success">{item.name}</h4>
                       <p className=' text-secondary'>{item.position}</p>
                       {/* <div>

@@ -18,7 +18,7 @@ function Profatible() {
               >
                 <div className="desc1 z-0"></div>
                 <div
-                  className=" ms-auto z-1 bg-success p-4 fw-bold profit_cont text-white text-center"
+                  className=" ms-auto z-1 bg-success  p-4 fw-bold profit_cont text-white text-center"
                   data-aos="zoom-in"
                   data-aos-duration="1500"
                   data-aos-once="true"

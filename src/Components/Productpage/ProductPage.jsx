@@ -163,7 +163,7 @@ function ProductPage() {
                   ))}
                 </ul>
               </div>
-              <div className="col-lg-9 mt-4 mt-lg-0 shadow_green p-5 bg-white" data-aos="fade-left" data-aos-duration="1800" data-aos-once="true">
+              <div className="col-lg-9 mt-4 mt-lg-0 shadow_green p-1 p-md-2 py-5 p-lg-5 bg-white" data-aos="fade-left" data-aos-duration="1800" data-aos-once="true">
                 {departments
                   .filter((department) => department.id === activeTab)
                   .map((department) => (
@@ -178,7 +178,7 @@ function ProductPage() {
                           <h3 className="fw-bold pt-3 pt-lg-0">{department.title}</h3>
                           <p className="pera">{department.description}</p>
                           <div>
-                            <div className="fw-bold text-success fs-5 pb-1">Key Features:</div>
+                            <div className="fw-bold text-success fs-5 pb-1">Key Features :</div>
                             <div className="row">
                               <div className="fw-bold col-3">{department.details01}</div>
                               <div className="fw-medium col-1">:</div>
