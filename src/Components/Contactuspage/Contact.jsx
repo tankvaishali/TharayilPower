@@ -33,7 +33,7 @@ function Contact() {
                       Address
                     </h4>
                     <div class="pera pt-2 px-5">
-                      Tharayil House, Kalath Ward, Avalukkunnu.P.O, Alappuzha.
+                      Tharayil House, Kalath Ward, Avalukkunnu.P.O, Alappuzha, Kerala 688006.
                     </div>
                   </div>
                   <span class="hover-element"></span>
