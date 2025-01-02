@@ -38,13 +38,7 @@ function Testimonial() {
       }
     });
 
-    // return () => {
-    // progressRefs.current.forEach((ref) => {
-    // if (ref) {
-    // observer.unobserve(ref);
-    // }
-    // });
-    // };
+
   }, []);
 
   const settings = {

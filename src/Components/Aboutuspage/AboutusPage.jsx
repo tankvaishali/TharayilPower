@@ -36,7 +36,6 @@ function AboutusPage() {
       <Profatible />
       <AboutConbtact />
       <OurTeam />
-
       <ClientLogo />
     </>
   );

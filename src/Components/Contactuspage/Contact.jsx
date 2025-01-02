@@ -3,7 +3,6 @@ import React from "react";
 import { BiSolidPhoneCall } from "react-icons/bi";
 import { FaMailBulk } from "react-icons/fa";
 import { FaMapLocationDot } from "react-icons/fa6";
-import { Link } from "react-router-dom";
 
 function Contact() {
 

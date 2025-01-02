@@ -1,16 +1,10 @@
 import React from 'react';
-// import videoSourceMP4 from "../../Assets/Images/solar.mp4";
 import { Link } from 'react-router-dom';
 
 function AboutConbtact() {
   return (
     <>
       <div className="aboutcontactbg w-100  overflow-hidden">
-        {/* <div className="video-background">
-          <video autoPlay loop muted>
-            <source src={videoSourceMP4} type="video/mp4" />
-          </video>
-        </div> */}
         <div
           className="container overflow-hidden"
           data-aos="zoom-out"

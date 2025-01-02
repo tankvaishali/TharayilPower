@@ -2,7 +2,7 @@ import React from 'react';
 import { GiSolarPower } from 'react-icons/gi';
 
 function Fullfaq() {
-  // Define the FAQ data
+
   const faqData = [
     {
       question: " How do Solar PV Modules work? ",

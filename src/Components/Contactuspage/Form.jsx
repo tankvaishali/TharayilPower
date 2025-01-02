@@ -102,7 +102,7 @@ function Form() {
               location: "",
               mobileNumber: "",
               description: "",
-            }); // Clear the form
+            }); 
           },
           (error) => {
             console.error("FAILED...", error);

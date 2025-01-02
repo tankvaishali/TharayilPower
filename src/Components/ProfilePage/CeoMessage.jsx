@@ -46,19 +46,7 @@ function CeoMessage() {
               <div className=" text-success fw-bold py-2">
                 — Muniya Thulsidas, MD, Tharayil Power
               </div>
-              {/* <div style={{ width: 50 }} >
-                {" "}
-                <Link
-                  to={
-                    "https://in.linkedin.com/company/tharayil-power-energy-solutions-p-ltd"
-                  }
-                  target="_blank"
-                  className="footericon text-center p-2 justify-content-center mx-1 d-flex text-decoration-none text-white linkicon"
-                  style={{backgroundColor:"#0077b5"}}
-                >
-                  <FaLinkedinIn />
-                </Link>
-              </div> */}
+             
             </div>
           </div>
 
@@ -87,19 +75,7 @@ function CeoMessage() {
               <div className=" text-success fw-bold py-2">
                 — Thulsidas N, CEO, Tharayil Power
               </div>
-              {/* <div style={{ width: 50 }} >
-                {" "}
-                <Link
-                  to={
-                    "https://in.linkedin.com/company/tharayil-power-energy-solutions-p-ltd"
-                  }
-                  target="_blank"
-                  className="footericon text-center p-2 justify-content-center mx-1 d-flex text-decoration-none text-white linkicon"
-                  style={{backgroundColor:"#0077b5"}}
-                >
-                  <FaLinkedinIn />
-                </Link>
-              </div> */}
+
             </div>
           </div>
           <div className="col-12 col-lg-6 p-5 pt-0 pb-0 pb-lg-5 order-0 order-lg-1" data-aos="fade-right" data-aos-duration="1800" data-aos-once="true" data-aos-delay="400">
@@ -188,19 +164,7 @@ deserved promotion on August 7, 2024, when she took on the role of
               <div className="  fw-bold fs-4">
               A Trailblazer in Renewable Energy
               </div>
-              {/* <div style={{ width: 50 }} >
-                  {" "}
-                  <Link
-                    to={
-                      "https://in.linkedin.com/company/tharayil-power-energy-solutions-p-ltd"
-                    }
-                    target="_blank"
-                    className="footericon text-center p-2 justify-content-center mx-1 d-flex text-decoration-none text-white linkicon"
-                    style={{backgroundColor:"#0077b5"}}
-                  >
-                    <FaLinkedinIn />
-                  </Link>
-                </div> */}
+            
             </div>
           </div>
 

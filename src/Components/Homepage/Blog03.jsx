@@ -265,61 +265,7 @@ function Blog03() {
               </div>
             </div>
             <div className="row">
-              {/* <div className="col-12 col-lg-6">
-                  <div className="h-100">
-                  <div className="">
-                <div
-                  className="font_stroke"
-                  data-aos="fade-up"
-                  data-aos-duration="1500"
-                >
-                  Installations
-                </div>
-                <div
-                  className="ftittle "
-                  data-aos="fade-down"
-                  data-aos-duration="1500"
-                >
-              Scalability of Solar Installations
-                </div>
-                <div className="py-3 pera" style={{ textAlign: "justify" }}>
-                One of the greatest advantages of solar energy systems for businesses is scalability. Companies can start with a modest solar setup and expand as their energy needs grow, making it an ideal solution for businesses of all sizes. With scalable solar solutions, businesses can adjust their installations to match evolving energy demands, ensuring that they’re neither over- nor under-invested in energy infrastructure.
-
-
-
-                  </div>
-                <div className="py-3 pera" style={{ textAlign: "justify" }}>
-                Tharayil Power specializes in creating scalable solar energy systems that allow Kerala businesses to grow their installations over time. Whether a business needs to expand its energy capacity due to increased operations or wants to add battery storage for improved energy independence, Tharayil Power’s flexible solar solutions can be customized to meet each client’s unique needs. This adaptability ensures that businesses can grow sustainably, managing their energy needs efficiently as they scale.
-                  </div>
-              </div>
-                  </div>
-                </div> */}
-              {/* <div className="col-12 col-lg-6">
-                  <div className="h-100">
-                  <div className="">
-                <div
-                  className="font_stroke"
-                  data-aos="fade-up"
-                  data-aos-duration="1500"
-                >
-                  Maintenance
-                </div>
-                <div
-                  className="ftittle "
-                  data-aos="fade-down"
-                  data-aos-duration="1500"
-                >
-               Reliability and Low Maintenance
-                </div>
-                <div className="py-3 pera" style={{ textAlign: "justify" }}>
-                Modern solar systems are built to last, providing decades of reliable, low-maintenance energy. Once installed, solar panels require minimal upkeep, as they have no moving parts that could wear down over time. Occasional cleaning and routine inspections are usually sufficient to keep them operating at peak efficiency.
-                  </div>
-                <div className="py-3 pera" style={{ textAlign: "justify" }}>
-                Tharayil Power offers comprehensive maintenance services, ensuring your system remains in top condition. With warranties that cover both the panels and installation, Tharayil Power provides peace of mind and long-term security, making solar a dependable and hassle-free investment.
-                  </div>
-              </div>
-                  </div>
-                </div> */}
+           
               <div className="col-12 my-2">
 
                 <div className='text-center pt-2'>

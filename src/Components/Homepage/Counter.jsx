@@ -81,27 +81,11 @@ function Counter() {
                       className="img-fluid h-100 w-100"
                       style={{ objectFit: "cover" }}
                     />
-                    {/* <div className="h-100 w-100">
-                    <video
-                      autoPlay
-                      loop
-                      muted
-                      className="h-100 w-100 object-fit-cover"
-                    >
-                      <source src={videoSourceMP4} type="video/mp4" />
-                    </video>
-                  </div> */}
+                   
                   </div>
                 </div>
                 <div className="col-12  p-0 m-0">
-                  {/* <div className="h-100">
-                  <img
-                    src={require("../../Assets/Images/footerimage.jpg")}
-                    alt=""
-                    className="img-fluid h-100"
-                    style={{ objectFit: "cover" }}
-                  />
-                </div> */}
+                
                   <div className="h-100 w-100 allimg">
                     <div className="desc1"></div>
                     <video

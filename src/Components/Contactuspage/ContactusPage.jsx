@@ -9,7 +9,6 @@ import { SiWhatsapp } from 'react-icons/si';
 function ContactusPage() {
   const [showWhatsapp, setShowWhatsapp] = useState(false);
 
-  // Handle scroll event to show/hide WhatsApp icon
   const handleScroll = () => {
     if (window.scrollY > 200) {
       setShowWhatsapp(true);
@@ -81,7 +80,6 @@ function ContactusPage() {
       <div style={{ marginBottom: "-280px" }}>
         <Form />
       </div>
-      {/* <ClientLogo/> */}
   
       <ContactFooter />
     </>

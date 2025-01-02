@@ -68,43 +68,7 @@ function MissionVission() {
                   </div>
                 </div>
               </div>
-
             </div>
-            {/* <div className="row p-0 m-0 py-5">
-              <div className="col-12 col-lg-3 text-white p-0 m-0">
-                <div className="h-100 p-4 bg-success">
-                  <div className="fs-2  fw-bold ">
-                    {" "}
-                    <CountUp end={250} enableScrollSpy={true} separator="" /> +
-                  </div>
-                  <div className="py-3">
-                    Lorem ipsum dolor, sit amet consectetur adipisicing 
-                  </div>
-                </div>
-              </div>
-              <div className="col-12 col-lg-3 text-white p-0 m-0">
-                <div className="h-100 p-4 bg-success">
-                  <div className="fs-2  fw-bold ">
-                    {" "}
-                    <CountUp end={250} enableScrollSpy={true} separator="" /> +
-                  </div>
-                  <div className="py-3">
-                    Lorem ipsum dolor, sit amet consectetur adipisicing 
-                  </div>
-                </div>
-              </div>
-              <div className="col-12 col-lg-3 text-white p-0 m-0">
-                <div className="h-100 p-4 bg-success">
-                  <div className="fs-2  fw-bold ">
-                    {" "}
-                    <CountUp end={250} enableScrollSpy={true} separator="" /> +
-                  </div>
-                  <div className="py-3">
-                    Lorem ipsum dolor, sit amet consectetur adipisicing 
-                  </div>
-                </div>
-              </div>
-            </div> */}
           </div>
         </div>
       </div>

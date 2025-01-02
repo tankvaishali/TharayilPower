@@ -100,7 +100,6 @@ function Whujoinus() {
 
                       <div
                         className="fs-5 fw-bold  pb-1 d-flex align-items-center "
-                      // style={{ width: "fit-content" }}
                       >
                         <div className="fs-2 joinicon">{x.icon}</div>    <div className="ps-2 pt-1"> {x.tittle}</div>
                       </div>

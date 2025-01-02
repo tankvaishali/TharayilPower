@@ -114,7 +114,6 @@ function Expertist() {
               >
                 <img
                   src={require("../../Assets/Images/highlits4.jpg")}
-                  // src="https://english.news.cn/20240103/46e63f8f2b1a4739bc31cb2419991447/601ade44cb6445a3a38332e9020efc61.jpg"
                   alt=""
                   className="img-fluid w-100 h-100 object-fit-cover rounded-circle rounded-bottom-0"
                   style={{ zIndex: 0 }}

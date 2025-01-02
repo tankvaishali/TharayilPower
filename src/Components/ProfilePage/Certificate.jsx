@@ -15,12 +15,7 @@ const images = [
   {
     img: require("../../Assets/Images/profile/certi (13).jpg")
   },
-  // {
-  //   img: require("../../Assets/Images/profile/certificatef.JPEG")
-  // },
-  // {
-  //   img: require("../../Assets/Images/profile/certificate03.JPEG")
-  // },
+
   {
     img: require("../../Assets/Images/profile/certi (15).jpg")
   },

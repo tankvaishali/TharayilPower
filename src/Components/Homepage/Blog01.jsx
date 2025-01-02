@@ -311,14 +311,7 @@ function Blog01() {
               <div className="col-12 my-2">
 
                 <div className='text-center pt-5'>
-                  {/* <div
-                  className="font_stroke"
-                  data-aos="fade-up"
-                  data-aos-duration="1500"
-                  data-aos-once="true"
-                >
-                  Conclusion
-                </div> */}
+                 
                   <div
                     className="ftittle "
                     data-aos="fade-down"

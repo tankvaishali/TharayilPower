@@ -95,50 +95,7 @@ function Position() {
                   For each open position, we provide a comprehensive overview that outlines key responsibilities, project goals, and expectations to ensure you find the right fit within Tharayil Power.
                 </div>
               </div>
-              {/* <div className="py-1 d-flex align-content-start align-items-start ">
-                <div
-                  className="fs-5"
-                  style={{
-                    color: "var(--green--)",
-                  }}
-                >
-                  <IoCheckmarkDoneCircle />
-                </div>
-                <div className="ps-2 pt-1">
-                  Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                  Laudantium repellat tempore, non tempora earum sit.non tempora
-                  earum sit.
-                </div>
-              </div>
-              <div className="py-1 d-flex align-content-start align-items-start ">
-                <div
-                  className="fs-5"
-                  style={{
-                    color: "var(--green--)",
-                  }}
-                >
-                  <IoCheckmarkDoneCircle />
-                </div>
-                <div className="ps-2 pt-1">
-                  Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                  Laudantium repellat tempore, non tempora earum sit. Laudantium
-                  repellat tempore, non tempora earum sit
-                </div>
-              </div>
-              <div className="py-1 d-flex align-content-start align-items-start ">
-                <div
-                  className="fs-5"
-                  style={{
-                    color: "var(--green--)",
-                  }}
-                >
-                  <IoCheckmarkDoneCircle />
-                </div>
-                <div className="ps-2 pt-1">
-                  Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                  Laudantium repellat tempore, non tempora earum sit.
-                </div>
-              </div> */}
+             
             </div>
           </div>
           <div className="py-4">
