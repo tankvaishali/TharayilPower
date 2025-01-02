@@ -1,5 +1,4 @@
 import React, { useEffect, useRef } from "react";
-// import videoSourceMP4 from "../../Assets/video/05.mp4";
 import { FaQuoteRight } from "react-icons/fa";
 import Slider from "react-slick";
 import { CiPlay1 } from "react-icons/ci";
@@ -237,9 +236,7 @@ function Testimonial() {
                     </Link>
                   </div>
                 </div>
-                {/* <video autoPlay loop muted className="h-100 w-100 object-fit-cover">
-                  <source src={videoSourceMP4} type="video/mp4" />
-                </video> */}
+          
               </div>
             </div>
           </div>

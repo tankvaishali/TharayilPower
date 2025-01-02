@@ -7,7 +7,7 @@ import { Link } from "react-router-dom";
 function ServiceWork() {
   return (
     <section className="service-section overflow-hidden">
-      {/* Left 30% background color */}
+
       <div className="left-bg-color"></div>
 
       <div className="service-container py-5">

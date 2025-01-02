@@ -1,5 +1,4 @@
 import React from "react";
-import { FaCheckCircle, FaHandsHelping, FaShieldAlt, FaTag, FaWrench } from 'react-icons/fa';
 import { MdOutlineArrowOutward } from 'react-icons/md';
 import { Link } from 'react-router-dom';
 

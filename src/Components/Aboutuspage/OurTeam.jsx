@@ -76,27 +76,13 @@ const Team = [
                         width={160}
                         className="rounded-3 object-fit-cover m-4 zoom-animation shadow img-fluid "
                         style={{objectPosition:" top center"}}
-                      
+                      alt=''
                       />
                     </div>
                     <div className="col-lg-7 mediaset  text-md-center  text-lg-start">
                       <h4 className="fw-bold text-success">{item.name}</h4>
                       <p className=' text-secondary'>{item.position}</p>
-                      {/* <div>
-                        <Link
-                          to={"/"}
-                          className="text-decoration-none linkinsta"
-                        >
-                          <FaFacebook className="m-2 instaface" />
-                        </Link>
-                        <Link
-                          to={"/"}
-                          className="text-decoration-none linkinsta"
-                        >
-                          {" "}
-                          <FaInstagram className="m-2 instaface" />
-                        </Link>
-                      </div> */}
+              
                     </div>
                   </div>
                 </div>
@@ -108,7 +94,7 @@ const Team = [
                        to={"/profile"}
                        className="text-decoration-none mx-auto w-auto"
                      >
-                       <button className="button-48 mt-3" role="button">
+                       <button className="button-48 mt-3" >
                          <span className="btn_text fw-bold">
                          Explore Company
                            <span className="ps-1 fs-5 fw-bold">

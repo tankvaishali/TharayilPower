@@ -13,10 +13,6 @@ import Product from './Components/Productpage/Product';
 import ResidentialSolar from './Components/Servicepage/ResidentialSolar';
 import CommercialSolar from './Components/Servicepage/CommercialSolar';
 import GovernmentandInstitutional from './Components/Servicepage/GovernmentandInstitutional';
-import Blog01 from './Components/Homepage/Blog01';
-import Blog02 from './Components/Homepage/Blog02';
-import Blog03 from './Components/Homepage/Blog03';
-import Blog04 from './Components/Homepage/Blog04';
 import Designconsultancy from './Components/Servicepage/Designconsultancy';
 import FullproductPage from './Components/Fullproducts/FullproductPage';
 
@@ -41,10 +37,7 @@ function App() {
           <Route path='/career' element={<CareerPage />} />
           <Route path='/profile' element={<ProfilePage />} />
           <Route path='/contactus' element={<ContactusPage />} />
-          <Route path='/blog01' element={<Blog01 />} />
-          <Route path='/blog02' element={<Blog02 />} />
-          <Route path='/blog03' element={<Blog03 />} />
-          <Route path='/blog04' element={<Blog04 />} />
+
         </Routes>
       </BrowserRouter>
     </>

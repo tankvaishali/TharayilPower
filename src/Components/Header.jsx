@@ -143,7 +143,7 @@ function Header() {
             </ul>
             <div className="  text-white fw-bolder h-100 d-flex align-content-center align-items-center px-2">
          
-              {/* <Link to={"tel:8129151266"} className="text-decoration-none text-white"> <span className="me-2 fs-5"> <MdWifiCalling3 /></span> +(91) 81291 51266</Link> */}
+            
               <Link to={"tel:8129151266"} className="text-decoration-none text-white fs-4 bg-success p-2 rounded-circle d-flex align-content-center align-itmes-center justify-content-center">  <MdWifiCalling3 /></Link>
             </div>
           </div>
@@ -261,19 +261,7 @@ function Header() {
             </span>{" "}
             Contact Us
           </NavLink>
-          {/* <div className="fs-5  text-success text-lg-white fw-bolder mt-auto px-2">
-            
-            <span className="me-2 fs-3"> <MdWifiCalling3 /></span> <Link to={"tel:8129151266"} className="text-decoration-none text-success text-lg-white">+(91) 81291 51266</Link>
-            </div> */}
-          {/* <Player
-                autoplay
-                loop
-                src="https://lottie.host/5a21c1f1-0cd5-486f-b4c2-c94269291c89/bIlcVBDrbv.json"
-                style={{ width: "100px", height: "55px" }}
-                className=" d-flex align-content-center align-items-center px-2 bg-white rounded-pill shadow"
-              >
-              
-              </Player> */}
+       
         </div>
 
       </div>

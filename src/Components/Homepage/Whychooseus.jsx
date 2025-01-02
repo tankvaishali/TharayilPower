@@ -157,9 +157,7 @@ function Whychooseus() {
                           </div>
                           <div>
                             <div className="ps-3 fw-semibold " style={{ fontSize: 17 }}>{x.name}</div>
-                            {/* <div className="ps-3 fw-medium text-secondary pera">
-                              {x.pera}
-                            </div> */}
+                         
                           </div>
                         </div>
                       </div>

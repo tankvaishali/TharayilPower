@@ -1,5 +1,4 @@
-import React, { useEffect, useRef } from "react";
-// import videoSourceMP4 from "../../Assets/video/05.mp4";
+import React from "react";
 import { FaQuoteRight } from "react-icons/fa";
 import Slider from "react-slick";
 import { CiPlay1 } from "react-icons/ci";
