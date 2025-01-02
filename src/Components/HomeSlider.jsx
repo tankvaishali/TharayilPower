@@ -40,7 +40,7 @@ function HomeSlider() {
           <h1 className={`carousel-content container ${index === currentSlide && !initialLoad ? "show" : ""} text-white p-lg-5 p-4 sliderwidth fw-medium p-md-5 display-5 lh-base text-uppercase`}>
             {index === 0 && (
               <>
-                Power your world with smarter energy – Explore Tharayil Power today!
+                Power your world with smarter energy Explore Tharayil Power today!
                 {index === currentSlide && (
                   <div className="mt-2">
                     <Link to={"/service"} className="text-decoration-none">
@@ -59,7 +59,7 @@ function HomeSlider() {
             )}
             {index === 1 && (
               <>
-                Switch to sustainable energy – Discover Tharayil Power now!
+                Switch to sustainable energy Discover Tharayil Power now!
                 {index === currentSlide && (
                   <div className="mt-2">
                     <Link to={"/product"} className="text-decoration-none">
@@ -78,7 +78,7 @@ function HomeSlider() {
             )}
             {index === 2 && (
               <>
-                Take charge of your energy needs – Start with Tharayil Power!
+                Take charge of your energy needs Start with Tharayil Power!
                 {index === currentSlide && (
                   <div className="mt-2">
                     <Link to={"/contactus"} className="text-decoration-none">
