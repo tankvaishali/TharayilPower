@@ -588,3 +588,19 @@ input::placeholder {
 }
 
 /* landingpage end */
+
+/* Error page start */
+.errimagebg{
+  background-color: #a3b7b8;
+}
+
+.image404{
+  width: 50%; 
+   margin: 0 auto;
+  }
+  @media only screen and (max-width:600px){
+    .image404{
+      width: 90% !important;
+    }
+  }
+/* Error page end */

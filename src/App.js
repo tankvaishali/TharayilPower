@@ -15,6 +15,7 @@ import CommercialSolar from './Components/Servicepage/CommercialSolar';
 import GovernmentandInstitutional from './Components/Servicepage/GovernmentandInstitutional';
 import Designconsultancy from './Components/Servicepage/Designconsultancy';
 import FullproductPage from './Components/Fullproducts/FullproductPage';
+import Error404 from './Components/Error404';
 
 
 function App() {
@@ -37,6 +38,7 @@ function App() {
           <Route path='/career' element={<CareerPage />} />
           <Route path='/profile' element={<ProfilePage />} />
           <Route path='/contactus' element={<ContactusPage />} />
+          <Route path='*' element={<Error404 />} />
 
         </Routes>
       </BrowserRouter>
