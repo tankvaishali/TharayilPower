@@ -1,41 +1,41 @@
 import React from "react";
 const images = [
   {
-    img: require("../../Assets/Images/profile/certi (2).jpg")
+    img: require("../../Assets/Images/Awards/award1.jpg")
   },
   {
-    img: require("../../Assets/Images/profile/certi (5).jpg")
+    img: require("../../Assets/Images/Awards/award2.jpg")
   },
   {
-    img: require("../../Assets/Images/profile/certi (10).jpg")
+    img: require("../../Assets/Images/Awards/award3.jpg")
   },
   {
-    img: require("../../Assets/Images/profile/certi (11).jpg")
+    img: require("../../Assets/Images/Awards/award4.jpg")
   },
   {
-    img: require("../../Assets/Images/profile/certi (13).jpg")
+    img: require("../../Assets/Images/Awards/award5.jpg")
   },
 
   {
-    img: require("../../Assets/Images/profile/certi (15).jpg")
+    img: require("../../Assets/Images/Awards/award6.jpg")
   },
   {
-    img: require("../../Assets/Images/profile/Awards (2).jpg")
+    img: require("../../Assets/Images/Awards/award7.jpg")
   },
   {
-    img: require("../../Assets/Images/profile/Awards (5).jpg")
+    img: require("../../Assets/Images/Awards/award8.jpg")
   },
   {
-    img: require("../../Assets/Images/profile/IMG_20240926_105229508.jpg")
+    img: require("../../Assets/Images/Awards/award9.jpg")
   },
   {
-    img: require("../../Assets/Images/profile/certi (16).jpg")
+    img: require("../../Assets/Images/Awards/award10.jpg")
   },
   {
-    img: require("../../Assets/Images/profile/certi (14).jpg")
+    img: require("../../Assets/Images/Awards/award11.jpg")
   },
   {
-    img: require("../../Assets/Images/profile/certi (1).jpg")
+    img: require("../../Assets/Images/Awards/award12.jpg")
   },
 ];
 

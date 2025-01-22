@@ -12,6 +12,7 @@ import HomeSlider from "../HomeSlider.jsx";
 import ProductPage from "../Productpage/ProductPage.jsx";
 import { MdOutlineArrowOutward } from "react-icons/md";
 import { Link } from "react-router-dom";
+import HomeProduct from "./HomeProduct.jsx";
 
 function HomePagemain() {
 
@@ -41,7 +42,7 @@ function HomePagemain() {
           </button>
         </Link>
       </div>
-      <ProductPage />
+      <HomeProduct />
       <Testimonial />
       <BlogNews />
       <ClientLogo />

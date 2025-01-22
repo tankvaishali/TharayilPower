@@ -40,7 +40,7 @@ function HomeSlider() {
           <h1 className={`carousel-content container ${index === currentSlide && !initialLoad ? "show" : ""} text-white p-lg-5 p-4 sliderwidth fw-medium p-md-5 display-5 lh-base text-uppercase`}>
             {index === 0 && (
               <>
-                Power your world with smarter energy 
+                Power your world with smarter energy
                 {index === currentSlide && (
                   <div className="mt-2">
                     <Link to={"/service"} className="text-decoration-none">
@@ -59,13 +59,13 @@ function HomeSlider() {
             )}
             {index === 1 && (
               <>
-                Switch to sustainable energy 
+                Switch to sustainable energy
                 {index === currentSlide && (
                   <div className="mt-2">
                     <Link to={"/product"} className="text-decoration-none">
                       <button className="button-48 mt-3 p-1 p-lg-2 ">
                         <span className="btn_text fw-bold">
-                         Discover Tharayil Power
+                          Discover Tharayil Power
                           <span className="ps-1 fs-5 fw-bold">
                             <MdOutlineArrowOutward />
                           </span>
@@ -78,13 +78,13 @@ function HomeSlider() {
             )}
             {index === 2 && (
               <>
-                Take charge of your energy needs 
+                Take charge of your energy needs
                 {index === currentSlide && (
                   <div className="mt-2">
                     <Link to={"/contactus"} className="text-decoration-none">
                       <button className="button-48 mt-3 p-1 p-lg-2 ">
                         <span className="btn_text fw-bold">
-                        Start with Tharayil Power Now
+                          Start with Tharayil Power Now
                           <span className="ps-1 fs-5 fw-bold">
                             <MdOutlineArrowOutward />
                           </span>

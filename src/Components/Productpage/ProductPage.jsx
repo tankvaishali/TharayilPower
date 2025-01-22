@@ -42,66 +42,67 @@ function ProductPage() {
         require("../../Assets/Images/inverter.png"),
       description:
         "Transform solar energy into usable electricity with our smart home inverters. Designed for maximum efficiency, these devices enable seamless power conversion, ensuring that your solar energy system operates at peak performance. Compatible with various solar setups, our inverters combine reliability with intelligent features to simplify energy management for homeowners.  ",
-        details01: "Maximum Efficiency",
-        pera1: "Optimizes energy conversion to ensure maximum output from your solar system.",
-        details02: "Smart Energy Management",
-        pera2: " Intelligent features that adjust settings for improved power control and efficiency.",
-        details03: "Wide Compatibility",
-        pera3: "Works seamlessly with most solar setups, ensuring flexibility and ease of integration.",
+      details01: "Maximum Efficiency",
+      pera1: "Optimizes energy conversion to ensure maximum output from your solar system.",
+      details02: "Smart Energy Management",
+      pera2: " Intelligent features that adjust settings for improved power control and efficiency.",
+      details03: "Wide Compatibility",
+      pera3: "Works seamlessly with most solar setups, ensuring flexibility and ease of integration.",
     },
     {
       id: "tabs-tab-4",
       title: "E-Mobility Solutions  ",
       image:
-      require("../../Assets/Images/mobilityimage.png"),
+        require("../../Assets/Images/mobilityimage.png"),
 
       description:
         "Embrace eco-friendly transportation with our range of e-mobility solutions, including solar-powered EV charging stations. These solutions not only support the adoption of electric vehicles but also integrate renewable energy to reduce your carbon footprint. Be part of the movement toward sustainable mobility while ensuring convenience and efficiency.  ",
-        details01: "Eco-Friendly Charging",
-        pera1: " Utilize renewable energy for charging electric vehicles, reducing your environmental impact.",
-        details02: "Efficient & Fast",
-        pera2: " High-performance stations designed to provide quick, reliable charging for various EV models.",
-        details03: "Seamless Integration",
-        pera3: "Compatible with existing solar systems, offering an integrated green mobility solution.",    },
+      details01: "Eco-Friendly Charging",
+      pera1: " Utilize renewable energy for charging electric vehicles, reducing your environmental impact.",
+      details02: "Efficient & Fast",
+      pera2: " High-performance stations designed to provide quick, reliable charging for various EV models.",
+      details03: "Seamless Integration",
+      pera3: "Compatible with existing solar systems, offering an integrated green mobility solution.",
+    },
     {
       id: "tabs-tab-5",
       title: "Solar Water Heaters  ",
       image: require("../../Assets/Images/waterheater.jpg"),
       description:
         "Optimize energy usage by switching to solar water heaters, an eco-friendly way to meet your household or business water heating needs. These systems use solar power to deliver hot water efficiently, cutting down on electricity consumption and saving costs while minimizing environmental impact.  ",
-        details01: "Energy-Efficient",
-        pera1: "Solar-powered to significantly reduce electricity consumption and costs.",
-        details02: "Environmentally Friendly",
-        pera2: " Reduce your carbon footprint by utilizing the sun’s energy for water heating.",
-        details03: "Durable & Low Maintenance",
-        pera3: "Designed for long-term performance with minimal upkeep required.",  
-        },
+      details01: "Energy-Efficient",
+      pera1: "Solar-powered to significantly reduce electricity consumption and costs.",
+      details02: "Environmentally Friendly",
+      pera2: " Reduce your carbon footprint by utilizing the sun’s energy for water heating.",
+      details03: "Durable & Low Maintenance",
+      pera3: "Designed for long-term performance with minimal upkeep required.",
+    },
     {
       id: "tabs-tab-6",
       title: "Solar Street Lights  ",
       image: require("../../Assets/Images/Solar-Street-Lights.jpg"),
       description:
         "Light up your outdoor spaces sustainably with our solar-powered street lights. These lights are ideal for residential, commercial, and public areas, offering energy efficiency and dependable illumination. Designed for minimal maintenance and easy installation, our solar street lights are a cost-effective way to enhance safety and aesthetics. ",
-        details01: "Cost-Effective",
-        pera1: "Powered by solar energy, eliminating the need for electricity consumption and reducing costs.",
-        details02: "Low Maintenance",
-        pera2: "Durable design with minimal upkeep requirements, providing long-term reliability.",
-        details03: "Easy Installation",
-        pera3: " Simple to set up, making them ideal for homes, businesses, and public areas.",  
-       },
+      details01: "Cost-Effective",
+      pera1: "Powered by solar energy, eliminating the need for electricity consumption and reducing costs.",
+      details02: "Low Maintenance",
+      pera2: "Durable design with minimal upkeep requirements, providing long-term reliability.",
+      details03: "Easy Installation",
+      pera3: " Simple to set up, making them ideal for homes, businesses, and public areas.",
+    },
     {
       id: "tabs-tab-7",
       title: "BLDC Fans",
       image: require("../../Assets/Images/bldcfan.jpg"),
       description:
         "Achieve energy efficiency and comfort with our Brushless Direct Current (BLDC) fans. These advanced fans consume significantly less electricity compared to traditional models, making them an economical and eco-conscious choice for cooling. Whether at home or work, our BLDC fans ensure silent, high-performance operation year-round.   ",
-        details01: "Energy-Efficient",
-        pera1: " Uses less power, reducing your energy consumption and costs.",
-        details02: "Whisper Quiet Operation",
-        pera2: "Enjoy a peaceful environment with silent, smooth fan performance.",
-        details03: "Durable & Long-Lasting",
-        pera3: "  Engineered to last, delivering reliable cooling year after year.",  
-        },
+      details01: "Energy-Efficient",
+      pera1: " Uses less power, reducing your energy consumption and costs.",
+      details02: "Whisper Quiet Operation",
+      pera2: "Enjoy a peaceful environment with silent, smooth fan performance.",
+      details03: "Durable & Long-Lasting",
+      pera3: "  Engineered to last, delivering reliable cooling year after year.",
+    },
   ];
   const generateWhatsAppURL = (productName) => {
     const message = `Hello, I'm interested in the product: ${productName}`;
@@ -123,7 +124,7 @@ function ProductPage() {
                 data-aos-duration="1500"
                 data-aos-once="true"
               >
-              Popular  Products
+                Popular  Products
               </div>
               <div
                 className="ftittle text-white"
@@ -131,7 +132,7 @@ function ProductPage() {
                 data-aos-duration="1500"
                 data-aos-once="true"
               >
-              Our Featured Products
+                Our Featured Products
               </div>
             </div>
           </div>
@@ -163,7 +164,7 @@ function ProductPage() {
                   ))}
                 </ul>
               </div>
-              <div className="col-lg-9 mt-4 mt-lg-0 shadow_green p-1 p-md-2 py-5 p-lg-5 bg-white" data-aos="fade-left" data-aos-duration="1800" data-aos-once="true">
+              <div className="col-lg-9 mt-4 mt-lg-0 shadow_green p-5 bg-white" data-aos="fade-left" data-aos-duration="1800" data-aos-once="true">
                 {departments
                   .filter((department) => department.id === activeTab)
                   .map((department) => (
@@ -178,7 +179,7 @@ function ProductPage() {
                           <h3 className="fw-bold pt-3 pt-lg-0">{department.title}</h3>
                           <p className="pera">{department.description}</p>
                           <div>
-                            <div className="fw-bold text-success fs-5 pb-1">Key Features :</div>
+                            <div className="fw-bold text-success fs-5 pb-1">Key Features:</div>
                             <div className="row">
                               <div className="fw-bold col-3">{department.details01}</div>
                               <div className="fw-medium col-1">:</div>
