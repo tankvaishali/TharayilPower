@@ -5,27 +5,49 @@ import { Link } from "react-router-dom";
 function BlogNews() {
 
 
-
+let blogdata=[
+{
+  date:"06 Feb",
+  title:"Designing Your Solar System: A Step-by-Step Guide",
+  description:"Essential tips for planning an effective solar installation.",
+  imageUrl:require("../../Assets/Images/highlits2.jpg"),
+  blogUrl:"/blog04"
+},
+{
+  date:"21 jan",
+  title:"How Commercial Solar Panels Improve Efficiency",
+  description:"Learn how solar solutions are transforming businesses.",
+  imageUrl:require("../../Assets/Images/commercial.jpg"),
+  blogUrl:"/blog02"
+},
+{
+  date:"5 May",
+  title:"Top 5 Benefits of Solar Energy for Homes in Kerala",
+  description:"One solution stands out: solar energy. By harnessing the sun’s power, homeowners can significantly reduce their monthly electricity bills while helping preserve Kerala’s lush, natural environment.",
+  imageUrl:require("../../Assets/Images/residential solar (1).jpg"),
+  blogUrl:"/blog01"
+},
+]
 
   // Fetch data from the API
-  const [data, setData] = useState([]);
+  // const [data, setData] = useState([]);
 
   // Fetch data from the API
-  const fetchData = async () => {
-    try {
-      // const response = await axios.get("https://tharayildb.vercel.app/api/data");
-      const response = await axios.get("https://admindb-indol.vercel.app/");
+  // const fetchData = async () => {
+  //   try {
+  //     // const response = await axios.get("https://tharayildb.vercel.app/api/data");
+  //     const response = await axios.get("https://admindb-indol.vercel.app/");
 
 
-      setData(response.data);
-    } catch (error) {
-      console.error("Error fetching data:", error);
-    }
-  };
+  //     setData(response.data);
+  //   } catch (error) {
+  //     console.error("Error fetching data:", error);
+  //   }
+  // };
 
-  useEffect(() => {
-    fetchData();
-  }, []);
+  // useEffect(() => {
+  //   fetchData();
+  // }, []);
 
 
   return (
@@ -66,7 +88,7 @@ function BlogNews() {
           </div>
 
          
-          {data.map((blog, index) => {
+          {blogdata.map((blog, index) => {
             console.log(blog);
 
             // Parse the date string and format it as "DD MMM"
@@ -119,6 +141,59 @@ function BlogNews() {
               </div>
             );
           })}
+          {/* {data.map((blog, index) => {
+            console.log(blog);
+
+            // Parse the date string and format it as "DD MMM"
+            const blogDate = new Date(blog.date);
+            const formattedDate = `${blogDate.getDate()} ${blogDate.toLocaleString('default', { month: 'short' })}`;
+
+            return (
+              <div
+                key={blog.id}
+                className={`col-12 col-lg-6 ${index % 2 === 0 ? "" : "pt-0 pt-lg-5"
+                  }`}
+                id="saeds"
+              >
+                <div
+                  className="m-0 m-lg-5 mt-5"
+                  data-aos={index % 2 === 0 ? "fade-right" : "fade-left"}
+                  data-aos-duration="1800"
+                  data-aos-once="true"
+                >
+                  <Link
+                    to={blog.blogUrl}
+                    className="text-decoration-none"
+                    target="_blank"
+                  >
+                    <div className="blog_height">
+                      <img
+                        src={blog.imageUrl}
+                        alt={blog.title}
+                        className="img-fluid w-100 h-100 z-0 object-fit-cover shadow"
+                      />
+                    </div>
+                    <div className="content-box">
+                      <div
+                        className="w-75 mx-auto bg-white p-2 p-lg-4 text-center text-lg-start z-1 shadow position-relative"
+                        style={{ marginTop: "-55px" }}
+                      >
+                        <div className="text-white fw-bold ms-auto datecss bg-success p-3 border border-5 border-white">
+                          {formattedDate} 
+                        </div>
+                        <div className="py-2 fw-bold fs-5 text-dark text-capitalize">
+                          {blog.title}
+                        </div>
+                        <div className="pera py-2 text-secondary">
+                          {blog.description}
+                        </div>
+                      </div>
+                    </div>
+                  </Link>
+                </div>
+              </div>
+            );
+          })} */}
 
         </div>
       </div>

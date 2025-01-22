@@ -16,7 +16,10 @@ import GovernmentandInstitutional from './Components/Servicepage/GovernmentandIn
 import Designconsultancy from './Components/Servicepage/Designconsultancy';
 import FullproductPage from './Components/Fullproducts/FullproductPage';
 import Error404 from './Components/Error404';
-
+import Blog01 from './Components/Homepage/Blog01';
+import Blog02 from './Components/Homepage/Blog02';
+import Blog03 from './Components/Homepage/Blog03';
+import Blog04 from './Components/Homepage/Blog04';
 
 function App() {
 
@@ -27,6 +30,10 @@ function App() {
         <ScrollToTop />
         <Routes>
           <Route path='/' element={<HomePagemain />} />
+          <Route path='/blog01' element={<Blog01 />} />
+          <Route path='/blog02' element={<Blog02 />} />
+          <Route path='/blog03' element={<Blog03 />} />
+          <Route path='/blog04' element={<Blog04 />} />
           <Route path='/aboutus' element={<AboutusPage />} />
           <Route path='/project' element={<Product />} />
           <Route path='/product' element={<FullproductPage />} />
