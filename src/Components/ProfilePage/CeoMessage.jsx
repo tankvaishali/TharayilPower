@@ -35,7 +35,7 @@ function CeoMessage() {
                 data-aos-duration="1500"
                 data-aos-once="true"
               >
-                - Muniya Thulaseedas
+                - Munia Thulaseedas
               </div>
               <div className="pt-4 pera">
                 "At Tharayil Power, we’re not just creating solar solutions;
@@ -46,13 +46,13 @@ function CeoMessage() {
                 brighter, more eco-friendly future."{" "}
               </div>
               <div className=" text-success fw-bold py-2">
-                — Muniya Thulaseedas, MD, Tharayil Power
+                — Munia Thulaseedas, MD, Tharayil Power
               </div>
               <div style={{ width: 50 }} >
                 {" "}
                 <Link
                   to={
-                    "https://www.linkedin.com/company/tharayil-power-energy-solutions-p-ltd/"
+                    "https://www.linkedin.com/in/munia-das-0383871a"
                   }
                   target="_blank"
                   className="footericon text-center p-2 justify-content-center mx-1 d-flex text-decoration-none text-white linkicon"
@@ -93,7 +93,7 @@ function CeoMessage() {
                 {" "}
                 <Link
                   to={
-                    "https://www.linkedin.com/company/tharayil-power-energy-solutions-p-ltd/"
+                    "https://www.linkedin.com/in/thulaseedas-nandajan-19b21441"
                   }
                   target="_blank"
                   className="footericon text-center p-2 justify-content-center mx-1 d-flex text-decoration-none text-white linkicon"
@@ -190,7 +190,19 @@ function CeoMessage() {
               <div className="  fw-bold fs-4">
                 A Trailblazer in Renewable Energy
               </div>
-
+              <div style={{ width: 50 }} >
+                {" "}
+                <Link
+                  to={
+                    "https://www.linkedin.com/in/naufia-haju-795a05191"
+                  }
+                  target="_blank"
+                  className="footericon text-center p-2 justify-content-center mx-1 mt-2 d-flex text-decoration-none text-white linkicon"
+                  style={{ backgroundColor: "#0077b5" }}
+                >
+                  <FaLinkedinIn />
+                </Link>
+              </div>
             </div>
           </div>
 
