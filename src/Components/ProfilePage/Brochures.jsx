@@ -41,8 +41,6 @@ function Brochures() {
                   style={{ color: "var(--lightgray--)" }}
                 >
                   Our brochures offer a detailed look into Tharayil Power’s solar services, providing valuable insights into our approach, technology, and commitment to green energy.
-
-
                 </div>
               </div>
             </div>
@@ -60,24 +58,22 @@ function Brochures() {
                 >
                   <div className="test-shine" style={{ height: "250px" }}>
                     <img
-                      src={
-                        require("../../Assets/Images/brouchuresimage.png")
-                      }
+                      src={require("../../Assets/Images/brouchuresimage.png")}
                       alt=""
                       className="img-fluid w-100 h-100 object-fit-fill"
                     />
                   </div>
-
-                  <Link
-                    to={require("../../Assets/pdf/Brochures_pdf.pdf")}
-                    target="_blank"
-                  >
-                    <div className="text-center">
+                  <div className="text-center">
+                    {/* Updated download logic */}
+                    <a
+                      href={require("../../Assets/pdf/Brochures_pdf.pdf")}
+                      download="Brochures_pdf.pdf"
+                    >
                       <button className="button-48 mt-4">
                         <span className="btn_text fw-bold">Download Now</span>
                       </button>
-                    </div>
-                  </Link>
+                    </a>
+                  </div>
                 </Link>
               </div>
             </div>
