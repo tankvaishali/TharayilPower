@@ -40,7 +40,7 @@ function Blog02() {
 
           {/* {/ Solar Panel Installation /} */}
           <div>
-            <div className="row justify-content-center mt-4">
+            {/* <div className="row justify-content-center mt-4">
               {images.map((image, index) => (
                 <div className="col-12 col-md-6 col-lg-4" key={index} data-aos="zoom-in"
                   data-aos-duration="1500"
@@ -55,9 +55,9 @@ function Blog02() {
                   </div>
                 </div>
               ))}
-            </div>
+            </div> */}
 
-            <div className="row">
+            {/* <div className="row">
               <div className="col-12 col-lg-7 my-4">
                 <div className="py-3 py-lg-5">
                   <div
@@ -121,11 +121,11 @@ function Blog02() {
                   </div>
                 </div>
               </div>
-            </div>
+            </div> */}
           </div>
 
           {/* {/ Battery storage solutions /} */}
-          <div>
+          {/* <div>
 
 
             <div className="row d-flex ">
@@ -192,24 +192,22 @@ function Blog02() {
 
               </div>
             </div>
-          </div>
+          </div> */}
 
           {/* {/  Energy efficiency audits /} */}
           <div>
+          <div className="row d-flex">
+          <div className="col-12 col-lg-6" >
+                  <div className=" h-100">
+                <div className="pt-2 pt-lg-4 py-lg-3">
 
-
-            <div className="row d-flex">
-              <div className="col-12 col-lg-6 mb-4 " data-aos="zoom-in"
-                data-aos-duration="1500"
-                data-aos-once="true">
-                <div className="">
                   <div
                     className="font_stroke"
                     data-aos="fade-up"
                     data-aos-duration="1500"
                     data-aos-once="true"
                   >
-                    Responsibility
+                    Energy
                   </div>
                   <div
                     className="ftittle "
@@ -217,22 +215,37 @@ function Blog02() {
                     data-aos-duration="1500"
                     data-aos-once="true"
                   >
-                    Environmental Responsibility
+                    Enhanced Energy Management
+                  </div>
+                  </div>
+                  <div className="pera pt-2" style={{ textAlign: "justify" }}>
+                    Commercial solar installations not only generate clean energy but also enable better energy management. With advanced energy management tools, businesses can monitor their usage in real-time, identify patterns, and make informed adjustments to maximize efficiency. These tools provide insights into peak consumption hours, allowing companies to plan energy-intensive tasks when solar energy production is at its highest.
+                  </div>
+
+                  <div className='py-2 pera pt-3'>
+                    <FaCheckCircle
+                      className="fs-6"
+                      style={{ color: "#4aab3d" }}
+                    />{" "}
+                    Tharayil Power offers comprehensive energy management services that go beyond solar installation.
+                  </div>     <div className='py-2 pera'>
+                    <FaCheckCircle
+                      className="fs-6"
+                      style={{ color: "#4aab3d" }}
+                    />{" "}
+                    Through customized tracking systems, our team helps businesses optimize energy consumption patterns and avoid unnecessary wastage.
+                  </div>     <div className='py-2 pera'>
+                    <FaCheckCircle
+                      className="fs-6"
+                      style={{ color: "#4aab3d" }}
+                    />{" "}
+                    By implementing these solutions, businesses in Kerala can maximize the value of their solar investment, saving more over time and enhancing overall operational efficiency.
                   </div>
                 </div>
-                <div className="pera pt-2" style={{ textAlign: "justify" }}>
-                  Environmental responsibility is becoming increasingly important for businesses today, especially as consumers are prioritizing eco-friendly practices and choosing brands with strong sustainability commitments. In Kerala, where nature and biodiversity are closely intertwined with daily life, businesses that adopt green practices not only contribute to environmental preservation but also strengthen their brand reputation.
-                </div>
-                <div className="py-3 pera" style={{ textAlign: "justify" }}>
-                  A survey by the Kerala State Industrial Development Corporation (KSIDC) highlighted that over 65% of consumers prefer to buy from businesses that are environmentally responsible. By adopting solar energy, businesses can reduce their carbon footprint, contributing to Kerala’s conservation efforts and setting themselves apart in the marketplace. Tharayil Power is dedicated to supporting businesses in this journey, helping them make a positive impact on the environment while enhancing their public image as responsible corporate citizens.
-                </div>
-
               </div>
-              <div className="col-12 col-lg-6" data-aos="zoom-in"
-                data-aos-duration="1500"
-                data-aos-once="true">
+              <div className="col-12 col-lg-6" >
                 <div className="h-100">
-                  <div className="">
+                  <div className="pt-2 pt-lg-4 py-lg-3">
                     <div
                       className="font_stroke"
                       data-aos="fade-up"
@@ -261,16 +274,98 @@ function Blog02() {
                   </div>
                 </div>
               </div>
+           
+            </div>
+
+            <div className="row d-flex">
+              <div className="col-12 col-lg-6 mb-2 " >
+                <div className="pt-2 pt-lg-4 py-lg-3">
+                  <div
+                    className="font_stroke"
+                    data-aos="fade-up"
+                    data-aos-duration="1500"
+                    data-aos-once="true"
+                  >
+                    Responsibility
+                  </div>
+                  <div
+                    className="ftittle "
+                    data-aos="fade-down"
+                    data-aos-duration="1500"
+                    data-aos-once="true"
+                  >
+                    Environmental Responsibility
+                  </div>
+                </div>
+                <div className="pera pt-2" style={{ textAlign: "justify" }}>
+                  Environmental responsibility is becoming increasingly important for businesses today, especially as consumers are prioritizing eco-friendly practices and choosing brands with strong sustainability commitments. In Kerala, where nature and biodiversity are closely intertwined with daily life, businesses that adopt green practices not only contribute to environmental preservation but also strengthen their brand reputation.
+                </div>
+                <div className="py-3 pera" style={{ textAlign: "justify" }}>
+                  A survey by the Kerala State Industrial Development Corporation (KSIDC) highlighted that over 65% of consumers prefer to buy from businesses that are environmentally responsible. By adopting solar energy, businesses can reduce their carbon footprint, contributing to Kerala’s conservation efforts and setting themselves apart in the marketplace. Tharayil Power is dedicated to supporting businesses in this journey, helping them make a positive impact on the environment while enhancing their public image as responsible corporate citizens.
+                </div>
+
+              </div>
+           
+              <div className="col-12 col-lg-6 mb-4 " >
+       
+                <div className=" pt-lg-4 py-lg-3">
+                  <div
+                    className="font_stroke"
+                    data-aos="fade-up"
+                    data-aos-duration="1500"
+                    data-aos-once="true"
+                  >
+                    Costs
+                  </div>
+                  <div
+                    className="ftittle "
+                    data-aos="fade-down"
+                    data-aos-duration="1500"
+                    data-aos-once="true"
+                  >
+                    Reduced Operating Costs
+                  </div>
+                </div>
+                <div className="pera pt-2" style={{ textAlign: "justify" }}>
+                  One of the most compelling reasons for businesses to adopt solar energy is the substantial reduction in operating costs. Traditional electricity rates are subject to frequent fluctuations, making it challenging for businesses to manage and forecast energy expenses accurately. Solar energy, on the other hand, allows companies to generate their own power, stabilizing costs and leading to considerable savings over time.
+
+                </div>
+                <div className="pt-3">
+                  <div className="py-2 pera">
+                    <FaCheckCircle
+                      className="fs-6"
+                      style={{ color: "#4aab3d" }}
+                    />{" "}
+                    For example, a small business client of Tharayil Power in Ernakulam installed a custom commercial solar system and saw their monthly energy costs drop by nearly 40%.
+                  </div>
+                  <div className="py-2 pera">
+                    <FaCheckCircle
+                      className="fs-6"
+                      style={{ color: "#4aab3d" }}
+                    />{" "}
+                    This kind of reduction can make a significant difference for businesses looking to reinvest savings into growth opportunities.
+                  </div>
+                  <div className="py-2 pera">
+                    <FaCheckCircle
+                      className="fs-6"
+                      style={{ color: "#4aab3d" }}
+                    />{" "}
+                    By investing in solar, businesses can enjoy predictable, lower electricity costs, freeing up resources for other strategic priorities.
+                  </div>
+                </div>
+
+              
+              </div>
             </div>
             <div className="row">
              
-              <div className="col-12 my-2">
+              <div className="col-12 my-4 mt-0 mt-lg-5">
 
                 <div className='text-center pt-2'>
 
                   <div
                     className="ftittle "
-                    data-aos="fade-down"
+                    data-aos="fade-up"
                     data-aos-duration="1500"
                     data-aos-once="true"
                   >

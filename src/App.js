@@ -30,10 +30,10 @@ function App() {
         <ScrollToTop />
         <Routes>
           <Route path='/' element={<HomePagemain />} />
-          <Route path='/blog01' element={<Blog01 />} />
-          <Route path='/blog02' element={<Blog02 />} />
+          <Route path='/benefits-of-solar-system' element={<Blog01 />} />
+          <Route path='/commercial-solar-blog' element={<Blog02 />} />
           <Route path='/blog03' element={<Blog03 />} />
-          <Route path='/blog04' element={<Blog04 />} />
+          <Route path='/design-solar-system' element={<Blog04 />} />
           <Route path='/aboutus' element={<AboutusPage />} />
           <Route path='/project' element={<Product />} />
           <Route path='/product' element={<FullproductPage />} />

@@ -42,7 +42,7 @@ function Blog01() {
           {/* {/ Solar Panel Installation /} */}
           <div>
             <div className="row justify-content-center mt-4">
-              {images.map((image, index) => (
+              {/* {images.map((image, index) => (
                 <div className="col-12 col-md-6 col-lg-4" key={index}
                   data-aos="zoom-in"
                   data-aos-duration="1500"
@@ -56,10 +56,10 @@ function Blog01() {
                     />
                   </div>
                 </div>
-              ))}
+              ))} */}
             </div>
 
-            <div className="row">
+            {/* <div className="row">
               <div className="col-12 col-lg-7 my-4">
                 <div className="pt-5 py-lg-3">
                   <div
@@ -126,11 +126,11 @@ function Blog01() {
                   </div>
                 </div>
               </div>
-            </div>
+            </div> */}
           </div>
 
           {/* {/ Battery storage solutions /} */}
-          <div>
+          {/* <div>
 
 
             <div className="row d-flex ">
@@ -198,13 +198,121 @@ function Blog01() {
 
               </div>
             </div>
-          </div>
+          </div> */}
+          <div>
 
+          <div className="row">
+              <div className="col-12 col-lg-6 my-4 mt-0 mt-lg-4">
+                <div className="pt-2 pt-lg-4 py-lg-3">
+                  <div
+                    className="font_stroke"
+                    data-aos="fade-up"
+                    data-aos-duration="1500"
+                    data-aos-once="true"
+                  >
+                    Bills
+                  </div>
+                  <div
+                    className="ftittle "
+                    data-aos="fade-down"
+                    data-aos-duration="1500"
+                    data-aos-once="true"
+                  >
+                    Lower Electricity Bills
+                  </div>
+                </div>
+                <div className="pera" style={{ textAlign: "justify" }}         >
+                  One of the most immediate benefits of installing solar panels is the significant reduction in electricity costs. With Kerala’s abundant sunlight, a solar system can generate enough power to offset a large portion of your monthly energy consumption. This is especially relevant as grid electricity prices are projected to rise further.
+
+
+                </div>
+                <div className="py-3 pera"
+
+                >
+                  <div>
+                    <FaCheckCircle
+                      className="fs-6"
+                      style={{ color: "#4aab3d" }}
+                    />{" "}
+                    In fact, households in Kerala have already seen noticeable savings. A case study of a Tharayil Power residential project in Ernakulam demonstrates this benefit effectively.
+                  </div>
+                  <div className="py-2">
+                    <FaCheckCircle
+                      className="fs-6"
+                      style={{ color: "#4aab3d" }}
+                    />{" "}
+                    After installing a 5kW solar system, the homeowner experienced a 35% reduction in annual energy costs, saving thousands of rupees every year.
+                  </div>
+                  <div>
+                    <FaCheckCircle
+                      className="fs-6"
+                      style={{ color: "#4aab3d" }}
+                    />{" "}
+                    Over time, these savings add up, making solar a financially smart choice.
+                  </div>
+                </div>
+
+              </div>
+       
+              <div className="col-12 col-lg-6 my-4 mt-0 mt-lg-4">
+  
+ 
+<div className='pt-0 py-lg-3'>
+  
+<div
+        className="font_stroke"
+        data-aos="fade-up"
+        data-aos-duration="1500"
+        data-aos-once="true"
+      >
+        Value
+      </div>
+      <div
+        className="ftittle "
+        data-aos="fade-down"
+        data-aos-duration="1500"
+        data-aos-once="true"
+      >
+        Increased Property Value
+      </div>
+</div>
+      <div className="pera pt-2" style={{ textAlign: "justify" }}>
+        Installing a solar energy system can boost the value of your home. Properties equipped with solar panels tend to have a higher resale value compared to non-solar homes, as they offer a unique selling point that appeals to eco-conscious buyers who also value cost savings.
+      </div>
+
+      <div className='py-2 pera pt-3'>
+        <FaCheckCircle
+          className="fs-6"
+          style={{ color: "#4aab3d" }}
+        />{" "}
+        In Kerala’s competitive real estate market, solar-equipped homes are increasingly sought after.
+      </div>     <div className='py-2 pera'>
+        <FaCheckCircle
+          className="fs-6"
+          style={{ color: "#4aab3d" }}
+        />{" "}
+        A local realtor from Kochi explains: “Buyers today see solar installations as an asset. They’re willing to pay a premium for homes with solar because it’s an investment that continues to pay off with reduced utility costs.
+      </div>     <div className='py-2 pera'>
+        <FaCheckCircle
+          className="fs-6"
+          style={{ color: "#4aab3d" }}
+        />{" "}
+        As awareness of solar benefits grows, homes with solar panels are likely to gain even more demand, potentially increasing your property’s resale value.
+
+    
+    </div>
+
+
+ 
+</div>
+            </div>
+
+</div>
           {/* {/  Energy efficiency audits /} */}
           <div>
 
 
-            <div className="row d-flex">
+            {/* <div className="row d-flex">
               <div className="col-12 col-lg-7 mb-4 order-1 order-lg-0">
                 <div className="">
                   <div
@@ -246,7 +354,7 @@ function Blog01() {
                   />
                 </div>
               </div>
-            </div>
+            </div> */}
             <div className="row">
               <div className="col-12 col-lg-6" data-aos="zoom-in"
                 data-aos-duration="1500"
@@ -314,7 +422,7 @@ function Blog01() {
                  
                   <div
                     className="ftittle "
-                    data-aos="fade-down"
+                    data-aos="fade-up"
                     data-aos-duration="1500"
                     data-aos-once="true"
                   >

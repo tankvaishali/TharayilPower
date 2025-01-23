@@ -11,21 +11,21 @@ let blogdata=[
   title:"Designing Your Solar System: A Step-by-Step Guide",
   description:"Essential tips for planning an effective solar installation.",
   imageUrl:require("../../Assets/Images/highlits2.jpg"),
-  blogUrl:"/blog04"
+  blogUrl:"/design-solar-system"
 },
 {
   date:"21 jan",
   title:"How Commercial Solar Panels Improve Efficiency",
   description:"Learn how solar solutions are transforming businesses.",
   imageUrl:require("../../Assets/Images/commercial.jpg"),
-  blogUrl:"/blog02"
+  blogUrl:"/commercial-solar-blog"
 },
 {
   date:"5 May",
   title:"Top 5 Benefits of Solar Energy for Homes in Kerala",
   description:"One solution stands out: solar energy. By harnessing the sun’s power, homeowners can significantly reduce their monthly electricity bills while helping preserve Kerala’s lush, natural environment.",
   imageUrl:require("../../Assets/Images/residential solar (1).jpg"),
-  blogUrl:"/blog01"
+  blogUrl:"/benefits-of-solar-system"
 },
 ]
 
@@ -111,7 +111,7 @@ let blogdata=[
                   <Link
                     to={blog.blogUrl}
                     className="text-decoration-none"
-                    target="_blank"
+                 
                   >
                     <div className="blog_height">
                       <img

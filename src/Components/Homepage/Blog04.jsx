@@ -39,7 +39,7 @@ function Blog04() {
           </div>
 
           {/* {/ Solar Panel Installation /} */}
-          <div>
+          {/* <div>
             <div className="row justify-content-center mt-4">
               {images.map((image, index) => (
                 <div className="col-12 col-md-6 col-lg-4" key={index} data-aos="zoom-in"
@@ -121,10 +121,10 @@ function Blog04() {
                 </div>
               </div>
             </div>
-          </div>
+          </div> */}
 
           {/* {/ Battery storage solutions /} */}
-          <div>
+          {/* <div>
 
 
             <div className="row d-flex ">
@@ -191,14 +191,106 @@ function Blog04() {
 
               </div>
             </div>
-          </div>
+          </div> */}
 
           {/* {/  Energy efficiency audits /} */}
           <div>
 
 
             <div className="row d-flex">
-              <div className="col-12 col-lg-6 mb-4 " data-aos="zoom-in"
+            <div className="col-12 col-lg-6 mb-4 " >
+                <div className=" h-100">
+                  <div
+                    className="font_stroke"
+                    data-aos="fade-up"
+                    data-aos-duration="1500"
+                    data-aos-once="true"
+                  >
+                    Feasibility
+                  </div>
+                  <div
+                    className="ftittle "
+                    data-aos="fade-down"
+                    data-aos-duration="1500"
+                    data-aos-once="true"
+                  >
+                    Site Feasibility Studies
+                  </div>
+                  <div className="pera pt-2" style={{ textAlign: "justify" }}>
+                  Before any panels are installed, a site feasibility study is essential. Tharayil Power begins every project with an in-depth assessment of your property, taking into account roof orientation, shading, and local weather patterns. Given Kerala's unique climate, where monsoons are common, proper site assessment helps determine the optimal placement and configuration for solar panels.
+
+                  </div>
+
+                  <div className='py-2 pera pt-3'>
+                    <FaCheckCircle
+                      className="fs-6"
+                      style={{ color: "#4aab3d" }}
+                    />{" "}
+                   A feasibility study assesses how much sunlight your location receives throughout the year, which is crucial for energy production.
+                  </div>     <div className='py-2 pera'>
+                    <FaCheckCircle
+                      className="fs-6"
+                      style={{ color: "#4aab3d" }}
+                    />{" "}
+                   Our specialists consider any potential obstructions (like trees or neighboring buildings) and evaluate the structural integrity of your roof.
+                  </div>     <div className='py-2 pera'>
+                    <FaCheckCircle
+                      className="fs-6"
+                      style={{ color: "#4aab3d" }}
+                    />{" "}
+                     By conducting a thorough feasibility study, Tharayil Power ensures that your solar system will be both effective and durable in Kerala’s diverse environment.
+
+                  </div>
+                </div>
+
+
+              </div>
+            <div className="col-12 col-lg-6 mb-4 " >
+                <div className=" h-100">
+                  <div
+                    className="font_stroke"
+                    data-aos="fade-up"
+                    data-aos-duration="1500"
+                    data-aos-once="true"
+                  >
+                    Sizing and Selection
+                  </div>
+                  <div
+                    className="ftittle "
+                    data-aos="fade-down"
+                    data-aos-duration="1500"
+                    data-aos-once="true"
+                  >
+                    System Sizing and Selection
+                  </div>
+                  <div className="pera pt-2" style={{ textAlign: "justify" }}>
+                    Choosing the right size and type of solar system is essential to meeting your energy needs. Factors like your household’s average electricity consumption, roof size, budget, and energy goals all play a role in system sizing. Tharayil Power offers a range of options tailored to different types of homes in Kerala, from compact setups for small households to larger, more powerful systems for high-energy users.
+                  </div>
+
+                  <div className='py-2 pera pt-3'>
+                    <FaCheckCircle
+                      className="fs-6"
+                      style={{ color: "#4aab3d" }}
+                    />{" "}
+                    Our team helps residents understand their energy usage patterns and recommends an appropriately sized system.
+                  </div>     <div className='py-2 pera'>
+                    <FaCheckCircle
+                      className="fs-6"
+                      style={{ color: "#4aab3d" }}
+                    />{" "}
+                    For example, if your goal is to offset 100% of your electricity bill, we may suggest a system with high-efficiency panels and battery storage.
+                  </div>     <div className='py-2 pera'>
+                    <FaCheckCircle
+                      className="fs-6"
+                      style={{ color: "#4aab3d" }}
+                    />{" "}
+                    Tharayil Power’s experts also consider any future energy needs you may have, such as adding electric vehicle (EV) charging capabilities or expanding your solar array.
+                  </div>
+                </div>
+
+
+              </div>
+              <div className="col-12 col-lg-6 mb-4 " 
                 data-aos-duration="1500"
                 data-aos-once="true">
                 <div className="">
@@ -230,7 +322,7 @@ function Blog04() {
                 </div>
 
               </div>
-              <div className="col-12 col-lg-6" data-aos="zoom-in"
+              <div className="col-12 col-lg-6" 
                 data-aos-duration="1500"
                 data-aos-once="true">
                 <div className="h-100">
@@ -273,7 +365,7 @@ function Blog04() {
 
                   <div
                     className="ftittle "
-                    data-aos="fade-down"
+                    data-aos="fade-up"
                     data-aos-duration="1500"
                     data-aos-once="true"
                   >
