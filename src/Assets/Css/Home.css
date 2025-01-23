@@ -416,7 +416,7 @@
 .carousel-content {
   position: absolute;
   border-left: 10px solid white;
-  top: 30%;
+  top: 34%;
   left: 15%;
   z-index: 2;
   opacity: 0;

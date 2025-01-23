@@ -6,6 +6,13 @@ function BlogNews() {
 
 
 let blogdata=[
+  {
+    date:"21 jan",
+    title:"How Commercial Solar Panels Improve Efficiency",
+    description:"Learn how solar solutions are transforming businesses.",
+    imageUrl:require("../../Assets/Images/commercial.jpg"),
+    blogUrl:"/commercial-solar-blog"
+  },
 {
   date:"06 Feb",
   title:"Designing Your Solar System: A Step-by-Step Guide",
@@ -13,13 +20,7 @@ let blogdata=[
   imageUrl:require("../../Assets/Images/highlits2.jpg"),
   blogUrl:"/design-solar-system"
 },
-{
-  date:"21 jan",
-  title:"How Commercial Solar Panels Improve Efficiency",
-  description:"Learn how solar solutions are transforming businesses.",
-  imageUrl:require("../../Assets/Images/commercial.jpg"),
-  blogUrl:"/commercial-solar-blog"
-},
+
 {
   date:"5 May",
   title:"Top 5 Benefits of Solar Energy for Homes in Kerala",
@@ -29,10 +30,10 @@ let blogdata=[
 },
 ]
 
-  // Fetch data from the API
+  // // Fetch data from the API
   // const [data, setData] = useState([]);
 
-  // Fetch data from the API
+  // // Fetch data from the API
   // const fetchData = async () => {
   //   try {
   //     // const response = await axios.get("https://tharayildb.vercel.app/api/data");
