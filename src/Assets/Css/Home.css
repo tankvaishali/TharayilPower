@@ -468,6 +468,7 @@
     width: 80% !important;
   }
 }
+
 @media only screen and (max-width: 650px) {
   .carousel-content {
     top: 30% !important;
@@ -485,6 +486,7 @@
     width: 90% !important;
   }
 }
+
 .slide1 .column {
   background-image: url("https://english.news.cn/20240103/46e63f8f2b1a4739bc31cb2419991447/601ade44cb6445a3a38332e9020efc61.jpg");
   box-shadow: inset 0px 0px 1500px 1000px rgba(0, 0, 0, 0.589);
