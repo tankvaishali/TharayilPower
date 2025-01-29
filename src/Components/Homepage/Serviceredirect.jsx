@@ -5,28 +5,30 @@ import { Link } from 'react-router-dom';
 function Serviceredirect() {
   let service = [
     {
-      icon: "https://media.istockphoto.com/id/1455686956/vector/solar-panel-with-sun-icon-with-reflection-on-white-background.jpg?s=612x612&w=0&k=20&c=vkLyFDaoDXj2pv7X0a4QSYCGUPuf_tuM3YPsJmin-a0=",
+      icon: require("../../Assets/Images/res.jpg"),
       name: "Residential Solar Solutions  ",
       pera: "    Power your home with solar energy. Save on electricity bills with our custom solar panel installations and battery storage systems.",
       classnameadd: "",
       aos: "fade-down",
     },
     {
-      icon: "https://static.vecteezy.com/system/resources/previews/014/557/359/non_2x/take-hybrid-energy-icon-simple-style-vector.jpg",
+      icon: require("../../Assets/Images/com.jpg"),
       name: "Commercial Solar Solutions  ",
       pera: " Tailor-made solar systems to help businesses reduce operational costs and improve energy efficiency.",
       classnameadd: "margint",
       aos: "fade-up",
     },
     {
-      icon: "https://t3.ftcdn.net/jpg/08/94/60/56/360_F_894605696_8woeaUfuqt2AivMPBhnDkwuPvhLxMnbO.jpg",
+      icon: require("../../Assets/Images/gov.jpg"),
+
       name: " Government And Institutional Solutions  ",
       pera: "    We provide solar solutions for government buildings, educational institutions, and non-profits, helping them achieve sustainability goals.",
       classnameadd: "",
       aos: "fade-down",
     },
     {
-      icon: "https://cdn.icon-icons.com/icons2/3405/PNG/512/renewable_energy_icon_216052.png",
+      icon: require("../../Assets/Images/design.png"),
+
       name: " Design Consultancy",
       pera: " Our experts conduct feasibility studies and create engineering drawings to ensure your solar project is optimized for performance.",
       classnameadd: "margint",
