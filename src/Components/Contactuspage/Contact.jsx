@@ -70,7 +70,7 @@ function Contact() {
                     
                       className="text-decoration-none text-dark"
                     >
-                      (+91) 8129151266
+                      (+91) 8943895436
                     </div>
                   </div>
                   <div>
@@ -79,7 +79,7 @@ function Contact() {
                    
                       className="text-decoration-none text-dark"
                     >
-                      (+91) 8129257524
+                      (+91) 8129331577
                     </div>
                   </div>
                 </div>

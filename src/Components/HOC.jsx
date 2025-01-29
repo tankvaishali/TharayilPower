@@ -27,7 +27,7 @@ function HOC(Components) {
     }, []);
 
     const handleWhatsappClick = () => {
-      const phoneNumber = "8129151266"; // Replace with your WhatsApp number
+      const phoneNumber = "8129331577"; // Replace with your WhatsApp number
       const message = "Hi, I would like to inquire about your Tharayil Power."; // Customize your message here
       const whatsappURL = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`;
       window.open(whatsappURL, "_blank");

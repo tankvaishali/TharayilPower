@@ -174,19 +174,19 @@ function Footer() {
                   <div className="lightgray ps-3 pt-2">
                     {" "}
                     <Link
-                      to={"tel:8129151266"}
+                      to={"tel:8943895436"}
                       className="text-decoration-none lightgray link_hover py-1 pera"
                     >
-                      +(91) 8129151266
+                      +(91) 8943895436
                     </Link>
                   </div>
                   <div className="lightgray ps-3 pt-2">
                     {" "}
                     <Link
-                      to={"tel:8129257524"}
+                      to={"tel:8129331577"}
                       className="text-decoration-none lightgray link_hover py-1 pera"
                     >
-                      +(91) 8129257524
+                      +(91) 8129331577
                     </Link>
                   </div>
                 </div>

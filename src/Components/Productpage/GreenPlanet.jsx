@@ -96,7 +96,7 @@ function GreenPlanet() {
                       </Link>
                     </div>
                     <div >
-                      <Link to={"tel:8129151266"} className="mt-3 mt-lg-0 text-decoration-none d-flex align-content-center align-items-center">
+                      <Link to={"tel:8129331577"} className="mt-3 mt-lg-0 text-decoration-none d-flex align-content-center align-items-center">
                         <div>
                           <Player
                             autoplay
@@ -110,7 +110,7 @@ function GreenPlanet() {
                           <div className="text-secondary  fw-medium">
                             Call For Help
                           </div>
-                          <div className="fw-bold fs-4 text-success">+(91)81291 51266</div>
+                          <div className="fw-bold fs-4 text-success">+(91)81293 31577</div>
                         </div>
                       </Link>
                     </div>
