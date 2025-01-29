@@ -8,12 +8,22 @@ function CeoMessage() {
       <div className="container overflow-hidden">
         <div className="row pt-3 pt-lg-0 m-0 g-4 align-items-center">
           <div className="col-12 col-lg-6  p-3 p-lg-5 pt-0" data-aos="zoom-in" data-aos-duration="1800" data-aos-once="true" data-aos-delay="400">
-            <div className="h-100">
+            {/* <div className="h-100">
               <div className="profile_bg h-100">
                 <img
                   src={require("../../Assets/Images/STAFF PHOTOS/MuniaThulaseesdas.png")}
                   alt=""
                   className="img-fluid w-100 h-100 object-fit-contain image_rad ceoprofileimage p-4"
+
+                />
+              </div>
+            </div> */}
+            <div className="h-100">
+              <div className=" w-75 h-75 mx-auto">
+                <img
+                  src={require("../../Assets/Images/IMG-20250129-WA0001.jpg")}
+                  alt=""
+                  className="img-fluid w-100 h-100 object-fit-contain  shadow"
 
                 />
               </div>
@@ -105,12 +115,24 @@ function CeoMessage() {
             </div>
           </div>
           <div className="col-12 col-lg-6 p-5 pt-0 pb-0 pb-lg-5 order-0 order-lg-1" data-aos="fade-right" data-aos-duration="1800" data-aos-once="true" data-aos-delay="400">
-            <div className="h-100">
+            {/* <div className="h-100">
               <div className="profile_bg h-100">
                 <img
                   src={require("../../Assets/Images/STAFF PHOTOS/CEO-removebg-preview.png")}
                   alt=""
                   className="img-fluid w-100 h-100 object-fit-contain image_rad ceoprofileimage p-4"
+
+                />
+              </div>
+            </div> */}
+            <div className="h-100">
+              <div className=" w-75 h-75 mx-auto">
+                <img
+                src={require("../../Assets/Images/STAFF PHOTOS/CEO-removebg-preview.png")}
+
+                  alt=""
+                  className="img-fluid w-100 h-100 object-fit-contain  shadow"
+                  style={{backgroundColor:"rgb(206,230,250)"}}
 
                 />
               </div>

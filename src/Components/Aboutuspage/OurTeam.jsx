@@ -5,9 +5,9 @@ import { Link } from 'react-router-dom';
 function OurTeam() {
 const Team = [
   {
-    img:require("../../Assets/Images/STAFF PHOTOS/Vishnu .jpg") ,
-    name: "ABHIJITH SANKAR M",
-    position: "	Sales Executive",
+    img:require("../../Assets/Images/STAFF PHOTOS/remya.JPEG") ,
+    name: "remya rajan",
+    position: "	general manager sales",
     aos: "zoom-in-right",
     objectposition:"top center"
   },
@@ -19,17 +19,19 @@ const Team = [
     objectposition:"top center"
   },
   {
+    img:require("../../Assets/Images/STAFF PHOTOS/akhil.JPEG") ,
+    name: "akhil c a",
+    position: "project manager",
+    aos: "zoom-in-left",
+    objectposition:"top center"
+  },
+  {
     img:require("../../Assets/Images/STAFF PHOTOS/Sreelekshmi S.jpg") ,
     name: "SREELEKLSHMI S",
     position: "Service Manager",
     aos: "zoom-in-right",
   },
-  {
-    img:require("../../Assets/Images/STAFF PHOTOS/Sharika Sankar.jpg") ,
-    name: "SHARIKA SANKAR",
-    position: "	Customer Care Executive",
-    aos: "zoom-in-right",
-  },
+
 
 ];
   return (
@@ -80,8 +82,8 @@ const Team = [
                       />
                     </div>
                     <div className="col-lg-7 mediaset  text-md-center  text-lg-start">
-                      <h4 className="fw-bold text-success">{item.name}</h4>
-                      <p className=' text-secondary'>{item.position}</p>
+                      <h4 className="fw-bold text-success text-uppercase">{item.name}</h4>
+                      <p className=' text-secondary text-capitalize'>{item.position}</p>
               
                     </div>
                   </div>
