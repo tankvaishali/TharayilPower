@@ -14,29 +14,29 @@ function HomeProduct() {
             image2: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTTXZF-fv0FZNHbsW4HduzvRakmjYo9epWCwQ&s",
             image3: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ1q4yxrdchJufS-_dW9H2WNYibaXMIX_ESRA&s",
             image4: require("../../Assets/Images/IMG-20240917-WA0008.jpg")
-         
+
         },
         {
             id: "tabs-tab-2",
             title: "Battery Storage Systems ",
             image1:
-                require("../../Assets/Images/IMG-20231018-WA0037.jpg"),
-            image2: "https://www.hefeisunrise.com/photo/pl179290754-single_phase_on_grid_string_inverter_for_solar_system_deye_sun_4k_g05p1_eu_am2_4kw_5kw_6kw.jpg",
-            image3: "https://5.imimg.com/data5/SELLER/Default/2022/11/TO/OA/YP/77722644/polycab-solar-inverter-10kw-three-phase-500x500.jpeg",
-            image4: "https://5.imimg.com/data5/SELLER/Default/2022/1/TX/VK/TL/145409010/on-grid-solar-inverter-500x500.jpg"
+                " https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQObJMDtggc8A5gOgNFpstUsaZw6zhw26MPrA&s",
+            image2: "https://www.genuineautoelectricals.com/wp-content/uploads/Exide-SolaTubular-LL-6LMS150L-Solar-Battery.jpg",
+            image3: "https://www.moxikart.com/assets/images/fairdealbattery/battery/22_exide-instabrite-ib1500-150ah-flate-plate-battery.jpg",
+            image4: "https://glazeimpex.com/cdn/shop/products/ExideIT500Plus150ahBattery.jpg?v=1604770497"
 
-         
+
         },
         {
             id: "tabs-tab-3",
             title: "Home Inverters  ",
             image1:
-                require("../../Assets/Images/inverter.png"),
-            image2: "https://5.imimg.com/data5/SELLER/Default/2021/11/LE/AA/RH/47790758/abb-7-5kw-three-phase-grid-tie-inverter-with-dc-switch-500x500.jpg",
-            image3: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT-CvMG9RVwHKDDP9SfJnHpPeeEaCatxDd9bJAxrZcSv3dJkvu9rGIwZPtoPMVMt-ntdkg&usqp=CAU",
-            image4: "https://5.imimg.com/data5/FX/PI/OG/SELLER-13497585/solar-grid-tie-inverter-1-to-80-kw-abb-500x500.jpg"
+                "https://i.ibb.co/9mcpJp2j/download-2.jpg",
+            image2: "https://i.ibb.co/DDyQmdry/images.jpg",
+            image3: "https://i.ibb.co/sJX5T4Jj/download-1.jpg",
+            image4: "https://i.ibb.co/Q3BBn27z/download.jpg"
 
-           
+
         },
         {
             id: "tabs-tab-4",
@@ -47,7 +47,7 @@ function HomeProduct() {
             image3: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTj4YHB6yFAfkWRZETfldeYahoMKp1CXWVYIpdAbpYsSLCXh_B4XHqcVkcwu7we-m5YQ4I&usqp=CAU",
             image4: "https://t3.ftcdn.net/jpg/05/59/65/32/360_F_559653235_uWyqOK8rY0UG15KEsDaLr2dSxKDPLUux.jpg"
 
-         
+
         },
         {
             id: "tabs-tab-5",
@@ -63,12 +63,12 @@ function HomeProduct() {
             id: "tabs-tab-6",
             title: "Solar Street Lights  ",
             image1: require("../../Assets/Images/Solar-Street-Lights.jpg"),
-           
+
             image2: " https://media.istockphoto.com/id/1282295271/photo/alternative-solar-energy-solar-device-with-street-lamp-on-background-of-blue-sky-and-green.jpg?s=612x612&w=0&k=20&c=v5QH8RZx_MOZordZWwfURMVIAvp4x7-1FUuumi1K05w=",
             image3: "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQtBIHfmak8NVx4VvBNYCFXiDMQPgnjyVn9DdvBf3Xia4hXFfsz",
             image4: "https://5.imimg.com/data5/SELLER/Default/2023/8/336157343/LZ/DB/AI/16537029/9-watt-solar-led-street-light.jpg"
 
-         
+
         },
         {
             id: "tabs-tab-7",
@@ -152,9 +152,9 @@ function HomeProduct() {
 
                                         >
                                             <div className="row">
-                                              
+
                                                 <div className="col-lg-6 col-9 mx-auto text-center order-1 order-lg-2 mt-4">
-                                                    <div  style={{width:"100%",height:250}}>
+                                                    <div style={{ width: "100%", height: 250 }}>
                                                         <img
                                                             src={department.image1}
                                                             alt={department.title}
@@ -163,7 +163,7 @@ function HomeProduct() {
                                                     </div>
                                                 </div>
                                                 <div className="col-lg-6 col-9 mx-auto text-center order-1 order-lg-2 mt-4">
-                                                    <div style={{width:"100%",height:250}}>
+                                                    <div style={{ width: "100%", height: 250 }}>
                                                         <img
                                                             src={department.image2}
                                                             alt={department.title}
@@ -172,7 +172,7 @@ function HomeProduct() {
                                                     </div>
                                                 </div>
                                                 <div className="col-lg-6 col-9 mx-auto text-center order-1 order-lg-2 mt-4">
-                                                    <div style={{width:"100%",height:250}} >
+                                                    <div style={{ width: "100%", height: 250 }} >
                                                         <img
                                                             src={department.image3}
                                                             alt={department.title}
@@ -181,7 +181,7 @@ function HomeProduct() {
                                                     </div>
                                                 </div>
                                                 <div className="col-lg-6 col-9 mx-auto text-center order-1 order-lg-2 mt-4">
-                                                    <div style={{width:"100%",height:250}}>
+                                                    <div style={{ width: "100%", height: 250 }}>
                                                         <img
                                                             src={department.image4}
                                                             alt={department.title}

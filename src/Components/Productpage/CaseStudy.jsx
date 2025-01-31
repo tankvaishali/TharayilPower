@@ -8,12 +8,12 @@ function CaseStudy() {
         {
             id: "tabs-tab-1",
             title: "Solar water heater",
-            image: require("../../Assets/Images/highlits2.jpg"),
+            image: require("../../Assets/Images/WhatsApp Image 2025-01-31 at 12.08.19 PM.jpeg"),
             description: "Qui laudantium consequatur laborum sit qui ad sapiente dila parde sonata raqer a videna mareta paulona marka",
             details: "Et nobis maiores eius. Voluptatibus ut enim blanditiis atque harum sint...",
             casestudyname: 'Residential',
-            Client: 'Mr.Ravi M., Owner',
-            locate: "Ernakulam, Kerala",
+            Client: 'Chandran',
+            locate: "Thiruvananthapuram, Kerala",
             casestudytitle: 'Residential Solar System in Ernakulam',
             challenge: " Mr. Ravi's home in Ernakulam had consistently high electricity bills due to the heavy use of air conditioning and multiple high-power appliances. With rising electricity costs, he needed a solution to reduce his energy consumption and control expenses.",
             solution: "Tharayil Power designed and implemented a custom solar panel system tailored to Mr. Ravi’s energy consumption patterns. In addition, we installed an energy-efficient battery storage system to maximize energy savings and ensure power availability throughout the day. The solar panels were strategically placed to optimize energy generation during peak sunlight hours and minimize reliance on grid power.",
@@ -27,15 +27,15 @@ function CaseStudy() {
         {
             id: "tabs-tab-2",
             title: "BLDC fan",
-            image: require("../../Assets/Images/contactimage.jpg"),
+            image: require("../../Assets/Images/milma 1.jpeg"),
 
             description:
                 "Qui laudantium consequatur laborum sit qui ad sapiente dila parde sonata raqer a videna mareta paulona marka",
             details:
                 "Ea ipsum voluptatem consequatur quis est. Illum error ullam omnis quia et reiciendis sunt sunt est. Non aliquid repellendus itaque accusamus eius et velit ipsa voluptates. Optio nesciunt eaque beatae accusamus lerode pakto madirna desera vafle de nideran pal",
             casestudyname: 'Commercial',
-            Client: 'Megha Textiles',
-            locate: "Kochi, Kerala",
+            Client: 'Life Insurance Corporation Of India (LIC)',
+            locate: "Chennai , Alappuzha , Cherthala, Kaloor , Aluva , Muvattupuzham",
             casestudytitle: 'Commercial Rooftop Installation for Small Businesses',
             challenge: "Megha Textiles, a growing business in Kochi, faced high operational costs due to its heavy reliance on grid electricity. The company lacked control over its energy usage during production hours, impacting both costs and overall energy efficiency.",
             solution: "Tharayil Power provided a custom-designed rooftop solar system that matched Megha Textiles’ energy needs. This solar solution included advanced monitoring tools, enabling the company to track energy usage in real-time and adjust accordingly, optimizing both consumption and cost savings.",
@@ -49,14 +49,14 @@ function CaseStudy() {
         {
             id: "tabs-tab-3",
             title: "Solar Street Lights",
-            image: require("../../Assets/Images/residential.jpg"),
+            image: require("../../Assets/Images/CFSC PUBLIC INSTITUTION.jpeg"),
             description:
                 "Eos voluptatibus quo. Odio similique illum id quidem non enim fuga. Qui natus non sunt dicta dolor et. In asperiores velit quaerat perferendis aut",
             details:
                 "Iure officiis odit rerum. Harum sequi eum illum corrupti culpa veritatis quisquam. Neque necessitatibus illo rerum eum ut. Commodi ipsam minima molestiae sed laboriosam a iste odio. Earum odit nesciunt fugiat sit ullam. Soluta et harum voluptatem optio quae",
             casestudyname: 'Institutional',
-            Client: 'Green Valley School',
-            locate: "Ernakulam, Kerala",
+            Client: 'Govt H S School Muthuvallur Surat',
+            locate: "Malappuram",
             casestudytitle: 'Institutional Solar Project in Kerala',
             challenge: "Green Valley School in Thrissur was facing escalating electricity costs. In addition, the school wanted to embrace renewable energy to align with its sustainability goals and educate students on the benefits of clean energy.",
             solution: "Tharayil Power delivered a large-scale solar energy system designed specifically for Green Valley School’s campus, including solar panels on rooftops and open spaces. The installation helped reduce the school’s dependence on grid power, while also integrating renewable energy education into the school’s curriculum to inspire students towards eco-conscious practices.",
@@ -80,7 +80,7 @@ function CaseStudy() {
                     <div className="ftittle">
                         Insights and Success Stories in Solar Solutions
                     </div>
-                </div> 
+                </div>
                 <Tabs defaultActiveKey="tabs-tab-1" id="case-study-tabs" className="mb-3 justify-content-center tab1 fw-medium border-bottom-0">
                     {departments.map((dept) => (
                         <Tab eventKey={dept.id} title={`${dept.casestudyname} Case Study`} key={dept.id}>
@@ -144,7 +144,7 @@ function CaseStudy() {
                     ))}
                 </Tabs>
             </Container>
-          
+
         </>
     );
 }

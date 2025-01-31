@@ -3,9 +3,9 @@ import HOC from '../HOC';
 import { Link } from 'react-router-dom';
 
 const images = [
-  require("../../Assets/Images/IMG-20231018-WA0037.jpg"),
-  require("../../Assets/Images/government solar (3).jpg"),
-  require("../../Assets/Images/government solar (4).jpg"),
+  require("../../Assets/Images/CFSC PUBLIC INSTITUTION.jpeg"),
+  require("../../Assets/Images/GHSS MUTHUVALLUR.jpg"),
+  require("../../Assets/Images/LIC.jpeg"),
 ];
 
 function Covernmentandlinstitutional() {
@@ -52,7 +52,7 @@ function Covernmentandlinstitutional() {
               ))}
             </div>
 
-         
+
 
           </div>
 
@@ -98,7 +98,7 @@ function Covernmentandlinstitutional() {
                   <div className="descr"></div>
                   <img
                     src={
-                      require("../../Assets/Images/government solar (2).jpg")
+                      require("../../Assets/Images/CFSC PUBLIC INSTITUTION.jpeg")
                     }
                     className="w-100 h-100 object-fit-cover"
                     alt=""
@@ -114,7 +114,7 @@ function Covernmentandlinstitutional() {
             <Link to={"/service"} className="text-decoration-none">
               <button className="button-48 mt-3">
                 <span className="btn_text fw-bold">
-                  Back 
+                  Back
 
                 </span>
               </button>

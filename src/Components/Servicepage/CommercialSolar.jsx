@@ -4,9 +4,9 @@ import HOC from '../HOC';
 import { Link } from 'react-router-dom';
 
 const images = [
-  require("../../Assets/Images/commercial solar (2).jpg"),
-  require("../../Assets/Images/commercial solar (3).jpg"),
-  require("../../Assets/Images/commercial solar (4).jpg")
+  require("../../Assets/Images/milma 1.jpeg"),
+  require("../../Assets/Images/WhatsApp Image 2025-01-31 at 12.02.53 PM.jpeg"),
+  require("../../Assets/Images/WhatsApp Image 2025-01-31 at 12.02.52 PM.jpeg")
 ];
 
 function CommercialSolar() {
@@ -127,7 +127,7 @@ function CommercialSolar() {
             <Link to={"/service"} className="text-decoration-none">
               <button className="button-48 mt-3">
                 <span className="btn_text fw-bold">
-                  Back 
+                  Back
 
                 </span>
               </button>

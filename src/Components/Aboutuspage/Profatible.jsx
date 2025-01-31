@@ -23,7 +23,7 @@ function Profatible() {
                   data-aos-duration="1500"
                   data-aos-once="true"
                 >
-                  Perfomance, quality and realiability
+                  performance, quality and realiability
                 </div>
               </div>
             </div>

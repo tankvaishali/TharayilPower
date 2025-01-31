@@ -24,7 +24,7 @@ function MissionVission() {
                   data-aos="fade-left" data-aos-duration="1800" data-aos-once="true"
                 >
                   <div>
-                    <div className="fs-2  fw-bold">Vission</div>
+                    <div className="fs-2  fw-bold">Vision</div>
                     <div className="py-3 pera">
                       To lead the transformation to a world powered by renewable energy, paving the way for a more sustainable planet for future generations.
                     </div>

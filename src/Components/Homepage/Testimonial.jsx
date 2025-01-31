@@ -41,7 +41,7 @@ function Testimonial() {
   }, []);
 
   const settings = {
-    dots: true,
+    dots: false,
     infinite: true,
     speed: 500,
     slidesToShow: 1,
@@ -79,7 +79,7 @@ function Testimonial() {
 
   return (
     <>
-      <div className="py-3 py-lg-5 mb-0 my-lg-5 overflow-hidden"  >
+      <div className="py-3 py-lg-5 mb-0 my-lg-5 overflow-hidden h-100"  >
         <div className="container mt-5">
           <div className="row">
             <div
@@ -155,9 +155,9 @@ function Testimonial() {
             <div
               className="col-12 col-md-6 p-0 m-0 order-2 product_high"
               style={{ backgroundColor: "var(--darkgreen--)" }}
-              data-aos="fade-right"
-              data-aos-duration="1800"
-              data-aos-once="true"
+              // data-aos="fade-right"
+              // data-aos-duration="1800"
+              // data-aos-once="true"
             >
               <div className="h-100 p-5">
                 <div>
@@ -208,20 +208,27 @@ function Testimonial() {
                     );
                   })}
                 </Slider>
+                <div style={{ position: 'relative', top: '2px', height: "0px" }} className="text-center mb-2">
+                  <Link to={"https://g.co/kgs/GyCH5Hq"} className="text-decoration-none" target="_blank">
+                    <button className="button-48">
+                      <span className="btn_text fw-bold">More Reviews</span>
+                    </button>
+                  </Link>
+                </div>
               </div>
             </div>
 
             <div
               className="col-12 col-md-6 p-0 m-0 order-3"
-              data-aos="fade-left"
-              data-aos-duration="1600"
-              data-aos-once="true"
+              // data-aos="fade-left"
+              // data-aos-duration="1600"
+              // data-aos-once="true"
             >
-              <div className="h-100 w-100 ">
+              <div className="h-100 w-100">
                 <div className="video_image position-relative "   >
                   <img
                     src={require("../../Assets/Images/testimonial.jpg")}
-                    className="img-fluid object-fit-cover h-100 w-100"
+                    className="img-fluid object-fit-cover h-100 w-100 mb-2"
                     alt=""
                   />
                   <div className="play-icon-overlay d-flex justify-content-center align-items-center">
@@ -229,19 +236,18 @@ function Testimonial() {
                       to={"https://www.youtube.com/watch?v=ciOQC_CtcOU&t=3s"}
                       target="_blank"
                       rel="noopener noreferrer"
-                      className="play-icon-wrapper d-flex justify-content-center align-items-center"
-
-                    >
+                      className="play-icon-wrapper d-flex justify-content-center align-items-center">
                       <CiPlay1 className="play_icon text-white fs-3" />
                     </Link>
+
                   </div>
                 </div>
-                
+
               </div>
             </div>
           </div>
         </div>
-      </div>
+      </div >
     </>
   );
 }

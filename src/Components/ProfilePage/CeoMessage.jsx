@@ -37,7 +37,7 @@ function CeoMessage() {
                 data-aos-duration="1500"
                 data-aos-once="true"
               >
-                MD Message
+                MD's Message
               </div>
               <div
                 className="ftittle"
@@ -84,7 +84,7 @@ function CeoMessage() {
                 data-aos="fade-up"
                 data-aos-duration="1500"
               >
-                CEO Message
+                CEO's Message
               </div>
               <div
                 className="ftittle"
