@@ -106,7 +106,7 @@ function ProductPage() {
   ];
   const generateWhatsAppURL = (productName) => {
     const message = `Hello, I'm interested in the product: ${productName}`;
-    return `https://wa.me/8129151266/?text=${encodeURIComponent(message)}`;
+    return `https://wa.me/8129331577/?text=${encodeURIComponent(message)}`;
   };
   return (
     <>
