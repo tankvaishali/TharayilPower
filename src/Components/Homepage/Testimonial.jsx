@@ -91,7 +91,6 @@ function Testimonial() {
               <div className="h-100 allimg">
                 <div className="desc1"></div>
                 <img
-                  // src="https://media.istockphoto.com/id/1473638950/photo/technicians-carrying-photovoltaic-solar-module-while-installing-solar-panel-system-on-roof-of.jpg?s=612x612&w=0&k=20&c=BHP3woa9yO0Em-dbAOkDSAy1x78D2wpXaKV9pOH18CU="
                   src={require("../../Assets/Images/testimonial1.jpg")}
                   alt="not found"
                   className="img-fluid w-100 h-100  object-fit-cover"
@@ -111,7 +110,7 @@ function Testimonial() {
                     <div key={index} className="mb-4 text-white">
                       <div className="d-flex justify-content-between">
                         <div>
-                          {/* Handling JSX for CO2 emissions */}
+                       
                           {bar.label === "CO2 emissions reduced" ? (
                             <>
                               <span className="fw-bold pe-1">
@@ -155,9 +154,7 @@ function Testimonial() {
             <div
               className="col-12 col-md-6 p-0 m-0 order-2 product_high"
               style={{ backgroundColor: "var(--darkgreen--)" }}
-              // data-aos="fade-right"
-              // data-aos-duration="1800"
-              // data-aos-once="true"
+           
             >
               <div className="h-100 p-5">
                 <div>
@@ -220,9 +217,7 @@ function Testimonial() {
 
             <div
               className="col-12 col-md-6 p-0 m-0 order-3"
-              // data-aos="fade-left"
-              // data-aos-duration="1600"
-              // data-aos-once="true"
+           
             >
               <div className="h-100 w-100">
                 <div className="video_image position-relative "   >

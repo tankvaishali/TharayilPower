@@ -24,8 +24,6 @@ function HighlitesImage() {
     },
     {
       src: require("../../Assets/Images/IMG-20240123-WA0036.jpg"),
-
-      // src: "https://www.unicef.org/innovation/sites/unicef.org.innovation/files/styles/hero_tablet/public/UNI414903.JPG.webp?itok=xB7Exy1q",
       alt: "big rocks with some trees",
     },
   ];
@@ -73,14 +71,7 @@ function HighlitesImage() {
 
       {modalActive && (
         <div className={`modal ${modalActive ? "active" : ""}`}>
-          {/* <div className=" ">
-            <span
-              className="close  "
-              onClick={closeModal}
-            >
-              &times;
-            </span>
-          </div> */}
+         
           <button onClick={closeModal} className="close-modal p-3 fw-bold bg-success rounded-circle  d-flex align-content-center align-items-center justify-content-center m-3" style={{ width: "40px", height: "40px" }}>
             X
           </button>

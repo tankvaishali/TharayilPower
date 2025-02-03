@@ -67,9 +67,7 @@ function Position() {
 
           </div>
           <div className="pt-3 ">
-            {/* <div className="text-center fw-bold  pb-1 fs-4" data-aos="fade-up" data-aos-duration="1800"  data-aos-once="true">
-              Solar Energy - Projects
-            </div> */}
+           
             <div
               className="fw-bold pb-1 py-2 "
               style={{

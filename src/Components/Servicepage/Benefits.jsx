@@ -1,6 +1,5 @@
 import React, { useEffect, useRef } from "react";
 import CountUp from "react-countup";
-// import videoSourceMP4 from "../../Assets/Images/solar.mp4";/
 import { Link } from "react-router-dom";
 import { CiPlay1 } from "react-icons/ci";
 
@@ -72,7 +71,7 @@ function Benefits() {
                     <div className="h-100 allimg">
                       <div className="desc1"></div>
                       <img
-                        src={require("../../Assets/Images/IMG-20240705-WA0025.jpg")}                       // src="https://cdn.shopify.com/s/files/1/0518/2557/4043/files/solarroofinstal_1024x1024.jpg?v=1675848096"
+                        src={require("../../Assets/Images/IMG-20240705-WA0025.jpg")}                       
                         alt="not found"
                         className="img-fluid h-100 w-100"
                         style={{ objectFit: "cover" }}

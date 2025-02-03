@@ -50,23 +50,23 @@ function Whatmakeus() {
     arrows: false,
     swipe: false,
     autoplay: true,
-    autoplaySpeed: 4000, // Adjust the speed as needed
+    autoplaySpeed: 4000, 
     pauseOnHover: false,
     responsive: [
       {
-        breakpoint: 1024, // Adjust this breakpoint as needed
+        breakpoint: 1024, 
         settings: {
           slidesToShow: 2,
         },
       },
       {
-        breakpoint: 768, // Adjust this breakpoint as needed
+        breakpoint: 768, 
         settings: {
           slidesToShow: 1,
         },
       },
       {
-        breakpoint: 480, // Adjust this breakpoint as needed
+        breakpoint: 480,
         settings: {
           slidesToShow: 1,
         },

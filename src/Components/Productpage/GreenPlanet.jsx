@@ -128,8 +128,6 @@ function GreenPlanet() {
                 <div className="desc2"></div>
                 <img
                   src={require("../../Assets/Images/greenplanet.jpg")}
-
-                  // src="https://www.slashgear.com/img/gallery/what-can-a-400-watt-solar-panel-power/l-intro-1710092944.jpg"
                   alt="not found"
                   className="img-fluid w-100 h-100 object-fit-cover image_energy_round"
                   style={{ objectPosition: "bottom center" }}

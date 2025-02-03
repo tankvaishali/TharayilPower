@@ -7,7 +7,7 @@ function HOC(Components) {
   function Newcomponent() {
     const [showWhatsapp, setShowWhatsapp] = useState(false);
 
-    // Handle scroll event to show/hide WhatsApp icon
+  
     const handleScroll = () => {
       if (window.scrollY > 200) {
         setShowWhatsapp(true);
@@ -16,19 +16,19 @@ function HOC(Components) {
       }
     };
 
-    // Add scroll event listener on component mount and clean it up on unmount
+   
     useEffect(() => {
       window.addEventListener("scroll", handleScroll);
 
-      // Cleanup the event listener on component unmount
+   
       return () => {
         window.removeEventListener("scroll", handleScroll);
       };
     }, []);
 
     const handleWhatsappClick = () => {
-      const phoneNumber = "8129331577"; // Replace with your WhatsApp number
-      const message = "Hi, I would like to inquire about your Tharayil Power."; // Customize your message here
+      const phoneNumber = "8129331577"; 
+      const message = "Hi, I would like to inquire about your Tharayil Power."; 
       const whatsappURL = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`;
       window.open(whatsappURL, "_blank");
     };

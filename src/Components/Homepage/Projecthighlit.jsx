@@ -29,23 +29,23 @@ function Projecthighlit() {
     slidesToShow: 3,
     slidesToScroll: 1,
     autoplay: true,
-    autoplaySpeed: 3000, // Adjust the speed as needed
+    autoplaySpeed: 3000,
     pauseOnHover: false,
     responsive: [
       {
-        breakpoint: 1024, // Adjust this breakpoint as needed
+        breakpoint: 1024, 
         settings: {
           slidesToShow: 2,
         },
       },
       {
-        breakpoint: 768, // Adjust this breakpoint as needed
+        breakpoint: 768, 
         settings: {
           slidesToShow: 1,
         },
       },
       {
-        breakpoint: 480, // Adjust this breakpoint as needed
+        breakpoint: 480, 
         settings: {
           slidesToShow: 1,
         },
@@ -89,7 +89,7 @@ function Projecthighlit() {
                 {ProductItemlist.map((x, i) => {
                   return (
                     <>
-                      {/* <Link key={i} to={"/"}> */}
+                 
                       <div class="container_sec" key={i}>
                         <img
                           src={x.img}
@@ -100,13 +100,13 @@ function Projecthighlit() {
                           <div class="text text-center h-100 px-2 d-flex flex-column justify-content-center">
                           
                             <div className="p-3 px-2">
-                              {/* <div className="fw-bold fs-4">{x.tittle}</div> */}
+                         
                               <div className="pera fs-6 pt-2 fw-bold p-3" >{x.name}</div>
                             </div>
                           </div>
                         </div>
                       </div>
-                      {/* </Link> */}
+                    
                     </>
                   );
                 })}

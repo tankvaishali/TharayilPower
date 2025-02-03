@@ -34,7 +34,7 @@ const ClientLogo = () => {
 
         <div className="partners-logo-slider my-5 mt-2 py-2 py-lg-5">
           <div className="slide-track">
-            {/* Concatenating logos to create infinite scroll */}
+         
             {logos.concat(logos).map((logo, index) => (
               <div className="slide" key={index}>
                 <img src={logo.img} alt="Logo" className="img-fluid p-4 d-flex slign-content-center align-items-center justify-content-center object-fit-cover" />

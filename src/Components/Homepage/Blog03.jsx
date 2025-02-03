@@ -40,7 +40,7 @@ function Blog03() {
             </div>
           </div>
 
-          {/* {/ Solar Panel Installation /} */}
+        
           <div>
             <div className="row justify-content-center mt-4" >
               {images.map((image, index) => (

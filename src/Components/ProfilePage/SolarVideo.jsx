@@ -93,10 +93,7 @@ function SolarVideo() {
                   <div className="pera">Years In Business</div>
                 </div>
                 <div className="grid-item d-none d-lg-block">
-                  {/* <h4 className="fw-bold">
-                    <CountUp end={10} enableScrollSpy={true} />+
-                  </h4>
-                  <div className="pera">State in india</div> */}
+                 
                 </div>
 
                 <div className="grid-item">

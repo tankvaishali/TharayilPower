@@ -11,7 +11,7 @@ function ServiceWork() {
       <div className="left-bg-color"></div>
 
       <div className="service-container py-5">
-        {/* Left Images */}
+       
         <div className="container py-3">
           <div className="row p-0 m-0 g-5">
             <div className="col-12 col-lg-3">
@@ -47,7 +47,7 @@ function ServiceWork() {
               </div>
             </div>
 
-            {/* Right Text Content */}
+        
             <div className="col-12 col-lg-6 ">
               <div className="h-100 d-flex align-content-center align-items-center">
                 <div>

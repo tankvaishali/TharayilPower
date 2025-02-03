@@ -21,10 +21,9 @@ function HomePagemain() {
     <>
       <HomeSlider />
 
-      {/* <ImageGallery/> */}
       <Homeabout />
       <Whychooseus />
-      {/* <Homeservice /> */}
+
       <Serviceredirect />
       <Projecthighlit />
       <div className=" w-100 mx-auto text-center" style={{ marginTop: "170px" }}>

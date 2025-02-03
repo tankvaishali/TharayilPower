@@ -1,6 +1,5 @@
 import React, { useState } from "react";
-import { Link } from "react-router-dom";
-import { MdOutlineArrowOutward } from "react-icons/md";
+
 
 function HomeProduct() {
     const [activeTab, setActiveTab] = useState("tabs-tab-1");

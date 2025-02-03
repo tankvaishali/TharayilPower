@@ -79,7 +79,7 @@ function Form() {
     if (isValid) {
       emailjs
         .send(
-          "service_ozet3zj", // Replace with your EmailJS service ID
+          "service_ozet3zj",
           "template_cw4dm9r", // Replace with your EmailJS template ID
           {
             ...formData,

@@ -64,7 +64,7 @@ function Brochures() {
                     />
                   </div>
                   <div className="text-center">
-                    {/* Updated download logic */}
+                 
                     <a
                       href={require("../../Assets/pdf/Brochures_pdf.pdf")}
                       download="Brochures_pdf.pdf"

@@ -35,7 +35,6 @@ function CommercialSolar() {
             </div>
           </div>
 
-          {/* {/ Solar Panel Installation /} */}
           <div>
             <div className="row justify-content-center mt-4">
               {images.map((image, index) => (
@@ -54,7 +53,7 @@ function CommercialSolar() {
 
           </div>
 
-          {/* {/ Battery storage solutions /} */}
+
           <div>
             <div className="pt-3 pt-lg-5">
               <div
@@ -121,7 +120,7 @@ function CommercialSolar() {
             </div>
           </div>
 
-          {/* {/  Energy efficiency audits /} */}
+      
 
           <div className="my-2 my-lg-4 mx-auto text-center" data-aos="zoom-in" data-aos-duration="1800" data-aos-once="true">
             <Link to={"/service"} className="text-decoration-none">

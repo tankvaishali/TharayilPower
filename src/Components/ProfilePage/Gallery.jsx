@@ -159,9 +159,7 @@ function Gallery() {
                 <ClickAwayListener onClickAway={handleClose}>
                     <div style={{ position: 'relative', height: '100%' }}>
                         <div onClick={handleClose} className="position-fixed top-0 end-0  text-white fs-3 fw-bold  bg-success  rounded-circle d-flex justify-content-center align-content-center align-items-center m-3 pb-1" style={{ width: "40px", height: "40px", cursor: "pointer" }}>x</div>
-                        {/* <div onClick={handleClose} className="close-modal close-modal p-3 fw-bold bg-success rounded-circle  d-flex align-content-center align-items-center justify-content-center " style={{width:"40px",height:"40px"}}>
-              X
-            </div> */}
+                       
                         <DialogContent
                             sx={{
                                 padding: 0,

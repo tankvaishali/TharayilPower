@@ -21,8 +21,6 @@ function Homeabout() {
                       <div className="desc1"></div>
                       <img
                         src={require("../../Assets/Images/aboutus (1).jpg")}
-
-                        // src="https://www.investopedia.com/thmb/HNgIWqoqYesoBAo6zqWc9LiiWlg=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/GettyImages-1278948452-e1fdce3baef44af28f449ab36d6717f3.jpg"
                         alt="not found"
                         className="img-fluid"
                       />
@@ -38,7 +36,6 @@ function Homeabout() {
                   <div className="col-12 allimg">
                     <div className="desc1"></div>
                     <img
-                      // src="https://d2tez01fe91909.cloudfront.net/wp-content/uploads/2023/01/AdobeStock_166916488-scaled-e1683923540796.jpeg.webp"
                       src={require("../../Assets/Images/aboutus (2).jpg")}
                       className="img-fluid w-100 h-100"
                       alt="not found"
