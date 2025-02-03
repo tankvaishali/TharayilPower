@@ -79,7 +79,7 @@ function Homeservice() {
 
                             <img
                               src={x.img}
-                              alt=""
+                              alt="not found"
                               className="img-fluid rounded-bottom-4 w-100 h-100 object-fit-cover"
                               style={{ objectPosition: "top center" }}
                             // height={"254px"}

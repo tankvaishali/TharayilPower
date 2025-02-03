@@ -24,7 +24,7 @@ function Header() {
             >
               <img
                 src={require("../Assets/Images/logo.png")}
-                alt=""
+                alt="not found"
                 className="img-fluid logoset  d-flex align-content-center align-items-center"
               />
             </Link>
@@ -164,7 +164,7 @@ function Header() {
           >
             <img
               src={require("../Assets/Images/logo.png")}
-              alt=""
+              alt="not found"
               className="img-fluid object-fit-contain"
               style={{ width: "180px" }}
             />

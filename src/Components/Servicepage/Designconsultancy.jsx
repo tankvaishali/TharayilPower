@@ -46,7 +46,7 @@ function Designconsultancy() {
                     <img
                       src={image}
                       className="w-100 h-100 object-fit-cover"
-                      alt=""
+                      alt="not found"
                     />
                   </div>
                 </div>
@@ -115,7 +115,7 @@ function Designconsultancy() {
                       require("../../Assets/Images/design consultancy (4).jpg")
                     }
                     className="w-100 h-100 object-fit-cover"
-                    alt=""
+                    alt="not found"
                   />
                 </div>
               </div>

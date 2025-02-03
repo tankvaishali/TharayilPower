@@ -114,7 +114,7 @@ function Expertist() {
               >
                 <img
                   src={require("../../Assets/Images/highlits4.jpg")}
-                  alt=""
+                  alt="not found"
                   className="img-fluid w-100 h-100 object-fit-cover rounded-circle rounded-bottom-0"
                   style={{ zIndex: 0 }}
                 />
@@ -123,7 +123,7 @@ function Expertist() {
                     <div>
                       <img
                         src={require("../../Assets/Images/icon_certi.png")}
-                        alt=""
+                        alt="not found"
                         className="img-fluid rounded-circle"
                         height={60}
                         width={60}

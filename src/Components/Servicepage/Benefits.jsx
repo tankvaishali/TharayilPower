@@ -59,7 +59,7 @@ function Benefits() {
                       <div className="text-center pt-1 ">
                         <img
                           src={require("../../Assets/Images/icon_certi.png")}
-                          alt=""
+                          alt="not found"
                           className="img-fluid"
                         />
                       </div>
@@ -73,7 +73,7 @@ function Benefits() {
                       <div className="desc1"></div>
                       <img
                         src={require("../../Assets/Images/IMG-20240705-WA0025.jpg")}                       // src="https://cdn.shopify.com/s/files/1/0518/2557/4043/files/solarroofinstal_1024x1024.jpg?v=1675848096"
-                        alt=""
+                        alt="not found"
                         className="img-fluid h-100 w-100"
                         style={{ objectFit: "cover" }}
                       />
@@ -86,7 +86,7 @@ function Benefits() {
                       <img
                         src={require("../../Assets/Images/profitable.jpg")}
                         className="img-fluid object-fit-cover h-100 w-100"
-                        alt=""
+                        alt="not found"
                       />
                       <div className="play-icon-overlay d-flex justify-content-center align-items-center">
                         <Link

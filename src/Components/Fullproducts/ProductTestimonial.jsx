@@ -93,7 +93,7 @@ function productTestimopnial() {
                         >
                           <img
                             src={x.img}
-                            alt=""
+                            alt="not found"
                             className="img-fluid w-100 h-100 rounded-circle object-fit-cover"
                           />
                         </div>
@@ -123,7 +123,7 @@ function productTestimopnial() {
                   <img
                     src={require("../../Assets/Images/testimonial.jpg")}
                     className="img-fluid object-fit-cover h-100 w-100"
-                    alt=""
+                    alt="not found"
                   />
                   <div className="play-icon-overlay d-flex justify-content-center align-items-center">
                     <Link

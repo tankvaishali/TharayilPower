@@ -93,7 +93,7 @@ function Testimonial() {
                 <img
                   // src="https://media.istockphoto.com/id/1473638950/photo/technicians-carrying-photovoltaic-solar-module-while-installing-solar-panel-system-on-roof-of.jpg?s=612x612&w=0&k=20&c=BHP3woa9yO0Em-dbAOkDSAy1x78D2wpXaKV9pOH18CU="
                   src={require("../../Assets/Images/testimonial1.jpg")}
-                  alt=""
+                  alt="not found"
                   className="img-fluid w-100 h-100  object-fit-cover"
                 />
               </div>
@@ -192,7 +192,7 @@ function Testimonial() {
                         >
                           <img
                             src={x.img}
-                            alt=""
+                            alt="not found"
                             className="img-fluid w-100 h-100 rounded-circle object-fit-cover"
                           />
                         </div>
@@ -229,7 +229,7 @@ function Testimonial() {
                   <img
                     src={require("../../Assets/Images/testimonial.jpg")}
                     className="img-fluid object-fit-cover h-100 w-100 mb-2"
-                    alt=""
+                    alt="not found"
                   />
                   <div className="play-icon-overlay d-flex justify-content-center align-items-center">
                     <Link

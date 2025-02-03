@@ -39,169 +39,12 @@ function Blog01() {
             </div>
           </div>
 
-          {/* {/ Solar Panel Installation /} */}
           <div>
-            <div className="row justify-content-center mt-4">
-              {/* {images.map((image, index) => (
-                <div className="col-12 col-md-6 col-lg-4" key={index}
-                  data-aos="zoom-in"
-                  data-aos-duration="1500"
-                  data-aos-once="true">
-                  <div className="solarinfoimg mb-4">
-                    <div className="descr"></div>
-                    <img
-                      src={image}
-                      className="w-100 h-100 object-fit-cover"
-                      alt=""
-                    />
-                  </div>
-                </div>
-              ))} */}
-            </div>
-
-            {/* <div className="row">
-              <div className="col-12 col-lg-7 my-4">
-                <div className="pt-5 py-lg-3">
-                  <div
-                    className="font_stroke"
-                    data-aos="fade-up"
-                    data-aos-duration="1500"
-                    data-aos-once="true"
-                  >
-                    Bills
-                  </div>
-                  <div
-                    className="ftittle "
-                    data-aos="fade-down"
-                    data-aos-duration="1500"
-                    data-aos-once="true"
-                  >
-                    Lower Electricity Bills
-                  </div>
-                </div>
-                <div className="pera" style={{ textAlign: "justify" }}         >
-                  One of the most immediate benefits of installing solar panels is the significant reduction in electricity costs. With Kerala’s abundant sunlight, a solar system can generate enough power to offset a large portion of your monthly energy consumption. This is especially relevant as grid electricity prices are projected to rise further.
-
-
-                </div>
-                <div className="py-3 pera"
-
-                >
-                  <div>
-                    <FaCheckCircle
-                      className="fs-6"
-                      style={{ color: "#4aab3d" }}
-                    />{" "}
-                    In fact, households in Kerala have already seen noticeable savings. A case study of a Tharayil Power residential project in Ernakulam demonstrates this benefit effectively.
-                  </div>
-                  <div className="py-2">
-                    <FaCheckCircle
-                      className="fs-6"
-                      style={{ color: "#4aab3d" }}
-                    />{" "}
-                    After installing a 5kW solar system, the homeowner experienced a 35% reduction in annual energy costs, saving thousands of rupees every year.
-                  </div>
-                  <div>
-                    <FaCheckCircle
-                      className="fs-6"
-                      style={{ color: "#4aab3d" }}
-                    />{" "}
-                    Over time, these savings add up, making solar a financially smart choice.
-                  </div>
-                </div>
-
-              </div>
-              <div className="col-12 col-lg-5 my-4">
-                <div className="h-100" data-aos="fade-left"
-                  data-aos-duration="1500"
-                  data-aos-once="true">
-
-                  <div className="solarinfoimg my-4">
-                    <div className="descr"></div>
-                    <img
-                      src="https://demo.rstheme.com/wordpress/solaren/wp-content/uploads/2024/06/portfolio_07.jpg"
-                      className="w-100 h-100 object-fit-cover"
-                      alt=""
-                    />
-                  </div>
-                </div>
-              </div>
-            </div> */}
+            <div className="row justify-content-center mt-4"></div>
           </div>
-
-          {/* {/ Battery storage solutions /} */}
-          {/* <div>
-
-
-            <div className="row d-flex ">
-              <div className="col-12 col-lg-5 order-1 order-lg-0 mb-4" data-aos="fade-right"
-                data-aos-duration="1500"
-                data-aos-once="true">
-
-                <div className="h-100">
-                  <div className="solarinfoimg">
-                    <div className="descr"></div>
-                    <img
-                      src={
-                        "https://img.freepik.com/premium-photo/solar-panel-with-green-plant-top-it_1204564-85127.jpg?size=626&ext=jpg&ga=GA1.1.949763891.1720709653&semt=ais_hybrid"
-                      }
-                      className="img-fluid w-100 h-100 "
-                      alt=""
-                    />
-                  </div>
-                </div>
-              </div>
-              <div className="col-12 col-lg-7 order-0 order-lg-1 mb-2">
-                <div className=" h-100">
-                  <div
-                    className="font_stroke"
-                    data-aos="fade-up"
-                    data-aos-duration="1500"
-                    data-aos-once="true"
-                  >
-                    Value
-                  </div>
-                  <div
-                    className="ftittle "
-                    data-aos="fade-down"
-                    data-aos-duration="1500"
-                    data-aos-once="true"
-                  >
-                    Increased Property Value
-                  </div>
-                  <div className="pera pt-2" style={{ textAlign: "justify" }}>
-                    Installing a solar energy system can boost the value of your home. Properties equipped with solar panels tend to have a higher resale value compared to non-solar homes, as they offer a unique selling point that appeals to eco-conscious buyers who also value cost savings.
-                  </div>
-
-                  <div className='py-2 pt-3'>
-                    <FaCheckCircle
-                      className="fs-6"
-                      style={{ color: "#4aab3d" }}
-                    />{" "}
-                    In Kerala’s competitive real estate market, solar-equipped homes are increasingly sought after.
-                  </div>     <div className='py-2'>
-                    <FaCheckCircle
-                      className="fs-6"
-                      style={{ color: "#4aab3d" }}
-                    />{" "}
-                    A local realtor from Kochi explains: “Buyers today see solar installations as an asset. They’re willing to pay a premium for homes with solar because it’s an investment that continues to pay off with reduced utility costs.
-                  </div>     <div className='py-2'>
-                    <FaCheckCircle
-                      className="fs-6"
-                      style={{ color: "#4aab3d" }}
-                    />{" "}
-                    As awareness of solar benefits grows, homes with solar panels are likely to gain even more demand, potentially increasing your property’s resale value.
-
-                  </div>
-                </div>
-
-
-              </div>
-            </div>
-          </div> */}
           <div>
 
-          <div className="row">
+            <div className="row">
               <div className="col-12 col-lg-6 my-4 mt-0 mt-lg-4">
                 <div className="pt-2 pt-lg-4 py-lg-3">
                   <div
@@ -253,75 +96,19 @@ function Blog01() {
                 </div>
 
               </div>
-       
+
               <div className="col-12 col-lg-6 my-4 mt-0 mt-lg-4">
-  
- 
-<div className='pt-0 py-lg-3'>
-  
-<div
-        className="font_stroke"
-        data-aos="fade-up"
-        data-aos-duration="1500"
-        data-aos-once="true"
-      >
-        Value
-      </div>
-      <div
-        className="ftittle "
-        data-aos="fade-down"
-        data-aos-duration="1500"
-        data-aos-once="true"
-      >
-        Increased Property Value
-      </div>
-</div>
-      <div className="pera pt-2" style={{ textAlign: "justify" }}>
-        Installing a solar energy system can boost the value of your home. Properties equipped with solar panels tend to have a higher resale value compared to non-solar homes, as they offer a unique selling point that appeals to eco-conscious buyers who also value cost savings.
-      </div>
-
-      <div className='py-2 pera pt-3'>
-        <FaCheckCircle
-          className="fs-6"
-          style={{ color: "#4aab3d" }}
-        />{" "}
-        In Kerala’s competitive real estate market, solar-equipped homes are increasingly sought after.
-      </div>     <div className='py-2 pera'>
-        <FaCheckCircle
-          className="fs-6"
-          style={{ color: "#4aab3d" }}
-        />{" "}
-        A local realtor from Kochi explains: “Buyers today see solar installations as an asset. They’re willing to pay a premium for homes with solar because it’s an investment that continues to pay off with reduced utility costs.
-      </div>     <div className='py-2 pera'>
-        <FaCheckCircle
-          className="fs-6"
-          style={{ color: "#4aab3d" }}
-        />{" "}
-        As awareness of solar benefits grows, homes with solar panels are likely to gain even more demand, potentially increasing your property’s resale value.
-
-    
-    </div>
 
 
- 
-</div>
-            </div>
+                <div className='pt-0 py-lg-3'>
 
-</div>
-          {/* {/  Energy efficiency audits /} */}
-          <div>
-
-
-            {/* <div className="row d-flex">
-              <div className="col-12 col-lg-7 mb-4 order-1 order-lg-0">
-                <div className="">
                   <div
                     className="font_stroke"
                     data-aos="fade-up"
                     data-aos-duration="1500"
                     data-aos-once="true"
                   >
-                    Independence
+                    Value
                   </div>
                   <div
                     className="ftittle "
@@ -329,32 +116,42 @@ function Blog01() {
                     data-aos-duration="1500"
                     data-aos-once="true"
                   >
-                    Energy Independence
+                    Increased Property Value
                   </div>
                 </div>
                 <div className="pera pt-2" style={{ textAlign: "justify" }}>
-                  Solar energy empowers homeowners to be less reliant on the traditional grid, making homes more resilient, especially during frequent power outages common in Kerala. By generating your own power, you gain greater control over your energy usage and are less vulnerable to grid interruptions.
-                </div>
-                <div className="py-3 pera" style={{ textAlign: "justify" }}>
-                  In addition to solar panels, Tharayil Power offers advanced battery storage options that allow you to store excess energy generated during the day for use at night or during cloudy days. This added storage option ensures you have a backup source of power when you need it most. In areas prone to power disruptions, this energy independence brings peace of mind, knowing that your home’s energy needs are covered by a reliable, self-sustained power source.
+                  Installing a solar energy system can boost the value of your home. Properties equipped with solar panels tend to have a higher resale value compared to non-solar homes, as they offer a unique selling point that appeals to eco-conscious buyers who also value cost savings.
                 </div>
 
-              </div>
-              <div className="col-12 col-lg-5 mb-4 order-0 order-lg-1" data-aos="fade-left"
-                data-aos-duration="1500"
-                data-aos-once="true">
-                <div className="solarinfoimg">
-                  <div className="descr"></div>
-                  <img
-                    src={
-                      "https://img.freepik.com/free-photo/medium-shot-engineers-chatting-about-wind-power-plant_23-2149352230.jpg?ga=GA1.1.949763891.1720709653&semt=ais_hybrid"
-                    }
-                    className="w-100 h-100 object-fit-cover"
-                    alt=""
-                  />
+                <div className='py-2 pera pt-3'>
+                  <FaCheckCircle
+                    className="fs-6"
+                    style={{ color: "#4aab3d" }}
+                  />{" "}
+                  In Kerala’s competitive real estate market, solar-equipped homes are increasingly sought after.
+                </div>     <div className='py-2 pera'>
+                  <FaCheckCircle
+                    className="fs-6"
+                    style={{ color: "#4aab3d" }}
+                  />{" "}
+                  A local realtor from Kochi explains: “Buyers today see solar installations as an asset. They’re willing to pay a premium for homes with solar because it’s an investment that continues to pay off with reduced utility costs.
+                </div>     <div className='py-2 pera'>
+                  <FaCheckCircle
+                    className="fs-6"
+                    style={{ color: "#4aab3d" }}
+                  />{" "}
+                  As awareness of solar benefits grows, homes with solar panels are likely to gain even more demand, potentially increasing your property’s resale value.
+
+
                 </div>
+
+
+
               </div>
-            </div> */}
+            </div>
+
+          </div>
+          <div>
             <div className="row">
               <div className="col-12 col-lg-6" data-aos="zoom-in"
                 data-aos-duration="1500"
@@ -419,7 +216,7 @@ function Blog01() {
               <div className="col-12 my-2">
 
                 <div className='text-center pt-5'>
-                 
+
                   <div
                     className="ftittle "
                     data-aos="fade-up"
@@ -444,7 +241,7 @@ function Blog01() {
 
               <button className="button-48 mt-3">
                 <span className="btn_text fw-bold">
-                  Back 
+                  Back
 
                 </span>
               </button>

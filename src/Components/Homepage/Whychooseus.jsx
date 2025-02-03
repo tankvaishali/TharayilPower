@@ -135,7 +135,7 @@ function Whychooseus() {
               >
                 <img
                   src={require("../../Assets/Images/Screenshot_2024-08-30_160049-removebg-preview.png")}
-                  alt=""
+                  alt="not found"
                   className="img-fluid w-100 h-100 object-fit-contain object-fit-xxl-cover animated-image_slow"
                 />
               </div>

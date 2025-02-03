@@ -89,7 +89,7 @@ function Whytharayilpower() {
                             >
                                 <img
                                     src="https://taranakisolar.nz/wp-content/uploads/revslider/slider-1/Group-134891.png"
-                                    alt=""
+                                    alt="not found"
                                     className="img-fluid w-100 h-100 object-fit-contain object-fit-xxl-cover "
                                 />
                             </div>

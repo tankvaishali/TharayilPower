@@ -132,7 +132,7 @@ function Gallery() {
                                         >
                                             <img
                                                 src={item.img}
-                                                alt=""
+                                                alt="not found"
                                                 className="image"
                                             />
                                         </div>

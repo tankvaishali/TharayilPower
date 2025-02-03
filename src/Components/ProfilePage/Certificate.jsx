@@ -101,7 +101,7 @@ function Certificate() {
                 data-aos-once="true"
               >
                 <div className="certimain">
-                  <img src={src.img} className={`certi-image img-fluid ${src.fit}`} alt="" />
+                  <img src={src.img} className={`certi-image img-fluid ${src.fit}`} alt="not found" />
                 </div>
               </div>
             ))}

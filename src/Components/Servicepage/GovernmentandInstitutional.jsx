@@ -45,7 +45,7 @@ function Covernmentandlinstitutional() {
                     <img
                       src={image}
                       className="w-100 h-100 object-fit-cover"
-                      alt=""
+                      alt="not found"
                     />
                   </div>
                 </div>
@@ -101,7 +101,7 @@ function Covernmentandlinstitutional() {
                       require("../../Assets/Images/CFSC PUBLIC INSTITUTION.jpeg")
                     }
                     className="w-100 h-100 object-fit-cover"
-                    alt=""
+                    alt="not found"
                   />
                 </div>
               </div>

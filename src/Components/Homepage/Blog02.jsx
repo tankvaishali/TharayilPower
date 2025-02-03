@@ -38,185 +38,29 @@ function Blog02() {
             </div>
           </div>
 
-          {/* {/ Solar Panel Installation /} */}
+          <div></div>
           <div>
-            {/* <div className="row justify-content-center mt-4">
-              {images.map((image, index) => (
-                <div className="col-12 col-md-6 col-lg-4" key={index} data-aos="zoom-in"
-                  data-aos-duration="1500"
-                  data-aos-once="true">
-                  <div className="solarinfoimg mb-4">
-                    <div className="descr"></div>
-                    <img
-                      src={image}
-                      className="w-100 h-100 object-fit-cover"
-                      alt=""
-                    />
-                  </div>
-                </div>
-              ))}
-            </div> */}
-
-            {/* <div className="row">
-              <div className="col-12 col-lg-7 my-4">
-                <div className="py-3 py-lg-5">
-                  <div
-                    className="font_stroke"
-                    data-aos="fade-up"
-                    data-aos-duration="1500"
-                    data-aos-once="true"
-                  >
-                    Costs
-                  </div>
-                  <div
-                    className="ftittle "
-                    data-aos="fade-down"
-                    data-aos-duration="1500"
-                    data-aos-once="true"
-                  >
-                    Reduced Operating Costs
-                  </div>
-                </div>
-                <div className="pera" style={{ textAlign: "justify" }}>
-                  One of the most compelling reasons for businesses to adopt solar energy is the substantial reduction in operating costs. Traditional electricity rates are subject to frequent fluctuations, making it challenging for businesses to manage and forecast energy expenses accurately. Solar energy, on the other hand, allows companies to generate their own power, stabilizing costs and leading to considerable savings over time.
-
-                </div>
-                <div className="py-3 pera">
-                  <div>
-                    <FaCheckCircle
-                      className="fs-6"
-                      style={{ color: "#4aab3d" }}
-                    />{" "}
-                    For example, a small business client of Tharayil Power in Ernakulam installed a custom commercial solar system and saw their monthly energy costs drop by nearly 40%.
-                  </div>
-                  <div className="py-2">
-                    <FaCheckCircle
-                      className="fs-6"
-                      style={{ color: "#4aab3d" }}
-                    />{" "}
-                    This kind of reduction can make a significant difference for businesses looking to reinvest savings into growth opportunities.
-                  </div>
-                  <div>
-                    <FaCheckCircle
-                      className="fs-6"
-                      style={{ color: "#4aab3d" }}
-                    />{" "}
-                    By investing in solar, businesses can enjoy predictable, lower electricity costs, freeing up resources for other strategic priorities.
-                  </div>
-                </div>
-
-              </div>
-              <div className="col-12 col-lg-5 my-4" data-aos="fade-left"
-                data-aos-duration="1500"
-                data-aos-once="true">
-                <div className="h-100">
-
-                  <div className="solarinfoimg my-4">
-                    <div className="descr"></div>
-                    <img
-                      src="https://demo.rstheme.com/wordpress/solaren/wp-content/uploads/2024/06/portfolio_07.jpg"
-                      className="w-100 h-100 object-fit-cover"
-                      alt=""
-                    />
-                  </div>
-                </div>
-              </div>
-            </div> */}
-          </div>
-
-          {/* {/ Battery storage solutions /} */}
-          {/* <div>
-
-
-            <div className="row d-flex ">
-              <div className="col-12 col-lg-5 order-1 order-lg-0 mb-4" data-aos="fade-right"
-                data-aos-duration="1500"
-                data-aos-once="true">
-
-                <div className="h-100">
-                  <div className="solarinfoimg">
-                    <div className="descr"></div>
-                    <img
-                      src={
-                        "https://img.freepik.com/premium-photo/solar-panel-with-green-plant-top-it_1204564-85127.jpg?size=626&ext=jpg&ga=GA1.1.949763891.1720709653&semt=ais_hybrid"
-                      }
-                      className="img-fluid w-100 h-100 "
-                      alt=""
-                    />
-                  </div>
-                </div>
-              </div>
-              <div className="col-12 col-lg-7 order-0 order-lg-1 mb-2">
+            <div className="row d-flex">
+              <div className="col-12 col-lg-6" >
                 <div className=" h-100">
-                  <div
-                    className="font_stroke"
-                    data-aos="fade-up"
-                    data-aos-duration="1500"
-                    data-aos-once="true"
-                  >
-                    Energy
-                  </div>
-                  <div
-                    className="ftittle "
-                    data-aos="fade-down"
-                    data-aos-duration="1500"
-                    data-aos-once="true"
-                  >
-                    Enhanced Energy Management
-                  </div>
-                  <div className="pera pt-2" style={{ textAlign: "justify" }}>
-                    Commercial solar installations not only generate clean energy but also enable better energy management. With advanced energy management tools, businesses can monitor their usage in real-time, identify patterns, and make informed adjustments to maximize efficiency. These tools provide insights into peak consumption hours, allowing companies to plan energy-intensive tasks when solar energy production is at its highest.
-                  </div>
+                  <div className="pt-2 pt-lg-4 py-lg-3">
 
-                  <div className='py-2 pt-3'>
-                    <FaCheckCircle
-                      className="fs-6"
-                      style={{ color: "#4aab3d" }}
-                    />{" "}
-                    Tharayil Power offers comprehensive energy management services that go beyond solar installation.
-                  </div>     <div className='py-2'>
-                    <FaCheckCircle
-                      className="fs-6"
-                      style={{ color: "#4aab3d" }}
-                    />{" "}
-                    Through customized tracking systems, our team helps businesses optimize energy consumption patterns and avoid unnecessary wastage.
-                  </div>     <div className='py-2'>
-                    <FaCheckCircle
-                      className="fs-6"
-                      style={{ color: "#4aab3d" }}
-                    />{" "}
-                    By implementing these solutions, businesses in Kerala can maximize the value of their solar investment, saving more over time and enhancing overall operational efficiency.
-                  </div>
-                </div>
-
-
-              </div>
-            </div>
-          </div> */}
-
-          {/* {/  Energy efficiency audits /} */}
-          <div>
-          <div className="row d-flex">
-          <div className="col-12 col-lg-6" >
-                  <div className=" h-100">
-                <div className="pt-2 pt-lg-4 py-lg-3">
-
-                  <div
-                    className="font_stroke"
-                    data-aos="fade-up"
-                    data-aos-duration="1500"
-                    data-aos-once="true"
-                  >
-                    Energy
-                  </div>
-                  <div
-                    className="ftittle "
-                    data-aos="fade-down"
-                    data-aos-duration="1500"
-                    data-aos-once="true"
-                  >
-                    Enhanced Energy Management
-                  </div>
+                    <div
+                      className="font_stroke"
+                      data-aos="fade-up"
+                      data-aos-duration="1500"
+                      data-aos-once="true"
+                    >
+                      Energy
+                    </div>
+                    <div
+                      className="ftittle "
+                      data-aos="fade-down"
+                      data-aos-duration="1500"
+                      data-aos-once="true"
+                    >
+                      Enhanced Energy Management
+                    </div>
                   </div>
                   <div className="pera pt-2" style={{ textAlign: "justify" }}>
                     Commercial solar installations not only generate clean energy but also enable better energy management. With advanced energy management tools, businesses can monitor their usage in real-time, identify patterns, and make informed adjustments to maximize efficiency. These tools provide insights into peak consumption hours, allowing companies to plan energy-intensive tasks when solar energy production is at its highest.
@@ -274,7 +118,7 @@ function Blog02() {
                   </div>
                 </div>
               </div>
-           
+
             </div>
 
             <div className="row d-flex">
@@ -305,9 +149,9 @@ function Blog02() {
                 </div>
 
               </div>
-           
+
               <div className="col-12 col-lg-6 mb-4 " >
-       
+
                 <div className=" pt-lg-4 py-lg-3">
                   <div
                     className="font_stroke"
@@ -354,11 +198,11 @@ function Blog02() {
                   </div>
                 </div>
 
-              
+
               </div>
             </div>
             <div className="row">
-             
+
               <div className="col-12 my-4 mt-0 mt-lg-5">
 
                 <div className='text-center pt-2'>
@@ -391,7 +235,7 @@ function Blog02() {
               <button className="button-48 mt-3">
                 <span className="btn_text fw-bold">
 
-                  Back 
+                  Back
 
                 </span>
               </button>

@@ -13,7 +13,7 @@ function Aboutus() {
               <div>
                 <img
                   src={require("../../Assets/Images/choose_us-removebg-preview.png")}
-                  alt=""
+                  alt="not found"
                   className="img-fluid w-100 h-100"
                 />
               </div>

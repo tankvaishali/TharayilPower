@@ -45,7 +45,7 @@ function CommercialSolar() {
                     <img
                       src={image}
                       className="w-100 h-100 object-fit-cover"
-                      alt=""
+                      alt="not found"
                     />
                   </div>
                 </div>
@@ -114,7 +114,7 @@ function CommercialSolar() {
                       require("../../Assets/Images/commercial solar (1).jpg")
                     }
                     className="w-100 h-100 object-fit-cover"
-                    alt=""
+                    alt="not found"
                   />
                 </div>
               </div>

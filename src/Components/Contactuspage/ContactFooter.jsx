@@ -91,7 +91,7 @@ function ContactFooter() {
               <div>
                 <img
                   src={require('../../Assets/Images/logo.png')}
-                 alt=""
+                 alt="not found"
                        className="img-fluid w-75"
                
                 />
@@ -292,7 +292,7 @@ function ContactFooter() {
                           <div style={{ height: "150px" }}>
                             <img
                               src={x.img}
-                              alt=""
+                              alt="not found"
                               class=" img-fluid h-100 object-fit-cover w-100"
                             />
                           </div>
@@ -324,7 +324,7 @@ function ContactFooter() {
             </button>
             <img
               src={ProductItemlist[currentIndex].img}
-              alt=""
+              alt="not found"
               className="modal-image"
             />
             <button onClick={showNextImage} className="next-btn">

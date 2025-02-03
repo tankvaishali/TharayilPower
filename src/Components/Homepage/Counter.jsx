@@ -63,7 +63,7 @@ function Counter() {
                     <div className="text-center pt-1 ">
                       <img
                         src={require("../../Assets/Images/icon_certi.png")}
-                        alt=""
+                        alt="not found"
                         className="img-fluid"
                       />
                     </div>
@@ -77,7 +77,7 @@ function Counter() {
                     <div className="desc1"></div>
                     <img
                       src="https://cdn.shopify.com/s/files/1/0518/2557/4043/files/solarroofinstal_1024x1024.jpg?v=1675848096"
-                      alt=""
+                      alt="not found"
                       className="img-fluid h-100 w-100"
                       style={{ objectFit: "cover" }}
                     />

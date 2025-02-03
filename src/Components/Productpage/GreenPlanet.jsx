@@ -63,7 +63,7 @@ function GreenPlanet() {
                           <div className="energy_icon rounded-circle p-3 ">
                             <img
                               src={x.img}
-                              alt=""
+                              alt="not found"
                               className="img-fluid w-100 h-100 "
                             />
                           </div>
@@ -130,7 +130,7 @@ function GreenPlanet() {
                   src={require("../../Assets/Images/greenplanet.jpg")}
 
                   // src="https://www.slashgear.com/img/gallery/what-can-a-400-watt-solar-panel-power/l-intro-1710092944.jpg"
-                  alt=""
+                  alt="not found"
                   className="img-fluid w-100 h-100 object-fit-cover image_energy_round"
                   style={{ objectPosition: "bottom center" }}
                 />

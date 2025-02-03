@@ -52,7 +52,7 @@ function Blog03() {
                     <img
                       src={image}
                       className="w-100 h-100 object-fit-cover"
-                      alt=""
+                      alt="not found"
                     />
                   </div>
                 </div>
@@ -119,7 +119,7 @@ function Blog03() {
                     <img
                       src="https://demo.rstheme.com/wordpress/solaren/wp-content/uploads/2024/06/portfolio_07.jpg"
                       className="w-100 h-100 object-fit-cover"
-                      alt=""
+                      alt="not found"
                     />
                   </div>
                 </div>
@@ -144,7 +144,7 @@ function Blog03() {
                         "https://img.freepik.com/premium-photo/solar-panel-with-green-plant-top-it_1204564-85127.jpg?size=626&ext=jpg&ga=GA1.1.949763891.1720709653&semt=ais_hybrid"
                       }
                       className="img-fluid w-100 h-100 "
-                      alt=""
+                      alt="not found"
                     />
                   </div>
                 </div>

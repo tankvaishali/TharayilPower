@@ -81,7 +81,7 @@ function Serviceredirect() {
                       >
                         <img
                           src={x.icon}
-                          alt=""
+                          alt="not found"
                           className="img-fluid w-100 h-100 object-fit-contain bg-white"
                         />
                       </div>
