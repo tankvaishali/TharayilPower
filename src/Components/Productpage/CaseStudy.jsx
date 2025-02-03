@@ -7,8 +7,8 @@ function CaseStudy() {
     const departments = [
         {
             id: "tabs-tab-1",
-            title: "Solar water heater",
-            image: require("../../Assets/Images/WhatsApp Image 2025-01-31 at 12.08.19 PM.jpeg"),
+           tittle:'Chandran',
+            image: require("../../Assets/Images/residential_casestudy_image.jpeg"),
             description: "Qui laudantium consequatur laborum sit qui ad sapiente dila parde sonata raqer a videna mareta paulona marka",
             details: "Et nobis maiores eius. Voluptatibus ut enim blanditiis atque harum sint...",
             casestudyname: 'Residential',
@@ -26,9 +26,9 @@ function CaseStudy() {
         },
         {
             id: "tabs-tab-2",
-            title: "BLDC fan",
-            image: require("../../Assets/Images/milma 1.jpeg"),
-
+           
+            image: require("../../Assets/Images/com_casestudy_image.jpeg"),
+tittle:"LIC",
             description:
                 "Qui laudantium consequatur laborum sit qui ad sapiente dila parde sonata raqer a videna mareta paulona marka",
             details:
@@ -48,8 +48,8 @@ function CaseStudy() {
         },
         {
             id: "tabs-tab-3",
-            title: "Solar Street Lights",
-            image: require("../../Assets/Images/CFSC PUBLIC INSTITUTION.jpeg"),
+           tittle:"Govt H S School",
+            image: require("../../Assets/Images/institu_casestudy_image.jpeg"),
             description:
                 "Eos voluptatibus quo. Odio similique illum id quidem non enim fuga. Qui natus non sunt dicta dolor et. In asperiores velit quaerat perferendis aut",
             details:
@@ -88,7 +88,7 @@ function CaseStudy() {
                                 <Col lg={6} className="p-3">
                                     <div className="py-3 ">
                                         <div className="font_stroke">
-                                            {dept.Client}
+                                            {dept.tittle}
                                         </div>
                                         <div className="ftittle">
                                             {dept.casestudytitle}

@@ -24,7 +24,7 @@ function ProductPage() {
       id: "tabs-tab-2",
       title: "Battery Storage Systems ",
       image:
-        require("../../Assets/Images/IMG-20231018-WA0037.jpg"),
+        "https://www.moxikart.com/assets/images/fairdealbattery/battery/22_exide-instabrite-ib1500-150ah-flate-plate-battery.jpg",
 
       description:
         "Experience the convenience of uninterrupted energy supply with our cutting-edge battery storage systems. These solutions store excess solar energy generated during the day for use at night or during power outages. By ensuring consistent power availability, our battery systems enhance energy independence and reduce reliance on the grid, offering peace of mind even in unpredictable weather conditions. ",
@@ -39,7 +39,7 @@ function ProductPage() {
       id: "tabs-tab-3",
       title: "Home Inverters  ",
       image:
-        require("../../Assets/Images/inverter.png"),
+       "https://i.ibb.co/sJX5T4Jj/download-1.jpg",
       description:
         "Transform solar energy into usable electricity with our smart home inverters. Designed for maximum efficiency, these devices enable seamless power conversion, ensuring that your solar energy system operates at peak performance. Compatible with various solar setups, our inverters combine reliability with intelligent features to simplify energy management for homeowners.  ",
       details01: "Maximum Efficiency",
