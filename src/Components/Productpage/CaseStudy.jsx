@@ -72,7 +72,7 @@ tittle:"LIC",
     return (
         <>
 
-            <Container className="my-5 tab2">
+            <Container className="my-5 tab2 ">
                 <div className="text-center mb-4">
                     <div className="font_stroke">
                         CaseStudy Reports

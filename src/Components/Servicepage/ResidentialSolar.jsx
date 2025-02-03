@@ -4,9 +4,9 @@ import HOC from '../HOC';
 import { Link } from 'react-router-dom';
 
 const images = [
-  require("../../Assets/Images/WhatsApp Image 2025-01-31 at 12.08.19 PM.jpeg"),
-  require("../../Assets/Images/WhatsApp Image 2025-01-31 at 12.10.58 PM (2).jpeg"),
-  require("../../Assets/Images/WhatsApp Image 2025-01-31 at 12.10.58 PM.jpeg")
+  require("../../Assets/Images/residencial_service.jpeg"),
+  require("../../Assets/Images/residencial_service01 (1).jpeg"),
+  require("../../Assets/Images/residencial_service01 (2).jpeg")
 ];
 
 function ResidentialSolar() {

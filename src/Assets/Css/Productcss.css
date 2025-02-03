@@ -1,10 +1,4 @@
-.casestudyimg {
-  background-image: url("../Images//casestudyfinalimaghe.avif");
-  background-position: center center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  box-shadow: inset 0px 0px 1500px 1000px rgba(0, 0, 0, 0.062);
-}
+
 
 .card {
   background: #46863e57;
