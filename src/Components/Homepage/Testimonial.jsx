@@ -110,7 +110,7 @@ function Testimonial() {
                     <div key={index} className="mb-4 text-white">
                       <div className="d-flex justify-content-between">
                         <div>
-                       
+
                           {bar.label === "CO2 emissions reduced" ? (
                             <>
                               <span className="fw-bold pe-1">
@@ -154,7 +154,7 @@ function Testimonial() {
             <div
               className="col-12 col-md-6 p-0 m-0 order-2 product_high"
               style={{ backgroundColor: "var(--darkgreen--)" }}
-           
+
             >
               <div className="h-100 p-5">
                 <div>
@@ -217,7 +217,7 @@ function Testimonial() {
 
             <div
               className="col-12 col-md-6 p-0 m-0 order-3"
-           
+
             >
               <div className="h-100 w-100">
                 <div className="video_image position-relative "   >
@@ -234,7 +234,6 @@ function Testimonial() {
                       className="play-icon-wrapper d-flex justify-content-center align-items-center">
                       <CiPlay1 className="play_icon text-white fs-3" />
                     </Link>
-
                   </div>
                 </div>
 

@@ -5,9 +5,9 @@ import { CiPlay1 } from "react-icons/ci";
 import { Link } from "react-router-dom";
 
 function productTestimopnial() {
- 
 
-  
+
+
 
   const settings = {
     dots: true,
@@ -51,9 +51,9 @@ function productTestimopnial() {
       <div className="py-3 py-lg-5 mb-0 my-lg-5 overflow-hidden"  >
         <div className="container mt-5">
           <div className="row">
-        
 
-            <div
+
+            {/* <div
               className="col-12 col-md-6 p-0 m-0 order-2 product_high"
               style={{ backgroundColor: "var(--darkgreen--)" }}
               data-aos="fade-right"
@@ -110,6 +110,70 @@ function productTestimopnial() {
                   })}
                 </Slider>
               </div>
+            </div> */}
+
+            <div
+              className="col-12 col-md-6 p-0 m-0 order-2 product_high"
+              style={{ backgroundColor: "var(--darkgreen--)" }}
+
+            >
+              <div className="h-100 p-5">
+                <div>
+                  <div
+                    className="dark_stroke text-center"
+                    data-aos="fade-up"
+                    data-aos-duration="1500"
+                    data-aos-once="true"
+                  >
+                    Testimonial
+                  </div>
+                  <div
+                    className="ftittle text-white text-center"
+                    data-aos="fade-down"
+                    data-aos-duration="1500"
+                    data-aos-once="true"
+                  >
+                    What They Say
+                  </div>
+                </div>
+                <Slider {...settings}>
+                  {ProductItemlist.map((x, i) => {
+                    return (
+                      <div key={i} className="mt-3 text-center">
+                        <div className="pt-3 fs-1 text-secondary">
+                          <FaQuoteRight />
+                        </div>
+                        <div className="py-3 text-white">{x.description}</div>
+                        <div
+                          className="rounded-circle mx-auto mt-4"
+                          style={{ width: "80px", height: "80px" }}
+                        >
+                          <img
+                            src={x.img}
+                            alt="not found"
+                            className="img-fluid w-100 h-100 rounded-circle object-fit-cover"
+                          />
+                        </div>
+                        <div className="py-1 pt-2">
+                          <div className="text-white py-1 fw-medium fs-5">
+                            {x.name}
+                          </div>
+                          <div className="text-secondary fw-medium pb-2">
+                            {x.tittle}
+                          </div>
+                        </div>
+                      </div>
+                    );
+                  })}
+                </Slider>
+                <div style={{ position: 'relative', top: '2px', height: "0px" }} className="text-center mb-2">
+                  <Link to={"https://g.co/kgs/GyCH5Hq"} className="text-decoration-none" target="_blank">
+                    <button className="button-48">
+                      <span className="btn_text fw-bold">More Reviews</span>
+                    </button>
+                  </Link>
+                </div>
+              </div>
             </div>
 
             <div
@@ -137,7 +201,7 @@ function productTestimopnial() {
                     </Link>
                   </div>
                 </div>
-            
+
               </div>
             </div>
           </div>
