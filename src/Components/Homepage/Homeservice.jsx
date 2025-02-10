@@ -22,7 +22,7 @@ function Homeservice() {
       to: "/commercialsolar",
     },
     {
-      img: require("../../Assets/Images/government.jpg"),
+      img: require("../../Assets/Images/CFSC PUBLIC INSTITUTIONN.jpeg"),
       no: "03 Service",
       name: "Government And Institutional Solutions",
       pera: "We provide solar solutions for government buildings, educational institutions, and non-profits, helping them achieve sustainability goals.",

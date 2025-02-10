@@ -4,8 +4,8 @@ import { Link } from 'react-router-dom';
 
 const images = [
   require("../../Assets/Images/CFSC PUBLIC INSTITUTION.jpeg"),
-  require("../../Assets/Images/GHSS MUTHUVALLUR.jpg"),
   require("../../Assets/Images/LIC.jpeg"),
+  require("../../Assets/Images/GHSS MUTHUVALLUR.jpg"),
 ];
 
 function Covernmentandlinstitutional() {
@@ -97,7 +97,7 @@ function Covernmentandlinstitutional() {
                   <div className="descr"></div>
                   <img
                     src={
-                      require("../../Assets/Images/CFSC PUBLIC INSTITUTION.jpeg")
+                      require("../../Assets/Images/CFSC PUBLIC INSTITUTIONN.jpeg")
                     }
                     className="w-100 h-100 object-fit-cover"
                     alt="not found"
