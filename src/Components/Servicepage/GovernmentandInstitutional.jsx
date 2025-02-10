@@ -30,12 +30,8 @@ function Covernmentandlinstitutional() {
               data-aos-once="true"
             >
               Government and Institutional Solutions
-
-
             </div>
           </div>
-
-    
           <div>
             <div className="row justify-content-center mt-4">
               {images.map((image, index) => (
@@ -51,11 +47,7 @@ function Covernmentandlinstitutional() {
                 </div>
               ))}
             </div>
-
-
-
           </div>
-
           <div>
             <div className="pt-3 pt-lg-5">
               <div
