@@ -88,16 +88,16 @@ function Projecthighlit() {
               >
                 {ProductItemlist.map((x, i) => {
                   return (
-                    <>
+                  
                  
-                      <div class="container_sec" key={i}>
+                      <div className="container_sec" key={i}>
                         <img
                           src={x.img}
                           alt="Avatar"
-                          class="pro_image img-fluid h-100 object-fit-cover"
+                          className="pro_image img-fluid h-100 object-fit-cover"
                         />
-                        <div class="overlay_sec">
-                          <div class="text text-center h-100 px-2 d-flex flex-column justify-content-center">
+                        <div className="overlay_sec">
+                          <div className="text text-center h-100 px-2 d-flex flex-column justify-content-center">
                           
                             <div className="p-3 px-2">
                          
@@ -107,7 +107,7 @@ function Projecthighlit() {
                         </div>
                       </div>
                     
-                    </>
+                   
                   );
                 })}
               </Slider>

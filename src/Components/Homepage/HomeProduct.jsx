@@ -125,7 +125,7 @@ function HomeProduct() {
                                         Our Products
                                     </div>
                                     {departments.map((department) => (
-                                        <>
+                                        
                                             <li className="nav-item mx-2 mt-1" key={department.id}>
                                                 <div
 
@@ -136,7 +136,7 @@ function HomeProduct() {
                                                     {department.title}
                                                 </div>
                                             </li>
-                                        </>
+                                       
                                     ))}
                                 </ul>
                             </div>

@@ -90,7 +90,7 @@ let blogdata=[
 
          
           {blogdata.map((blog, index) => {
-            console.log(blog);
+            // console.log(blog);
 
             // Parse the date string and format it as "DD MMM"
             const blogDate = new Date(blog.date);
@@ -98,9 +98,9 @@ let blogdata=[
 
             return (
               <div
-                key={blog.id}
-                className={`col-12 col-lg-6 ${index % 2 === 0 ? "" : "pt-0 pt-lg-5"
-                  }`}
+              className={`col-12 col-lg-6 ${index % 2 === 0 ? "" : "pt-0 pt-lg-5"
+              }`}
+              key={index}
                 id="saeds"
               >
                 <div
