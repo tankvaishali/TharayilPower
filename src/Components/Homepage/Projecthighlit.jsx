@@ -6,19 +6,19 @@ function Projecthighlit() {
   let ProductItemlist = [
     {
       img: require("../../Assets/Images/Chennai LIC 15kW_3.JPG"),
-      name: "   Reduced annual energy costs by 35%.",
+      name: " Reduced annual energy costs by 35%.",
       tittle: "Lorem, ipsum dolor. ",
     },
     {
       img: require("../../Assets/Images/projects.jpg"),
 
-      name: "   Improved operational efficiency and minimized energy waste.",
+      name: " Improved operational efficiency and minimized energy waste.",
       tittle: "Lorem, ipsum dolor. ",
     },
     {
       img: require("../../Assets/Images/project.jpg"),
 
-      name: "   Empowered sustainable energy adoption at scale.",
+      name: " Empowered sustainable energy adoption at scale.",
       tittle: "Lorem, ipsum dolor. ",
     },
   ];

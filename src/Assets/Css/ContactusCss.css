@@ -97,32 +97,30 @@
 }
 /* form start */
 .contact_bg {
-  background-image: url("https://nutricorebioscience.com/public/frontend/images/footer-form-img.jpg");
+  background-image: url("../Images/contact-bg.jpg");
   background-position: 100%;
   background-repeat: no-repeat;
   background-size: 70% 46pc;
   position: relative;
   z-index: 1 !important;
- 
 }
 .contact_input input,
 textarea {
   backdrop-filter: blur(10px);
-  background-color:rgb(242 255 248 / 89%);
+  background-color: rgb(242 255 248 / 89%);
   font-size: 16px;
- font-weight:600;
- color: black !important;
+  font-weight: 600;
+  color: black !important;
 }
 
 @media only screen and (max-width: 991px) {
   .contact_bg {
-  background-image:none !important;
-
+    background-image: none !important;
   }
 }
 @media only screen and (max-width: 1199px) {
   .contact_bg {
-  background-image: url("https://nutricorebioscience.com/public/frontend/images/footer-form-img.jpg");
+    background-image: url("../Images/contact-bg.jpg");
     background-size: 70% 49pc;
   }
 }

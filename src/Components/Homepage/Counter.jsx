@@ -1,8 +1,7 @@
-import React from 'react'
+import React from "react";
 import { useEffect, useRef } from "react";
 import CountUp from "react-countup";
 import videoSourceMP4 from "../../Assets/Images/solar.mp4";
-
 
 function Counter() {
   const progressBars = [
@@ -76,16 +75,14 @@ function Counter() {
                   <div className="h-100 allimg">
                     <div className="desc1"></div>
                     <img
-                      src="https://cdn.shopify.com/s/files/1/0518/2557/4043/files/solarroofinstal_1024x1024.jpg?v=1675848096"
+                      src={require("../../Assets/Images/counter.jpg")}
                       alt="not found"
                       className="img-fluid h-100 w-100"
                       style={{ objectFit: "cover" }}
                     />
-                   
                   </div>
                 </div>
                 <div className="col-12  p-0 m-0">
-                
                   <div className="h-100 w-100 allimg">
                     <div className="desc1"></div>
                     <video
@@ -162,7 +159,7 @@ function Counter() {
         </div>
       </div>
     </div>
-  )
+  );
 }
 
-export default Counter
+export default Counter;
