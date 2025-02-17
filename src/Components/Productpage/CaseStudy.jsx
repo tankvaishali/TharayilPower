@@ -55,7 +55,7 @@ tittle:"LIC",
             details:
                 "Iure officiis odit rerum. Harum sequi eum illum corrupti culpa veritatis quisquam. Neque necessitatibus illo rerum eum ut. Commodi ipsam minima molestiae sed laboriosam a iste odio. Earum odit nesciunt fugiat sit ullam. Soluta et harum voluptatem optio quae",
             casestudyname: 'Institutional',
-            Client: 'Govt. H S School Muthuvallur Surat',
+            Client: 'Govt. H S School Muthuvallur ',
             locate: "Malappuram",
             casestudytitle: 'Institutional Solar Project in Kerala',
             challenge: "Govt. H S School in Thrissur was facing escalating electricity costs. In addition, the school wanted to embrace renewable energy to align with its sustainability goals and educate students on the benefits of clean energy.",

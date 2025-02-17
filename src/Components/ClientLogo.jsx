@@ -6,7 +6,7 @@ const ClientLogo = () => {
     { img: require("../Assets/Images/partnerlogo (2).png") },
     { img: require("../Assets/Images/partnerlogo (3).png") },
     { img: require("../Assets/Images/partnerlogo (4).png") },
-    { img: require("../Assets/Images/partnerlogo (1).webp") },
+    { img: require("../Assets/Images/partnerlogo (1).jpg") },
     { img: require("../Assets/Images/partnerlogo.png") },
   ];
 
