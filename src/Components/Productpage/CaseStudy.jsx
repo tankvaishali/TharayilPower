@@ -37,7 +37,7 @@ tittle:"LIC",
             Client: 'Life Insurance Corporation Of India (LIC)',
             locate: "Chennai , Alappuzha , Cherthala, Kaloor , Aluva , Muvattupuzham",
             casestudytitle: 'Commercial Rooftop Installation',
-            challenge: "LIC, a growing business in Kochi, faced high operational costs due to its heavy reliance on grid electricity. The company lacked control over its energy usage during production hours, impacting both costs and overall energy efficiency.",
+            challenge: "LIC, faced high operational costs due to its heavy reliance on grid electricity. The company lacked control over its energy usage during production hours, impacting both costs and overall energy efficiency.",
             solution: "Tharayil Power provided a custom-designed rooftop solar system that matched LIC’s energy needs. This solar solution included advanced monitoring tools, enabling the company to track energy usage in real-time and adjust accordingly, optimizing both consumption and cost savings.",
             results: [
                 "Increased operational efficiency by reducing energy waste by over 20%.",
