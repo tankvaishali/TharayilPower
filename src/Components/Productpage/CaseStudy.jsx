@@ -58,7 +58,7 @@ tittle:"LIC",
             Client: 'Govt. H S School Muthuvallur ',
             locate: "Malappuram",
             casestudytitle: 'Institutional Solar Project in Kerala',
-            challenge: "Govt. H S School in Thrissur was facing escalating electricity costs. In addition, the school wanted to embrace renewable energy to align with its sustainability goals and educate students on the benefits of clean energy.",
+            challenge: "Govt. H S School in Malappuram was facing escalating electricity costs. In addition, the school wanted to embrace renewable energy to align with its sustainability goals and educate students on the benefits of clean energy.",
             solution: "Tharayil Power delivered a large-scale solar energy system designed specifically for Govt. H S School’s campus, including solar panels on rooftops and open spaces. The installation helped reduce the school’s dependence on grid power, while also integrating renewable energy education into the school’s curriculum to inspire students towards eco-conscious practices.",
             results: [
                 "Achieved 40% savings in electricity costs, bringing the school closer to energy self-sufficiency.",
