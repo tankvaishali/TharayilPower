@@ -4,8 +4,8 @@ import { Link } from 'react-router-dom';
 
 const images = [
   require("../../Assets/Images/CFSC PUBLIC INSTITUTION.jpeg"),
-  require("../../Assets/Images/GHSS MUTHUVALLUR.jpg"),
   require("../../Assets/Images/LIC.jpeg"),
+  require("../../Assets/Images/GHSS MUTHUVALLUR.jpg"),
 ];
 
 function Covernmentandlinstitutional() {
@@ -30,12 +30,8 @@ function Covernmentandlinstitutional() {
               data-aos-once="true"
             >
               Government and Institutional Solutions
-
-
             </div>
           </div>
-
-    
           <div>
             <div className="row justify-content-center mt-4">
               {images.map((image, index) => (
@@ -51,11 +47,7 @@ function Covernmentandlinstitutional() {
                 </div>
               ))}
             </div>
-
-
-
           </div>
-
           <div>
             <div className="pt-3 pt-lg-5">
               <div
@@ -97,7 +89,7 @@ function Covernmentandlinstitutional() {
                   <div className="descr"></div>
                   <img
                     src={
-                      require("../../Assets/Images/CFSC PUBLIC INSTITUTION.jpeg")
+                      require("../../Assets/Images/CFSC PUBLIC INSTITUTIONN.jpeg")
                     }
                     className="w-100 h-100 object-fit-cover"
                     alt="not found"

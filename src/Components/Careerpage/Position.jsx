@@ -29,14 +29,14 @@ function Position() {
             <div className="pera py-2 w-75 mx-auto">
               Explore the opportunities to join our growing team of solar energy professionals. Whether you’re an engineer, project manager, or sales expert, we’re looking for talent that’s passionate about making a difference.
             </div>
-            <div class=" my-5 tablewidth  mx-auto" >
-              <div class="card " >
-                <div class="card-header bg-success text-white">
-                  <h5 class="mb-0 text-center ps-2">Join Open Positions</h5>
+            <div className=" my-5 tablewidth  mx-auto" >
+              <div className="card " >
+                <div className="card-header bg-success text-white">
+                  <h5 className="mb-0 text-center ps-2">Join Open Positions</h5>
                 </div>
-                <div class="card-bodyp-0 m-0 ">
-                  <table class="table table-bordered table-hover table-striped text-start m-0">
-                    <thead class="thead-dark">
+                <div className="card-bodyp-0 m-0 ">
+                  <table className="table table-bordered table-hover table-striped text-start m-0">
+                    <thead className="thead-dark">
                       <tr>
                         <th scope="col">Sr.</th>
                         <th scope="col">Position</th>

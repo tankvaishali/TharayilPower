@@ -8,51 +8,51 @@ function Contact() {
 
   return (
     <>
-      <div class="contact-service-area overflow-hidden pb-sm-0 pb-5">
-        <div class="container my-3 my-lg-5">
-          <div class="row">
+      <div className="contact-service-area overflow-hidden pb-sm-0 pb-5">
+        <div className="container my-3 my-lg-5">
+          <div className="row">
  
-            <div class="col-lg-4 col-sm-12">
+            <div className="col-lg-4 col-sm-12">
               <div
               
                 className="text-decoration-none text-dark"
                 target="_blank"
               >
                 <div
-                  class="contact-service-box text-center my-4 my-lg-5 hover-border-6"
+                  className="contact-service-box text-center my-4 my-lg-5 hover-border-6"
                   data-aos="zoom-in"
                   data-aos-duration="1500"
                   data-aos-delay="400"
                   data-aos-once="true"
                 >
-                  <div class="contact-service-icon mb-4 text-white fs-3 d-inline-block lh-lg align-items-center justify-content-center align-content-center ">
+                  <div className="contact-service-icon mb-4 text-white fs-3 d-inline-block lh-lg align-items-center justify-content-center align-content-center ">
                     <FaMapLocationDot />
                   </div>
-                  <div class="contact-inform-title ">
-                    <h4 class="jr_tittle fs-4 fw-semibold text-capitalize ">
+                  <div className="contact-inform-title ">
+                    <h4 className="jr_tittle fs-4 fw-semibold text-capitalize ">
                       Address
                     </h4>
-                    <div class="pera pt-2 px-5">
+                    <div className="pera pt-2 px-5">
                       Tharayil House, Kalath Ward, Avalukkunnu.P.O, Alappuzha, Kerala 688006.
                     </div>
                   </div>
-                  <span class="hover-element"></span>
+                  <span className="hover-element"></span>
                 </div>
               </div>
             </div>
-            <div class="col-lg-4 col-sm-12">
+            <div className="col-lg-4 col-sm-12">
               <div
-                class="contact-service-box text-center my-4 my-lg-5 hover-border-6"
+                className="contact-service-box text-center my-4 my-lg-5 hover-border-6"
                 data-aos="zoom-in"
                 data-aos-duration="1500"
                 data-aos-delay="800"
                 data-aos-once="true"
               >
-                <div class="contact-service-icon mb-4 text-white fs-3 d-inline-block align-items-center justify-content-center align-content-center lh-lg">
+                <div className="contact-service-icon mb-4 text-white fs-3 d-inline-block align-items-center justify-content-center align-content-center lh-lg">
                   <BiSolidPhoneCall />
                 </div>
-                <div class="contact-inform-title pb-5">
-                  <h4 class="jr_tittle fs-4 fw-semibold text-capitalize">
+                <div className="contact-inform-title pb-5">
+                  <h4 className="jr_tittle fs-4 fw-semibold text-capitalize">
                     Phone no.
                   </h4>
                   <div>
@@ -83,33 +83,33 @@ function Contact() {
                     </div>
                   </div>
                 </div>
-                <span class="hover-element"></span>
+                <span className="hover-element"></span>
               </div>
             </div>
 
-            <div class="col-lg-4 col-sm-12">
+            <div className="col-lg-4 col-sm-12">
               <div
             
                 className="text-decoration-none text-dark"
          
               >
                 <div
-                  class="contact-service-box text-center my-4 my-lg-5 hover-border-6"
+                  className="contact-service-box text-center my-4 my-lg-5 hover-border-6"
                   data-aos="zoom-in"
                   data-aos-duration="1500"
                   data-aos-delay="200"
                   data-aos-once="true"
                 >
-                  <div class="contact-service-icon mb-4 text-white fs-3 d-inline-block lh-lg align-items-center justify-content-center align-content-center ">
+                  <div className="contact-service-icon mb-4 text-white fs-3 d-inline-block lh-lg align-items-center justify-content-center align-content-center ">
                     <FaMailBulk />
                   </div>
-                  <div class="contact-inform-title pb-5">
-                    <h4 class="jr_tittle fs-4 fw-semibold text-capitalize pt-1">
+                  <div className="contact-inform-title pb-5">
+                    <h4 className="jr_tittle fs-4 fw-semibold text-capitalize pt-1">
                       E-mail
                     </h4>
-                    <div class="pera pt-2">info@tharayilpower.com</div>
+                    <div className="pera pt-2">info@tharayilpower.com</div>
                   </div>
-                  <span class="hover-element"></span>
+                  <span className="hover-element"></span>
                 </div>
               </div>
             </div>

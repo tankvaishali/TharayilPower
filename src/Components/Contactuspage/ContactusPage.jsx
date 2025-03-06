@@ -59,7 +59,7 @@ function ContactusPage() {
       <div className="map mb-5">
         <div className="container">
           <div
-            class="w-100 overflow-hidden"
+            className="w-100 overflow-hidden"
             data-aos="zoom-in"
             data-aos-duration="2000"
             data-aos-once="true"

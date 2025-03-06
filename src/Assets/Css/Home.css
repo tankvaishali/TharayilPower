@@ -183,13 +183,6 @@
 .slick-dots li.slick-active button:before {
   color: var(--white--);
 }
-.PromoVideo_bg {
-  width: 100%;
-  height: auto;
-  background-image: url("https://demo2.themelexus.com/kitchor/wp-content/uploads/2022/06/About_BG_02.jpg");
-  background-size: cover;
-  background-repeat: no-repeat;
-}
 
 .play-icon-overlay {
   position: absolute;
@@ -452,8 +445,8 @@
 .sliderwidth {
   width: 80% !important;
 }
-@media screen and (min-width: 991px) and (max-width: 1199px) { 
-  .carousel{
+@media screen and (min-width: 991px) and (max-width: 1199px) {
+  .carousel {
     margin-top: -128px !important;
     height: 100vh !important;
   }
@@ -488,19 +481,19 @@
 }
 
 .slide1 .column {
-  background-image: url("https://english.news.cn/20240103/46e63f8f2b1a4739bc31cb2419991447/601ade44cb6445a3a38332e9020efc61.jpg");
+  background-image: url("../Images/slide1.jpg");
   box-shadow: inset 0px 0px 1500px 1000px rgba(0, 0, 0, 0.589);
   object-fit: cover;
 }
 
 .slide2 .column {
-  background-image: url("https://d2tez01fe91909.cloudfront.net/wp-content/uploads/2023/01/AdobeStock_166916488-scaled-e1683923540796.jpeg.webp");
+  background-image: url("../Images/slide2.jpg");
   box-shadow: inset 0px 0px 1500px 1000px rgba(0, 0, 0, 0.589);
   object-fit: cover;
 }
 
 .slide3 .column {
-  background-image: url("https://d2tez01fe91909.cloudfront.net/wp-content/uploads/2023/05/AdobeStock_226674162-1024x617.jpeg");
+  background-image: url("../Images/slide3.jpeg");
   box-shadow: inset 0px 0px 1500px 1000px rgba(0, 0, 0, 0.589);
   object-fit: cover;
 }

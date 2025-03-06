@@ -2,12 +2,6 @@ import React from 'react'
 import { FaCheckCircle } from 'react-icons/fa'
 import HOC from '../HOC';
 
-const images = [
-  "https://demo.rstheme.com/wordpress/solaren/wp-content/uploads/2024/06/portfolio_06.jpg",
-  "https://demo.rstheme.com/wordpress/solaren/wp-content/uploads/2024/06/portfolio_03.jpg",
-  "https://demo.rstheme.com/wordpress/solaren/wp-content/uploads/2024/06/portfolio_07.jpg"
-];
-
 function Blog01() {
   return (
     <>

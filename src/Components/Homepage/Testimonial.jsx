@@ -64,7 +64,7 @@ function Testimonial() {
       img: require("../../Assets/Images/profile/Gallery (5).jpg"),
 
       name: "Mannanchery",
-      tittle: "Delhi",
+      tittle: "Kerala",
       description:
         "I'm so pleased with Tharayil Power. I was a Community Solar customer for years and I've recently put panels on my roof. ",
     },

@@ -1,6 +1,11 @@
 import React, { useState } from "react";
 import { BiSolidPhoneCall } from "react-icons/bi";
-import { FaFacebookF, FaInstagram, FaLinkedinIn, FaMailBulk } from "react-icons/fa";
+import {
+  FaFacebookF,
+  FaInstagram,
+  FaLinkedinIn,
+  FaMailBulk,
+} from "react-icons/fa";
 import { FaMapLocationDot } from "react-icons/fa6";
 
 import { ImYoutube } from "react-icons/im";
@@ -94,12 +99,13 @@ function Footer() {
                   src={require("../Assets/Images/logo.png")}
                   alt="not found"
                   className="img-fluid w-75"
-                // width={"180px"}
+                  // width={"180px"}
                 />
               </div>
               <div className="pera lightgray py-2 pt-3">
-                Tharayil Power helps you save on energy costs with sustainable solar solutions, reliable backup systems, and tailored power solutions for homes and businesses.
-
+                Tharayil Power helps you save on energy costs with sustainable
+                solar solutions, reliable backup systems, and tailored power
+                solutions for homes and businesses.
               </div>
               <div className="d-flex fs-4 my-3">
                 <Link
@@ -118,7 +124,9 @@ function Footer() {
                   <FaInstagram />
                 </Link>
                 <Link
-                  to={"https://in.linkedin.com/company/tharayil-power-energy-solutions-p-ltd"}
+                  to={
+                    "https://in.linkedin.com/company/tharayil-power-energy-solutions-p-ltd"
+                  }
                   target="_blank"
                   className="footericon text-center p-2  mx-1 d-flex text-decoration-none text-white linkicon"
                 >
@@ -148,12 +156,14 @@ function Footer() {
                 </div>
                 <div className="lightgray ps-3 pera">
                   <Link
-                    to={"https://www.google.com/maps/place/Tharayil+Power+%26+Energy+Solutions+(P)+Ltd/@9.5126451,76.3380907,17z/data=!3m1!4b1!4m6!3m5!1s0x3b088571b9c23145:0x6e2e6b8c22fe8ba4!8m2!3d9.5126451!4d76.3380907!16s%2Fg%2F11f6xzf99_?entry=ttu&g_ep=EgoyMDI0MTIxMS4wIKXMDSoASAFQAw%3D%3D"}
+                    to={
+                      "https://www.google.com/maps/place/Tharayil+Power+%26+Energy+Solutions+(P)+Ltd/@9.5126451,76.3380907,17z/data=!3m1!4b1!4m6!3m5!1s0x3b088571b9c23145:0x6e2e6b8c22fe8ba4!8m2!3d9.5126451!4d76.3380907!16s%2Fg%2F11f6xzf99_?entry=ttu&g_ep=EgoyMDI0MTIxMS4wIKXMDSoASAFQAw%3D%3D"
+                    }
                     className="text-decoration-none lightgray link_hover py-1"
                     target="_blank"
-
                   >
-                    Tharayil House, Kalath Ward, Avalukkunnu.P.O, Alappuzha, Kerala 688006.
+                    Tharayil House, Kalath Ward, Avalukkunnu.P.O, Alappuzha,
+                    Kerala 688006.
                   </Link>
                 </div>
               </div>
@@ -216,7 +226,8 @@ function Footer() {
               className="col-6 col-md-6 col-lg-2 pt-0 pt-lg-3 ps-4 order-1 order-md-2"
               data-aos="zoom-in"
               data-aos-duration="1800"
-              data-aos-once="true"            >
+              data-aos-once="true"
+            >
               <div className="fw-medium fs-4 text-white py-2">Useful Link</div>
 
               <div className="py-0 py-md-1 pt-0 pt-md-2">
@@ -287,17 +298,15 @@ function Footer() {
                 <Slider {...settings} className="p-0 m-0 text-white pt-2 ">
                   {ProductItemlist.map((x, i) => {
                     return (
-                      <>
-                        <Link key={i} onClick={() => openModal(i)}>
-                          <div style={{ height: "150px" }}>
-                            <img
-                              src={x.img}
-                              alt="not found"
-                              class=" img-fluid h-100 object-fit-cover w-100"
-                            />
-                          </div>
-                        </Link>
-                      </>
+                      <Link onClick={() => openModal(i)} key={i}>
+                        <div style={{ height: "150px" }}>
+                          <img
+                            src={x.img}
+                            alt="not found"
+                            className=" img-fluid h-100 object-fit-cover w-100"
+                          />
+                        </div>
+                      </Link>
                     );
                   })}
                 </Slider>

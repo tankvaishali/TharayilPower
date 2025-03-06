@@ -69,7 +69,7 @@ function Serviceredirect() {
           <div className="row p-0  g-5 sapce_top ">
             {service.map((x, i) => {
               return (
-                <>
+               
                   <div className="col-12 col-md-6 col-lg-3 " key={i} data-aos={x.aos} data-aos-duration="1800" data-aos-once="true">
                     <div
                       className={`h-100 p-3 text-center shadow-lg bg_sercard ${x.classnameadd}`}
@@ -91,7 +91,7 @@ function Serviceredirect() {
                       </div>
                     </div>
                   </div>
-                </>
+                
               );
             })}
             <div className="my-5 w-100 mx-auto text-center">

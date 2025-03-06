@@ -1,105 +1,100 @@
-
-.ex_bg{
+.ex_bg {
   /* background-image: url("../Images/product_bg.jpg");
   background-size: cover;
   background-position: 100% 100%;
   background-repeat: no-repeat; */
-  background-color:#3f74382a ;
+  background-color: #3f74382a;
 }
 /* expertist start */
-.client{
+.client {
   top: 0;
   left: 15%;
   z-index: 1;
 }
 @media only screen and (max-width: 761px) {
-.client{
-  left: 0%;
-  margin-top: -30px;
-}
+  .client {
+    left: 0%;
+    margin-top: -30px;
+  }
 }
 /* expertist end */
 
 /* profits start */
- .img_profatible ,.profit_cont{
-   background-image: url("../Images/profitable.jpg");
+.img_profatible,
+.profit_cont {
+  background-image: url("../Images/profitable.jpg");
   background-size: cover;
   background-position: 100% 100%;
   background-repeat: no-repeat;
-
-
- }
- .profit_cont{
-  width: 42%;
-    background-image: url("../Images/product_bg.jpg");
-    font-size: 30px;
-
- }
- @media screen and (min-width: 991px) and (max-width: 1199px) { 
-  .profit_cont{
-    width: 50%;
-      background-image: url("../Images/product_bg.jpg");
-      font-size: 23px !important;
-  
-   }
 }
- @media only screen and (max-width: 761px) {
- .profit_cont{
-  width: 50%;
+.profit_cont {
+  width: 42%;
+  background-image: url("../Images/product_bg.jpg");
+  font-size: 30px;
+}
+@media screen and (min-width: 991px) and (max-width: 1199px) {
+  .profit_cont {
+    width: 50%;
+    background-image: url("../Images/product_bg.jpg");
+    font-size: 23px !important;
+  }
+}
+@media only screen and (max-width: 761px) {
+  .profit_cont {
+    width: 50%;
     font-size: 20px;
-
- }
+  }
 }
 /* profits end */
 
 /* our team start */
-.team_bg{
-  background-color:#3f74382a ;
+.team_bg {
+  background-color: #3f74382a;
 }
 .linkinsta .instaface {
-    background: var(--darkgreen--);
-    color: white;
-    font-size: 40px;
-    padding: 10px;
-    transition: all .8s;
-      border-radius: 10px 0px 10px 0px;
+  background: var(--darkgreen--);
+  color: white;
+  font-size: 40px;
+  padding: 10px;
+  transition: all 0.8s;
+  border-radius: 10px 0px 10px 0px;
 }
 
 .linkinsta:hover .instaface {
-    background: var(--green--);
-    color: white;
-    font-size: 40px;
-    padding: 10px;
-    border-radius: 50%;
+  background: var(--green--);
+  color: white;
+  font-size: 40px;
+  padding: 10px;
+  border-radius: 50%;
 }
-@media screen and (min-width: 991px) and (max-width: 1199px) { 
-  .mediaset{
+@media screen and (min-width: 991px) and (max-width: 1199px) {
+  .mediaset {
     padding-left: 25px !important;
   }
 }
 /* our team end */
 
 /* mission vission start */
-.mission_vission{
-    background-image: url("https://www.slashgear.com/img/gallery/what-can-a-400-watt-solar-panel-power/l-intro-1710092944.jpg");
+.mission_vission {
+  background-image: url("../Images/mission-visuion-bg.jpg");
   background-size: cover;
   background-position: 100% 100%;
   background-repeat: no-repeat;
   box-shadow: inset 0px 0px 1500px 1000px rgba(0, 0, 0, 0.404);
 }
-.bg_mission{
+.bg_mission {
   background-color: var(--green--);
 }
-.bg_vission{
+.bg_vission {
   background-color: var(--darkgreen--);
 }
 /* mission vission end */
 /* what make us diff start */
-.whyusicon{
-color: var(--green--);
-background-color: var(--darkgreen--);
-width: 60px;
-height: 60px;
+.whyusicon {
+  color: var(--green--);
+  background-color: var(--darkgreen--);
+  width: 60px;
+  height: 60px;
 }
 .feature-box {
   min-height: 280px; /* Adjust to fit your content */
@@ -107,16 +102,15 @@ height: 60px;
 /* what make us diff END */
 /* about contactus start */
 
-.aboutcontactbg{
-  background-image: url("https://img.freepik.com/free-photo/mother-with-her-little-son-by-solar-panels_1303-15545.jpg?t=st=1734432419~exp=1734436019~hmac=e1212539d00c5ea867aa2d5d09feab3f376e5661e725d00bd1b54f8959c72a80&w=1380");
+.aboutcontactbg {
+  background-image: url("../Images/aboutcontact-bg.jpg");
   background-position: bottom center;
   background-size: cover;
-background-repeat: no-repeat;
-background-attachment: fixed;
-box-shadow: inset 0px 0px 1500px 1000px rgba(0, 4, 10, 0.74);
-width: 100% !important;
-height: 100% !important;
-
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  box-shadow: inset 0px 0px 1500px 1000px rgba(0, 4, 10, 0.74);
+  width: 100% !important;
+  height: 100% !important;
 }
 .video-background video {
   position: relative;

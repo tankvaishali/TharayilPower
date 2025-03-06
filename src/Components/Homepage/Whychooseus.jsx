@@ -149,7 +149,7 @@ function Whychooseus() {
               >
                 {chooseus.map((x, i) => {
                   return (
-                    <>
+                   
                       <div className=" mt-2 " key={i}>
                         <div className="d-flex    py-1 align-content-center  align-items-center">
                           <div className=" text-white bg-success icon_circle fs-2  p-3 d-flex align-items-center justify-content-center align-content-center  ">
@@ -161,7 +161,7 @@ function Whychooseus() {
                           </div>
                         </div>
                       </div>
-                    </>
+                  
                   );
                 })}
               </div>

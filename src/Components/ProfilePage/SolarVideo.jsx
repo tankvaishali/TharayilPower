@@ -43,8 +43,8 @@ function SolarVideo() {
               </div>
             </div>
           </div>
-          <div class="parent" data-aos="zoom-in" data-aos-duration="1800" data-aos-once="true">
-            <div class="div1 overflow-hidden vmainbox">
+          <div className="parent" data-aos="zoom-in" data-aos-duration="1800" data-aos-once="true">
+            <div className="div1 overflow-hidden vmainbox">
               <Link
                 to={"https://www.youtube.com/watch?v=mOHHK8cQdAE"}
                 target="_blank"
@@ -64,7 +64,7 @@ function SolarVideo() {
                 </div>
               </Link>
             </div>
-            <div class="div2 vmainbox">
+            <div className="div2 vmainbox">
               <Link
                 to={"https://www.youtube.com/watch?v=bvc9RVQn9dM"}
                 target="_blank"
@@ -84,7 +84,7 @@ function SolarVideo() {
                 </div>
               </Link>
             </div>
-            <div class="div3">
+            <div className="div3">
               <div className="div3box py-5 px-5 px-md-3 px-lg-3">
                 <div className="grid-item">
                   <h4 className="fw-bold">
@@ -111,7 +111,7 @@ function SolarVideo() {
                 </div>
               </div>
             </div>
-            <div class="div4 overflow-hidden vmainbox">
+            <div className="div4 overflow-hidden vmainbox">
               <Link
                 to={"https://www.youtube.com/watch?v=I4vyLWjAegQ"}
                 target="_blank"
@@ -131,7 +131,7 @@ function SolarVideo() {
                 </div>
               </Link>
             </div>
-            <div class="div5 text-center py-5">
+            <div className="div5 text-center py-5">
               <h2 className="text-capitalize">Step into the spotlight</h2>
               <Link to={"/service"} className="text-decoration-none">
                 <button className="button-48 mt-4">
@@ -142,7 +142,7 @@ function SolarVideo() {
                 </button>
               </Link>
             </div>
-            <div class="div7 vmainbox">
+            <div className="div7 vmainbox">
               <Link
                 to={"https://www.youtube.com/watch?v=ciOQC_CtcOU"}
                 target="_blank"
@@ -162,7 +162,7 @@ function SolarVideo() {
                 </div>
               </Link>
             </div>
-            <div class="div8 overflow-hidden vmainbox">
+            <div className="div8 overflow-hidden vmainbox">
               <Link
                 to={"https://www.youtube.com/watch?v=GkV4PyFnmMQ"}
                 target="_blank"
@@ -195,7 +195,7 @@ function SolarVideo() {
                 </h4>
               </div>
             </Link>
-            <div class="div10 overflow-hidden vmainbox">
+            <div className="div10 overflow-hidden vmainbox">
               <Link
                 to={"https://www.youtube.com/watch?v=zjSwaZFnBxw"}
                 target="_blank"

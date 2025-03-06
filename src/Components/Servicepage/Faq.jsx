@@ -45,13 +45,13 @@ function Faq() {
                   How does green power work ?
                 </div>
                 <div
-                  class="accordion accordion-flush mt-1"
+                  className="accordion accordion-flush mt-1"
                   id="accordionFlushExample"
                 >
-                  <div class="accordion-item">
-                    <h2 class="accordion-header">
+                  <div className="accordion-item">
+                    <h2 className="accordion-header">
                       <button
-                        class="accordion-button collapsed"
+                        className="accordion-button collapsed"
                         type="button"
                         data-bs-toggle="collapse"
                         data-bs-target="#flush-collapseOne"
@@ -63,10 +63,10 @@ function Faq() {
                     </h2>
                     <div
                       id="flush-collapseOne"
-                      class="accordion-collapse collapse "
+                      className="accordion-collapse collapse "
                       data-bs-parent="#accordionFlushExample"
                     >
-                      <div class="accordion-body">
+                      <div className="accordion-body">
                         The amount you save depends on the size of your solar system, your
                         energy usage, and available sunlight. On average, Kerala homeowners save up to 35%
                         on annual energy costs by switching to solar with Tharayil Power. For a detailed
@@ -75,10 +75,10 @@ function Faq() {
                       </div>
                     </div>
                   </div>
-                  <div class="accordion-item">
-                    <h2 class="accordion-header">
+                  <div className="accordion-item">
+                    <h2 className="accordion-header">
                       <button
-                        class="accordion-button collapsed"
+                        className="accordion-button collapsed"
                         type="button"
                         data-bs-toggle="collapse"
                         data-bs-target="#flush-collapseTwo"
@@ -90,10 +90,10 @@ function Faq() {
                     </h2>
                     <div
                       id="flush-collapseTwo"
-                      class="accordion-collapse collapse"
+                      className="accordion-collapse collapse"
                       data-bs-parent="#accordionFlushExample"
                     >
-                      <div class="accordion-body">
+                      <div className="accordion-body">
                         The installation process involves a site assessment, design, and installation
                         of your solar panels and inverter. Typically, it takes one to three days to complete,
                         depending on the system's complexity. Tharayil Power manages all stages, including
@@ -101,10 +101,10 @@ function Faq() {
                       </div>
                     </div>
                   </div>
-                  <div class="accordion-item">
-                    <h2 class="accordion-header">
+                  <div className="accordion-item">
+                    <h2 className="accordion-header">
                       <button
-                        class="accordion-button collapsed"
+                        className="accordion-button collapsed"
                         type="button"
                         data-bs-toggle="collapse"
                         data-bs-target="#flush-collapseThree"
@@ -117,10 +117,10 @@ function Faq() {
                     </h2>
                     <div
                       id="flush-collapseThree"
-                      class="accordion-collapse collapse"
+                      className="accordion-collapse collapse"
                       data-bs-parent="#accordionFlushExample"
                     >
-                      <div class="accordion-body">
+                      <div className="accordion-body">
                         Yes, the Kerala government provides several subsidies and incentives to
                         encourage solar adoption for residential, commercial, and institutional projects. Tharayil
                         Power can help you navigate these subsidies and apply for the best incentives
@@ -128,10 +128,10 @@ function Faq() {
                       </div>
                     </div>
                   </div>
-                  <div class="accordion-item">
-                    <h2 class="accordion-header">
+                  <div className="accordion-item">
+                    <h2 className="accordion-header">
                       <button
-                        class="accordion-button collapsed"
+                        className="accordion-button collapsed"
                         type="button"
                         data-bs-toggle="collapse"
                         data-bs-target="#flush-collapseFour"
@@ -143,10 +143,10 @@ function Faq() {
                     </h2>
                     <div
                       id="flush-collapseFour"
-                      class="accordion-collapse collapse"
+                      className="accordion-collapse collapse"
                       data-bs-parent="#accordionFlushExample"
                     >
-                      <div class="accordion-body">
+                      <div className="accordion-body">
                         Solar systems are highly durable and typically last 25–30 years with
                         minimal maintenance. Routine cleaning and occasional inspections are recommended
                         to keep panels performing at their best. Tharayil Power offers maintenance packages to
@@ -154,10 +154,10 @@ function Faq() {
                       </div>
                     </div>
                   </div>
-                  <div class="accordion-item">
-                    <h2 class="accordion-header">
+                  <div className="accordion-item">
+                    <h2 className="accordion-header">
                       <button
-                        class="accordion-button collapsed"
+                        className="accordion-button collapsed"
                         type="button"
                         data-bs-toggle="collapse"
                         data-bs-target="#flush-collapseFive"
@@ -169,10 +169,10 @@ function Faq() {
                     </h2>
                     <div
                       id="flush-collapseFive"
-                      class="accordion-collapse collapse"
+                      className="accordion-collapse collapse"
                       data-bs-parent="#accordionFlushExample"
                     >
-                      <div class="accordion-body">
+                      <div className="accordion-body">
                         Absolutely! Adding battery storage allows you to store excess energy for
                         use during nighttime or power outages, providing greater energy independence.
                         Tharayil Power offers advanced battery storage solutions tailored to Kerala’s climate,

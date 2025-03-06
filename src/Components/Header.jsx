@@ -44,24 +44,24 @@ function Header() {
           <div className="collapse navbar-collapse lg_header" id="navbarNav">
             <ul className="navbar-nav mx-auto">
               <li className="nav-item m-1">
-                <div class="sec h-100 mx-2  text-center">
+                <div className="sec h-100 mx-2  text-center">
                   <NavLink
                     to={"/"}
                     className="nav-link headmenu maincolor fw-medium p-2 py-3 text-center"
                     aria-current="page"
-                    activeClassName="active"
+                    activeclassname="active"
                   >
                     Home
                   </NavLink>
                 </div>
               </li>
               <li className="nav-item m-1">
-                <div class="sec h-100 mx-2 text-center">
+                <div className="sec h-100 mx-2 text-center">
                   <NavLink
                     to={"/aboutus"}
                     className="nav-link headmenu maincolor fw-medium p-2 py-3 text-center"
                     aria-current="page"
-                    activeClassName="active"
+                    activeclassname="active"
                   >
                     About Us
                   </NavLink>
@@ -69,72 +69,72 @@ function Header() {
               </li>
 
               <li className="nav-item m-1">
-                <div class="sec h-100 mx-2 text-center">
+                <div className="sec h-100 mx-2 text-center">
                   <NavLink
                     to={"/project"}
                     className="nav-link headmenu maincolor fw-medium p-2 py-3 text-center"
                     aria-current="page"
-                    activeClassName="active"
+                    activeclassname="active"
                   >
                     Projects
                   </NavLink>
                 </div>
               </li>
               <li className="nav-item m-1">
-                <div class="sec h-100 mx-2 text-center">
+                <div className="sec h-100 mx-2 text-center">
                   <NavLink
                     to={"/product"}
                     className="nav-link headmenu maincolor fw-medium p-2 py-3 text-center"
                     aria-current="page"
-                    activeClassName="active"
+                    activeclassname="active"
                   >
                     Products
                   </NavLink>
                 </div>
               </li>
               <li className="nav-item m-1">
-                <div class="sec h-100 mx-2 text-center">
+                <div className="sec h-100 mx-2 text-center">
                   <NavLink
                     to={"/service"}
                     className="nav-link headmenu maincolor fw-medium  p-2 py-3 text-center"
                     aria-current="page"
-                    activeClassName="active"
+                    activeclassname="active"
                   >
                     Services
                   </NavLink>
                 </div>
               </li>
               <li className="nav-item m-1">
-                <div class="sec h-100 mx-2 text-center">
+                <div className="sec h-100 mx-2 text-center">
                   <NavLink
                     to={"/career"}
                     className="nav-link headmenu maincolor fw-medium p-2 py-3 text-center"
                     aria-current="page"
-                    activeClassName="active"
+                    activeclassname="active"
                   >
                     Career
                   </NavLink>
                 </div>
               </li>
               <li className="nav-item m-1">
-                <div class="sec h-100 mx-2 text-center">
+                <div className="sec h-100 mx-2 text-center">
                   <NavLink
                     to={"/profile"}
                     className="nav-link headmenu maincolor fw-medium p-2 py-3 text-center"
                     aria-current="page"
-                    activeClassName="active"
+                    activeclassname="active"
                   >
                     Profile
                   </NavLink>
                 </div>
               </li>
               <li className="nav-item m-1">
-                <div class="sec h-100 mx-2 text-center">
+                <div className="sec h-100 mx-2 text-center">
                   <NavLink
                     to={"/contactus"}
                     className="nav-link headmenu maincolor fw-medium p-2 py-3 text-center"
                     aria-current="page"
-                    activeClassName="active"
+                    activeclassname="active"
                   >
                     Contact
                   </NavLink>
@@ -153,14 +153,14 @@ function Header() {
         className="offcanvas offcanvas-start overflow-hidden "
         data-bs-scroll="true"
         data-bs-backdrop="false"
-        tabindex="-1"
+        tabIndex="-1"
         id="offcanvasWithBothOptions"
         aria-labelledby="offcanvasWithBothOptionsLabel"
       >
         <div className="offcanvas-header ">
           <Link
             to={"/"}
-            classNameName="nav-link headmenu maincolor fw-medium pe-2"
+            className="nav-link headmenu maincolor fw-medium pe-2"
           >
             <img
               src={require("../Assets/Images/logo.png")}
@@ -182,7 +182,7 @@ function Header() {
             to={"/"}
             className="nav-link  fw-medium p-3 py-2 m-1 fs-5"
             aria-current="page"
-            activeClassName="active"
+            activeclassname="active"
           >
             <span className="fs-2 pe-2">
               <FaHome />
@@ -193,7 +193,7 @@ function Header() {
           <NavLink
             to={"/aboutus"}
             className="nav-link  fw-medium p-3 py-2 m-1 fs-5"
-            activeClassName="active"
+            activeclassname="active"
           >
             <span className="fs-2 pe-2">
               <IoPersonCircle />
@@ -204,7 +204,7 @@ function Header() {
           <NavLink
             to={"/project"}
             className="nav-link  fw-medium p-3 py-2 m-1 fs-5"
-            activeClassName="active"
+            activeclassname="active"
           >
             <span className="fs-2 pe-2">
               <FaSolarPanel />
@@ -214,7 +214,7 @@ function Header() {
           <NavLink
             to={"/product"}
             className="nav-link  fw-medium p-3 py-2 m-1 fs-5"
-            activeClassName="active"
+            activeclassname="active"
           >
             <span className="fs-2 pe-2">
               <GiSolarPower />
@@ -224,7 +224,7 @@ function Header() {
           <NavLink
             to={"/service"}
             className="nav-link  fw-medium p-3 py-2 m-1 fs-5"
-            activeClassName="active"
+            activeclassname="active"
           >
             <span className="fs-2 pe-2">
               <GrServices />
@@ -234,7 +234,7 @@ function Header() {
           <NavLink
             to={"/career"}
             className="nav-link  fw-medium p-3 py-2 m-1 fs-5"
-            activeClassName="active"
+            activeclassname="active"
           >
             <span className="fs-2 pe-2">
               <BsGraphUpArrow />
@@ -244,7 +244,7 @@ function Header() {
           <NavLink
             to={"/profile"}
             className="nav-link  fw-medium p-3 py-2 m-1 fs-5"
-            activeClassName="active"
+            activeclassname="active"
           >
             <span className="fs-2 pe-2">
               <CgProfile />
@@ -254,7 +254,7 @@ function Header() {
           <NavLink
             to={"/contactus"}
             className="nav-link  fw-medium p-3 py-2 m-1 fs-5"
-            activeClassName="active"
+            activeclassname="active"
           >
             <span className="fs-2 pe-2">
               <MdWifiCalling3 />

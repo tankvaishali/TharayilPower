@@ -6,19 +6,19 @@ function Projecthighlit() {
   let ProductItemlist = [
     {
       img: require("../../Assets/Images/Chennai LIC 15kW_3.JPG"),
-      name: "   Reduced annual energy costs by 35%.",
+      name: " Reduced annual energy costs by 35%.",
       tittle: "Lorem, ipsum dolor. ",
     },
     {
       img: require("../../Assets/Images/projects.jpg"),
 
-      name: "   Improved operational efficiency and minimized energy waste.",
+      name: " Improved operational efficiency and minimized energy waste.",
       tittle: "Lorem, ipsum dolor. ",
     },
     {
       img: require("../../Assets/Images/project.jpg"),
 
-      name: "   Empowered sustainable energy adoption at scale.",
+      name: " Empowered sustainable energy adoption at scale.",
       tittle: "Lorem, ipsum dolor. ",
     },
   ];
@@ -88,16 +88,16 @@ function Projecthighlit() {
               >
                 {ProductItemlist.map((x, i) => {
                   return (
-                    <>
+                  
                  
-                      <div class="container_sec" key={i}>
+                      <div className="container_sec" key={i}>
                         <img
                           src={x.img}
                           alt="Avatar"
-                          class="pro_image img-fluid h-100 object-fit-cover"
+                          className="pro_image img-fluid h-100 object-fit-cover"
                         />
-                        <div class="overlay_sec">
-                          <div class="text text-center h-100 px-2 d-flex flex-column justify-content-center">
+                        <div className="overlay_sec">
+                          <div className="text text-center h-100 px-2 d-flex flex-column justify-content-center">
                           
                             <div className="p-3 px-2">
                          
@@ -107,7 +107,7 @@ function Projecthighlit() {
                         </div>
                       </div>
                     
-                    </>
+                   
                   );
                 })}
               </Slider>

@@ -293,7 +293,7 @@ function ContactFooter() {
                             <img
                               src={x.img}
                               alt="not found"
-                              class=" img-fluid h-100 object-fit-cover w-100"
+                              className=" img-fluid h-100 object-fit-cover w-100"
                             />
                           </div>
                         </Link>
