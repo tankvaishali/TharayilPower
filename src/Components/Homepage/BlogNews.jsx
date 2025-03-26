@@ -5,50 +5,50 @@ import { Link } from "react-router-dom";
 function BlogNews() {
 
 
-let blogdata=[
-  {
-    date:"21 jan",
-    title:"How Commercial Solar Panels Improve Efficiency",
-    description:"Learn how solar solutions are transforming businesses.",
-    imageUrl:require("../../Assets/Images/commercial.jpg"),
-    blogUrl:"/commercial-solar-blog"
-  },
-{
-  date:"06 Feb",
-  title:"Designing Your Solar System: A Step-by-Step Guide",
-  description:"Essential tips for planning an effective solar installation.",
-  imageUrl:require("../../Assets/Images/highlits2.jpg"),
-  blogUrl:"/design-solar-system"
-},
+  // let blogdata=[
+  //   {
+  //     date:"21 jan",
+  //     title:"How Commercial Solar Panels Improve Efficiency",
+  //     description:"Learn how solar solutions are transforming businesses.",
+  //     imageUrl:require("../../Assets/Images/commercial.jpg"),
+  //     blogUrl:"/commercial-solar-blog"
+  //   },
+  // {
+  //   date:"06 Feb",
+  //   title:"Designing Your Solar System: A Step-by-Step Guide",
+  //   description:"Essential tips for planning an effective solar installation.",
+  //   imageUrl:require("../../Assets/Images/highlits2.jpg"),
+  //   blogUrl:"/design-solar-system"
+  // },
 
-{
-  date:"5 May",
-  title:"Top 5 Benefits of Solar Energy for Homes in Kerala",
-  description:"One solution stands out: solar energy. By harnessing the sun’s power, homeowners can significantly reduce their monthly electricity bills while helping preserve Kerala’s lush, natural environment.",
-  imageUrl:require("../../Assets/Images/residential solar (1).jpg"),
-  blogUrl:"/benefits-of-solar-system"
-},
-]
-
-  // // Fetch data from the API
-  // const [data, setData] = useState([]);
+  // {
+  //   date:"5 May",
+  //   title:"Top 5 Benefits of Solar Energy for Homes in Kerala",
+  //   description:"One solution stands out: solar energy. By harnessing the sun’s power, homeowners can significantly reduce their monthly electricity bills while helping preserve Kerala’s lush, natural environment.",
+  //   imageUrl:require("../../Assets/Images/residential solar (1).jpg"),
+  //   blogUrl:"/benefits-of-solar-system"
+  // },
+  // ]
 
   // // Fetch data from the API
-  // const fetchData = async () => {
-  //   try {
-  //     // const response = await axios.get("https://tharayildb.vercel.app/api/data");
-  //     const response = await axios.get("https://admindb-indol.vercel.app/");
+  const [data, setData] = useState([]);
+
+  // Fetch data from the API
+  const fetchData = async () => {
+    try {
+      // const response = await axios.get("https://tharayildb.vercel.app/api/data");
+      const response = await axios.get("https://admindb-indol.vercel.app/");
 
 
-  //     setData(response.data);
-  //   } catch (error) {
-  //     console.error("Error fetching data:", error);
-  //   }
-  // };
+      setData(response.data);
+    } catch (error) {
+      console.error("Error fetching data:", error);
+    }
+  };
 
-  // useEffect(() => {
-  //   fetchData();
-  // }, []);
+  useEffect(() => {
+    fetchData();
+  }, []);
 
 
   return (
@@ -88,8 +88,8 @@ let blogdata=[
             </div>
           </div>
 
-         
-          {blogdata.map((blog, index) => {
+
+          {/* {blogdata.map((blog, index) => {
             // console.log(blog);
 
             // Parse the date string and format it as "DD MMM"
@@ -98,9 +98,9 @@ let blogdata=[
 
             return (
               <div
-              className={`col-12 col-lg-6 ${index % 2 === 0 ? "" : "pt-0 pt-lg-5"
-              }`}
-              key={index}
+                className={`col-12 col-lg-6 ${index % 2 === 0 ? "" : "pt-0 pt-lg-5"
+                  }`}
+                key={index}
                 id="saeds"
               >
                 <div
@@ -112,7 +112,7 @@ let blogdata=[
                   <Link
                     to={blog.blogUrl}
                     className="text-decoration-none"
-                 
+
                   >
                     <div className="blog_height">
                       <img
@@ -127,7 +127,7 @@ let blogdata=[
                         style={{ marginTop: "-55px" }}
                       >
                         <div className="text-white fw-bold ms-auto datecss bg-success p-3 border border-5 border-white">
-                          {formattedDate} 
+                          {formattedDate}
                         </div>
                         <div className="py-2 fw-bold fs-5 text-dark text-capitalize">
                           {blog.title}
@@ -141,8 +141,8 @@ let blogdata=[
                 </div>
               </div>
             );
-          })}
-          {/* {data.map((blog, index) => {
+          })} */}
+          {data.map((blog, index) => {
             console.log(blog);
 
             // Parse the date string and format it as "DD MMM"
@@ -176,11 +176,11 @@ let blogdata=[
                     </div>
                     <div className="content-box">
                       <div
-                        className="w-75 mx-auto bg-white p-2 p-lg-4 text-center text-lg-start z-1 shadow position-relative"
+                        className="w-75 mx-auto bg-white p-3 p-lg-4 text-center text-lg-center z-1 shadow position-relative"
                         style={{ marginTop: "-55px" }}
                       >
                         <div className="text-white fw-bold ms-auto datecss bg-success p-3 border border-5 border-white">
-                          {formattedDate} 
+                          {formattedDate}
                         </div>
                         <div className="py-2 fw-bold fs-5 text-dark text-capitalize">
                           {blog.title}
@@ -194,7 +194,7 @@ let blogdata=[
                 </div>
               </div>
             );
-          })} */}
+          })}
 
         </div>
       </div>

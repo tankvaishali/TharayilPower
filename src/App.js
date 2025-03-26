@@ -1,3 +1,4 @@
+import { useEffect, useState } from 'react';
 import './App.css';
 import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap/dist/js/bootstrap.min.js";
@@ -21,33 +22,64 @@ import Blog02 from './Components/Homepage/Blog02';
 import Blog03 from './Components/Homepage/Blog03';
 import Blog04 from './Components/Homepage/Blog04';
 
+import Sidebar from './Components/Adminpanel/Sidebar';
+import AdminForm from './Components/Adminpanel/AdminForm';
+import ManageData from './Components/Adminpanel/ManageData';
+import LoginPage from './Components/Adminpanel/LoginPage';
+
 function App() {
 
+
+  const [login, setlogin] = useState(false)
+
+  useEffect(() => {
+    setlogin((localStorage.getItem("login")))
+  }, [login])
 
   return (
     <>
       <BrowserRouter>
         <ScrollToTop />
-        <Routes>
-          <Route path='/' element={<HomePagemain />} />
-          <Route path='/benefits-of-solar-system' element={<Blog01 />} />
-          <Route path='/commercial-solar-blog' element={<Blog02 />} />
-          <Route path='/blog03' element={<Blog03 />} />
-          <Route path='/design-solar-system' element={<Blog04 />} />
-          <Route path='/aboutus' element={<AboutusPage />} />
-          <Route path='/project' element={<Product />} />
-          <Route path='/product' element={<FullproductPage />} />
-          <Route path='/service' element={<ServicePage />} />
-          <Route path='/residentialsolar' element={<ResidentialSolar />} />
-          <Route path='/commercialsolar' element={<CommercialSolar />} />
-          <Route path='/governmentalsolar' element={<GovernmentandInstitutional />} />
-          <Route path='/designconsultancy' element={<Designconsultancy />} />
-          <Route path='/career' element={<CareerPage />} />
-          <Route path='/profile' element={<ProfilePage />} />
-          <Route path='/contactus' element={<ContactusPage />} />
-          <Route path='*' element={<Error404 />} />
 
-        </Routes>
+        {
+          login ?
+            <><div className="main_form d-flex">
+
+              <Sidebar />
+              <div className="main-content p-4 p-lg-5 flex-grow-1">
+                <Routes>
+                  <Route path="/" element={<AdminForm setlogin={setlogin} />} />
+                  <Route path="/add-data" element={<AdminForm setlogin={setlogin} />} />
+                  <Route path="/manage-data" element={<ManageData />} />
+                </Routes>
+              </div>
+            </div>
+            </>
+            :
+            <>
+              <Routes>
+                <Route path="/admin-tharayil" element={<LoginPage setlogin={setlogin} />} />
+                {/* <Route path="*" element={<LoginPage setlogin={setlogin} />} /> */}
+                <Route path='/' element={<HomePagemain />} />
+                <Route path='/benefits-of-solar-system' element={<Blog01 />} />
+                <Route path='/commercial-solar-blog' element={<Blog02 />} />
+                <Route path='/blog03' element={<Blog03 />} />
+                <Route path='/design-solar-system' element={<Blog04 />} />
+                <Route path='/aboutus' element={<AboutusPage />} />
+                <Route path='/project' element={<Product />} />
+                <Route path='/product' element={<FullproductPage />} />
+                <Route path='/service' element={<ServicePage />} />
+                <Route path='/residentialsolar' element={<ResidentialSolar />} />
+                <Route path='/commercialsolar' element={<CommercialSolar />} />
+                <Route path='/governmentalsolar' element={<GovernmentandInstitutional />} />
+                <Route path='/designconsultancy' element={<Designconsultancy />} />
+                <Route path='/career' element={<CareerPage />} />
+                <Route path='/profile' element={<ProfilePage />} />
+                <Route path='/contactus' element={<ContactusPage />} />
+                <Route path='*' element={<Error404 />} />
+              </Routes>
+            </>
+        }
       </BrowserRouter>
     </>
   );
