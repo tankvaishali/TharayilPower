@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import axios from "axios";
-import { Table, Button } from "react-bootstrap";
+import { Button } from "react-bootstrap";
 import Swal from "sweetalert2";
 import '../../Assets/Css/Adminpanel.css'
 

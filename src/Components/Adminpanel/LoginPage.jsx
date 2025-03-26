@@ -16,7 +16,7 @@ function LoginPage(props) {
     const LocalPassword = "Thpower";
     
     let logedin = () => {
-        if (email == LocalEmail && password == LocalPassword) {
+        if (email === LocalEmail && password === LocalPassword) {
             localStorage.setItem("login", true);
             props.setlogin(true);
             lognavigate("/");
