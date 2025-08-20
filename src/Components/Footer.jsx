@@ -86,10 +86,10 @@ function Footer() {
   return (
     <>
       <div className="footer_bg">
-        <div className="container ">
+        <div className="container">
           <div className="row p-0 m-0 g-3 g-lg-5 overflow-hidden">
             <div
-              className="col-12 col-md-6 col-lg-4 pt-4 order-0"
+              className="col-12 col-md-6 col-lg-3 pt-4 order-0"
               data-aos="zoom-in"
               data-aos-duration="1800"
               data-aos-once="true"
@@ -99,7 +99,7 @@ function Footer() {
                   src={require("../Assets/Images/logo.png")}
                   alt="not found"
                   className="img-fluid w-75"
-                  // width={"180px"}
+                // width={"180px"}
                 />
               </div>
               <div className="pera lightgray py-2 pt-3">
@@ -150,7 +150,7 @@ function Footer() {
               data-aos-once="true"
             >
               <div className="fw-medium fs-4 text-white py-2">Contact Us</div>
-              <div className="d-flex    py-2">
+              <div className="d-flex py-2">
                 <div className="text-success text-decoration-none fs-4">
                   <FaMapLocationDot />
                 </div>
@@ -168,7 +168,7 @@ function Footer() {
                 </div>
               </div>
 
-              <div className="py-2 d-flex ">
+              <div className="py-2 d-flex">
                 <div className="text-success text-decoration-none fs-4">
                   <BiSolidPhoneCall />
                 </div>
@@ -223,12 +223,12 @@ function Footer() {
               </div>
             </div>
             <div
-              className="col-6 col-md-6 col-lg-2 pt-0 pt-lg-3 ps-4 order-1 order-md-2"
+              className="col-6 col-md-4 col-lg-2 pt-0 pt-lg-3 ps-4 order-1"
               data-aos="zoom-in"
               data-aos-duration="1800"
               data-aos-once="true"
             >
-              <div className="fw-medium fs-4 text-white py-2">Useful Link</div>
+              <div className="fw-medium fs-4 text-white py-2">Main Menu</div>
 
               <div className="py-0 py-md-1 pt-0 pt-md-2">
                 <Link
@@ -288,18 +288,42 @@ function Footer() {
               </div>
             </div>
             <div
-              className="col-12 col-md-6 col-lg-3  pt-0 pt-lg-3  pb-5 pb-lg-3 order-3"
+              className="col-6 col-md-4 col-lg-2 pt-0 pt-lg-3 order-2 order-md-1"
+              data-aos="zoom-in"
+              data-aos-duration="1800"
+              data-aos-once="true"
+            >
+              <div className="fw-medium fs-4 text-white py-2">Quick Links</div>
+              <div className="py-0 py-md-1 pt-0 pt-md-2">
+                <Link
+                  to={"/privacypolicy"}
+                  className="text-decoration-none lightgray pera link_hover py-1"
+                >
+                  Privacy Policy
+                </Link>
+              </div>
+              <div className="py-0 py-md-1 pt-0 pt-md-2">
+                <Link
+                  to={"/termsconditions"}
+                  className="text-decoration-none lightgray pera link_hover py-1"
+                >
+                  Terms & Conditions
+                </Link>
+              </div>
+            </div>
+            <div
+              className="col-6 col-md-4 col-lg-2  pt-0 pt-lg-3  pb-5 pb-lg-3 order-3"
               data-aos="zoom-in"
               data-aos-duration="1800"
               data-aos-once="true"
             >
               <div className="fw-medium fs-4 text-white py-2">Gallery</div>
-              <div className="h-100 " id="footer_slick">
-                <Slider {...settings} className="p-0 m-0 text-white pt-2 ">
+              <div className="h-100" id="footer_slick">
+                <Slider {...settings} className="p-0 m-0 text-white pt-2">
                   {ProductItemlist.map((x, i) => {
                     return (
                       <Link onClick={() => openModal(i)} key={i}>
-                        <div style={{ height: "150px" }}>
+                        <div style={{ height: "100px" }}>
                           <img
                             src={x.img}
                             alt="not found"

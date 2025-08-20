@@ -26,6 +26,8 @@ import Sidebar from './Components/Adminpanel/Sidebar';
 import AdminForm from './Components/Adminpanel/AdminForm';
 import ManageData from './Components/Adminpanel/ManageData';
 import LoginPage from './Components/Adminpanel/LoginPage';
+import PrivacyPolicy from './Components/PrivacyPolicy';
+import TermsAndCondition from './Components/TermsAndCondition';
 
 function App() {
 
@@ -76,6 +78,8 @@ function App() {
                 <Route path='/career' element={<CareerPage />} />
                 <Route path='/profile' element={<ProfilePage />} />
                 <Route path='/contactus' element={<ContactusPage />} />
+                <Route path='/privacypolicy' element={<PrivacyPolicy />} />
+                <Route path='/termsconditions' element={<TermsAndCondition />} />
                 <Route path='*' element={<Error404 />} />
               </Routes>
             </>
