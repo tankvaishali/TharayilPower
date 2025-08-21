@@ -228,7 +228,7 @@ function Footer() {
               data-aos-duration="1800"
               data-aos-once="true"
             >
-              <div className="fw-medium fs-4 text-white py-2">Main Menu</div>
+              <div className="fw-medium fs-4 text-white py-2">Quick Links</div>
 
               <div className="py-0 py-md-1 pt-0 pt-md-2">
                 <Link
@@ -293,7 +293,7 @@ function Footer() {
               data-aos-duration="1800"
               data-aos-once="true"
             >
-              <div className="fw-medium fs-4 text-white py-2">Quick Links</div>
+              <div className="fw-medium fs-4 text-white py-2">Legal</div>
               <div className="py-0 py-md-1 pt-0 pt-md-2">
                 <Link
                   to={"/privacypolicy"}
