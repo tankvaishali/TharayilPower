@@ -28,6 +28,8 @@ import ManageData from './Components/Adminpanel/ManageData';
 import LoginPage from './Components/Adminpanel/LoginPage';
 import PrivacyPolicy from './Components/PrivacyPolicy';
 import TermsAndCondition from './Components/TermsAndCondition';
+import LandingPage from './Components/LandingPage';
+import Datayojana from './Components/Datayojana';
 
 function App() {
 
@@ -80,6 +82,8 @@ function App() {
                 <Route path='/contactus' element={<ContactusPage />} />
                 <Route path='/privacypolicy' element={<PrivacyPolicy />} />
                 <Route path='/termsconditions' element={<TermsAndCondition />} />
+                <Route path='/tharayilandsuryagarh' element={<LandingPage/>}/>
+                <Route path='/datayojana' element={<Datayojana/>}/>
                 <Route path='*' element={<Error404 />} />
               </Routes>
             </>

@@ -593,3 +593,17 @@ input::placeholder {
   }
 }
 /* Error page end */
+
+
+
+
+/* landing page start */
+.width_manage{
+  width: 80%;
+}
+@media only screen and (max-width: 600px) {
+ .width_manage{
+  width: 95%;
+}
+}
+/* landing page end */
