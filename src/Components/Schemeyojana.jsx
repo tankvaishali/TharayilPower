@@ -107,7 +107,7 @@ function Schemeyojana() {
       </div>
 
       {/* Short description */}
-      <p className="pera width_manage text-center pt-2 pt-md-3 mx-auto">
+      <p className="pera width_manage text-center pt-2 pt-md-3 mx-auto width_manage">
         🌞 <strong> PM Suryagarh Yojana </strong> is a government initiative aimed
         at promoting clean and renewable solar energy across India. The scheme
         empowers households, businesses, farmers, and rural communities by making
@@ -115,10 +115,10 @@ function Schemeyojana() {
       </p>
 
       {/* Form */}
-      <div className="container my-5 w-75">
+      <div className="container my-5 ">
         <form
           onSubmit={handleSubmit}
-          className="shadow border border-secondary-subtle rounded"
+          className="shadow border border-secondary-subtle rounded width_manage mx-auto"
         >
           <h3 className="bg-success text-white text-center p-md-2 p-2 rounded-top">
             Get More Information

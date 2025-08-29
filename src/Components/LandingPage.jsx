@@ -162,10 +162,10 @@ function LandingPage() {
 
 
         {/* ✅ Form with Validation */}
-        <div className="container my-4 mb-5 w-75">
+        <div className="container my-4 mb-5 ">
           <form
             onSubmit={handleSubmit}
-            className="shadow border border-secondary-subtle rounded"
+            className="shadow border border-secondary-subtle rounded width_manage mx-auto"
           >
             <h3 className="bg-success text-white text-center p-md-2 p-2 rounded-top">
               Get More Information

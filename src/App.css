@@ -604,7 +604,7 @@ input::placeholder {
 
 /* landing page start */
 .width_manage{
-  width: 80%;
+  width: 80% !important;
 }
 
 /* landing page end */
@@ -623,7 +623,7 @@ input::placeholder {
 /* scheme banner end */
 @media only screen and (max-width: 600px) {
  .width_manage{
-  width: 95%;
+  width: 95% !important;
 }
 .text_size_media{
   font-size: 14px !important;
