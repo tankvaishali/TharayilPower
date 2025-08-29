@@ -509,7 +509,8 @@ input::placeholder {
 .landingimage_service,
 .landingimage_career,
 .landingimage_profile,
-.landingimage_contact {
+.landingimage_contact,
+.landingimage_scheme {
   background-image: url("../src/Assets/Images/IMG-20230616-WA0034.jpg");
   background-size: cover;
   background-position: 100% 100%;
@@ -528,7 +529,7 @@ input::placeholder {
   background-image: url("../src/Assets/Images/serviceimage.jpg");
 }
 
-.landingimage_career {
+.landingimage_career, .landingimage_scheme {
   background-image: url("../src/Assets/Images/profitable.jpg");
 }
 
@@ -574,6 +575,10 @@ input::placeholder {
   .textsizehead {
     padding-top: 65px !important;
   }
+  .landingimage_scheme{
+    height: auto;
+
+  }
 }
 
 /* landingpage end */
@@ -601,9 +606,18 @@ input::placeholder {
 .width_manage{
   width: 80%;
 }
+
+/* landing page end */
+/* scheme banner start */
+.text_size_media{
+  font-size: 25px;
+}
+/* scheme banner end */
 @media only screen and (max-width: 600px) {
  .width_manage{
   width: 95%;
 }
+.text_size_media{
+  font-size: 14px !important;
 }
-/* landing page end */
+}
