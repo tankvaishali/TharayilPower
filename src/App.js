@@ -31,6 +31,7 @@ import TermsAndCondition from './Components/TermsAndCondition';
 import LandingPage from './Components/LandingPage';
 import Datayojana from './Components/Datayojana';
 import Schemebanner from './Components/Schemebanner';
+import Schemeyojana from './Components/Schemeyojana';
 
 function App() {
 
@@ -86,6 +87,7 @@ function App() {
                 <Route path='/tharayilandsuryagarh' element={<LandingPage/>}/>
                 <Route path='/datayojana' element={<Datayojana/>}/>
                 <Route path='/schemebanner' element={<Schemebanner/>}/>
+                <Route path='/schemeyojana' element={<Schemeyojana/>}/>
                 <Route path='*' element={<Error404 />} />
               </Routes>
             </>

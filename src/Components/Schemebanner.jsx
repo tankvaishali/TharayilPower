@@ -59,7 +59,7 @@ function Schemebanner() {
             </div>
           
                <Link
-                        to={"/"}
+                        to={"/schemeyojana"}
                         className="text-decoration-none mx-auto w-auto"
                       >
                         <button className="button-48 mt-3">
