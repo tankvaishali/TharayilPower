@@ -57,7 +57,6 @@ function Schemebanner() {
                 <ListItem key={index} text={item} />
               ))}
             </div>
-
           
                <Link
                         to={"/"}
