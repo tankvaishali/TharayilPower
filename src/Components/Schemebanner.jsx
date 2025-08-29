@@ -34,7 +34,7 @@ function Schemebanner() {
   return (
     <div>
       <div className="landingimage_scheme d-md-flex d-block justify-content-center align-items-center align-content-center pt-5 py-5 py-md-0 pt-md-0">
-        <div className="container py-5 py-md-0">
+        <div className="container py-5 py-md-0 media_margine">
           <div className="row py-5 py-md-0">
               <div className="col-12 text-center">
               <h1 className="fw-bold text-uppercase text-white display-5">

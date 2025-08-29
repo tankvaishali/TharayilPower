@@ -612,6 +612,14 @@ input::placeholder {
 .text_size_media{
   font-size: 25px;
 }
+.media_margine{
+  margin-top: 60px !important;
+}
+@media screen and (min-width: 767px) and (max-width: 1050px){
+.media_margine{
+  margin-top: 100px !important;
+}
+}
 /* scheme banner end */
 @media only screen and (max-width: 600px) {
  .width_manage{
@@ -619,5 +627,8 @@ input::placeholder {
 }
 .text_size_media{
   font-size: 14px !important;
+}
+.media_margine{
+  margin-top:10px !important;
 }
 }
