@@ -116,7 +116,7 @@ function LandingPage() {
             data-aos-duration="1500"
             data-aos-once="true"
           >
-            Tharayal Power + PM Suryagarh Yojana
+            Tharayil Power + PM Suryagarh Yojana
           </div>
         </div>
 
