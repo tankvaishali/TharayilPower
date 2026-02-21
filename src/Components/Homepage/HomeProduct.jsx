@@ -61,10 +61,10 @@ function HomeProduct() {
       image4: require("../../Assets/Images/product/bldc-3.png"),
     },
   ];
-  const generateWhatsAppURL = (productName) => {
-    const message = `Hello, I'm interested in the product: ${productName}`;
-    return `https://wa.me/8129151266/?text=${encodeURIComponent(message)}`;
-  };
+  // const generateWhatsAppURL = (productName) => {
+  //   const message = `Hello, I'm interested in the product: ${productName}`;
+  //   return `https://wa.me/8129151266/?text=${encodeURIComponent(message)}`;
+  // };
   return (
     <>
       <div style={{ marginTop: "130px" }}>
@@ -117,9 +117,8 @@ function HomeProduct() {
                   {departments.map((department) => (
                     <li className="nav-item mx-2 mt-1" key={department.id}>
                       <div
-                        className={`nav-link ${
-                          activeTab === department.id ? "active show" : ""
-                        }`}
+                        className={`nav-link ${activeTab === department.id ? "active show" : ""
+                          }`}
                         onClick={() => setActiveTab(department.id)}
                       >
                         {department.title}
